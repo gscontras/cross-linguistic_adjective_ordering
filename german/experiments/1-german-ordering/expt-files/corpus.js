@@ -16,7 +16,7 @@ var adjectives = _.shuffle([
 		{"Predicate":"small", "Class":"size", "Masculine": "kleine", "Feminine": "kleine", "Neuter":"kleine"},					
 		{"Predicate":"huge", "Class":"size", "Masculine": "riesige", "Feminine": "riesige", "Neuter":"riesige"},					
 		{"Predicate":"tiny", "Class":"size", "Masculine": "winzige", "Feminine": "winzige", "Neuter":"winzige"},
-	{"Predicate":"short", "Class":"size", "Masculine": "kurze", "Feminine": "kurze", "Neuter":"kurze"},					
+    {"Predicate":"short", "Class":"size", "Masculine": "kurze", "Feminine": "kurze", "Neuter":"kurze"},					
 		{"Predicate":"long", "Class":"size", "Masculine": "lange", "Feminine": "lange", "Neuter":"lange"},
     ///Holz-(wooden) holzartig-(wood-like)
 		///{"Predicate":"wooden", "Class":"material", "Masculine": "", "Feminine": "", "Neuter":""},
