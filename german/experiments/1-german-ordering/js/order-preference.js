@@ -52,10 +52,17 @@ function make_slides(f) {
       //$(".woman1").html(woman1);
 
       //$(".woman2").html(man2);
+      if (stim.Gender=="Masculine") {
+        determiner = "der "
+      } else if (stim.Gender =="Feminine") {
+        determiner = "die "
+      } else {
+        determiner = "das "
+      }
 
-      $(".low").html("\"the "+ stim.Predicate2 + " " + stim.Predicate1 + " " + stim.Noun + "\"");
+      $(".low").html("\"" + determiner + stim.Predicate2 + " " + stim.Predicate1 + " " + stim.Noun + "\"");
 
-      $(".high").html("\"the "+ stim.Predicate1 + " " + stim.Predicate2 + " " + stim.Noun + "\"");
+      $(".high").html("\"" + determiner + stim.Predicate1 + " " + stim.Predicate2 + " " + stim.Noun + "\"");
 
       // $(".utterance1").html("\"That "+ stim.Noun + " " + this.verbs[0] + " " + stim.Predicate + ".\"");
 
