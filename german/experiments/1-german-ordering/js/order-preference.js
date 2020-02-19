@@ -52,13 +52,22 @@ function make_slides(f) {
       //$(".woman1").html(woman1);
 
       //$(".woman2").html(man2);
-      if (stim.Gender=="Masculine") {
+      if (stim.NounGender=="Masculine") {
         determiner = "der "
-      } else if (stim.Gender =="Feminine") {
+      } else if (stim.NounGender =="Feminine") {
         determiner = "die "
       } else {
         determiner = "das "
       }
+
+      if (stim.NounGender=="Masculine") {
+        Qdeterminer = "vom "
+      } else if (stim.NounGender =="Feminine") {
+        Qdeterminer = "von der "
+      } else {
+        Qdeterminer = "vom "
+      }
+      $(".Qdeterminer").html(Qdeterminer)
 
       $(".low").html("\"" + determiner + stim.Predicate2 + " " + stim.Predicate1 + " " + stim.Noun + "\"");
 
@@ -113,9 +122,12 @@ function make_slides(f) {
         exp.data_trials.push({
           "response" : exp.sliderPost,
           "noun" : this.stim.Noun,  
+          "nounEnglish" : this.stim.NounEnglish,  
           "nounclass" : this.stim.NounClass,        
           "predicate1" : this.stim.Predicate1,
+          "predicate1English" : this.stim.Predicate1English,
           "predicate2" : this.stim.Predicate2,
+          "predicate2English" : this.stim.Predicate2English,
           "class1" : this.stim.Class1,
           "class2" : this.stim.Class2,                     
           "slide_number" : exp.phase
@@ -130,11 +142,18 @@ function make_slides(f) {
       exp.subj_data = {
         language : $("#language").val(),
         enjoyment : $("#enjoyment").val(),
-        asses : $('input[name="assess"]:checked').val(),
+        assess : $('input[name="assess"]:checked').val(),
         age : $("#age").val(),
         gender : $("#gender").val(),
         education : $("#education").val(),
         comments : $("#comments").val(),
+        describe: $("#describe").val(),
+        school: $("#school").val(),
+        college: $("#college").val(),
+        lived: $("#lived").val(),
+        years: $("#years").val(),
+        family:$("#family").val(),
+        level: $("#level").val()
       };
       exp.go(); //use exp.go() if and only if there is no "present" data.
     }
