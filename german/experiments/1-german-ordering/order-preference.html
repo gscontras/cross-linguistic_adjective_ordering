@@ -128,8 +128,88 @@
       </p>
 
       <p>Muttersprache: <input type="text" id="language"/></p>
-      <label>(Die Sprachen sprachen zu Hause, wenn Sie ein Kind waren.)</label>
+      <label>(Die Sprachen sprachen zu Hause, wenn Sie ein Kind waren.)</label>    
+        
+       <p>
+        Câu nào sau đây miêu tả bạn đúng nhất?<br>
+        <select id="describe">
+          <label><option value=""/></label>
+          <label><option value="VietEng"/>  Tôi đã học tiếng Việt đầu tiên, nhưng bây giờ ngôn ngữ chính của tôi là tiếng Anh.</label>
+          <label><option value="VietViet"/> Tôi đã học tiếng Việt đầu tiên, rồi bây giờ ngôn ngữ chính của tôi vẫn là tiếng Việt.</label>
+          <label><option value="L2"/> Tôi đã học tiếng Anh đầu tiên, rồi học tiếng Việt sau.</label>
+          <label><option value="otherL2"/>  Tôi đã học tiếng khác đầu tiên (không phải là tiếng Anh và tiếng Việt), rồi học tiếng Việt sau.</label>
+      </select>
+      </p>
 
+      <p>
+        Nếu bạn đã học tiếng Việt trong trường, bạn đã học tiếng Việt được bao nhiều năm?<br>
+        <select id="school">
+          <label><option value=""/></label>
+          <label><option value="none"/> Tôi chưa bao giờ lấy lớp học tiếng Việt</label>
+          <label><option value="small"/> 1-2 năm </label>
+          <label><option value="mid"/> 3-4 năm </label>
+          <label><option value="most"/> 4+ năm </label>
+       </select>
+      </p>
+
+      <p>
+        Nếu bạn đã học tiếng Việt trên đại học, bạn đã học tiếng Việt bao nhiêu học kỳ?<br>
+        <select id="college">
+          <label><option value=""/></label>
+          <label><option value="nocollege"/> N/A Không Phù Hợp </label>
+          <label><option value="onesem"/>  1 Học Kỳ</label>
+          <label><option value="midsem"/>  2-4 Học Kỳ</label>
+          <label><option value="mostsem"/> 4+ Học Kỳ</label>
+        </select>
+      </p>
+
+      <p>
+        Bạn đã bao giờ sống ở Việt Nam chưa?<br>
+        <select id="lived">
+          <label><option value=""/></label>
+          <label><option value="neverlived"/> Chưa, tôi chưa bao giờ sống ở Việt Nam. </label>
+          <label><option value="under8"/>  Có, lúc khi tôi trẻ hơn 8 tuổi. </label>
+          <label><option value="over8"/> Có, lúc khi tôi lớn hơn 8 tuổi. </label>
+          <label><option value="both8"/> Có, lúc khi tôi trẻ hơn 8 tuồi và lớn hơn 8 tuổi.</label>
+        </select>
+      </p>
+
+      <p>
+        Bạn sống ở Việt Nam bao lâu?<br>
+        <select id="years">
+          <label><option value=""/></label>
+          <label><option value="neverlived"/> Tôi chưa bao giờ sống ở Việt Nam. </label>
+          <label><option value="shortlive"/>Chưa đầy một năm</label>
+          <label><option value="midlive"/> 1-5 năm</label>
+          <label><option value="mostlive"/> 5+ năm</label>
+        </select>
+      </p>
+
+      <p>
+        Bạn hay dùng tiếng nào để nói chuyện với gia đình bạn?<br>
+        <select id="family">
+          <label><option value=""/></label>
+          <label><option value="eng"/> Tiếng Anh</label>
+          <label><option value="Viet"/> Tiếng Việt</label>
+          <label><option value="Vieteng"/> Tiếng Việt và Tiếng Anh</label>
+          <label><option value="other"/>  Ngôn Ngữ Khác</label>
+        </select>
+      </p>
+
+      <p>
+        Trình độ nói tiếng Việt của bạn cao bao nhiêu?<br>
+        <select id="level">
+          <label><option value=""/></label>
+          <label><option value="basic"/>Đơn Giản</label>
+          <label><option value="int"/> Trung Cấp</label>
+          <label><option value="advanced"> Cao</option>/label>
+          <label><option value="near native"/> Gần người Việt nói tiếng Việt</label>
+          <label><option value="native"/> Giống như người Việt nói tiếng Việt</label>
+          <label><option value="none"/> Không muốn trả lời. </label>
+        </select>
+      </p>
+  
+        
       <p>Hat Ihr das Experiment gefallen?</p>
       <select id="enjoyment">
         <label><option value="-1"></option></label>
