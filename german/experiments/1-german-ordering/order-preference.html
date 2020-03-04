@@ -48,13 +48,13 @@
     <img src="../_shared/images/meaningLab.png" alt="UCI meaning lab" id="meaningLabLogo"></img>
     <p id="instruct-text">Diese Aufgabe beinhaltet das Interpretieren von englischen S&#228;tzen. Die Aufgabe sollte ungef&#228;hr sechs Minuten dauern. Bitte passen Sie auf. Vielen Dank!</p>
     <button id="start_button" type="button">Experiment beginnen</button>
-    <p id="legal">Rechtliche Hinweise: Durch die Beantwortung der folgenden Fragen nehmen Sie an einer Studie teil, die von Wissenschaftlern des Department of Language Science an der Universit&#228;t von Kalifornien, Irvine, durchgef&uuml;hrt wird. Wenn Sie Fragen zu dieser Forschung haben, wenden Sie sich bitte an Greg Scontras at <a href="mailto://g.scontras@uci.edu">g.scontras@uci.edu</a>. Sie m&uuml;ssen mindestens 18 Jahre alt sein, um teilnehmen zu k&#246;nnen. Ihre Teilnahme an dieser Forschung ist freiwillig. Sie k&#246;nnen es ablehnen, einige oder alle der folgenden Fragen zu beantworten. Sie k&#246;nnen die weitere Teilnahme jederzeit ohne nachteilige Folgen ablehnen. Ihre Anonymit&#228;t ist gew&#228;hrleistet; Die Forscher, die Ihre Teilnahme beantragt haben, erhalten keine pers&#246;nlichen Informationen &uuml;ber Sie.</p>
+    <p id="legal">Rechtliche Hinweise: Durch die Beantwortung der folgenden Fragen nehmen Sie an einer Studie teil, die von Wissenschaftlern des Department of Language Science an der Universit&#228;t von Kalifornien, Irvine, durchgef&uuml;hrt wird. Wenn Sie Fragen zu dieser Forschung haben, wenden Sie sich bitte an Greg Scontras <a href="mailto://g.scontras@uci.edu">g.scontras@uci.edu</a>. Sie m&uuml;ssen mindestens 18 Jahre alt sein, um teilnehmen zu k&#246;nnen. Ihre Teilnahme an dieser Forschung ist freiwillig. Sie k&#246;nnen es ablehnen, einige oder alle der folgenden Fragen zu beantworten. Sie k&#246;nnen die weitere Teilnahme jederzeit ohne nachteilige Folgen ablehnen. Ihre Anonymit&#228;t ist gew&#228;hrleistet; die Forscher, die Ihre Teilnahme beantragt haben, erhalten keine pers&#246;nlichen Informationen &uuml;ber Sie.</p>
   </div>
 
   <div class="slide" id="instructions1">
     <h3>Anweisungen</h3>
-    <p> Sie werde 26 Paare von den kurzen Objektbeschreibungen sehen.<br>
-    Welche Beschreibung ist besser? Sie m&uuml;ssen einscheiden.</p>
+    <p> Sie werde 26 Paare kurze Objektbeschreibungen sehen.<br>
+    Welche Beschreibung ist besser? Entscheiden Sie, indem Sie den.</p>
     <!-- <p class="instruction_condition">{{}}</p> -->
     <button onclick="_s.button()">Fortfahren</button>
   </div>
@@ -101,9 +101,9 @@
 
   <div class="slide"  id="subj_info">
     <div class="long_form">
-      <div class="subj_info_title">Zusatzinformationen</div>
-      <p class="info">Die Beantworten von diesen Fragen ist optional, aber Ihre Antworten helfen uns, Ihre Antworten zu verstehen.</p>
-      <p>DHaben Sie die Anweisung gelesen? Haben Sie das Experiment korrekt abgeschlossen? </p>
+      <div class="subj_info_title">Zusatzinformation</div>
+      <p class="info">Das Beantworten dieser Fragen ist freiwillig, aber Ihre Antworten helfen uns, Ihre Antworten zu verstehen.</p>
+      <p>Haben Sie die Anweisung gelesen und glauben Sie, dass Sie den Anweisungen gefolgt haben? </p>
       <label><input type="radio"  name="assess" value="No"/>Nein</label>
       <label><input type="radio"  name="assess" value="Yes"/>Ja</label>
       <label><input type="radio"  name="assess" value="Confused"/>Ich war verwirrt</label>
@@ -122,32 +122,32 @@
       <p>Bildungsabschluss:
         <select id="education">
           <label><option value="-1"/></label>
-          <label><option value="0"/>Ich habe einige Gymnasien abgeschlossen.</label>
-          <label><option value="1"/>Ich habe Gymnasien abgeschlossen.</label>
-          <label><option value="2"/>Ich habe einige Universit&#228;t abgeschlossen.</label>
-          <label><option value="3"/>Ich habe einen h&#246;heren Abschluss.</label>
+          <label><option value="0"/>Hauptschulabschluss</label>
+          <label><option value="1"/>Realschulabschluss oder Mittlere Reife</label>
+          <label><option value="2"/>Abitur</label>
+          <label><option value="3"/>Universit&#228;tsabschluss</label>
         </select>
       </p>
 
       <p>Muttersprache: <input type="text" id="language"/></p>
-      <label>(Die Sprachen sprachen zu Hause, wenn Sie ein Kind waren.)</label>    
+      <label>(Die Sprache(n), die zu Hause gesprochen wurde(n), als Sie ein Kind waren.)</label>    
         
        <p>
         Was beschreibt Sie am besten?<br>
         <select id="describe">
           <label><option value=""/></label>
           <label><option value="GerEng"/>  Ich habe Deutsch als meine Muttersprache gelernt, aber jetzt ist Englisch meine Hauptsprache.</label>
-          <label><option value="GerGer"/> Ich habe Deutsch als meine Muttersprache gelernt, aber Deutsch ist immer noch meine Hauptsprache.</label>
-          <label><option value="L2"/> Ich lernte Englisch als meine erste Sprache und ich habe Deutsch sp&#228;ter gelernt.</label>
+          <label><option value="GerGer"/> Ich habe Deutsch als meine Muttersprache gelernt, und Deutsch ist immer noch meine Hauptsprache.</label>
+          <label><option value="L2"/> Ich habe Englisch als meine erste Sprache gelernt und ich habe Deutsch sp&#228;ter gelernt.</label>
           <label><option value="otherL2"/> Ich habe eine andere Sprache als Deutsch oder Englisch als meine erste Sprache gelernt und sp&#228;ter Deutsch gelernt.</label>
       </select>
       </p>
 
       <p>
-       Wenn Sie Deutschunterricht in der Schule genommen haben, wie viele Jahre Deutsch haben Sie besucht?<br>
+       Wie viele Jahre hatten Sie Deutschunterricht in der Schule<br>
         <select id="school">
           <label><option value=""/></label>
-          <label><option value="none"/> Ich habe nie Deutschunterricht in der Schule besucht.</label>
+          <label><option value="none"/> Kein Deutschunterricht </label>
           <label><option value="small"/> 1-2 Jahre </label>
           <label><option value="mid"/> 3-4 Jahre </label>
           <label><option value="most"/> 4+ Jahre </label>
@@ -155,7 +155,7 @@
       </p>
 
       <p>
-        Wenn Sie Deutschkurse am College besucht haben, wie viele Semester haben Sie besucht?<br>
+        Wenn Sie an der Universit&auml;t Deutschkurse besucht haben, wie viele Semester haben Sie besucht?<br>
         <select id="college">
           <label><option value=""/></label>
           <label><option value="nocollege"/> N/A </label>
@@ -166,29 +166,29 @@
       </p>
 
       <p>
-        Haben Sie in ein deutschsprachiges Land gelebt?<br>
+        Haben Sie in einem deutschsprachigen Land gelebt?<br>
         <select id="lived">
           <label><option value=""/></label>
-          <label><option value="neverlived"/> Nein, ich habe noch nie in ein deutschsprachiges Land gelebt. </label>
-          <label><option value="under8"/>  Ja, wenn ich bin weniger als zehn Jahre alt war. </label>
-          <label><option value="over8"/> Ja, wenn ich bin mehr als zehn Jahre alt war. </label>
-          <label><option value="both8"/> Ja, wenn ich bin weniger als zehn Jahre alt war UND wenn ich bin mehr als zehn Jahre alt war.</label>
+          <label><option value="neverlived"/> Nein. </label>
+          <label><option value="under8"/>  Ja, als ich j&uuml;nger als 10 Jahre alt war. </label>
+          <label><option value="over8"/> Ja, als ich &uuml;ber 10 Jahre alt war. </label>
+          <label><option value="both8"/> Ja, sowohl als ich j&uuml;nger und &auml;lter als 10 Jahre alt war.</label>
         </select>
       </p>
 
       <p>
-       Wie viele Jahre lebten Sie in ein deutschprachiges Land?<br>
+       Wie viele Jahre lebten Sie in einem deutschsprachigenn Land?<br>
         <select id="years">
           <label><option value=""/></label>
-          <label><option value="neverlived"/> Ich habe noch nie in ein deutschsprachiges Land gelebt. </label>
-          <label><option value="shortlive"/>Weniger als 1 Jahr</label>
-          <label><option value="midlive"/> 1-5 Jahre</label>
-          <label><option value="mostlive"/> 5+ Jahre</label>
+          <label><option value="neverlived"/> Nie </label>
+          <label><option value="shortlive"/>Weniger als 1 Jahr </label>
+          <label><option value="midlive"/> 1-5 Jahre </label>
+          <label><option value="mostlive"/> 5+ Jahre </label>
         </select>
       </p>
 
       <p>
-        Welche Sprachen sprachen Sie mit Ihre Familie?<br>
+        Welche Sprachen sprachen Sie mit Ihrer Familie?<br>
         <select id="family">
           <label><option value=""/></label>
           <label><option value="eng"/> Englisch</label>
@@ -199,6 +199,7 @@
       </p>
 
       <p>
+          //wonky answers ask for help
         Wie bewerten Sie Ihre Deutschkenntnisse?<br>
         <select id="level">
           <label><option value=""/></label>
@@ -212,7 +213,7 @@
       </p>
   
         
-      <p>Hat Ihr das Experiment gefallen?</p>
+      <p>Hat Ihrnen das Experiment gefallen?</p>
       <select id="enjoyment">
         <label><option value="-1"></option></label>
         <label><option value="0">Das Experiment ist schlechter als der Durchschnitt.</option></label>
@@ -220,7 +221,7 @@
         <label><option value="2">Das Experiment ist besser als der Durchschnitt.</option></label>
       </select>
 
-      <p>Wir w&uuml;rden uns &uuml;ber Ihre Kommentare interessieren. Bitte geben Sie hier Ihre Kommentare ein:</p>
+      <p>Wir sind an jeglichen Kommentaren zum Experiment interessiert. Bitte geben Sie hier Ihre Kommentare ein:</p>
       <textarea id="comments" rows="3" cols="50"></textarea>
       <br/>
       <button onclick="_s.submit()">Absenden</button>
@@ -232,7 +233,7 @@
   </div>
 
   <div class="progress">
-    <span>Fortschrittsbalken:</span>
+    <span>Fortschritt:</span>
     <div class="bar-wrapper">
       <div class="bar" width="0%">
       </div>
