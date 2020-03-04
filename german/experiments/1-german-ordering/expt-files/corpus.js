@@ -39,16 +39,16 @@ var adjectives = _.shuffle([
 ]);
 
 var nouns = [
-		{"Noun":"apple", "NounClass":"food", "German": "Apfel", "Gender": "Masculine"},
-		{"Noun":"banana", "NounClass":"food","German": "Banane", "Gender": "Feminine"},
-		{"Noun":"carrot", "NounClass":"food","German": "Karotte", "Gender": "Feminine"},
-		{"Noun":"cheese", "NounClass":"food","German": "K&auml;se", "Gender": "Masculine"},
-		{"Noun":"tomato", "NounClass":"food","German": "Tomate", "Gender": "Feminine"},								
-		{"Noun":"chair", "NounClass":"furniture","German": "Stuhl", "Gender": "Masculine"},								
-		{"Noun":"couch", "NounClass":"furniture","German": "Couch", "Gender": "Feminine"},
-		{"Noun":"fan", "NounClass":"furniture","German": "Ventilator", "Gender": "Masculine"},								
-		{"Noun":"TV", "NounClass":"furniture","German": "Fernsehen", "Gender": "Neuter"},								
-		{"Noun":"desk", "NounClass":"furniture","German": "Schreibtisch", "Gender": "Masculine"}								
+		{"Noun":"apple", "NounClass":"food", "German": "Apfel", "Gender": "Masculine", "Genetive": ""},
+		{"Noun":"banana", "NounClass":"food","German": "Banane", "Gender": "Feminine", "Genetive": ""},
+		{"Noun":"carrot", "NounClass":"food","German": "Karotte", "Gender": "Feminine", "Genetive": ""},
+		{"Noun":"cheese", "NounClass":"food","German": "K&auml;se", "Gender": "Masculine", "Genetive": ""},
+		{"Noun":"tomato", "NounClass":"food","German": "Tomate", "Gender": "Feminine", "Genetive": ""},								
+		{"Noun":"chair", "NounClass":"furniture","German": "Stuhl", "Gender": "Masculine", "Genetive": ""},								
+		{"Noun":"couch", "NounClass":"furniture","German": "Couch", "Gender": "Feminine", "Genetive": ""},
+		{"Noun":"fan", "NounClass":"furniture","German": "Ventilator", "Gender": "Masculine", "Genetive": ""},								
+		{"Noun":"TV", "NounClass":"furniture","German": "Fernsehen", "Gender": "Neuter", "Genetive": ""},								
+		{"Noun":"desk", "NounClass":"furniture","German": "Schreibtisch", "Gender": "Masculine", "Genetive": ""}								
 ];
 
 var stimuli =  makeStims();
