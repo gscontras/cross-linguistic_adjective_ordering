@@ -39,16 +39,16 @@ var adjectives = _.shuffle([
 ]);
 
 var nouns = [
-		{"Noun":"apple", "NounClass":"food", "German": "Apfel", "Gender": "Masculine", "Genetive": ""},
-		{"Noun":"banana", "NounClass":"food","German": "Banane", "Gender": "Feminine", "Genetive": ""},
-		{"Noun":"carrot", "NounClass":"food","German": "Karotte", "Gender": "Feminine", "Genetive": ""},
-		{"Noun":"cheese", "NounClass":"food","German": "K&auml;se", "Gender": "Masculine", "Genetive": ""},
-		{"Noun":"tomato", "NounClass":"food","German": "Tomate", "Gender": "Feminine", "Genetive": ""},								
-		{"Noun":"chair", "NounClass":"furniture","German": "Stuhl", "Gender": "Masculine", "Genetive": ""},								
-		{"Noun":"couch", "NounClass":"furniture","German": "Couch", "Gender": "Feminine", "Genetive": ""},
-		{"Noun":"fan", "NounClass":"furniture","German": "Ventilator", "Gender": "Masculine", "Genetive": ""},								
-		{"Noun":"TV", "NounClass":"furniture","German": "Fernsehen", "Gender": "Neuter", "Genetive": ""},								
-		{"Noun":"desk", "NounClass":"furniture","German": "Schreibtisch", "Gender": "Masculine", "Genetive": ""}								
+		{"Noun":"apple", "NounClass":"food", "German": "Apfel", "Gender": "Masculine", "Genetive": "des Apfels"},
+		{"Noun":"banana", "NounClass":"food","German": "Banane", "Gender": "Feminine", "Genetive": "der Banane"},
+		{"Noun":"carrot", "NounClass":"food","German": "Karotte", "Gender": "Feminine", "Genetive": "der Karotte"},
+		{"Noun":"cheese", "NounClass":"food","German": "K&auml;se", "Gender": "Masculine", "Genetive": "des K&auml;ses"},
+		{"Noun":"tomato", "NounClass":"food","German": "Tomate", "Gender": "Feminine", "Genetive": "der Tomate"},								
+		{"Noun":"chair", "NounClass":"furniture","German": "Stuhl", "Gender": "Masculine", "Genetive": "des Stuhles"},								
+		{"Noun":"couch", "NounClass":"furniture","German": "Couch", "Gender": "Feminine", "Genetive": "der Couch"},
+		{"Noun":"fan", "NounClass":"furniture","German": "Ventilator", "Gender": "Masculine", "Genetive": "des Ventilators"},								
+		{"Noun":"TV", "NounClass":"furniture","German": "Fernsehen", "Gender": "Neuter", "Genetive": "des Fernsehens"},								
+		{"Noun":"desk", "NounClass":"furniture","German": "Schreibtisch", "Gender": "Masculine", "Genetive": "des Schreibtisches"}								
 ];
 
 var stimuli =  makeStims();
