@@ -17,7 +17,7 @@
     <script src="../_shared/js/stream-V2.js"></script>
 
     <!-- cocolab general utilities -->
-    <script src="../_shared/js/mmturkey.js "></script>
+    <script src="js/mmturkey.js "></script>
     <script src="../_shared/js/browserCheck.js"></script>
     <script src="../_shared/js/utils.js"></script>
     <!-- if you want to draw cute creatures (depends on raphael): -->
@@ -46,7 +46,7 @@
 
   <div class="slide" id="i0" >
     <img src="../_shared/images/meaningLab.png" alt="UCI meaning lab" id="meaningLabLogo"></img>
-    <p id="instruct-text">Diese Aufgabe beinhaltet das Interpretieren von englischen S&#228;tzen. Die Aufgabe sollte ungef&#228;hr sechs Minuten dauern. Bitte passen Sie auf. Vielen Dank!</p>
+    <p id="instruct-text">Diese Aufgabe beinhaltet das Interpretieren von deutschen S&#228;tzen. Die Aufgabe sollte ungef&#228;hr sechs Minuten dauern. Bitte passen Sie auf. Vielen Dank!</p>
     <button id="start_button" type="button">Experiment beginnen</button>
     <p id="legal">Rechtliche Hinweise: Durch die Beantwortung der folgenden Fragen nehmen Sie an einer Studie teil, die von Wissenschaftlern des Department of Language Science an der Universit&#228;t von Kalifornien, Irvine, durchgef&uuml;hrt wird. Wenn Sie Fragen zu dieser Forschung haben, wenden Sie sich bitte an Greg Scontras <a href="mailto://g.scontras@uci.edu">g.scontras@uci.edu</a>. Sie m&uuml;ssen mindestens 18 Jahre alt sein, um teilnehmen zu k&#246;nnen. Ihre Teilnahme an dieser Forschung ist freiwillig. Sie k&#246;nnen es ablehnen, einige oder alle der folgenden Fragen zu beantworten. Sie k&#246;nnen die weitere Teilnahme jederzeit ohne nachteilige Folgen ablehnen. Ihre Anonymit&#228;t ist gew&#228;hrleistet; die Forscher, die Ihre Teilnahme beantragt haben, erhalten keine pers&#246;nlichen Informationen &uuml;ber Sie.</p>
   </div>
@@ -82,7 +82,7 @@
     <br>
 
     <!-- <p>Which description of the <span class="noun">{{}}</span> sounds more natural?</p> -->
-    <p>Welche Beschreibung <span class="Qdeterminer">{{}}</span> <span class="noun">{{}}</span> klingt nat&uuml;rlicher?</p>
+    <p>Welche Beschreibung <span class="noun">{{}}</span> klingt nat&uuml;rlicher?</p>
 
     <table id="multi_slider_table" class="slider_table">
 <!--      <tr><td class="left">No, somebody must be wrong.</td><td class="right">Yes, it's a matter of opinion.</td></tr> -->
@@ -198,7 +198,7 @@
         </select>
       </p>
 
-      <p>
+      <!-- <p>
           //wonky answers ask for help
         Wie bewerten Sie Ihre Deutschkenntnisse?<br>
         <select id="level">
@@ -210,7 +210,7 @@
           <label><option value="native"/>Einheimisch</label>
           <label><option value="none"/> Ich kann Deutsch nicht sprechen. </label>
         </select>
-      </p>
+      </p> -->
   
         
       <p>Hat Ihrnen das Experiment gefallen?</p>
@@ -224,12 +224,18 @@
       <p>Wir sind an jeglichen Kommentaren zum Experiment interessiert. Bitte geben Sie hier Ihre Kommentare ein:</p>
       <textarea id="comments" rows="3" cols="50"></textarea>
       <br/>
+      <p>Prolific code:<br>
+        <b>7C647224</b>
+      </p><br/>
       <button onclick="_s.submit()">Absenden</button>
     </div>
   </div>
 
   <div id="thanks" class="slide js" >
     <p  class="big">Vielen Dank f&uuml;r Ihre Aufmerksamkeit!</p>
+
+    <p><a href="https://app.prolific.co/submissions/complete?cc=XXX">https://app.prolific.co/submissions/complete?cc=7C647224</a></p>
+    
   </div>
 
   <div class="progress">

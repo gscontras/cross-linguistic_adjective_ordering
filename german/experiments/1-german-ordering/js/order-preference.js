@@ -24,8 +24,8 @@ function make_slides(f) {
 
   slides.multi_slider = slide({
     name : "multi_slider",
-    // present : _.shuffle(stimuli),
-    present : [_.sample(stimuli)], // for proofreading
+    present : _.shuffle(stimuli),
+    // present : [_.sample(stimuli)], // for proofreading
     present_handle : function(stim) {
       $(".err").hide();
       this.init_sliders();      
@@ -48,7 +48,7 @@ function make_slides(f) {
 
       $(".man2").html(man2);
 
-      $(".noun").html(stim.Noun);
+      $(".noun").html(stim.NounGenetive);
 
       //$(".woman1").html(woman1);
 
@@ -153,8 +153,8 @@ function make_slides(f) {
         college: $("#college").val(),
         lived: $("#lived").val(),
         years: $("#years").val(),
-        family:$("#family").val(),
-        level: $("#level").val()
+        family:$("#family").val()
+        // level: $("#level").val()
       };
       exp.go(); //use exp.go() if and only if there is no "present" data.
     }

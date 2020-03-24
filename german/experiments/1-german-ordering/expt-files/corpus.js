@@ -12,7 +12,7 @@ var adjectives = _.shuffle([
 		{"Predicate":"blue", "Class":"color", "Masculine": "blaue", "Feminine": "blaue", "Neuter":"blaue"},
 		{"Predicate":"purple", "Class":"color", "Masculine": "purpure", "Feminine": "purpure", "Neuter":"purpure"},
 		{"Predicate":"brown", "Class":"color", "Masculine": "braune", "Feminine": "braune", "Neuter":"braune"},											
-		{"Predicate":"big", "Class":"size", "Masculine": "große", "Feminine": "große", "Neuter":"große"},
+		{"Predicate":"big", "Class":"size", "Masculine": "gro&szlig;e", "Feminine": "gro&szlig;e", "Neuter":"gro&szlig;e"},
 		{"Predicate":"small", "Class":"size", "Masculine": "kleine", "Feminine": "kleine", "Neuter":"kleine"},					
 		{"Predicate":"huge", "Class":"size", "Masculine": "riesige", "Feminine": "riesige", "Neuter":"riesige"},					
 		{"Predicate":"tiny", "Class":"size", "Masculine": "winzige", "Feminine": "winzige", "Neuter":"winzige"},
@@ -72,7 +72,8 @@ function makeStims() {
 					"Noun":noun.German,
 					"NounGender":noun.Gender,
 					"NounEnglish":noun.Noun,
-					"NounClass":noun.NounClass
+					"NounClass":noun.NounClass,
+					"NounGenetive": noun.Genetive
 				}			
 			);
 		}
