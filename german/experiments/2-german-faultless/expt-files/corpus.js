@@ -79,7 +79,7 @@ function makeStims() {
 				"Class":adjectives[i].Class,				
 				"Noun":noun.Noun,
 				"NounClass":noun.NounClass,
-				"Demonstrative":noun.Demonstrative,
+				"Demonstrative":noun.Demonstrative
 				
 			}
 			);
