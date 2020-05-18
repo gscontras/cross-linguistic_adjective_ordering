@@ -77,7 +77,8 @@ function makeStims() {
 				"Predicate":adjectives[i].Predicate,
 				"PredicateEnglish":adjectives[i].EnglishPredicate,
 				"Class":adjectives[i].Class,				
-				"Noun":noun.Noun,
+				"NounEnglish":noun.Noun,
+				"Noun":noun.German,
 				"NounClass":noun.NounClass,
 				"Demonstrative":noun.Demonstrative
 				

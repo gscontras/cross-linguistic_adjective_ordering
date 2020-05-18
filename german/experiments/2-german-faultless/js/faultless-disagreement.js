@@ -101,8 +101,10 @@ function make_slides(f) {
     log_responses : function() {
         exp.data_trials.push({
           "response" : exp.sliderPost,
-          "noun" : this.stim.Noun,          
-          "predicate" : this.stim.Predicate,
+          "noun" : this.stim.NounEnglish, 
+          "nounGerman" : this.stim.Noun,         
+          "predicateGerman" : this.stim.Predicate,
+          "predicate": this.stim.PredicateEnglish,
           "nounclass" : this.stim.NounClass,
           "class" : this.stim.Class,                    
           "firstutterance" : this.verbs[0],
