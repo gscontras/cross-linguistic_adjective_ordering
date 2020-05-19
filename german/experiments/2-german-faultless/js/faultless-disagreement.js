@@ -36,7 +36,7 @@ function make_slides(f) {
       //var noun = noun_data.noun;
       //var animacy = noun_data.animacy;
 
-      this.verbs = _.shuffle(["ist ","is nicht"])
+      this.verbs = _.shuffle(["ist ","ist nicht"])
 
       var names_list = _.shuffle(names);
 
@@ -55,7 +55,7 @@ function make_slides(f) {
 
       $(".utterance1").html("\""+ stim.Demonstrative + " "+ stim.Noun + " " + this.verbs[0] + " " + stim.Predicate + ".\"");
 
-      $(".utterance2").html("\"Du bist falsch. " + stim.Demonstrative + " " + stim.Noun + " " + this.verbs[1] + " "  + stim.Predicate + ".\"");
+      $(".utterance2").html("\"Das ist falsch. " + stim.Demonstrative + " " + stim.Noun + " " + this.verbs[1] + " "  + stim.Predicate + ".\"");
 
 //      this.sentence_types = _.shuffle(["yes","no"]);
 //      this.sentence_types = ["no","yes"];

@@ -22,9 +22,9 @@ var adjectives = _.shuffle([
 		///{"Predicate":"wooden", "Class":"material", "Masculine": "", "Feminine": "", "Neuter":""},
 		///{"Predicate":"plastic", "Class":"material", "Masculine": "", "Feminine": "", "Neuter":""},
 		///{"Predicate":"metal", "Class":"material", "Masculine": "", "Feminine": "", "Neuter":""},
-        {"Predicate":"Americanisch","EnglishPredicate":"American", "Class":"nationality", "Masculine": "Americanische", "Feminine": "Americanische", "Neuter":"Americanische"},
-        {"Predicate":"Deutsch","EnglishPredicate":"German", "Class":"nationality", "Masculine": "Deutsche", "Feminine": "Deutsche", "Neuter":"Deutsche"},
-        {"Predicate":"Franz&ouml;sisch","EnglishPredicate":"French", "Class":"nationality", "Masculine": "Franz&ouml;sische", "Feminine": "Franz&ouml;sische", "Neuter":"Franz&ouml;sische"},
+        {"Predicate":"americanisch","EnglishPredicate":"American", "Class":"nationality", "Masculine": "americanische", "Feminine": "americanische", "Neuter":"americanische"},
+        {"Predicate":"deutsch","EnglishPredicate":"German", "Class":"nationality", "Masculine": "deutsche", "Feminine": "deutsche", "Neuter":"deutsche"},
+        {"Predicate":"franz&ouml;sisch","EnglishPredicate":"French", "Class":"nationality", "Masculine": "franz&ouml;sische", "Feminine": "franz&ouml;sische", "Neuter":"franz&ouml;sische"},
 		{"Predicate":"glatt","EnglishPredicate":"smooth", "Class":"texture", "Masculine": "glatte", "Feminine": "glatte", "Neuter":"glatte"},
 		{"Predicate":"hart","EnglishPredicate":"hard", "Class":"texture", "Masculine": "harte", "Feminine": "harte", "Neuter":"harte"},
 		{"Predicate":"weich","EnglishPredicate":"soft", "Class":"texture", "Masculine": "weiche", "Feminine": "weiche", "Neuter":"weiche"},
@@ -47,7 +47,7 @@ var nouns = [
 		{"Noun":"chair", "NounClass":"furniture","German": "Stuhl", "Gender": "Masculine", "Genetive": "des Stuhles","Demonstrative": "Dieser"},								
 		{"Noun":"couch", "NounClass":"furniture","German": "Couch", "Gender": "Feminine", "Genetive": "der Couch","Demonstrative": "Diese"},
 		{"Noun":"fan", "NounClass":"furniture","German": "Ventilator", "Gender": "Masculine", "Genetive": "des Ventilators","Demonstrative": "Dieser"},								
-		{"Noun":"TV", "NounClass":"furniture","German": "Fernsehen", "Gender": "Neuter", "Genetive": "des Fernsehens","Demonstrative": "Diese"},								
+		{"Noun":"TV", "NounClass":"furniture","German": "Fernsehen", "Gender": "Neuter", "Genetive": "des Fernsehens","Demonstrative": "Dieses"},								
 		{"Noun":"desk", "NounClass":"furniture","German": "Schreibtisch", "Gender": "Masculine", "Genetive": "des Schreibtisches","Demonstrative": "Dieser"}								
 ];
 
