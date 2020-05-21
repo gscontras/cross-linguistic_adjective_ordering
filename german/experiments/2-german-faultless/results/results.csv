@@ -1,0 +1,1049 @@
+,class,firstutterance,noun,nounGerman,nounclass,predicate,predicateGerman,response,slide_number,language,age,gender,education,comments,Browser,OS,screenH,screenW,time_in_minutes,participant_id,asses
+0,nationality,ist ,cheese,K&auml;se,food,French,franz&ouml;sisch,0.33,3,,,,-1,"GREG0
+",Safari,Mac,900,1440,0.18823333333333334,1,
+1,age,ist nicht,TV,Fernsehen,furniture,new,neu,0.62,4,,,,-1,"GREG0
+",Safari,Mac,900,1440,0.18823333333333334,1,
+2,age,ist nicht,tomato,Tomate,food,old,alt,0.31,5,,,,-1,"GREG0
+",Safari,Mac,900,1440,0.18823333333333334,1,
+0,size,ist nicht,chair,Stuhl,furniture,long,lang,0.43,3,,,,-1,GREG1,Safari,Mac,900,1440,0.16768333333333332,2,
+1,color,ist ,fan,Ventilator,furniture,green,gr&uuml;n,0.54,4,,,,-1,GREG1,Safari,Mac,900,1440,0.16768333333333332,2,
+0,nationality,ist ,banana,Banane,food,French,franz&ouml;sisch,0.04,3,deutsch,55,Female,3,,Firefox,Windows,864,1536,4.537483333333333,3,Yes
+1,texture,ist nicht,cheese,K&auml;se,food,soft,weich,0.97,4,deutsch,55,Female,3,,Firefox,Windows,864,1536,4.537483333333333,3,Yes
+2,nationality,ist nicht,fan,Ventilator,furniture,American,americanisch,0.04,5,deutsch,55,Female,3,,Firefox,Windows,864,1536,4.537483333333333,3,Yes
+3,nationality,ist nicht,cheese,K&auml;se,food,German,deutsch,0.0,6,deutsch,55,Female,3,,Firefox,Windows,864,1536,4.537483333333333,3,Yes
+4,color,ist ,carrot,Karotte,food,red,rot,0.93,7,deutsch,55,Female,3,,Firefox,Windows,864,1536,4.537483333333333,3,Yes
+5,shape,ist nicht,banana,Banane,food,round,rund,0.97,8,deutsch,55,Female,3,,Firefox,Windows,864,1536,4.537483333333333,3,Yes
+6,size,ist ,tomato,Tomate,food,short,kurz,0.96,9,deutsch,55,Female,3,,Firefox,Windows,864,1536,4.537483333333333,3,Yes
+7,size,ist ,cheese,K&auml;se,food,big,gro&szlig;,0.97,10,deutsch,55,Female,3,,Firefox,Windows,864,1536,4.537483333333333,3,Yes
+8,color,ist nicht,banana,Banane,food,blue,blau,0.01,11,deutsch,55,Female,3,,Firefox,Windows,864,1536,4.537483333333333,3,Yes
+9,quality,ist nicht,banana,Banane,food,good,gut,0.99,12,deutsch,55,Female,3,,Firefox,Windows,864,1536,4.537483333333333,3,Yes
+10,color,ist ,cheese,K&auml;se,food,yellow,gelb,0.96,13,deutsch,55,Female,3,,Firefox,Windows,864,1536,4.537483333333333,3,Yes
+11,quality,ist ,TV,Fernsehen,furniture,bad,schlecht,0.94,14,deutsch,55,Female,3,,Firefox,Windows,864,1536,4.537483333333333,3,Yes
+12,shape,ist ,TV,Fernsehen,furniture,square,quadratisch,0.06,15,deutsch,55,Female,3,,Firefox,Windows,864,1536,4.537483333333333,3,Yes
+13,color,ist nicht,carrot,Karotte,food,brown,braun,0.96,16,deutsch,55,Female,3,,Firefox,Windows,864,1536,4.537483333333333,3,Yes
+14,size,ist ,tomato,Tomate,food,small,klein,0.97,17,deutsch,55,Female,3,,Firefox,Windows,864,1536,4.537483333333333,3,Yes
+15,texture,ist nicht,TV,Fernsehen,furniture,hard,hart,0.03,18,deutsch,55,Female,3,,Firefox,Windows,864,1536,4.537483333333333,3,Yes
+16,color,ist ,fan,Ventilator,furniture,purple,purpur,0.97,19,deutsch,55,Female,3,,Firefox,Windows,864,1536,4.537483333333333,3,Yes
+17,age,ist nicht,cheese,K&auml;se,food,rotten,faul,0.95,20,deutsch,55,Female,3,,Firefox,Windows,864,1536,4.537483333333333,3,Yes
+18,age,ist ,banana,Banane,food,new,neu,0.94,21,deutsch,55,Female,3,,Firefox,Windows,864,1536,4.537483333333333,3,Yes
+19,age,ist nicht,tomato,Tomate,food,old,alt,0.94,22,deutsch,55,Female,3,,Firefox,Windows,864,1536,4.537483333333333,3,Yes
+20,size,ist ,chair,Stuhl,furniture,huge,riesig,0.93,23,deutsch,55,Female,3,,Firefox,Windows,864,1536,4.537483333333333,3,Yes
+21,age,ist nicht,chair,Stuhl,furniture,fresh,frisch,0.96,24,deutsch,55,Female,3,,Firefox,Windows,864,1536,4.537483333333333,3,Yes
+22,size,ist nicht,tomato,Tomate,food,long,lang,0.95,25,deutsch,55,Female,3,,Firefox,Windows,864,1536,4.537483333333333,3,Yes
+23,color,ist nicht,chair,Stuhl,furniture,green,gr&uuml;n,0.96,26,deutsch,55,Female,3,,Firefox,Windows,864,1536,4.537483333333333,3,Yes
+24,texture,ist ,apple,Apfel,food,smooth,glatt,0.95,27,deutsch,55,Female,3,,Firefox,Windows,864,1536,4.537483333333333,3,Yes
+25,size,ist nicht,carrot,Karotte,food,tiny,winzig,0.98,28,deutsch,55,Female,3,,Firefox,Windows,864,1536,4.537483333333333,3,Yes
+0,size,ist nicht,tomato,Tomate,food,short,kurz,0.77,3,deutsch,23,Female,1,,Firefox,Linux,768,1366,3.2215166666666666,4,Yes
+1,shape,ist nicht,couch,Couch,furniture,round,rund,0.22,4,deutsch,23,Female,1,,Firefox,Linux,768,1366,3.2215166666666666,4,Yes
+2,nationality,ist nicht,apple,Apfel,food,American,americanisch,0.0,5,deutsch,23,Female,1,,Firefox,Linux,768,1366,3.2215166666666666,4,Yes
+3,texture,ist ,tomato,Tomate,food,hard,hart,0.29,6,deutsch,23,Female,1,,Firefox,Linux,768,1366,3.2215166666666666,4,Yes
+4,size,ist ,TV,Fernsehen,furniture,tiny,winzig,0.4,7,deutsch,23,Female,1,,Firefox,Linux,768,1366,3.2215166666666666,4,Yes
+5,texture,ist ,TV,Fernsehen,furniture,smooth,glatt,0.16,8,deutsch,23,Female,1,,Firefox,Linux,768,1366,3.2215166666666666,4,Yes
+6,age,ist ,tomato,Tomate,food,old,alt,0.13,9,deutsch,23,Female,1,,Firefox,Linux,768,1366,3.2215166666666666,4,Yes
+7,size,ist ,carrot,Karotte,food,small,klein,0.28,10,deutsch,23,Female,1,,Firefox,Linux,768,1366,3.2215166666666666,4,Yes
+8,size,ist ,chair,Stuhl,furniture,big,gro&szlig;,0.29,11,deutsch,23,Female,1,,Firefox,Linux,768,1366,3.2215166666666666,4,Yes
+9,nationality,ist nicht,banana,Banane,food,German,deutsch,0.0,12,deutsch,23,Female,1,,Firefox,Linux,768,1366,3.2215166666666666,4,Yes
+10,age,ist nicht,desk,Schreibtisch,furniture,rotten,faul,0.21,13,deutsch,23,Female,1,,Firefox,Linux,768,1366,3.2215166666666666,4,Yes
+11,color,ist nicht,banana,Banane,food,yellow,gelb,0.0,14,deutsch,23,Female,1,,Firefox,Linux,768,1366,3.2215166666666666,4,Yes
+12,quality,ist ,fan,Ventilator,furniture,bad,schlecht,0.37,15,deutsch,23,Female,1,,Firefox,Linux,768,1366,3.2215166666666666,4,Yes
+13,shape,ist ,couch,Couch,furniture,square,quadratisch,0.0,16,deutsch,23,Female,1,,Firefox,Linux,768,1366,3.2215166666666666,4,Yes
+14,color,ist nicht,carrot,Karotte,food,brown,braun,0.0,17,deutsch,23,Female,1,,Firefox,Linux,768,1366,3.2215166666666666,4,Yes
+15,color,ist nicht,fan,Ventilator,furniture,green,gr&uuml;n,0.0,18,deutsch,23,Female,1,,Firefox,Linux,768,1366,3.2215166666666666,4,Yes
+16,color,ist nicht,TV,Fernsehen,furniture,red,rot,0.0,19,deutsch,23,Female,1,,Firefox,Linux,768,1366,3.2215166666666666,4,Yes
+17,color,ist ,cheese,K&auml;se,food,purple,purpur,0.0,20,deutsch,23,Female,1,,Firefox,Linux,768,1366,3.2215166666666666,4,Yes
+18,quality,ist nicht,banana,Banane,food,good,gut,0.7,21,deutsch,23,Female,1,,Firefox,Linux,768,1366,3.2215166666666666,4,Yes
+19,nationality,ist nicht,apple,Apfel,food,French,franz&ouml;sisch,0.12,22,deutsch,23,Female,1,,Firefox,Linux,768,1366,3.2215166666666666,4,Yes
+20,age,ist ,desk,Schreibtisch,furniture,fresh,frisch,0.0,23,deutsch,23,Female,1,,Firefox,Linux,768,1366,3.2215166666666666,4,Yes
+21,texture,ist ,carrot,Karotte,food,soft,weich,0.13,24,deutsch,23,Female,1,,Firefox,Linux,768,1366,3.2215166666666666,4,Yes
+22,age,ist ,apple,Apfel,food,new,neu,0.31,25,deutsch,23,Female,1,,Firefox,Linux,768,1366,3.2215166666666666,4,Yes
+23,color,ist nicht,apple,Apfel,food,blue,blau,0.09,26,deutsch,23,Female,1,,Firefox,Linux,768,1366,3.2215166666666666,4,Yes
+24,size,ist ,couch,Couch,furniture,huge,riesig,0.31,27,deutsch,23,Female,1,,Firefox,Linux,768,1366,3.2215166666666666,4,Yes
+25,size,ist ,couch,Couch,furniture,long,lang,0.42,28,deutsch,23,Female,1,,Firefox,Linux,768,1366,3.2215166666666666,4,Yes
+0,age,ist nicht,carrot,Karotte,food,fresh,frisch,1.0,3,Deutsch,27,Female,2,,Firefox,Mac,900,1440,3.47615,5,Yes
+1,size,ist ,tomato,Tomate,food,small,klein,0.77,4,Deutsch,27,Female,2,,Firefox,Mac,900,1440,3.47615,5,Yes
+2,texture,ist nicht,cheese,K&auml;se,food,soft,weich,0.16,5,Deutsch,27,Female,2,,Firefox,Mac,900,1440,3.47615,5,Yes
+3,size,ist nicht,banana,Banane,food,tiny,winzig,0.62,6,Deutsch,27,Female,2,,Firefox,Mac,900,1440,3.47615,5,Yes
+4,texture,ist nicht,apple,Apfel,food,hard,hart,0.16,7,Deutsch,27,Female,2,,Firefox,Mac,900,1440,3.47615,5,Yes
+5,color,ist nicht,carrot,Karotte,food,purple,purpur,0.03,8,Deutsch,27,Female,2,,Firefox,Mac,900,1440,3.47615,5,Yes
+6,nationality,ist ,apple,Apfel,food,American,americanisch,0.01,9,Deutsch,27,Female,2,,Firefox,Mac,900,1440,3.47615,5,Yes
+7,age,ist ,apple,Apfel,food,old,alt,0.17,10,Deutsch,27,Female,2,,Firefox,Mac,900,1440,3.47615,5,Yes
+8,texture,ist ,tomato,Tomate,food,smooth,glatt,0.01,11,Deutsch,27,Female,2,,Firefox,Mac,900,1440,3.47615,5,Yes
+9,nationality,ist nicht,desk,Schreibtisch,furniture,French,franz&ouml;sisch,0.73,12,Deutsch,27,Female,2,,Firefox,Mac,900,1440,3.47615,5,Yes
+10,age,ist nicht,banana,Banane,food,new,neu,0.22,13,Deutsch,27,Female,2,,Firefox,Mac,900,1440,3.47615,5,Yes
+11,color,ist nicht,fan,Ventilator,furniture,brown,braun,0.0,14,Deutsch,27,Female,2,,Firefox,Mac,900,1440,3.47615,5,Yes
+12,age,ist ,desk,Schreibtisch,furniture,rotten,faul,0.02,15,Deutsch,27,Female,2,,Firefox,Mac,900,1440,3.47615,5,Yes
+13,size,ist nicht,tomato,Tomate,food,short,kurz,0.0,16,Deutsch,27,Female,2,,Firefox,Mac,900,1440,3.47615,5,Yes
+14,quality,ist nicht,couch,Couch,furniture,bad,schlecht,0.98,17,Deutsch,27,Female,2,,Firefox,Mac,900,1440,3.47615,5,Yes
+15,shape,ist ,desk,Schreibtisch,furniture,round,rund,0.0,18,Deutsch,27,Female,2,,Firefox,Mac,900,1440,3.47615,5,Yes
+16,size,ist nicht,tomato,Tomate,food,long,lang,0.14,19,Deutsch,27,Female,2,,Firefox,Mac,900,1440,3.47615,5,Yes
+17,color,ist nicht,couch,Couch,furniture,yellow,gelb,0.0,20,Deutsch,27,Female,2,,Firefox,Mac,900,1440,3.47615,5,Yes
+18,size,ist ,TV,Fernsehen,furniture,big,gro&szlig;,0.73,21,Deutsch,27,Female,2,,Firefox,Mac,900,1440,3.47615,5,Yes
+19,quality,ist ,tomato,Tomate,food,good,gut,0.97,22,Deutsch,27,Female,2,,Firefox,Mac,900,1440,3.47615,5,Yes
+20,color,ist ,tomato,Tomate,food,blue,blau,0.02,23,Deutsch,27,Female,2,,Firefox,Mac,900,1440,3.47615,5,Yes
+21,size,ist ,cheese,K&auml;se,food,huge,riesig,0.62,24,Deutsch,27,Female,2,,Firefox,Mac,900,1440,3.47615,5,Yes
+22,color,ist nicht,fan,Ventilator,furniture,green,gr&uuml;n,0.01,25,Deutsch,27,Female,2,,Firefox,Mac,900,1440,3.47615,5,Yes
+23,color,ist nicht,chair,Stuhl,furniture,red,rot,0.01,26,Deutsch,27,Female,2,,Firefox,Mac,900,1440,3.47615,5,Yes
+24,nationality,ist nicht,cheese,K&auml;se,food,German,deutsch,0.0,27,Deutsch,27,Female,2,,Firefox,Mac,900,1440,3.47615,5,Yes
+25,shape,ist nicht,TV,Fernsehen,furniture,square,quadratisch,0.01,28,Deutsch,27,Female,2,,Firefox,Mac,900,1440,3.47615,5,Yes
+0,age,ist ,tomato,Tomate,food,fresh,frisch,0.0,3,Deutsch,22,Other,1,,Chrome,Windows,900,1600,3.7299,6,Yes
+1,color,ist ,couch,Couch,furniture,blue,blau,0.72,4,Deutsch,22,Other,1,,Chrome,Windows,900,1600,3.7299,6,Yes
+2,size,ist ,tomato,Tomate,food,tiny,winzig,0.49,5,Deutsch,22,Other,1,,Chrome,Windows,900,1600,3.7299,6,Yes
+3,age,ist ,chair,Stuhl,furniture,old,alt,0.75,6,Deutsch,22,Other,1,,Chrome,Windows,900,1600,3.7299,6,Yes
+4,shape,ist nicht,fan,Ventilator,furniture,round,rund,0.2,7,Deutsch,22,Other,1,,Chrome,Windows,900,1600,3.7299,6,Yes
+5,color,ist nicht,desk,Schreibtisch,furniture,green,gr&uuml;n,0.37,8,Deutsch,22,Other,1,,Chrome,Windows,900,1600,3.7299,6,Yes
+6,size,ist nicht,desk,Schreibtisch,furniture,huge,riesig,0.73,9,Deutsch,22,Other,1,,Chrome,Windows,900,1600,3.7299,6,Yes
+7,size,ist nicht,TV,Fernsehen,furniture,short,kurz,0.47,10,Deutsch,22,Other,1,,Chrome,Windows,900,1600,3.7299,6,Yes
+8,texture,ist nicht,tomato,Tomate,food,soft,weich,0.29,11,Deutsch,22,Other,1,,Chrome,Windows,900,1600,3.7299,6,Yes
+9,nationality,ist nicht,fan,Ventilator,furniture,American,americanisch,0.08,12,Deutsch,22,Other,1,,Chrome,Windows,900,1600,3.7299,6,Yes
+10,color,ist ,fan,Ventilator,furniture,purple,purpur,0.28,13,Deutsch,22,Other,1,,Chrome,Windows,900,1600,3.7299,6,Yes
+11,texture,ist nicht,carrot,Karotte,food,smooth,glatt,0.43,14,Deutsch,22,Other,1,,Chrome,Windows,900,1600,3.7299,6,Yes
+12,age,ist nicht,chair,Stuhl,furniture,rotten,faul,0.19,15,Deutsch,22,Other,1,,Chrome,Windows,900,1600,3.7299,6,Yes
+13,color,ist nicht,fan,Ventilator,furniture,red,rot,0.17,16,Deutsch,22,Other,1,,Chrome,Windows,900,1600,3.7299,6,Yes
+14,size,ist ,TV,Fernsehen,furniture,long,lang,0.45,17,Deutsch,22,Other,1,,Chrome,Windows,900,1600,3.7299,6,Yes
+15,texture,ist nicht,carrot,Karotte,food,hard,hart,0.63,18,Deutsch,22,Other,1,,Chrome,Windows,900,1600,3.7299,6,Yes
+16,age,ist ,cheese,K&auml;se,food,new,neu,0.4,19,Deutsch,22,Other,1,,Chrome,Windows,900,1600,3.7299,6,Yes
+17,quality,ist nicht,chair,Stuhl,furniture,good,gut,0.86,20,Deutsch,22,Other,1,,Chrome,Windows,900,1600,3.7299,6,Yes
+18,color,ist ,couch,Couch,furniture,yellow,gelb,0.13,21,Deutsch,22,Other,1,,Chrome,Windows,900,1600,3.7299,6,Yes
+19,quality,ist ,TV,Fernsehen,furniture,bad,schlecht,0.91,22,Deutsch,22,Other,1,,Chrome,Windows,900,1600,3.7299,6,Yes
+20,nationality,ist ,cheese,K&auml;se,food,German,deutsch,0.28,23,Deutsch,22,Other,1,,Chrome,Windows,900,1600,3.7299,6,Yes
+21,nationality,ist ,couch,Couch,furniture,French,franz&ouml;sisch,0.21,24,Deutsch,22,Other,1,,Chrome,Windows,900,1600,3.7299,6,Yes
+22,color,ist ,cheese,K&auml;se,food,brown,braun,0.37,25,Deutsch,22,Other,1,,Chrome,Windows,900,1600,3.7299,6,Yes
+23,shape,ist nicht,desk,Schreibtisch,furniture,square,quadratisch,0.13,26,Deutsch,22,Other,1,,Chrome,Windows,900,1600,3.7299,6,Yes
+24,size,ist ,banana,Banane,food,big,gro&szlig;,0.67,27,Deutsch,22,Other,1,,Chrome,Windows,900,1600,3.7299,6,Yes
+25,size,ist nicht,TV,Fernsehen,furniture,small,klein,0.76,28,Deutsch,22,Other,1,,Chrome,Windows,900,1600,3.7299,6,Yes
+0,size,ist ,banana,Banane,food,tiny,winzig,0.66,3,Deutsch,18,Male,2,,Chrome,Windows,1050,1680,4.3924666666666665,7,Yes
+1,age,ist ,fan,Ventilator,furniture,new,neu,0.24,4,Deutsch,18,Male,2,,Chrome,Windows,1050,1680,4.3924666666666665,7,Yes
+2,size,ist nicht,desk,Schreibtisch,furniture,huge,riesig,1.0,5,Deutsch,18,Male,2,,Chrome,Windows,1050,1680,4.3924666666666665,7,Yes
+3,texture,ist nicht,tomato,Tomate,food,smooth,glatt,0.31,6,Deutsch,18,Male,2,,Chrome,Windows,1050,1680,4.3924666666666665,7,Yes
+4,age,ist nicht,desk,Schreibtisch,furniture,rotten,faul,0.0,7,Deutsch,18,Male,2,,Chrome,Windows,1050,1680,4.3924666666666665,7,Yes
+5,color,ist nicht,fan,Ventilator,furniture,blue,blau,0.0,8,Deutsch,18,Male,2,,Chrome,Windows,1050,1680,4.3924666666666665,7,Yes
+6,size,ist nicht,banana,Banane,food,long,lang,0.77,9,Deutsch,18,Male,2,,Chrome,Windows,1050,1680,4.3924666666666665,7,Yes
+7,quality,ist nicht,fan,Ventilator,furniture,good,gut,1.0,10,Deutsch,18,Male,2,,Chrome,Windows,1050,1680,4.3924666666666665,7,Yes
+8,nationality,ist ,desk,Schreibtisch,furniture,American,americanisch,0.27,11,Deutsch,18,Male,2,,Chrome,Windows,1050,1680,4.3924666666666665,7,Yes
+9,color,ist ,desk,Schreibtisch,furniture,brown,braun,0.0,12,Deutsch,18,Male,2,,Chrome,Windows,1050,1680,4.3924666666666665,7,Yes
+10,texture,ist ,desk,Schreibtisch,furniture,soft,weich,0.18,13,Deutsch,18,Male,2,,Chrome,Windows,1050,1680,4.3924666666666665,7,Yes
+11,texture,ist ,banana,Banane,food,hard,hart,0.24,14,Deutsch,18,Male,2,,Chrome,Windows,1050,1680,4.3924666666666665,7,Yes
+12,size,ist nicht,chair,Stuhl,furniture,big,gro&szlig;,0.32,15,Deutsch,18,Male,2,,Chrome,Windows,1050,1680,4.3924666666666665,7,Yes
+13,size,ist nicht,cheese,K&auml;se,food,short,kurz,0.82,16,Deutsch,18,Male,2,,Chrome,Windows,1050,1680,4.3924666666666665,7,Yes
+14,color,ist nicht,desk,Schreibtisch,furniture,green,gr&uuml;n,0.0,17,Deutsch,18,Male,2,,Chrome,Windows,1050,1680,4.3924666666666665,7,Yes
+15,quality,ist ,banana,Banane,food,bad,schlecht,0.5,18,Deutsch,18,Male,2,,Chrome,Windows,1050,1680,4.3924666666666665,7,Yes
+16,size,ist ,banana,Banane,food,small,klein,0.77,19,Deutsch,18,Male,2,,Chrome,Windows,1050,1680,4.3924666666666665,7,Yes
+17,color,ist nicht,chair,Stuhl,furniture,yellow,gelb,0.0,20,Deutsch,18,Male,2,,Chrome,Windows,1050,1680,4.3924666666666665,7,Yes
+18,nationality,ist nicht,fan,Ventilator,furniture,French,franz&ouml;sisch,0.0,21,Deutsch,18,Male,2,,Chrome,Windows,1050,1680,4.3924666666666665,7,Yes
+19,color,ist nicht,chair,Stuhl,furniture,red,rot,0.0,22,Deutsch,18,Male,2,,Chrome,Windows,1050,1680,4.3924666666666665,7,Yes
+20,age,ist ,apple,Apfel,food,old,alt,0.88,23,Deutsch,18,Male,2,,Chrome,Windows,1050,1680,4.3924666666666665,7,Yes
+21,nationality,ist nicht,cheese,K&auml;se,food,German,deutsch,0.19,24,Deutsch,18,Male,2,,Chrome,Windows,1050,1680,4.3924666666666665,7,Yes
+22,shape,ist ,cheese,K&auml;se,food,round,rund,0.0,25,Deutsch,18,Male,2,,Chrome,Windows,1050,1680,4.3924666666666665,7,Yes
+23,color,ist nicht,TV,Fernsehen,furniture,purple,purpur,0.0,26,Deutsch,18,Male,2,,Chrome,Windows,1050,1680,4.3924666666666665,7,Yes
+24,shape,ist nicht,fan,Ventilator,furniture,square,quadratisch,0.0,27,Deutsch,18,Male,2,,Chrome,Windows,1050,1680,4.3924666666666665,7,Yes
+25,age,ist ,banana,Banane,food,fresh,frisch,0.85,28,Deutsch,18,Male,2,,Chrome,Windows,1050,1680,4.3924666666666665,7,Yes
+0,quality,ist nicht,apple,Apfel,food,good,gut,1.0,3,Deutsch,30,Male,2,,Chrome,Windows,1080,1920,3.3350666666666666,8,Yes
+1,color,ist ,chair,Stuhl,furniture,green,gr&uuml;n,0.0,4,Deutsch,30,Male,2,,Chrome,Windows,1080,1920,3.3350666666666666,8,Yes
+2,nationality,ist ,banana,Banane,food,German,deutsch,0.0,5,Deutsch,30,Male,2,,Chrome,Windows,1080,1920,3.3350666666666666,8,Yes
+3,age,ist ,cheese,K&auml;se,food,old,alt,0.0,6,Deutsch,30,Male,2,,Chrome,Windows,1080,1920,3.3350666666666666,8,Yes
+4,shape,ist nicht,fan,Ventilator,furniture,round,rund,0.0,7,Deutsch,30,Male,2,,Chrome,Windows,1080,1920,3.3350666666666666,8,Yes
+5,size,ist ,cheese,K&auml;se,food,huge,riesig,1.0,8,Deutsch,30,Male,2,,Chrome,Windows,1080,1920,3.3350666666666666,8,Yes
+6,size,ist nicht,couch,Couch,furniture,big,gro&szlig;,1.0,9,Deutsch,30,Male,2,,Chrome,Windows,1080,1920,3.3350666666666666,8,Yes
+7,size,ist nicht,cheese,K&auml;se,food,short,kurz,0.51,10,Deutsch,30,Male,2,,Chrome,Windows,1080,1920,3.3350666666666666,8,Yes
+8,texture,ist nicht,tomato,Tomate,food,smooth,glatt,0.0,11,Deutsch,30,Male,2,,Chrome,Windows,1080,1920,3.3350666666666666,8,Yes
+9,texture,ist nicht,desk,Schreibtisch,furniture,hard,hart,0.0,12,Deutsch,30,Male,2,,Chrome,Windows,1080,1920,3.3350666666666666,8,Yes
+10,color,ist ,banana,Banane,food,red,rot,0.0,13,Deutsch,30,Male,2,,Chrome,Windows,1080,1920,3.3350666666666666,8,Yes
+11,size,ist ,couch,Couch,furniture,long,lang,1.0,14,Deutsch,30,Male,2,,Chrome,Windows,1080,1920,3.3350666666666666,8,Yes
+12,size,ist nicht,couch,Couch,furniture,tiny,winzig,1.0,15,Deutsch,30,Male,2,,Chrome,Windows,1080,1920,3.3350666666666666,8,Yes
+13,age,ist ,banana,Banane,food,rotten,faul,1.0,16,Deutsch,30,Male,2,,Chrome,Windows,1080,1920,3.3350666666666666,8,Yes
+14,texture,ist ,fan,Ventilator,furniture,soft,weich,0.0,17,Deutsch,30,Male,2,,Chrome,Windows,1080,1920,3.3350666666666666,8,Yes
+15,nationality,ist ,apple,Apfel,food,American,americanisch,0.0,18,Deutsch,30,Male,2,,Chrome,Windows,1080,1920,3.3350666666666666,8,Yes
+16,color,ist nicht,chair,Stuhl,furniture,blue,blau,0.0,19,Deutsch,30,Male,2,,Chrome,Windows,1080,1920,3.3350666666666666,8,Yes
+17,age,ist nicht,banana,Banane,food,new,neu,1.0,20,Deutsch,30,Male,2,,Chrome,Windows,1080,1920,3.3350666666666666,8,Yes
+18,quality,ist ,chair,Stuhl,furniture,bad,schlecht,1.0,21,Deutsch,30,Male,2,,Chrome,Windows,1080,1920,3.3350666666666666,8,Yes
+19,color,ist nicht,TV,Fernsehen,furniture,purple,purpur,1.0,22,Deutsch,30,Male,2,,Chrome,Windows,1080,1920,3.3350666666666666,8,Yes
+20,color,ist ,carrot,Karotte,food,yellow,gelb,0.0,23,Deutsch,30,Male,2,,Chrome,Windows,1080,1920,3.3350666666666666,8,Yes
+21,nationality,ist nicht,TV,Fernsehen,furniture,French,franz&ouml;sisch,0.0,24,Deutsch,30,Male,2,,Chrome,Windows,1080,1920,3.3350666666666666,8,Yes
+22,age,ist ,TV,Fernsehen,furniture,fresh,frisch,1.0,25,Deutsch,30,Male,2,,Chrome,Windows,1080,1920,3.3350666666666666,8,Yes
+23,size,ist nicht,banana,Banane,food,small,klein,1.0,26,Deutsch,30,Male,2,,Chrome,Windows,1080,1920,3.3350666666666666,8,Yes
+24,color,ist nicht,chair,Stuhl,furniture,brown,braun,0.0,27,Deutsch,30,Male,2,,Chrome,Windows,1080,1920,3.3350666666666666,8,Yes
+25,shape,ist nicht,fan,Ventilator,furniture,square,quadratisch,0.0,28,Deutsch,30,Male,2,,Chrome,Windows,1080,1920,3.3350666666666666,8,Yes
+0,age,ist ,apple,Apfel,food,old,alt,0.0,3,Deutsch,29,Female,3,"Ich habe eine Weile gebraucht um eine Idee zu bekommen, worauf Sie hinaus wollen. Daher sind meine ersten Antworten vermutlich inkonsistent mit den Folgenden. Außerdem haben die Fragen zum fernsehen für mich wenig Sinn gemacht. Das war kein richtiges Deutsch. ",Chrome,Windows,864,1536,8.677416666666666,9,Yes
+1,size,ist nicht,tomato,Tomate,food,long,lang,0.01,4,Deutsch,29,Female,3,"Ich habe eine Weile gebraucht um eine Idee zu bekommen, worauf Sie hinaus wollen. Daher sind meine ersten Antworten vermutlich inkonsistent mit den Folgenden. Außerdem haben die Fragen zum fernsehen für mich wenig Sinn gemacht. Das war kein richtiges Deutsch. ",Chrome,Windows,864,1536,8.677416666666666,9,Yes
+2,color,ist ,desk,Schreibtisch,furniture,red,rot,0.29,5,Deutsch,29,Female,3,"Ich habe eine Weile gebraucht um eine Idee zu bekommen, worauf Sie hinaus wollen. Daher sind meine ersten Antworten vermutlich inkonsistent mit den Folgenden. Außerdem haben die Fragen zum fernsehen für mich wenig Sinn gemacht. Das war kein richtiges Deutsch. ",Chrome,Windows,864,1536,8.677416666666666,9,Yes
+3,quality,ist ,couch,Couch,furniture,bad,schlecht,0.99,6,Deutsch,29,Female,3,"Ich habe eine Weile gebraucht um eine Idee zu bekommen, worauf Sie hinaus wollen. Daher sind meine ersten Antworten vermutlich inkonsistent mit den Folgenden. Außerdem haben die Fragen zum fernsehen für mich wenig Sinn gemacht. Das war kein richtiges Deutsch. ",Chrome,Windows,864,1536,8.677416666666666,9,Yes
+4,nationality,ist nicht,couch,Couch,furniture,German,deutsch,0.01,7,Deutsch,29,Female,3,"Ich habe eine Weile gebraucht um eine Idee zu bekommen, worauf Sie hinaus wollen. Daher sind meine ersten Antworten vermutlich inkonsistent mit den Folgenden. Außerdem haben die Fragen zum fernsehen für mich wenig Sinn gemacht. Das war kein richtiges Deutsch. ",Chrome,Windows,864,1536,8.677416666666666,9,Yes
+5,texture,ist ,banana,Banane,food,hard,hart,0.42,8,Deutsch,29,Female,3,"Ich habe eine Weile gebraucht um eine Idee zu bekommen, worauf Sie hinaus wollen. Daher sind meine ersten Antworten vermutlich inkonsistent mit den Folgenden. Außerdem haben die Fragen zum fernsehen für mich wenig Sinn gemacht. Das war kein richtiges Deutsch. ",Chrome,Windows,864,1536,8.677416666666666,9,Yes
+6,nationality,ist ,chair,Stuhl,furniture,American,americanisch,0.42,9,Deutsch,29,Female,3,"Ich habe eine Weile gebraucht um eine Idee zu bekommen, worauf Sie hinaus wollen. Daher sind meine ersten Antworten vermutlich inkonsistent mit den Folgenden. Außerdem haben die Fragen zum fernsehen für mich wenig Sinn gemacht. Das war kein richtiges Deutsch. ",Chrome,Windows,864,1536,8.677416666666666,9,Yes
+7,size,ist ,carrot,Karotte,food,big,gro&szlig;,0.95,10,Deutsch,29,Female,3,"Ich habe eine Weile gebraucht um eine Idee zu bekommen, worauf Sie hinaus wollen. Daher sind meine ersten Antworten vermutlich inkonsistent mit den Folgenden. Außerdem haben die Fragen zum fernsehen für mich wenig Sinn gemacht. Das war kein richtiges Deutsch. ",Chrome,Windows,864,1536,8.677416666666666,9,Yes
+8,color,ist ,carrot,Karotte,food,blue,blau,0.25,11,Deutsch,29,Female,3,"Ich habe eine Weile gebraucht um eine Idee zu bekommen, worauf Sie hinaus wollen. Daher sind meine ersten Antworten vermutlich inkonsistent mit den Folgenden. Außerdem haben die Fragen zum fernsehen für mich wenig Sinn gemacht. Das war kein richtiges Deutsch. ",Chrome,Windows,864,1536,8.677416666666666,9,Yes
+9,size,ist ,desk,Schreibtisch,furniture,huge,riesig,0.99,12,Deutsch,29,Female,3,"Ich habe eine Weile gebraucht um eine Idee zu bekommen, worauf Sie hinaus wollen. Daher sind meine ersten Antworten vermutlich inkonsistent mit den Folgenden. Außerdem haben die Fragen zum fernsehen für mich wenig Sinn gemacht. Das war kein richtiges Deutsch. ",Chrome,Windows,864,1536,8.677416666666666,9,Yes
+10,quality,ist ,fan,Ventilator,furniture,good,gut,0.97,13,Deutsch,29,Female,3,"Ich habe eine Weile gebraucht um eine Idee zu bekommen, worauf Sie hinaus wollen. Daher sind meine ersten Antworten vermutlich inkonsistent mit den Folgenden. Außerdem haben die Fragen zum fernsehen für mich wenig Sinn gemacht. Das war kein richtiges Deutsch. ",Chrome,Windows,864,1536,8.677416666666666,9,Yes
+11,texture,ist nicht,tomato,Tomate,food,smooth,glatt,0.2,14,Deutsch,29,Female,3,"Ich habe eine Weile gebraucht um eine Idee zu bekommen, worauf Sie hinaus wollen. Daher sind meine ersten Antworten vermutlich inkonsistent mit den Folgenden. Außerdem haben die Fragen zum fernsehen für mich wenig Sinn gemacht. Das war kein richtiges Deutsch. ",Chrome,Windows,864,1536,8.677416666666666,9,Yes
+12,color,ist nicht,carrot,Karotte,food,yellow,gelb,0.24,15,Deutsch,29,Female,3,"Ich habe eine Weile gebraucht um eine Idee zu bekommen, worauf Sie hinaus wollen. Daher sind meine ersten Antworten vermutlich inkonsistent mit den Folgenden. Außerdem haben die Fragen zum fernsehen für mich wenig Sinn gemacht. Das war kein richtiges Deutsch. ",Chrome,Windows,864,1536,8.677416666666666,9,Yes
+13,shape,ist ,couch,Couch,furniture,square,quadratisch,0.0,16,Deutsch,29,Female,3,"Ich habe eine Weile gebraucht um eine Idee zu bekommen, worauf Sie hinaus wollen. Daher sind meine ersten Antworten vermutlich inkonsistent mit den Folgenden. Außerdem haben die Fragen zum fernsehen für mich wenig Sinn gemacht. Das war kein richtiges Deutsch. ",Chrome,Windows,864,1536,8.677416666666666,9,Yes
+14,shape,ist nicht,fan,Ventilator,furniture,round,rund,0.01,17,Deutsch,29,Female,3,"Ich habe eine Weile gebraucht um eine Idee zu bekommen, worauf Sie hinaus wollen. Daher sind meine ersten Antworten vermutlich inkonsistent mit den Folgenden. Außerdem haben die Fragen zum fernsehen für mich wenig Sinn gemacht. Das war kein richtiges Deutsch. ",Chrome,Windows,864,1536,8.677416666666666,9,Yes
+15,age,ist nicht,TV,Fernsehen,furniture,rotten,faul,0.5,18,Deutsch,29,Female,3,"Ich habe eine Weile gebraucht um eine Idee zu bekommen, worauf Sie hinaus wollen. Daher sind meine ersten Antworten vermutlich inkonsistent mit den Folgenden. Außerdem haben die Fragen zum fernsehen für mich wenig Sinn gemacht. Das war kein richtiges Deutsch. ",Chrome,Windows,864,1536,8.677416666666666,9,Yes
+16,age,ist nicht,cheese,K&auml;se,food,new,neu,0.07,19,Deutsch,29,Female,3,"Ich habe eine Weile gebraucht um eine Idee zu bekommen, worauf Sie hinaus wollen. Daher sind meine ersten Antworten vermutlich inkonsistent mit den Folgenden. Außerdem haben die Fragen zum fernsehen für mich wenig Sinn gemacht. Das war kein richtiges Deutsch. ",Chrome,Windows,864,1536,8.677416666666666,9,Yes
+17,size,ist nicht,desk,Schreibtisch,furniture,small,klein,1.0,20,Deutsch,29,Female,3,"Ich habe eine Weile gebraucht um eine Idee zu bekommen, worauf Sie hinaus wollen. Daher sind meine ersten Antworten vermutlich inkonsistent mit den Folgenden. Außerdem haben die Fragen zum fernsehen für mich wenig Sinn gemacht. Das war kein richtiges Deutsch. ",Chrome,Windows,864,1536,8.677416666666666,9,Yes
+18,size,ist nicht,couch,Couch,furniture,short,kurz,0.95,21,Deutsch,29,Female,3,"Ich habe eine Weile gebraucht um eine Idee zu bekommen, worauf Sie hinaus wollen. Daher sind meine ersten Antworten vermutlich inkonsistent mit den Folgenden. Außerdem haben die Fragen zum fernsehen für mich wenig Sinn gemacht. Das war kein richtiges Deutsch. ",Chrome,Windows,864,1536,8.677416666666666,9,Yes
+19,texture,ist ,cheese,K&auml;se,food,soft,weich,0.47,22,Deutsch,29,Female,3,"Ich habe eine Weile gebraucht um eine Idee zu bekommen, worauf Sie hinaus wollen. Daher sind meine ersten Antworten vermutlich inkonsistent mit den Folgenden. Außerdem haben die Fragen zum fernsehen für mich wenig Sinn gemacht. Das war kein richtiges Deutsch. ",Chrome,Windows,864,1536,8.677416666666666,9,Yes
+20,color,ist ,tomato,Tomate,food,brown,braun,0.25,23,Deutsch,29,Female,3,"Ich habe eine Weile gebraucht um eine Idee zu bekommen, worauf Sie hinaus wollen. Daher sind meine ersten Antworten vermutlich inkonsistent mit den Folgenden. Außerdem haben die Fragen zum fernsehen für mich wenig Sinn gemacht. Das war kein richtiges Deutsch. ",Chrome,Windows,864,1536,8.677416666666666,9,Yes
+21,color,ist ,apple,Apfel,food,green,gr&uuml;n,0.2,24,Deutsch,29,Female,3,"Ich habe eine Weile gebraucht um eine Idee zu bekommen, worauf Sie hinaus wollen. Daher sind meine ersten Antworten vermutlich inkonsistent mit den Folgenden. Außerdem haben die Fragen zum fernsehen für mich wenig Sinn gemacht. Das war kein richtiges Deutsch. ",Chrome,Windows,864,1536,8.677416666666666,9,Yes
+22,color,ist nicht,TV,Fernsehen,furniture,purple,purpur,0.24,25,Deutsch,29,Female,3,"Ich habe eine Weile gebraucht um eine Idee zu bekommen, worauf Sie hinaus wollen. Daher sind meine ersten Antworten vermutlich inkonsistent mit den Folgenden. Außerdem haben die Fragen zum fernsehen für mich wenig Sinn gemacht. Das war kein richtiges Deutsch. ",Chrome,Windows,864,1536,8.677416666666666,9,Yes
+23,size,ist ,couch,Couch,furniture,tiny,winzig,0.97,26,Deutsch,29,Female,3,"Ich habe eine Weile gebraucht um eine Idee zu bekommen, worauf Sie hinaus wollen. Daher sind meine ersten Antworten vermutlich inkonsistent mit den Folgenden. Außerdem haben die Fragen zum fernsehen für mich wenig Sinn gemacht. Das war kein richtiges Deutsch. ",Chrome,Windows,864,1536,8.677416666666666,9,Yes
+24,age,ist nicht,TV,Fernsehen,furniture,fresh,frisch,0.31,27,Deutsch,29,Female,3,"Ich habe eine Weile gebraucht um eine Idee zu bekommen, worauf Sie hinaus wollen. Daher sind meine ersten Antworten vermutlich inkonsistent mit den Folgenden. Außerdem haben die Fragen zum fernsehen für mich wenig Sinn gemacht. Das war kein richtiges Deutsch. ",Chrome,Windows,864,1536,8.677416666666666,9,Yes
+25,nationality,ist ,chair,Stuhl,furniture,French,franz&ouml;sisch,0.26,28,Deutsch,29,Female,3,"Ich habe eine Weile gebraucht um eine Idee zu bekommen, worauf Sie hinaus wollen. Daher sind meine ersten Antworten vermutlich inkonsistent mit den Folgenden. Außerdem haben die Fragen zum fernsehen für mich wenig Sinn gemacht. Das war kein richtiges Deutsch. ",Chrome,Windows,864,1536,8.677416666666666,9,Yes
+0,age,ist ,fan,Ventilator,furniture,rotten,faul,0.79,3,Deutsch,27,Male,3,,Firefox,Windows,1080,1920,3.67025,10,Yes
+1,color,ist ,couch,Couch,furniture,purple,purpur,0.08,4,Deutsch,27,Male,3,,Firefox,Windows,1080,1920,3.67025,10,Yes
+2,color,ist nicht,cheese,K&auml;se,food,yellow,gelb,0.31,5,Deutsch,27,Male,3,,Firefox,Windows,1080,1920,3.67025,10,Yes
+3,nationality,ist ,apple,Apfel,food,German,deutsch,0.15,6,Deutsch,27,Male,3,,Firefox,Windows,1080,1920,3.67025,10,Yes
+4,age,ist nicht,apple,Apfel,food,old,alt,0.84,7,Deutsch,27,Male,3,,Firefox,Windows,1080,1920,3.67025,10,Yes
+5,shape,ist nicht,banana,Banane,food,round,rund,0.03,8,Deutsch,27,Male,3,,Firefox,Windows,1080,1920,3.67025,10,Yes
+6,size,ist nicht,carrot,Karotte,food,huge,riesig,0.39,9,Deutsch,27,Male,3,,Firefox,Windows,1080,1920,3.67025,10,Yes
+7,color,ist ,fan,Ventilator,furniture,blue,blau,0.17,10,Deutsch,27,Male,3,,Firefox,Windows,1080,1920,3.67025,10,Yes
+8,size,ist ,carrot,Karotte,food,small,klein,0.58,11,Deutsch,27,Male,3,,Firefox,Windows,1080,1920,3.67025,10,Yes
+9,age,ist nicht,tomato,Tomate,food,fresh,frisch,0.64,12,Deutsch,27,Male,3,,Firefox,Windows,1080,1920,3.67025,10,Yes
+10,age,ist ,desk,Schreibtisch,furniture,new,neu,0.8,13,Deutsch,27,Male,3,,Firefox,Windows,1080,1920,3.67025,10,Yes
+11,quality,ist nicht,couch,Couch,furniture,good,gut,0.92,14,Deutsch,27,Male,3,,Firefox,Windows,1080,1920,3.67025,10,Yes
+12,shape,ist nicht,couch,Couch,furniture,square,quadratisch,0.03,15,Deutsch,27,Male,3,,Firefox,Windows,1080,1920,3.67025,10,Yes
+13,texture,ist nicht,couch,Couch,furniture,soft,weich,0.83,16,Deutsch,27,Male,3,,Firefox,Windows,1080,1920,3.67025,10,Yes
+14,size,ist ,banana,Banane,food,short,kurz,0.64,17,Deutsch,27,Male,3,,Firefox,Windows,1080,1920,3.67025,10,Yes
+15,color,ist ,banana,Banane,food,green,gr&uuml;n,0.43,18,Deutsch,27,Male,3,,Firefox,Windows,1080,1920,3.67025,10,Yes
+16,nationality,ist nicht,TV,Fernsehen,furniture,French,franz&ouml;sisch,0.08,19,Deutsch,27,Male,3,,Firefox,Windows,1080,1920,3.67025,10,Yes
+17,color,ist nicht,banana,Banane,food,red,rot,0.33,20,Deutsch,27,Male,3,,Firefox,Windows,1080,1920,3.67025,10,Yes
+18,quality,ist nicht,apple,Apfel,food,bad,schlecht,0.76,21,Deutsch,27,Male,3,,Firefox,Windows,1080,1920,3.67025,10,Yes
+19,size,ist ,chair,Stuhl,furniture,long,lang,0.51,22,Deutsch,27,Male,3,,Firefox,Windows,1080,1920,3.67025,10,Yes
+20,texture,ist ,couch,Couch,furniture,smooth,glatt,0.58,23,Deutsch,27,Male,3,,Firefox,Windows,1080,1920,3.67025,10,Yes
+21,size,ist nicht,apple,Apfel,food,big,gro&szlig;,0.68,24,Deutsch,27,Male,3,,Firefox,Windows,1080,1920,3.67025,10,Yes
+22,size,ist nicht,carrot,Karotte,food,tiny,winzig,0.61,25,Deutsch,27,Male,3,,Firefox,Windows,1080,1920,3.67025,10,Yes
+23,nationality,ist ,apple,Apfel,food,American,americanisch,0.21,26,Deutsch,27,Male,3,,Firefox,Windows,1080,1920,3.67025,10,Yes
+24,texture,ist nicht,apple,Apfel,food,hard,hart,0.77,27,Deutsch,27,Male,3,,Firefox,Windows,1080,1920,3.67025,10,Yes
+25,color,ist nicht,banana,Banane,food,brown,braun,0.42,28,Deutsch,27,Male,3,,Firefox,Windows,1080,1920,3.67025,10,Yes
+0,age,ist nicht,TV,Fernsehen,furniture,rotten,faul,0.95,3,Deutsch,24,Female,2,"Wie kann das Fernsehen frisch sein? Manche Aussagen habe ich ehrlich gesagt nicht ganz verstanden, obwohl ich Muttersprachlerin bin.",Safari,Mac,900,1440,10.900033333333333,11,Yes
+1,nationality,ist ,desk,Schreibtisch,furniture,German,deutsch,0.96,4,Deutsch,24,Female,2,"Wie kann das Fernsehen frisch sein? Manche Aussagen habe ich ehrlich gesagt nicht ganz verstanden, obwohl ich Muttersprachlerin bin.",Safari,Mac,900,1440,10.900033333333333,11,Yes
+2,shape,ist ,couch,Couch,furniture,square,quadratisch,0.05,5,Deutsch,24,Female,2,"Wie kann das Fernsehen frisch sein? Manche Aussagen habe ich ehrlich gesagt nicht ganz verstanden, obwohl ich Muttersprachlerin bin.",Safari,Mac,900,1440,10.900033333333333,11,Yes
+3,color,ist nicht,fan,Ventilator,furniture,red,rot,0.21,6,Deutsch,24,Female,2,"Wie kann das Fernsehen frisch sein? Manche Aussagen habe ich ehrlich gesagt nicht ganz verstanden, obwohl ich Muttersprachlerin bin.",Safari,Mac,900,1440,10.900033333333333,11,Yes
+4,size,ist nicht,TV,Fernsehen,furniture,small,klein,0.97,7,Deutsch,24,Female,2,"Wie kann das Fernsehen frisch sein? Manche Aussagen habe ich ehrlich gesagt nicht ganz verstanden, obwohl ich Muttersprachlerin bin.",Safari,Mac,900,1440,10.900033333333333,11,Yes
+5,size,ist nicht,cheese,K&auml;se,food,tiny,winzig,0.47,8,Deutsch,24,Female,2,"Wie kann das Fernsehen frisch sein? Manche Aussagen habe ich ehrlich gesagt nicht ganz verstanden, obwohl ich Muttersprachlerin bin.",Safari,Mac,900,1440,10.900033333333333,11,Yes
+6,quality,ist nicht,fan,Ventilator,furniture,bad,schlecht,0.37,9,Deutsch,24,Female,2,"Wie kann das Fernsehen frisch sein? Manche Aussagen habe ich ehrlich gesagt nicht ganz verstanden, obwohl ich Muttersprachlerin bin.",Safari,Mac,900,1440,10.900033333333333,11,Yes
+7,size,ist ,tomato,Tomate,food,long,lang,0.35,10,Deutsch,24,Female,2,"Wie kann das Fernsehen frisch sein? Manche Aussagen habe ich ehrlich gesagt nicht ganz verstanden, obwohl ich Muttersprachlerin bin.",Safari,Mac,900,1440,10.900033333333333,11,Yes
+8,size,ist nicht,tomato,Tomate,food,big,gro&szlig;,0.36,11,Deutsch,24,Female,2,"Wie kann das Fernsehen frisch sein? Manche Aussagen habe ich ehrlich gesagt nicht ganz verstanden, obwohl ich Muttersprachlerin bin.",Safari,Mac,900,1440,10.900033333333333,11,Yes
+9,nationality,ist ,banana,Banane,food,American,americanisch,0.04,12,Deutsch,24,Female,2,"Wie kann das Fernsehen frisch sein? Manche Aussagen habe ich ehrlich gesagt nicht ganz verstanden, obwohl ich Muttersprachlerin bin.",Safari,Mac,900,1440,10.900033333333333,11,Yes
+10,texture,ist ,TV,Fernsehen,furniture,hard,hart,0.99,13,Deutsch,24,Female,2,"Wie kann das Fernsehen frisch sein? Manche Aussagen habe ich ehrlich gesagt nicht ganz verstanden, obwohl ich Muttersprachlerin bin.",Safari,Mac,900,1440,10.900033333333333,11,Yes
+11,color,ist nicht,couch,Couch,furniture,purple,purpur,0.13,14,Deutsch,24,Female,2,"Wie kann das Fernsehen frisch sein? Manche Aussagen habe ich ehrlich gesagt nicht ganz verstanden, obwohl ich Muttersprachlerin bin.",Safari,Mac,900,1440,10.900033333333333,11,Yes
+12,quality,ist nicht,tomato,Tomate,food,good,gut,0.59,15,Deutsch,24,Female,2,"Wie kann das Fernsehen frisch sein? Manche Aussagen habe ich ehrlich gesagt nicht ganz verstanden, obwohl ich Muttersprachlerin bin.",Safari,Mac,900,1440,10.900033333333333,11,Yes
+13,texture,ist ,chair,Stuhl,furniture,smooth,glatt,0.18,16,Deutsch,24,Female,2,"Wie kann das Fernsehen frisch sein? Manche Aussagen habe ich ehrlich gesagt nicht ganz verstanden, obwohl ich Muttersprachlerin bin.",Safari,Mac,900,1440,10.900033333333333,11,Yes
+14,age,ist nicht,cheese,K&auml;se,food,old,alt,0.68,17,Deutsch,24,Female,2,"Wie kann das Fernsehen frisch sein? Manche Aussagen habe ich ehrlich gesagt nicht ganz verstanden, obwohl ich Muttersprachlerin bin.",Safari,Mac,900,1440,10.900033333333333,11,Yes
+15,color,ist ,tomato,Tomate,food,green,gr&uuml;n,0.19,18,Deutsch,24,Female,2,"Wie kann das Fernsehen frisch sein? Manche Aussagen habe ich ehrlich gesagt nicht ganz verstanden, obwohl ich Muttersprachlerin bin.",Safari,Mac,900,1440,10.900033333333333,11,Yes
+16,color,ist ,fan,Ventilator,furniture,blue,blau,0.01,19,Deutsch,24,Female,2,"Wie kann das Fernsehen frisch sein? Manche Aussagen habe ich ehrlich gesagt nicht ganz verstanden, obwohl ich Muttersprachlerin bin.",Safari,Mac,900,1440,10.900033333333333,11,Yes
+17,texture,ist nicht,banana,Banane,food,soft,weich,0.61,20,Deutsch,24,Female,2,"Wie kann das Fernsehen frisch sein? Manche Aussagen habe ich ehrlich gesagt nicht ganz verstanden, obwohl ich Muttersprachlerin bin.",Safari,Mac,900,1440,10.900033333333333,11,Yes
+18,size,ist ,apple,Apfel,food,huge,riesig,0.13,21,Deutsch,24,Female,2,"Wie kann das Fernsehen frisch sein? Manche Aussagen habe ich ehrlich gesagt nicht ganz verstanden, obwohl ich Muttersprachlerin bin.",Safari,Mac,900,1440,10.900033333333333,11,Yes
+19,size,ist nicht,couch,Couch,furniture,short,kurz,0.76,22,Deutsch,24,Female,2,"Wie kann das Fernsehen frisch sein? Manche Aussagen habe ich ehrlich gesagt nicht ganz verstanden, obwohl ich Muttersprachlerin bin.",Safari,Mac,900,1440,10.900033333333333,11,Yes
+20,color,ist ,desk,Schreibtisch,furniture,brown,braun,0.03,23,Deutsch,24,Female,2,"Wie kann das Fernsehen frisch sein? Manche Aussagen habe ich ehrlich gesagt nicht ganz verstanden, obwohl ich Muttersprachlerin bin.",Safari,Mac,900,1440,10.900033333333333,11,Yes
+21,age,ist nicht,fan,Ventilator,furniture,new,neu,0.11,24,Deutsch,24,Female,2,"Wie kann das Fernsehen frisch sein? Manche Aussagen habe ich ehrlich gesagt nicht ganz verstanden, obwohl ich Muttersprachlerin bin.",Safari,Mac,900,1440,10.900033333333333,11,Yes
+22,age,ist nicht,TV,Fernsehen,furniture,fresh,frisch,0.13,25,Deutsch,24,Female,2,"Wie kann das Fernsehen frisch sein? Manche Aussagen habe ich ehrlich gesagt nicht ganz verstanden, obwohl ich Muttersprachlerin bin.",Safari,Mac,900,1440,10.900033333333333,11,Yes
+23,color,ist ,fan,Ventilator,furniture,yellow,gelb,0.0,26,Deutsch,24,Female,2,"Wie kann das Fernsehen frisch sein? Manche Aussagen habe ich ehrlich gesagt nicht ganz verstanden, obwohl ich Muttersprachlerin bin.",Safari,Mac,900,1440,10.900033333333333,11,Yes
+24,nationality,ist ,carrot,Karotte,food,French,franz&ouml;sisch,0.03,27,Deutsch,24,Female,2,"Wie kann das Fernsehen frisch sein? Manche Aussagen habe ich ehrlich gesagt nicht ganz verstanden, obwohl ich Muttersprachlerin bin.",Safari,Mac,900,1440,10.900033333333333,11,Yes
+25,shape,ist nicht,fan,Ventilator,furniture,round,rund,0.0,28,Deutsch,24,Female,2,"Wie kann das Fernsehen frisch sein? Manche Aussagen habe ich ehrlich gesagt nicht ganz verstanden, obwohl ich Muttersprachlerin bin.",Safari,Mac,900,1440,10.900033333333333,11,Yes
+0,color,ist ,banana,Banane,food,purple,purpur,0.0,3,Deutsch,37,Female,1,,Chrome,Mac,900,1440,4.4444,12,Yes
+1,size,ist ,TV,Fernsehen,furniture,huge,riesig,0.86,4,Deutsch,37,Female,1,,Chrome,Mac,900,1440,4.4444,12,Yes
+2,nationality,ist ,carrot,Karotte,food,German,deutsch,0.0,5,Deutsch,37,Female,1,,Chrome,Mac,900,1440,4.4444,12,Yes
+3,nationality,ist ,TV,Fernsehen,furniture,French,franz&ouml;sisch,0.0,6,Deutsch,37,Female,1,,Chrome,Mac,900,1440,4.4444,12,Yes
+4,color,ist nicht,couch,Couch,furniture,brown,braun,0.0,7,Deutsch,37,Female,1,,Chrome,Mac,900,1440,4.4444,12,Yes
+5,age,ist nicht,cheese,K&auml;se,food,new,neu,0.0,8,Deutsch,37,Female,1,,Chrome,Mac,900,1440,4.4444,12,Yes
+6,texture,ist ,banana,Banane,food,hard,hart,0.35,9,Deutsch,37,Female,1,,Chrome,Mac,900,1440,4.4444,12,Yes
+7,nationality,ist nicht,apple,Apfel,food,American,americanisch,0.0,10,Deutsch,37,Female,1,,Chrome,Mac,900,1440,4.4444,12,Yes
+8,age,ist ,couch,Couch,furniture,old,alt,0.35,11,Deutsch,37,Female,1,,Chrome,Mac,900,1440,4.4444,12,Yes
+9,texture,ist nicht,banana,Banane,food,smooth,glatt,0.19,12,Deutsch,37,Female,1,,Chrome,Mac,900,1440,4.4444,12,Yes
+10,size,ist nicht,desk,Schreibtisch,furniture,long,lang,0.57,13,Deutsch,37,Female,1,,Chrome,Mac,900,1440,4.4444,12,Yes
+11,quality,ist ,desk,Schreibtisch,furniture,bad,schlecht,1.0,14,Deutsch,37,Female,1,,Chrome,Mac,900,1440,4.4444,12,Yes
+12,size,ist nicht,tomato,Tomate,food,big,gro&szlig;,0.43,15,Deutsch,37,Female,1,,Chrome,Mac,900,1440,4.4444,12,Yes
+13,shape,ist ,couch,Couch,furniture,square,quadratisch,0.0,16,Deutsch,37,Female,1,,Chrome,Mac,900,1440,4.4444,12,Yes
+14,size,ist ,banana,Banane,food,short,kurz,0.12,17,Deutsch,37,Female,1,,Chrome,Mac,900,1440,4.4444,12,Yes
+15,age,ist ,tomato,Tomate,food,rotten,faul,0.17,18,Deutsch,37,Female,1,,Chrome,Mac,900,1440,4.4444,12,Yes
+16,color,ist nicht,tomato,Tomate,food,red,rot,0.0,19,Deutsch,37,Female,1,,Chrome,Mac,900,1440,4.4444,12,Yes
+17,color,ist nicht,tomato,Tomate,food,yellow,gelb,0.0,20,Deutsch,37,Female,1,,Chrome,Mac,900,1440,4.4444,12,Yes
+18,color,ist nicht,TV,Fernsehen,furniture,green,gr&uuml;n,0.0,21,Deutsch,37,Female,1,,Chrome,Mac,900,1440,4.4444,12,Yes
+19,color,ist nicht,TV,Fernsehen,furniture,blue,blau,0.0,22,Deutsch,37,Female,1,,Chrome,Mac,900,1440,4.4444,12,Yes
+20,quality,ist ,apple,Apfel,food,good,gut,0.59,23,Deutsch,37,Female,1,,Chrome,Mac,900,1440,4.4444,12,Yes
+21,size,ist ,banana,Banane,food,tiny,winzig,0.39,24,Deutsch,37,Female,1,,Chrome,Mac,900,1440,4.4444,12,Yes
+22,age,ist ,desk,Schreibtisch,furniture,fresh,frisch,0.12,25,Deutsch,37,Female,1,,Chrome,Mac,900,1440,4.4444,12,Yes
+23,shape,ist ,couch,Couch,furniture,round,rund,0.0,26,Deutsch,37,Female,1,,Chrome,Mac,900,1440,4.4444,12,Yes
+24,size,ist ,couch,Couch,furniture,small,klein,0.42,27,Deutsch,37,Female,1,,Chrome,Mac,900,1440,4.4444,12,Yes
+25,texture,ist ,couch,Couch,furniture,soft,weich,0.83,28,Deutsch,37,Female,1,,Chrome,Mac,900,1440,4.4444,12,Yes
+0,size,ist nicht,chair,Stuhl,furniture,small,klein,0.98,3,deutsch,20,Male,2,,Chrome,Windows,778,1384,3.3133333333333335,13,Yes
+1,quality,ist nicht,TV,Fernsehen,furniture,good,gut,0.94,4,deutsch,20,Male,2,,Chrome,Windows,778,1384,3.3133333333333335,13,Yes
+2,nationality,ist ,fan,Ventilator,furniture,French,franz&ouml;sisch,0.0,5,deutsch,20,Male,2,,Chrome,Windows,778,1384,3.3133333333333335,13,Yes
+3,shape,ist ,TV,Fernsehen,furniture,square,quadratisch,0.01,6,deutsch,20,Male,2,,Chrome,Windows,778,1384,3.3133333333333335,13,Yes
+4,size,ist ,carrot,Karotte,food,big,gro&szlig;,1.0,7,deutsch,20,Male,2,,Chrome,Windows,778,1384,3.3133333333333335,13,Yes
+5,age,ist ,chair,Stuhl,furniture,fresh,frisch,0.49,8,deutsch,20,Male,2,,Chrome,Windows,778,1384,3.3133333333333335,13,Yes
+6,nationality,ist ,fan,Ventilator,furniture,American,americanisch,0.0,9,deutsch,20,Male,2,,Chrome,Windows,778,1384,3.3133333333333335,13,Yes
+7,texture,ist ,TV,Fernsehen,furniture,hard,hart,0.99,10,deutsch,20,Male,2,,Chrome,Windows,778,1384,3.3133333333333335,13,Yes
+8,nationality,ist ,desk,Schreibtisch,furniture,German,deutsch,0.0,11,deutsch,20,Male,2,,Chrome,Windows,778,1384,3.3133333333333335,13,Yes
+9,size,ist ,fan,Ventilator,furniture,long,lang,1.0,12,deutsch,20,Male,2,,Chrome,Windows,778,1384,3.3133333333333335,13,Yes
+10,texture,ist nicht,banana,Banane,food,smooth,glatt,1.0,13,deutsch,20,Male,2,,Chrome,Windows,778,1384,3.3133333333333335,13,Yes
+11,age,ist ,tomato,Tomate,food,old,alt,1.0,14,deutsch,20,Male,2,,Chrome,Windows,778,1384,3.3133333333333335,13,Yes
+12,texture,ist nicht,carrot,Karotte,food,soft,weich,0.97,15,deutsch,20,Male,2,,Chrome,Windows,778,1384,3.3133333333333335,13,Yes
+13,color,ist ,carrot,Karotte,food,red,rot,0.0,16,deutsch,20,Male,2,,Chrome,Windows,778,1384,3.3133333333333335,13,Yes
+14,color,ist ,apple,Apfel,food,brown,braun,0.0,17,deutsch,20,Male,2,,Chrome,Windows,778,1384,3.3133333333333335,13,Yes
+15,color,ist nicht,desk,Schreibtisch,furniture,green,gr&uuml;n,0.0,18,deutsch,20,Male,2,,Chrome,Windows,778,1384,3.3133333333333335,13,Yes
+16,color,ist nicht,carrot,Karotte,food,yellow,gelb,0.0,19,deutsch,20,Male,2,,Chrome,Windows,778,1384,3.3133333333333335,13,Yes
+17,age,ist ,cheese,K&auml;se,food,rotten,faul,0.0,20,deutsch,20,Male,2,,Chrome,Windows,778,1384,3.3133333333333335,13,Yes
+18,quality,ist ,banana,Banane,food,bad,schlecht,0.0,21,deutsch,20,Male,2,,Chrome,Windows,778,1384,3.3133333333333335,13,Yes
+19,shape,ist nicht,apple,Apfel,food,round,rund,0.0,22,deutsch,20,Male,2,,Chrome,Windows,778,1384,3.3133333333333335,13,Yes
+20,size,ist nicht,apple,Apfel,food,tiny,winzig,1.0,23,deutsch,20,Male,2,,Chrome,Windows,778,1384,3.3133333333333335,13,Yes
+21,color,ist ,fan,Ventilator,furniture,purple,purpur,0.0,24,deutsch,20,Male,2,,Chrome,Windows,778,1384,3.3133333333333335,13,Yes
+22,age,ist ,banana,Banane,food,new,neu,1.0,25,deutsch,20,Male,2,,Chrome,Windows,778,1384,3.3133333333333335,13,Yes
+23,size,ist nicht,couch,Couch,furniture,huge,riesig,1.0,26,deutsch,20,Male,2,,Chrome,Windows,778,1384,3.3133333333333335,13,Yes
+24,size,ist ,chair,Stuhl,furniture,short,kurz,1.0,27,deutsch,20,Male,2,,Chrome,Windows,778,1384,3.3133333333333335,13,Yes
+25,color,ist nicht,carrot,Karotte,food,blue,blau,0.0,28,deutsch,20,Male,2,,Chrome,Windows,778,1384,3.3133333333333335,13,Yes
+0,age,ist ,fan,Ventilator,furniture,new,neu,0.94,3,Deutsch,33,Female,2,Es sind mir ein paar Grammatikfehler aufgefallen,Safari,an unknown OS,1024,768,6.022633333333333,14,Yes
+1,texture,ist nicht,TV,Fernsehen,furniture,smooth,glatt,0.07,4,Deutsch,33,Female,2,Es sind mir ein paar Grammatikfehler aufgefallen,Safari,an unknown OS,1024,768,6.022633333333333,14,Yes
+2,color,ist nicht,chair,Stuhl,furniture,brown,braun,0.08,5,Deutsch,33,Female,2,Es sind mir ein paar Grammatikfehler aufgefallen,Safari,an unknown OS,1024,768,6.022633333333333,14,Yes
+3,size,ist ,fan,Ventilator,furniture,small,klein,0.97,6,Deutsch,33,Female,2,Es sind mir ein paar Grammatikfehler aufgefallen,Safari,an unknown OS,1024,768,6.022633333333333,14,Yes
+4,size,ist ,chair,Stuhl,furniture,short,kurz,0.97,7,Deutsch,33,Female,2,Es sind mir ein paar Grammatikfehler aufgefallen,Safari,an unknown OS,1024,768,6.022633333333333,14,Yes
+5,nationality,ist nicht,TV,Fernsehen,furniture,American,americanisch,0.06,8,Deutsch,33,Female,2,Es sind mir ein paar Grammatikfehler aufgefallen,Safari,an unknown OS,1024,768,6.022633333333333,14,Yes
+6,color,ist ,fan,Ventilator,furniture,purple,purpur,0.06,9,Deutsch,33,Female,2,Es sind mir ein paar Grammatikfehler aufgefallen,Safari,an unknown OS,1024,768,6.022633333333333,14,Yes
+7,size,ist ,tomato,Tomate,food,big,gro&szlig;,0.96,10,Deutsch,33,Female,2,Es sind mir ein paar Grammatikfehler aufgefallen,Safari,an unknown OS,1024,768,6.022633333333333,14,Yes
+8,size,ist ,fan,Ventilator,furniture,tiny,winzig,0.95,11,Deutsch,33,Female,2,Es sind mir ein paar Grammatikfehler aufgefallen,Safari,an unknown OS,1024,768,6.022633333333333,14,Yes
+9,color,ist nicht,apple,Apfel,food,blue,blau,0.07,12,Deutsch,33,Female,2,Es sind mir ein paar Grammatikfehler aufgefallen,Safari,an unknown OS,1024,768,6.022633333333333,14,Yes
+10,nationality,ist ,fan,Ventilator,furniture,German,deutsch,0.08,13,Deutsch,33,Female,2,Es sind mir ein paar Grammatikfehler aufgefallen,Safari,an unknown OS,1024,768,6.022633333333333,14,Yes
+11,nationality,ist nicht,couch,Couch,furniture,French,franz&ouml;sisch,0.54,14,Deutsch,33,Female,2,Es sind mir ein paar Grammatikfehler aufgefallen,Safari,an unknown OS,1024,768,6.022633333333333,14,Yes
+12,texture,ist nicht,fan,Ventilator,furniture,hard,hart,0.06,15,Deutsch,33,Female,2,Es sind mir ein paar Grammatikfehler aufgefallen,Safari,an unknown OS,1024,768,6.022633333333333,14,Yes
+13,shape,ist ,cheese,K&auml;se,food,round,rund,0.05,16,Deutsch,33,Female,2,Es sind mir ein paar Grammatikfehler aufgefallen,Safari,an unknown OS,1024,768,6.022633333333333,14,Yes
+14,age,ist ,carrot,Karotte,food,rotten,faul,0.09,17,Deutsch,33,Female,2,Es sind mir ein paar Grammatikfehler aufgefallen,Safari,an unknown OS,1024,768,6.022633333333333,14,Yes
+15,size,ist ,tomato,Tomate,food,long,lang,0.1,18,Deutsch,33,Female,2,Es sind mir ein paar Grammatikfehler aufgefallen,Safari,an unknown OS,1024,768,6.022633333333333,14,Yes
+16,color,ist ,cheese,K&auml;se,food,yellow,gelb,0.07,19,Deutsch,33,Female,2,Es sind mir ein paar Grammatikfehler aufgefallen,Safari,an unknown OS,1024,768,6.022633333333333,14,Yes
+17,quality,ist ,apple,Apfel,food,good,gut,0.97,20,Deutsch,33,Female,2,Es sind mir ein paar Grammatikfehler aufgefallen,Safari,an unknown OS,1024,768,6.022633333333333,14,Yes
+18,quality,ist nicht,apple,Apfel,food,bad,schlecht,0.98,21,Deutsch,33,Female,2,Es sind mir ein paar Grammatikfehler aufgefallen,Safari,an unknown OS,1024,768,6.022633333333333,14,Yes
+19,age,ist nicht,TV,Fernsehen,furniture,old,alt,0.96,22,Deutsch,33,Female,2,Es sind mir ein paar Grammatikfehler aufgefallen,Safari,an unknown OS,1024,768,6.022633333333333,14,Yes
+20,color,ist nicht,TV,Fernsehen,furniture,red,rot,0.06,23,Deutsch,33,Female,2,Es sind mir ein paar Grammatikfehler aufgefallen,Safari,an unknown OS,1024,768,6.022633333333333,14,Yes
+21,texture,ist ,desk,Schreibtisch,furniture,soft,weich,0.07,24,Deutsch,33,Female,2,Es sind mir ein paar Grammatikfehler aufgefallen,Safari,an unknown OS,1024,768,6.022633333333333,14,Yes
+22,age,ist ,carrot,Karotte,food,fresh,frisch,0.97,25,Deutsch,33,Female,2,Es sind mir ein paar Grammatikfehler aufgefallen,Safari,an unknown OS,1024,768,6.022633333333333,14,Yes
+23,shape,ist nicht,tomato,Tomate,food,square,quadratisch,0.06,26,Deutsch,33,Female,2,Es sind mir ein paar Grammatikfehler aufgefallen,Safari,an unknown OS,1024,768,6.022633333333333,14,Yes
+24,color,ist ,TV,Fernsehen,furniture,green,gr&uuml;n,0.05,27,Deutsch,33,Female,2,Es sind mir ein paar Grammatikfehler aufgefallen,Safari,an unknown OS,1024,768,6.022633333333333,14,Yes
+25,size,ist nicht,apple,Apfel,food,huge,riesig,0.97,28,Deutsch,33,Female,2,Es sind mir ein paar Grammatikfehler aufgefallen,Safari,an unknown OS,1024,768,6.022633333333333,14,Yes
+0,age,ist ,tomato,Tomate,food,rotten,faul,0.97,3,deutsch,44,Female,2,"Die Umfrage war ein bißchen deppert. Es ging um deutsche Sprache, aber die Grammatik war grauslig. Brauchen Sie Korrekturleser? Bitte melden, ich brauche Jobs.",Firefox,Windows,768,1366,8.84355,15,Yes
+1,size,ist nicht,desk,Schreibtisch,furniture,huge,riesig,0.91,4,deutsch,44,Female,2,"Die Umfrage war ein bißchen deppert. Es ging um deutsche Sprache, aber die Grammatik war grauslig. Brauchen Sie Korrekturleser? Bitte melden, ich brauche Jobs.",Firefox,Windows,768,1366,8.84355,15,Yes
+2,color,ist nicht,carrot,Karotte,food,purple,purpur,0.45,5,deutsch,44,Female,2,"Die Umfrage war ein bißchen deppert. Es ging um deutsche Sprache, aber die Grammatik war grauslig. Brauchen Sie Korrekturleser? Bitte melden, ich brauche Jobs.",Firefox,Windows,768,1366,8.84355,15,Yes
+3,texture,ist ,couch,Couch,furniture,smooth,glatt,0.52,6,deutsch,44,Female,2,"Die Umfrage war ein bißchen deppert. Es ging um deutsche Sprache, aber die Grammatik war grauslig. Brauchen Sie Korrekturleser? Bitte melden, ich brauche Jobs.",Firefox,Windows,768,1366,8.84355,15,Yes
+4,texture,ist ,couch,Couch,furniture,hard,hart,0.81,7,deutsch,44,Female,2,"Die Umfrage war ein bißchen deppert. Es ging um deutsche Sprache, aber die Grammatik war grauslig. Brauchen Sie Korrekturleser? Bitte melden, ich brauche Jobs.",Firefox,Windows,768,1366,8.84355,15,Yes
+5,size,ist nicht,TV,Fernsehen,furniture,short,kurz,0.85,8,deutsch,44,Female,2,"Die Umfrage war ein bißchen deppert. Es ging um deutsche Sprache, aber die Grammatik war grauslig. Brauchen Sie Korrekturleser? Bitte melden, ich brauche Jobs.",Firefox,Windows,768,1366,8.84355,15,Yes
+6,age,ist nicht,chair,Stuhl,furniture,new,neu,0.21,9,deutsch,44,Female,2,"Die Umfrage war ein bißchen deppert. Es ging um deutsche Sprache, aber die Grammatik war grauslig. Brauchen Sie Korrekturleser? Bitte melden, ich brauche Jobs.",Firefox,Windows,768,1366,8.84355,15,Yes
+7,color,ist nicht,tomato,Tomate,food,blue,blau,0.29,10,deutsch,44,Female,2,"Die Umfrage war ein bißchen deppert. Es ging um deutsche Sprache, aber die Grammatik war grauslig. Brauchen Sie Korrekturleser? Bitte melden, ich brauche Jobs.",Firefox,Windows,768,1366,8.84355,15,Yes
+8,size,ist ,desk,Schreibtisch,furniture,tiny,winzig,0.47,11,deutsch,44,Female,2,"Die Umfrage war ein bißchen deppert. Es ging um deutsche Sprache, aber die Grammatik war grauslig. Brauchen Sie Korrekturleser? Bitte melden, ich brauche Jobs.",Firefox,Windows,768,1366,8.84355,15,Yes
+9,size,ist nicht,TV,Fernsehen,furniture,big,gro&szlig;,0.37,12,deutsch,44,Female,2,"Die Umfrage war ein bißchen deppert. Es ging um deutsche Sprache, aber die Grammatik war grauslig. Brauchen Sie Korrekturleser? Bitte melden, ich brauche Jobs.",Firefox,Windows,768,1366,8.84355,15,Yes
+10,texture,ist ,couch,Couch,furniture,soft,weich,0.82,13,deutsch,44,Female,2,"Die Umfrage war ein bißchen deppert. Es ging um deutsche Sprache, aber die Grammatik war grauslig. Brauchen Sie Korrekturleser? Bitte melden, ich brauche Jobs.",Firefox,Windows,768,1366,8.84355,15,Yes
+11,quality,ist ,desk,Schreibtisch,furniture,good,gut,0.95,14,deutsch,44,Female,2,"Die Umfrage war ein bißchen deppert. Es ging um deutsche Sprache, aber die Grammatik war grauslig. Brauchen Sie Korrekturleser? Bitte melden, ich brauche Jobs.",Firefox,Windows,768,1366,8.84355,15,Yes
+12,size,ist ,carrot,Karotte,food,small,klein,0.11,15,deutsch,44,Female,2,"Die Umfrage war ein bißchen deppert. Es ging um deutsche Sprache, aber die Grammatik war grauslig. Brauchen Sie Korrekturleser? Bitte melden, ich brauche Jobs.",Firefox,Windows,768,1366,8.84355,15,Yes
+13,age,ist ,fan,Ventilator,furniture,fresh,frisch,0.58,16,deutsch,44,Female,2,"Die Umfrage war ein bißchen deppert. Es ging um deutsche Sprache, aber die Grammatik war grauslig. Brauchen Sie Korrekturleser? Bitte melden, ich brauche Jobs.",Firefox,Windows,768,1366,8.84355,15,Yes
+14,color,ist ,desk,Schreibtisch,furniture,brown,braun,0.03,17,deutsch,44,Female,2,"Die Umfrage war ein bißchen deppert. Es ging um deutsche Sprache, aber die Grammatik war grauslig. Brauchen Sie Korrekturleser? Bitte melden, ich brauche Jobs.",Firefox,Windows,768,1366,8.84355,15,Yes
+15,color,ist nicht,carrot,Karotte,food,green,gr&uuml;n,0.18,18,deutsch,44,Female,2,"Die Umfrage war ein bißchen deppert. Es ging um deutsche Sprache, aber die Grammatik war grauslig. Brauchen Sie Korrekturleser? Bitte melden, ich brauche Jobs.",Firefox,Windows,768,1366,8.84355,15,Yes
+16,size,ist nicht,TV,Fernsehen,furniture,long,lang,0.31,19,deutsch,44,Female,2,"Die Umfrage war ein bißchen deppert. Es ging um deutsche Sprache, aber die Grammatik war grauslig. Brauchen Sie Korrekturleser? Bitte melden, ich brauche Jobs.",Firefox,Windows,768,1366,8.84355,15,Yes
+17,color,ist nicht,chair,Stuhl,furniture,red,rot,0.17,20,deutsch,44,Female,2,"Die Umfrage war ein bißchen deppert. Es ging um deutsche Sprache, aber die Grammatik war grauslig. Brauchen Sie Korrekturleser? Bitte melden, ich brauche Jobs.",Firefox,Windows,768,1366,8.84355,15,Yes
+18,shape,ist ,couch,Couch,furniture,round,rund,0.64,21,deutsch,44,Female,2,"Die Umfrage war ein bißchen deppert. Es ging um deutsche Sprache, aber die Grammatik war grauslig. Brauchen Sie Korrekturleser? Bitte melden, ich brauche Jobs.",Firefox,Windows,768,1366,8.84355,15,Yes
+19,age,ist ,tomato,Tomate,food,old,alt,0.44,22,deutsch,44,Female,2,"Die Umfrage war ein bißchen deppert. Es ging um deutsche Sprache, aber die Grammatik war grauslig. Brauchen Sie Korrekturleser? Bitte melden, ich brauche Jobs.",Firefox,Windows,768,1366,8.84355,15,Yes
+20,quality,ist ,fan,Ventilator,furniture,bad,schlecht,0.34,23,deutsch,44,Female,2,"Die Umfrage war ein bißchen deppert. Es ging um deutsche Sprache, aber die Grammatik war grauslig. Brauchen Sie Korrekturleser? Bitte melden, ich brauche Jobs.",Firefox,Windows,768,1366,8.84355,15,Yes
+21,shape,ist ,banana,Banane,food,square,quadratisch,0.05,24,deutsch,44,Female,2,"Die Umfrage war ein bißchen deppert. Es ging um deutsche Sprache, aber die Grammatik war grauslig. Brauchen Sie Korrekturleser? Bitte melden, ich brauche Jobs.",Firefox,Windows,768,1366,8.84355,15,Yes
+22,nationality,ist nicht,banana,Banane,food,American,americanisch,0.23,25,deutsch,44,Female,2,"Die Umfrage war ein bißchen deppert. Es ging um deutsche Sprache, aber die Grammatik war grauslig. Brauchen Sie Korrekturleser? Bitte melden, ich brauche Jobs.",Firefox,Windows,768,1366,8.84355,15,Yes
+23,nationality,ist nicht,desk,Schreibtisch,furniture,German,deutsch,0.89,26,deutsch,44,Female,2,"Die Umfrage war ein bißchen deppert. Es ging um deutsche Sprache, aber die Grammatik war grauslig. Brauchen Sie Korrekturleser? Bitte melden, ich brauche Jobs.",Firefox,Windows,768,1366,8.84355,15,Yes
+24,color,ist nicht,fan,Ventilator,furniture,yellow,gelb,0.09,27,deutsch,44,Female,2,"Die Umfrage war ein bißchen deppert. Es ging um deutsche Sprache, aber die Grammatik war grauslig. Brauchen Sie Korrekturleser? Bitte melden, ich brauche Jobs.",Firefox,Windows,768,1366,8.84355,15,Yes
+25,nationality,ist ,desk,Schreibtisch,furniture,French,franz&ouml;sisch,0.54,28,deutsch,44,Female,2,"Die Umfrage war ein bißchen deppert. Es ging um deutsche Sprache, aber die Grammatik war grauslig. Brauchen Sie Korrekturleser? Bitte melden, ich brauche Jobs.",Firefox,Windows,768,1366,8.84355,15,Yes
+0,size,ist ,desk,Schreibtisch,furniture,tiny,winzig,1.0,3,Deutsch,28,Female,3,"Es gab einige Rechtschreibefehler, zum einen kann eine Couch nicht faul sein und auch amerikanisch wird mit k geschrieben. Vielen Dank für die Möglichkeit teilzuehmen.",Chrome,Windows,864,1536,4.409083333333333,16,Yes
+1,shape,ist ,banana,Banane,food,square,quadratisch,0.0,4,Deutsch,28,Female,3,"Es gab einige Rechtschreibefehler, zum einen kann eine Couch nicht faul sein und auch amerikanisch wird mit k geschrieben. Vielen Dank für die Möglichkeit teilzuehmen.",Chrome,Windows,864,1536,4.409083333333333,16,Yes
+2,color,ist ,tomato,Tomate,food,green,gr&uuml;n,0.46,5,Deutsch,28,Female,3,"Es gab einige Rechtschreibefehler, zum einen kann eine Couch nicht faul sein und auch amerikanisch wird mit k geschrieben. Vielen Dank für die Möglichkeit teilzuehmen.",Chrome,Windows,864,1536,4.409083333333333,16,Yes
+3,age,ist nicht,couch,Couch,furniture,rotten,faul,0.0,6,Deutsch,28,Female,3,"Es gab einige Rechtschreibefehler, zum einen kann eine Couch nicht faul sein und auch amerikanisch wird mit k geschrieben. Vielen Dank für die Möglichkeit teilzuehmen.",Chrome,Windows,864,1536,4.409083333333333,16,Yes
+4,nationality,ist nicht,couch,Couch,furniture,American,americanisch,1.0,7,Deutsch,28,Female,3,"Es gab einige Rechtschreibefehler, zum einen kann eine Couch nicht faul sein und auch amerikanisch wird mit k geschrieben. Vielen Dank für die Möglichkeit teilzuehmen.",Chrome,Windows,864,1536,4.409083333333333,16,Yes
+5,nationality,ist nicht,cheese,K&auml;se,food,German,deutsch,0.0,8,Deutsch,28,Female,3,"Es gab einige Rechtschreibefehler, zum einen kann eine Couch nicht faul sein und auch amerikanisch wird mit k geschrieben. Vielen Dank für die Möglichkeit teilzuehmen.",Chrome,Windows,864,1536,4.409083333333333,16,Yes
+6,color,ist nicht,cheese,K&auml;se,food,blue,blau,0.0,9,Deutsch,28,Female,3,"Es gab einige Rechtschreibefehler, zum einen kann eine Couch nicht faul sein und auch amerikanisch wird mit k geschrieben. Vielen Dank für die Möglichkeit teilzuehmen.",Chrome,Windows,864,1536,4.409083333333333,16,Yes
+7,size,ist ,apple,Apfel,food,small,klein,0.82,10,Deutsch,28,Female,3,"Es gab einige Rechtschreibefehler, zum einen kann eine Couch nicht faul sein und auch amerikanisch wird mit k geschrieben. Vielen Dank für die Möglichkeit teilzuehmen.",Chrome,Windows,864,1536,4.409083333333333,16,Yes
+8,size,ist nicht,banana,Banane,food,long,lang,0.74,11,Deutsch,28,Female,3,"Es gab einige Rechtschreibefehler, zum einen kann eine Couch nicht faul sein und auch amerikanisch wird mit k geschrieben. Vielen Dank für die Möglichkeit teilzuehmen.",Chrome,Windows,864,1536,4.409083333333333,16,Yes
+9,color,ist nicht,apple,Apfel,food,purple,purpur,0.0,12,Deutsch,28,Female,3,"Es gab einige Rechtschreibefehler, zum einen kann eine Couch nicht faul sein und auch amerikanisch wird mit k geschrieben. Vielen Dank für die Möglichkeit teilzuehmen.",Chrome,Windows,864,1536,4.409083333333333,16,Yes
+10,color,ist nicht,banana,Banane,food,brown,braun,0.0,13,Deutsch,28,Female,3,"Es gab einige Rechtschreibefehler, zum einen kann eine Couch nicht faul sein und auch amerikanisch wird mit k geschrieben. Vielen Dank für die Möglichkeit teilzuehmen.",Chrome,Windows,864,1536,4.409083333333333,16,Yes
+11,size,ist nicht,cheese,K&auml;se,food,huge,riesig,0.64,14,Deutsch,28,Female,3,"Es gab einige Rechtschreibefehler, zum einen kann eine Couch nicht faul sein und auch amerikanisch wird mit k geschrieben. Vielen Dank für die Möglichkeit teilzuehmen.",Chrome,Windows,864,1536,4.409083333333333,16,Yes
+12,color,ist nicht,desk,Schreibtisch,furniture,red,rot,0.0,15,Deutsch,28,Female,3,"Es gab einige Rechtschreibefehler, zum einen kann eine Couch nicht faul sein und auch amerikanisch wird mit k geschrieben. Vielen Dank für die Möglichkeit teilzuehmen.",Chrome,Windows,864,1536,4.409083333333333,16,Yes
+13,shape,ist ,cheese,K&auml;se,food,round,rund,0.0,16,Deutsch,28,Female,3,"Es gab einige Rechtschreibefehler, zum einen kann eine Couch nicht faul sein und auch amerikanisch wird mit k geschrieben. Vielen Dank für die Möglichkeit teilzuehmen.",Chrome,Windows,864,1536,4.409083333333333,16,Yes
+14,age,ist ,chair,Stuhl,furniture,new,neu,0.6,17,Deutsch,28,Female,3,"Es gab einige Rechtschreibefehler, zum einen kann eine Couch nicht faul sein und auch amerikanisch wird mit k geschrieben. Vielen Dank für die Möglichkeit teilzuehmen.",Chrome,Windows,864,1536,4.409083333333333,16,Yes
+15,size,ist ,desk,Schreibtisch,furniture,short,kurz,0.73,18,Deutsch,28,Female,3,"Es gab einige Rechtschreibefehler, zum einen kann eine Couch nicht faul sein und auch amerikanisch wird mit k geschrieben. Vielen Dank für die Möglichkeit teilzuehmen.",Chrome,Windows,864,1536,4.409083333333333,16,Yes
+16,nationality,ist nicht,couch,Couch,furniture,French,franz&ouml;sisch,0.22,19,Deutsch,28,Female,3,"Es gab einige Rechtschreibefehler, zum einen kann eine Couch nicht faul sein und auch amerikanisch wird mit k geschrieben. Vielen Dank für die Möglichkeit teilzuehmen.",Chrome,Windows,864,1536,4.409083333333333,16,Yes
+17,texture,ist ,chair,Stuhl,furniture,hard,hart,0.0,20,Deutsch,28,Female,3,"Es gab einige Rechtschreibefehler, zum einen kann eine Couch nicht faul sein und auch amerikanisch wird mit k geschrieben. Vielen Dank für die Möglichkeit teilzuehmen.",Chrome,Windows,864,1536,4.409083333333333,16,Yes
+18,quality,ist nicht,tomato,Tomate,food,good,gut,0.99,21,Deutsch,28,Female,3,"Es gab einige Rechtschreibefehler, zum einen kann eine Couch nicht faul sein und auch amerikanisch wird mit k geschrieben. Vielen Dank für die Möglichkeit teilzuehmen.",Chrome,Windows,864,1536,4.409083333333333,16,Yes
+19,age,ist nicht,cheese,K&auml;se,food,fresh,frisch,0.0,22,Deutsch,28,Female,3,"Es gab einige Rechtschreibefehler, zum einen kann eine Couch nicht faul sein und auch amerikanisch wird mit k geschrieben. Vielen Dank für die Möglichkeit teilzuehmen.",Chrome,Windows,864,1536,4.409083333333333,16,Yes
+20,size,ist nicht,chair,Stuhl,furniture,big,gro&szlig;,1.0,23,Deutsch,28,Female,3,"Es gab einige Rechtschreibefehler, zum einen kann eine Couch nicht faul sein und auch amerikanisch wird mit k geschrieben. Vielen Dank für die Möglichkeit teilzuehmen.",Chrome,Windows,864,1536,4.409083333333333,16,Yes
+21,age,ist ,tomato,Tomate,food,old,alt,0.11,24,Deutsch,28,Female,3,"Es gab einige Rechtschreibefehler, zum einen kann eine Couch nicht faul sein und auch amerikanisch wird mit k geschrieben. Vielen Dank für die Möglichkeit teilzuehmen.",Chrome,Windows,864,1536,4.409083333333333,16,Yes
+22,color,ist nicht,tomato,Tomate,food,yellow,gelb,0.0,25,Deutsch,28,Female,3,"Es gab einige Rechtschreibefehler, zum einen kann eine Couch nicht faul sein und auch amerikanisch wird mit k geschrieben. Vielen Dank für die Möglichkeit teilzuehmen.",Chrome,Windows,864,1536,4.409083333333333,16,Yes
+23,quality,ist ,cheese,K&auml;se,food,bad,schlecht,0.71,26,Deutsch,28,Female,3,"Es gab einige Rechtschreibefehler, zum einen kann eine Couch nicht faul sein und auch amerikanisch wird mit k geschrieben. Vielen Dank für die Möglichkeit teilzuehmen.",Chrome,Windows,864,1536,4.409083333333333,16,Yes
+24,texture,ist nicht,couch,Couch,furniture,smooth,glatt,0.0,27,Deutsch,28,Female,3,"Es gab einige Rechtschreibefehler, zum einen kann eine Couch nicht faul sein und auch amerikanisch wird mit k geschrieben. Vielen Dank für die Möglichkeit teilzuehmen.",Chrome,Windows,864,1536,4.409083333333333,16,Yes
+25,texture,ist ,TV,Fernsehen,furniture,soft,weich,0.0,28,Deutsch,28,Female,3,"Es gab einige Rechtschreibefehler, zum einen kann eine Couch nicht faul sein und auch amerikanisch wird mit k geschrieben. Vielen Dank für die Möglichkeit teilzuehmen.",Chrome,Windows,864,1536,4.409083333333333,16,Yes
+0,size,ist ,desk,Schreibtisch,furniture,small,klein,0.73,3,deutsch,25,Male,2,Das Deutsch der Sätze ist teilweise nicht einwandfrei.,Chrome,Windows,1440,3440,4.456733333333333,17,Yes
+1,color,ist nicht,tomato,Tomate,food,red,rot,0.19,4,deutsch,25,Male,2,Das Deutsch der Sätze ist teilweise nicht einwandfrei.,Chrome,Windows,1440,3440,4.456733333333333,17,Yes
+2,nationality,ist ,banana,Banane,food,German,deutsch,0.5,5,deutsch,25,Male,2,Das Deutsch der Sätze ist teilweise nicht einwandfrei.,Chrome,Windows,1440,3440,4.456733333333333,17,Yes
+3,texture,ist ,TV,Fernsehen,furniture,smooth,glatt,0.7,6,deutsch,25,Male,2,Das Deutsch der Sätze ist teilweise nicht einwandfrei.,Chrome,Windows,1440,3440,4.456733333333333,17,Yes
+4,age,ist nicht,carrot,Karotte,food,old,alt,1.0,7,deutsch,25,Male,2,Das Deutsch der Sätze ist teilweise nicht einwandfrei.,Chrome,Windows,1440,3440,4.456733333333333,17,Yes
+5,texture,ist nicht,chair,Stuhl,furniture,hard,hart,1.0,8,deutsch,25,Male,2,Das Deutsch der Sätze ist teilweise nicht einwandfrei.,Chrome,Windows,1440,3440,4.456733333333333,17,Yes
+6,nationality,ist nicht,apple,Apfel,food,French,franz&ouml;sisch,0.73,9,deutsch,25,Male,2,Das Deutsch der Sätze ist teilweise nicht einwandfrei.,Chrome,Windows,1440,3440,4.456733333333333,17,Yes
+7,color,ist ,fan,Ventilator,furniture,blue,blau,0.0,10,deutsch,25,Male,2,Das Deutsch der Sätze ist teilweise nicht einwandfrei.,Chrome,Windows,1440,3440,4.456733333333333,17,Yes
+8,size,ist nicht,carrot,Karotte,food,long,lang,0.76,11,deutsch,25,Male,2,Das Deutsch der Sätze ist teilweise nicht einwandfrei.,Chrome,Windows,1440,3440,4.456733333333333,17,Yes
+9,color,ist nicht,banana,Banane,food,yellow,gelb,0.19,12,deutsch,25,Male,2,Das Deutsch der Sätze ist teilweise nicht einwandfrei.,Chrome,Windows,1440,3440,4.456733333333333,17,Yes
+10,color,ist nicht,chair,Stuhl,furniture,green,gr&uuml;n,0.27,13,deutsch,25,Male,2,Das Deutsch der Sätze ist teilweise nicht einwandfrei.,Chrome,Windows,1440,3440,4.456733333333333,17,Yes
+11,size,ist ,banana,Banane,food,tiny,winzig,0.73,14,deutsch,25,Male,2,Das Deutsch der Sätze ist teilweise nicht einwandfrei.,Chrome,Windows,1440,3440,4.456733333333333,17,Yes
+12,age,ist ,fan,Ventilator,furniture,new,neu,0.14,15,deutsch,25,Male,2,Das Deutsch der Sätze ist teilweise nicht einwandfrei.,Chrome,Windows,1440,3440,4.456733333333333,17,Yes
+13,age,ist ,fan,Ventilator,furniture,rotten,faul,0.0,16,deutsch,25,Male,2,Das Deutsch der Sätze ist teilweise nicht einwandfrei.,Chrome,Windows,1440,3440,4.456733333333333,17,Yes
+14,size,ist ,cheese,K&auml;se,food,huge,riesig,0.24,17,deutsch,25,Male,2,Das Deutsch der Sätze ist teilweise nicht einwandfrei.,Chrome,Windows,1440,3440,4.456733333333333,17,Yes
+15,quality,ist ,fan,Ventilator,furniture,good,gut,0.18,18,deutsch,25,Male,2,Das Deutsch der Sätze ist teilweise nicht einwandfrei.,Chrome,Windows,1440,3440,4.456733333333333,17,Yes
+16,shape,ist nicht,banana,Banane,food,round,rund,0.23,19,deutsch,25,Male,2,Das Deutsch der Sätze ist teilweise nicht einwandfrei.,Chrome,Windows,1440,3440,4.456733333333333,17,Yes
+17,color,ist ,couch,Couch,furniture,brown,braun,0.0,20,deutsch,25,Male,2,Das Deutsch der Sätze ist teilweise nicht einwandfrei.,Chrome,Windows,1440,3440,4.456733333333333,17,Yes
+18,shape,ist nicht,TV,Fernsehen,furniture,square,quadratisch,0.0,21,deutsch,25,Male,2,Das Deutsch der Sätze ist teilweise nicht einwandfrei.,Chrome,Windows,1440,3440,4.456733333333333,17,Yes
+19,quality,ist ,banana,Banane,food,bad,schlecht,0.0,22,deutsch,25,Male,2,Das Deutsch der Sätze ist teilweise nicht einwandfrei.,Chrome,Windows,1440,3440,4.456733333333333,17,Yes
+20,size,ist ,desk,Schreibtisch,furniture,big,gro&szlig;,0.84,23,deutsch,25,Male,2,Das Deutsch der Sätze ist teilweise nicht einwandfrei.,Chrome,Windows,1440,3440,4.456733333333333,17,Yes
+21,color,ist ,banana,Banane,food,purple,purpur,0.0,24,deutsch,25,Male,2,Das Deutsch der Sätze ist teilweise nicht einwandfrei.,Chrome,Windows,1440,3440,4.456733333333333,17,Yes
+22,texture,ist ,chair,Stuhl,furniture,soft,weich,1.0,25,deutsch,25,Male,2,Das Deutsch der Sätze ist teilweise nicht einwandfrei.,Chrome,Windows,1440,3440,4.456733333333333,17,Yes
+23,age,ist nicht,banana,Banane,food,fresh,frisch,0.82,26,deutsch,25,Male,2,Das Deutsch der Sätze ist teilweise nicht einwandfrei.,Chrome,Windows,1440,3440,4.456733333333333,17,Yes
+24,nationality,ist nicht,cheese,K&auml;se,food,American,americanisch,0.16,27,deutsch,25,Male,2,Das Deutsch der Sätze ist teilweise nicht einwandfrei.,Chrome,Windows,1440,3440,4.456733333333333,17,Yes
+25,size,ist ,tomato,Tomate,food,short,kurz,0.75,28,deutsch,25,Male,2,Das Deutsch der Sätze ist teilweise nicht einwandfrei.,Chrome,Windows,1440,3440,4.456733333333333,17,Yes
+0,size,ist nicht,TV,Fernsehen,furniture,long,lang,0.98,3,deutsch,54,Female,3,Es gab Fehler in den Sätzen.,Chrome,Windows,768,1366,6.376316666666667,18,Yes
+1,size,ist nicht,fan,Ventilator,furniture,short,kurz,0.98,4,deutsch,54,Female,3,Es gab Fehler in den Sätzen.,Chrome,Windows,768,1366,6.376316666666667,18,Yes
+2,texture,ist ,TV,Fernsehen,furniture,smooth,glatt,0.57,5,deutsch,54,Female,3,Es gab Fehler in den Sätzen.,Chrome,Windows,768,1366,6.376316666666667,18,Yes
+3,texture,ist ,couch,Couch,furniture,soft,weich,0.66,6,deutsch,54,Female,3,Es gab Fehler in den Sätzen.,Chrome,Windows,768,1366,6.376316666666667,18,Yes
+4,age,ist nicht,apple,Apfel,food,rotten,faul,0.31,7,deutsch,54,Female,3,Es gab Fehler in den Sätzen.,Chrome,Windows,768,1366,6.376316666666667,18,Yes
+5,size,ist nicht,tomato,Tomate,food,small,klein,0.58,8,deutsch,54,Female,3,Es gab Fehler in den Sätzen.,Chrome,Windows,768,1366,6.376316666666667,18,Yes
+6,age,ist nicht,couch,Couch,furniture,fresh,frisch,0.62,9,deutsch,54,Female,3,Es gab Fehler in den Sätzen.,Chrome,Windows,768,1366,6.376316666666667,18,Yes
+7,size,ist ,carrot,Karotte,food,huge,riesig,0.7,10,deutsch,54,Female,3,Es gab Fehler in den Sätzen.,Chrome,Windows,768,1366,6.376316666666667,18,Yes
+8,quality,ist ,desk,Schreibtisch,furniture,good,gut,0.98,11,deutsch,54,Female,3,Es gab Fehler in den Sätzen.,Chrome,Windows,768,1366,6.376316666666667,18,Yes
+9,nationality,ist nicht,apple,Apfel,food,German,deutsch,0.1,12,deutsch,54,Female,3,Es gab Fehler in den Sätzen.,Chrome,Windows,768,1366,6.376316666666667,18,Yes
+10,size,ist ,banana,Banane,food,big,gro&szlig;,0.59,13,deutsch,54,Female,3,Es gab Fehler in den Sätzen.,Chrome,Windows,768,1366,6.376316666666667,18,Yes
+11,color,ist nicht,apple,Apfel,food,blue,blau,0.11,14,deutsch,54,Female,3,Es gab Fehler in den Sätzen.,Chrome,Windows,768,1366,6.376316666666667,18,Yes
+12,color,ist nicht,tomato,Tomate,food,red,rot,0.07,15,deutsch,54,Female,3,Es gab Fehler in den Sätzen.,Chrome,Windows,768,1366,6.376316666666667,18,Yes
+13,age,ist nicht,apple,Apfel,food,new,neu,0.53,16,deutsch,54,Female,3,Es gab Fehler in den Sätzen.,Chrome,Windows,768,1366,6.376316666666667,18,Yes
+14,shape,ist nicht,couch,Couch,furniture,square,quadratisch,0.04,17,deutsch,54,Female,3,Es gab Fehler in den Sätzen.,Chrome,Windows,768,1366,6.376316666666667,18,Yes
+15,color,ist nicht,chair,Stuhl,furniture,brown,braun,0.06,18,deutsch,54,Female,3,Es gab Fehler in den Sätzen.,Chrome,Windows,768,1366,6.376316666666667,18,Yes
+16,shape,ist nicht,tomato,Tomate,food,round,rund,0.1,19,deutsch,54,Female,3,Es gab Fehler in den Sätzen.,Chrome,Windows,768,1366,6.376316666666667,18,Yes
+17,color,ist nicht,cheese,K&auml;se,food,purple,purpur,0.05,20,deutsch,54,Female,3,Es gab Fehler in den Sätzen.,Chrome,Windows,768,1366,6.376316666666667,18,Yes
+18,size,ist nicht,TV,Fernsehen,furniture,tiny,winzig,0.5,21,deutsch,54,Female,3,Es gab Fehler in den Sätzen.,Chrome,Windows,768,1366,6.376316666666667,18,Yes
+19,age,ist nicht,desk,Schreibtisch,furniture,old,alt,0.53,22,deutsch,54,Female,3,Es gab Fehler in den Sätzen.,Chrome,Windows,768,1366,6.376316666666667,18,Yes
+20,nationality,ist ,tomato,Tomate,food,American,americanisch,0.05,23,deutsch,54,Female,3,Es gab Fehler in den Sätzen.,Chrome,Windows,768,1366,6.376316666666667,18,Yes
+21,texture,ist ,desk,Schreibtisch,furniture,hard,hart,0.54,24,deutsch,54,Female,3,Es gab Fehler in den Sätzen.,Chrome,Windows,768,1366,6.376316666666667,18,Yes
+22,color,ist nicht,fan,Ventilator,furniture,yellow,gelb,0.05,25,deutsch,54,Female,3,Es gab Fehler in den Sätzen.,Chrome,Windows,768,1366,6.376316666666667,18,Yes
+23,color,ist nicht,desk,Schreibtisch,furniture,green,gr&uuml;n,0.17,26,deutsch,54,Female,3,Es gab Fehler in den Sätzen.,Chrome,Windows,768,1366,6.376316666666667,18,Yes
+24,nationality,ist nicht,couch,Couch,furniture,French,franz&ouml;sisch,0.05,27,deutsch,54,Female,3,Es gab Fehler in den Sätzen.,Chrome,Windows,768,1366,6.376316666666667,18,Yes
+25,quality,ist nicht,apple,Apfel,food,bad,schlecht,0.27,28,deutsch,54,Female,3,Es gab Fehler in den Sätzen.,Chrome,Windows,768,1366,6.376316666666667,18,Yes
+0,size,ist nicht,apple,Apfel,food,long,lang,1.0,3,Deutsch,18,Male,1,Interessante Studie. Ich hoffe die Ergebnisse sind hilfreich.,Chrome,Windows,864,1536,4.534166666666667,19,Yes
+1,texture,ist nicht,chair,Stuhl,furniture,smooth,glatt,0.66,4,Deutsch,18,Male,1,Interessante Studie. Ich hoffe die Ergebnisse sind hilfreich.,Chrome,Windows,864,1536,4.534166666666667,19,Yes
+2,age,ist ,couch,Couch,furniture,rotten,faul,0.02,5,Deutsch,18,Male,1,Interessante Studie. Ich hoffe die Ergebnisse sind hilfreich.,Chrome,Windows,864,1536,4.534166666666667,19,Yes
+3,shape,ist nicht,tomato,Tomate,food,round,rund,0.83,6,Deutsch,18,Male,1,Interessante Studie. Ich hoffe die Ergebnisse sind hilfreich.,Chrome,Windows,864,1536,4.534166666666667,19,Yes
+4,quality,ist nicht,desk,Schreibtisch,furniture,bad,schlecht,1.0,7,Deutsch,18,Male,1,Interessante Studie. Ich hoffe die Ergebnisse sind hilfreich.,Chrome,Windows,864,1536,4.534166666666667,19,Yes
+5,quality,ist ,TV,Fernsehen,furniture,good,gut,1.0,8,Deutsch,18,Male,1,Interessante Studie. Ich hoffe die Ergebnisse sind hilfreich.,Chrome,Windows,864,1536,4.534166666666667,19,Yes
+6,texture,ist nicht,cheese,K&auml;se,food,soft,weich,0.0,9,Deutsch,18,Male,1,Interessante Studie. Ich hoffe die Ergebnisse sind hilfreich.,Chrome,Windows,864,1536,4.534166666666667,19,Yes
+7,color,ist ,banana,Banane,food,yellow,gelb,0.0,10,Deutsch,18,Male,1,Interessante Studie. Ich hoffe die Ergebnisse sind hilfreich.,Chrome,Windows,864,1536,4.534166666666667,19,Yes
+8,age,ist nicht,apple,Apfel,food,new,neu,0.14,11,Deutsch,18,Male,1,Interessante Studie. Ich hoffe die Ergebnisse sind hilfreich.,Chrome,Windows,864,1536,4.534166666666667,19,Yes
+9,texture,ist nicht,TV,Fernsehen,furniture,hard,hart,0.02,12,Deutsch,18,Male,1,Interessante Studie. Ich hoffe die Ergebnisse sind hilfreich.,Chrome,Windows,864,1536,4.534166666666667,19,Yes
+10,nationality,ist nicht,chair,Stuhl,furniture,American,americanisch,0.17,13,Deutsch,18,Male,1,Interessante Studie. Ich hoffe die Ergebnisse sind hilfreich.,Chrome,Windows,864,1536,4.534166666666667,19,Yes
+11,color,ist ,tomato,Tomate,food,blue,blau,0.0,14,Deutsch,18,Male,1,Interessante Studie. Ich hoffe die Ergebnisse sind hilfreich.,Chrome,Windows,864,1536,4.534166666666667,19,Yes
+12,age,ist nicht,chair,Stuhl,furniture,fresh,frisch,0.48,15,Deutsch,18,Male,1,Interessante Studie. Ich hoffe die Ergebnisse sind hilfreich.,Chrome,Windows,864,1536,4.534166666666667,19,Yes
+13,shape,ist nicht,fan,Ventilator,furniture,square,quadratisch,0.02,16,Deutsch,18,Male,1,Interessante Studie. Ich hoffe die Ergebnisse sind hilfreich.,Chrome,Windows,864,1536,4.534166666666667,19,Yes
+14,age,ist ,TV,Fernsehen,furniture,old,alt,1.0,17,Deutsch,18,Male,1,Interessante Studie. Ich hoffe die Ergebnisse sind hilfreich.,Chrome,Windows,864,1536,4.534166666666667,19,Yes
+15,color,ist nicht,couch,Couch,furniture,purple,purpur,1.0,18,Deutsch,18,Male,1,Interessante Studie. Ich hoffe die Ergebnisse sind hilfreich.,Chrome,Windows,864,1536,4.534166666666667,19,Yes
+16,size,ist nicht,couch,Couch,furniture,short,kurz,1.0,19,Deutsch,18,Male,1,Interessante Studie. Ich hoffe die Ergebnisse sind hilfreich.,Chrome,Windows,864,1536,4.534166666666667,19,Yes
+17,nationality,ist nicht,banana,Banane,food,German,deutsch,0.48,20,Deutsch,18,Male,1,Interessante Studie. Ich hoffe die Ergebnisse sind hilfreich.,Chrome,Windows,864,1536,4.534166666666667,19,Yes
+18,size,ist nicht,desk,Schreibtisch,furniture,big,gro&szlig;,1.0,21,Deutsch,18,Male,1,Interessante Studie. Ich hoffe die Ergebnisse sind hilfreich.,Chrome,Windows,864,1536,4.534166666666667,19,Yes
+19,size,ist ,cheese,K&auml;se,food,huge,riesig,1.0,22,Deutsch,18,Male,1,Interessante Studie. Ich hoffe die Ergebnisse sind hilfreich.,Chrome,Windows,864,1536,4.534166666666667,19,Yes
+20,size,ist nicht,apple,Apfel,food,tiny,winzig,0.97,23,Deutsch,18,Male,1,Interessante Studie. Ich hoffe die Ergebnisse sind hilfreich.,Chrome,Windows,864,1536,4.534166666666667,19,Yes
+21,nationality,ist ,chair,Stuhl,furniture,French,franz&ouml;sisch,0.13,24,Deutsch,18,Male,1,Interessante Studie. Ich hoffe die Ergebnisse sind hilfreich.,Chrome,Windows,864,1536,4.534166666666667,19,Yes
+22,color,ist nicht,tomato,Tomate,food,green,gr&uuml;n,0.0,25,Deutsch,18,Male,1,Interessante Studie. Ich hoffe die Ergebnisse sind hilfreich.,Chrome,Windows,864,1536,4.534166666666667,19,Yes
+23,size,ist nicht,tomato,Tomate,food,small,klein,1.0,26,Deutsch,18,Male,1,Interessante Studie. Ich hoffe die Ergebnisse sind hilfreich.,Chrome,Windows,864,1536,4.534166666666667,19,Yes
+24,color,ist nicht,couch,Couch,furniture,red,rot,0.44,27,Deutsch,18,Male,1,Interessante Studie. Ich hoffe die Ergebnisse sind hilfreich.,Chrome,Windows,864,1536,4.534166666666667,19,Yes
+25,color,ist ,cheese,K&auml;se,food,brown,braun,0.45,28,Deutsch,18,Male,1,Interessante Studie. Ich hoffe die Ergebnisse sind hilfreich.,Chrome,Windows,864,1536,4.534166666666667,19,Yes
+0,age,ist ,couch,Couch,furniture,new,neu,0.64,3,deutsch,28,Male,3,eine couch kann nicht faul sein,Firefox,Windows,1440,2560,4.888566666666667,20,Yes
+1,size,ist ,carrot,Karotte,food,tiny,winzig,0.38,4,deutsch,28,Male,3,eine couch kann nicht faul sein,Firefox,Windows,1440,2560,4.888566666666667,20,Yes
+2,texture,ist ,tomato,Tomate,food,smooth,glatt,0.0,5,deutsch,28,Male,3,eine couch kann nicht faul sein,Firefox,Windows,1440,2560,4.888566666666667,20,Yes
+3,texture,ist ,tomato,Tomate,food,soft,weich,0.0,6,deutsch,28,Male,3,eine couch kann nicht faul sein,Firefox,Windows,1440,2560,4.888566666666667,20,Yes
+4,nationality,ist nicht,carrot,Karotte,food,American,americanisch,0.0,7,deutsch,28,Male,3,eine couch kann nicht faul sein,Firefox,Windows,1440,2560,4.888566666666667,20,Yes
+5,color,ist nicht,tomato,Tomate,food,green,gr&uuml;n,0.0,8,deutsch,28,Male,3,eine couch kann nicht faul sein,Firefox,Windows,1440,2560,4.888566666666667,20,Yes
+6,shape,ist nicht,desk,Schreibtisch,furniture,round,rund,0.0,9,deutsch,28,Male,3,eine couch kann nicht faul sein,Firefox,Windows,1440,2560,4.888566666666667,20,Yes
+7,size,ist ,desk,Schreibtisch,furniture,small,klein,1.0,10,deutsch,28,Male,3,eine couch kann nicht faul sein,Firefox,Windows,1440,2560,4.888566666666667,20,Yes
+8,size,ist nicht,carrot,Karotte,food,huge,riesig,1.0,11,deutsch,28,Male,3,eine couch kann nicht faul sein,Firefox,Windows,1440,2560,4.888566666666667,20,Yes
+9,size,ist ,TV,Fernsehen,furniture,long,lang,0.64,12,deutsch,28,Male,3,eine couch kann nicht faul sein,Firefox,Windows,1440,2560,4.888566666666667,20,Yes
+10,nationality,ist nicht,tomato,Tomate,food,French,franz&ouml;sisch,0.0,13,deutsch,28,Male,3,eine couch kann nicht faul sein,Firefox,Windows,1440,2560,4.888566666666667,20,Yes
+11,color,ist nicht,carrot,Karotte,food,blue,blau,0.0,14,deutsch,28,Male,3,eine couch kann nicht faul sein,Firefox,Windows,1440,2560,4.888566666666667,20,Yes
+12,quality,ist ,TV,Fernsehen,furniture,bad,schlecht,0.71,15,deutsch,28,Male,3,eine couch kann nicht faul sein,Firefox,Windows,1440,2560,4.888566666666667,20,Yes
+13,quality,ist ,cheese,K&auml;se,food,good,gut,0.93,16,deutsch,28,Male,3,eine couch kann nicht faul sein,Firefox,Windows,1440,2560,4.888566666666667,20,Yes
+14,texture,ist ,apple,Apfel,food,hard,hart,0.0,17,deutsch,28,Male,3,eine couch kann nicht faul sein,Firefox,Windows,1440,2560,4.888566666666667,20,Yes
+15,size,ist nicht,cheese,K&auml;se,food,short,kurz,0.73,18,deutsch,28,Male,3,eine couch kann nicht faul sein,Firefox,Windows,1440,2560,4.888566666666667,20,Yes
+16,color,ist nicht,banana,Banane,food,brown,braun,0.0,19,deutsch,28,Male,3,eine couch kann nicht faul sein,Firefox,Windows,1440,2560,4.888566666666667,20,Yes
+17,age,ist nicht,couch,Couch,furniture,rotten,faul,0.0,20,deutsch,28,Male,3,eine couch kann nicht faul sein,Firefox,Windows,1440,2560,4.888566666666667,20,Yes
+18,shape,ist ,apple,Apfel,food,square,quadratisch,0.0,21,deutsch,28,Male,3,eine couch kann nicht faul sein,Firefox,Windows,1440,2560,4.888566666666667,20,Yes
+19,color,ist ,cheese,K&auml;se,food,red,rot,0.0,22,deutsch,28,Male,3,eine couch kann nicht faul sein,Firefox,Windows,1440,2560,4.888566666666667,20,Yes
+20,size,ist ,banana,Banane,food,big,gro&szlig;,0.8,23,deutsch,28,Male,3,eine couch kann nicht faul sein,Firefox,Windows,1440,2560,4.888566666666667,20,Yes
+21,age,ist ,desk,Schreibtisch,furniture,fresh,frisch,0.69,24,deutsch,28,Male,3,eine couch kann nicht faul sein,Firefox,Windows,1440,2560,4.888566666666667,20,Yes
+22,color,ist ,apple,Apfel,food,purple,purpur,0.0,25,deutsch,28,Male,3,eine couch kann nicht faul sein,Firefox,Windows,1440,2560,4.888566666666667,20,Yes
+23,color,ist nicht,cheese,K&auml;se,food,yellow,gelb,0.0,26,deutsch,28,Male,3,eine couch kann nicht faul sein,Firefox,Windows,1440,2560,4.888566666666667,20,Yes
+24,age,ist nicht,TV,Fernsehen,furniture,old,alt,0.65,27,deutsch,28,Male,3,eine couch kann nicht faul sein,Firefox,Windows,1440,2560,4.888566666666667,20,Yes
+25,nationality,ist ,TV,Fernsehen,furniture,German,deutsch,0.0,28,deutsch,28,Male,3,eine couch kann nicht faul sein,Firefox,Windows,1440,2560,4.888566666666667,20,Yes
+0,texture,ist ,couch,Couch,furniture,soft,weich,1.0,3,Deutsch,30,Female,2,,Chrome,Windows,900,1600,4.847183333333334,21,Yes
+1,shape,ist nicht,fan,Ventilator,furniture,round,rund,0.0,4,Deutsch,30,Female,2,,Chrome,Windows,900,1600,4.847183333333334,21,Yes
+2,size,ist nicht,carrot,Karotte,food,small,klein,1.0,5,Deutsch,30,Female,2,,Chrome,Windows,900,1600,4.847183333333334,21,Yes
+3,color,ist ,desk,Schreibtisch,furniture,purple,purpur,0.0,6,Deutsch,30,Female,2,,Chrome,Windows,900,1600,4.847183333333334,21,Yes
+4,age,ist ,desk,Schreibtisch,furniture,new,neu,0.0,7,Deutsch,30,Female,2,,Chrome,Windows,900,1600,4.847183333333334,21,Yes
+5,quality,ist nicht,TV,Fernsehen,furniture,bad,schlecht,1.0,8,Deutsch,30,Female,2,,Chrome,Windows,900,1600,4.847183333333334,21,Yes
+6,size,ist nicht,tomato,Tomate,food,tiny,winzig,1.0,9,Deutsch,30,Female,2,,Chrome,Windows,900,1600,4.847183333333334,21,Yes
+7,texture,ist nicht,cheese,K&auml;se,food,hard,hart,1.0,10,Deutsch,30,Female,2,,Chrome,Windows,900,1600,4.847183333333334,21,Yes
+8,age,ist nicht,tomato,Tomate,food,fresh,frisch,0.2,11,Deutsch,30,Female,2,,Chrome,Windows,900,1600,4.847183333333334,21,Yes
+9,age,ist ,tomato,Tomate,food,old,alt,0.21,12,Deutsch,30,Female,2,,Chrome,Windows,900,1600,4.847183333333334,21,Yes
+10,color,ist ,apple,Apfel,food,yellow,gelb,0.0,13,Deutsch,30,Female,2,,Chrome,Windows,900,1600,4.847183333333334,21,Yes
+11,size,ist nicht,apple,Apfel,food,long,lang,1.0,14,Deutsch,30,Female,2,,Chrome,Windows,900,1600,4.847183333333334,21,Yes
+12,quality,ist nicht,couch,Couch,furniture,good,gut,1.0,15,Deutsch,30,Female,2,,Chrome,Windows,900,1600,4.847183333333334,21,Yes
+13,shape,ist nicht,chair,Stuhl,furniture,square,quadratisch,0.0,16,Deutsch,30,Female,2,,Chrome,Windows,900,1600,4.847183333333334,21,Yes
+14,nationality,ist nicht,chair,Stuhl,furniture,French,franz&ouml;sisch,0.0,17,Deutsch,30,Female,2,,Chrome,Windows,900,1600,4.847183333333334,21,Yes
+15,color,ist ,fan,Ventilator,furniture,brown,braun,0.0,18,Deutsch,30,Female,2,,Chrome,Windows,900,1600,4.847183333333334,21,Yes
+16,color,ist ,apple,Apfel,food,green,gr&uuml;n,0.0,19,Deutsch,30,Female,2,,Chrome,Windows,900,1600,4.847183333333334,21,Yes
+17,texture,ist ,apple,Apfel,food,smooth,glatt,0.75,20,Deutsch,30,Female,2,,Chrome,Windows,900,1600,4.847183333333334,21,Yes
+18,color,ist ,cheese,K&auml;se,food,blue,blau,0.0,21,Deutsch,30,Female,2,,Chrome,Windows,900,1600,4.847183333333334,21,Yes
+19,age,ist nicht,TV,Fernsehen,furniture,rotten,faul,0.98,22,Deutsch,30,Female,2,,Chrome,Windows,900,1600,4.847183333333334,21,Yes
+20,size,ist ,desk,Schreibtisch,furniture,big,gro&szlig;,1.0,23,Deutsch,30,Female,2,,Chrome,Windows,900,1600,4.847183333333334,21,Yes
+21,nationality,ist ,carrot,Karotte,food,American,americanisch,0.0,24,Deutsch,30,Female,2,,Chrome,Windows,900,1600,4.847183333333334,21,Yes
+22,color,ist ,TV,Fernsehen,furniture,red,rot,0.0,25,Deutsch,30,Female,2,,Chrome,Windows,900,1600,4.847183333333334,21,Yes
+23,nationality,ist ,apple,Apfel,food,German,deutsch,0.0,26,Deutsch,30,Female,2,,Chrome,Windows,900,1600,4.847183333333334,21,Yes
+24,size,ist nicht,desk,Schreibtisch,furniture,short,kurz,1.0,27,Deutsch,30,Female,2,,Chrome,Windows,900,1600,4.847183333333334,21,Yes
+25,size,ist nicht,banana,Banane,food,huge,riesig,1.0,28,Deutsch,30,Female,2,,Chrome,Windows,900,1600,4.847183333333334,21,Yes
+0,size,ist nicht,fan,Ventilator,furniture,short,kurz,0.0,3,Deutsch,25,Male,1,,Chrome,Windows,1080,1920,3.13735,22,Yes
+1,color,ist nicht,carrot,Karotte,food,blue,blau,0.0,4,Deutsch,25,Male,1,,Chrome,Windows,1080,1920,3.13735,22,Yes
+2,age,ist nicht,couch,Couch,furniture,old,alt,1.0,5,Deutsch,25,Male,1,,Chrome,Windows,1080,1920,3.13735,22,Yes
+3,shape,ist ,apple,Apfel,food,round,rund,1.0,6,Deutsch,25,Male,1,,Chrome,Windows,1080,1920,3.13735,22,Yes
+4,color,ist nicht,carrot,Karotte,food,brown,braun,0.0,7,Deutsch,25,Male,1,,Chrome,Windows,1080,1920,3.13735,22,Yes
+5,size,ist ,tomato,Tomate,food,big,gro&szlig;,1.0,8,Deutsch,25,Male,1,,Chrome,Windows,1080,1920,3.13735,22,Yes
+6,color,ist nicht,carrot,Karotte,food,purple,purpur,0.0,9,Deutsch,25,Male,1,,Chrome,Windows,1080,1920,3.13735,22,Yes
+7,size,ist ,carrot,Karotte,food,huge,riesig,1.0,10,Deutsch,25,Male,1,,Chrome,Windows,1080,1920,3.13735,22,Yes
+8,nationality,ist nicht,carrot,Karotte,food,French,franz&ouml;sisch,0.0,11,Deutsch,25,Male,1,,Chrome,Windows,1080,1920,3.13735,22,Yes
+9,size,ist ,desk,Schreibtisch,furniture,small,klein,0.98,12,Deutsch,25,Male,1,,Chrome,Windows,1080,1920,3.13735,22,Yes
+10,quality,ist nicht,tomato,Tomate,food,good,gut,1.0,13,Deutsch,25,Male,1,,Chrome,Windows,1080,1920,3.13735,22,Yes
+11,texture,ist ,couch,Couch,furniture,hard,hart,1.0,14,Deutsch,25,Male,1,,Chrome,Windows,1080,1920,3.13735,22,Yes
+12,texture,ist ,TV,Fernsehen,furniture,soft,weich,0.0,15,Deutsch,25,Male,1,,Chrome,Windows,1080,1920,3.13735,22,Yes
+13,size,ist ,carrot,Karotte,food,long,lang,1.0,16,Deutsch,25,Male,1,,Chrome,Windows,1080,1920,3.13735,22,Yes
+14,age,ist ,cheese,K&auml;se,food,fresh,frisch,1.0,17,Deutsch,25,Male,1,,Chrome,Windows,1080,1920,3.13735,22,Yes
+15,shape,ist nicht,tomato,Tomate,food,square,quadratisch,0.3,18,Deutsch,25,Male,1,,Chrome,Windows,1080,1920,3.13735,22,Yes
+16,nationality,ist ,desk,Schreibtisch,furniture,German,deutsch,0.0,19,Deutsch,25,Male,1,,Chrome,Windows,1080,1920,3.13735,22,Yes
+17,texture,ist nicht,carrot,Karotte,food,smooth,glatt,1.0,20,Deutsch,25,Male,1,,Chrome,Windows,1080,1920,3.13735,22,Yes
+18,nationality,ist nicht,banana,Banane,food,American,americanisch,0.0,21,Deutsch,25,Male,1,,Chrome,Windows,1080,1920,3.13735,22,Yes
+19,color,ist ,TV,Fernsehen,furniture,green,gr&uuml;n,0.01,22,Deutsch,25,Male,1,,Chrome,Windows,1080,1920,3.13735,22,Yes
+20,size,ist nicht,apple,Apfel,food,tiny,winzig,1.0,23,Deutsch,25,Male,1,,Chrome,Windows,1080,1920,3.13735,22,Yes
+21,age,ist ,banana,Banane,food,rotten,faul,1.0,24,Deutsch,25,Male,1,,Chrome,Windows,1080,1920,3.13735,22,Yes
+22,color,ist nicht,TV,Fernsehen,furniture,yellow,gelb,1.0,25,Deutsch,25,Male,1,,Chrome,Windows,1080,1920,3.13735,22,Yes
+23,age,ist ,carrot,Karotte,food,new,neu,0.65,26,Deutsch,25,Male,1,,Chrome,Windows,1080,1920,3.13735,22,Yes
+24,color,ist nicht,TV,Fernsehen,furniture,red,rot,0.0,27,Deutsch,25,Male,1,,Chrome,Windows,1080,1920,3.13735,22,Yes
+25,quality,ist ,banana,Banane,food,bad,schlecht,0.64,28,Deutsch,25,Male,1,,Chrome,Windows,1080,1920,3.13735,22,Yes
+0,size,ist ,fan,Ventilator,furniture,small,klein,1.0,3,Deutsch,44,Male,3,,Chrome,Mac,900,1440,3.8796166666666667,23,Yes
+1,texture,ist ,TV,Fernsehen,furniture,smooth,glatt,0.66,4,Deutsch,44,Male,3,,Chrome,Mac,900,1440,3.8796166666666667,23,Yes
+2,nationality,ist ,chair,Stuhl,furniture,German,deutsch,0.0,5,Deutsch,44,Male,3,,Chrome,Mac,900,1440,3.8796166666666667,23,Yes
+3,color,ist nicht,banana,Banane,food,blue,blau,0.0,6,Deutsch,44,Male,3,,Chrome,Mac,900,1440,3.8796166666666667,23,Yes
+4,color,ist nicht,TV,Fernsehen,furniture,brown,braun,0.0,7,Deutsch,44,Male,3,,Chrome,Mac,900,1440,3.8796166666666667,23,Yes
+5,shape,ist nicht,desk,Schreibtisch,furniture,round,rund,0.0,8,Deutsch,44,Male,3,,Chrome,Mac,900,1440,3.8796166666666667,23,Yes
+6,color,ist nicht,banana,Banane,food,red,rot,0.0,9,Deutsch,44,Male,3,,Chrome,Mac,900,1440,3.8796166666666667,23,Yes
+7,texture,ist nicht,couch,Couch,furniture,hard,hart,1.0,10,Deutsch,44,Male,3,,Chrome,Mac,900,1440,3.8796166666666667,23,Yes
+8,quality,ist ,fan,Ventilator,furniture,bad,schlecht,1.0,11,Deutsch,44,Male,3,,Chrome,Mac,900,1440,3.8796166666666667,23,Yes
+9,nationality,ist ,banana,Banane,food,French,franz&ouml;sisch,0.0,12,Deutsch,44,Male,3,,Chrome,Mac,900,1440,3.8796166666666667,23,Yes
+10,color,ist nicht,couch,Couch,furniture,purple,purpur,0.0,13,Deutsch,44,Male,3,,Chrome,Mac,900,1440,3.8796166666666667,23,Yes
+11,color,ist nicht,chair,Stuhl,furniture,yellow,gelb,0.0,14,Deutsch,44,Male,3,,Chrome,Mac,900,1440,3.8796166666666667,23,Yes
+12,size,ist nicht,banana,Banane,food,big,gro&szlig;,1.0,15,Deutsch,44,Male,3,,Chrome,Mac,900,1440,3.8796166666666667,23,Yes
+13,nationality,ist nicht,couch,Couch,furniture,American,americanisch,0.0,16,Deutsch,44,Male,3,,Chrome,Mac,900,1440,3.8796166666666667,23,Yes
+14,age,ist nicht,cheese,K&auml;se,food,new,neu,0.0,17,Deutsch,44,Male,3,,Chrome,Mac,900,1440,3.8796166666666667,23,Yes
+15,texture,ist ,chair,Stuhl,furniture,soft,weich,1.0,18,Deutsch,44,Male,3,,Chrome,Mac,900,1440,3.8796166666666667,23,Yes
+16,age,ist nicht,chair,Stuhl,furniture,rotten,faul,1.0,19,Deutsch,44,Male,3,,Chrome,Mac,900,1440,3.8796166666666667,23,Yes
+17,age,ist ,banana,Banane,food,fresh,frisch,0.0,20,Deutsch,44,Male,3,,Chrome,Mac,900,1440,3.8796166666666667,23,Yes
+18,color,ist ,desk,Schreibtisch,furniture,green,gr&uuml;n,0.0,21,Deutsch,44,Male,3,,Chrome,Mac,900,1440,3.8796166666666667,23,Yes
+19,quality,ist ,chair,Stuhl,furniture,good,gut,1.0,22,Deutsch,44,Male,3,,Chrome,Mac,900,1440,3.8796166666666667,23,Yes
+20,shape,ist ,TV,Fernsehen,furniture,square,quadratisch,0.0,23,Deutsch,44,Male,3,,Chrome,Mac,900,1440,3.8796166666666667,23,Yes
+21,size,ist nicht,cheese,K&auml;se,food,short,kurz,1.0,24,Deutsch,44,Male,3,,Chrome,Mac,900,1440,3.8796166666666667,23,Yes
+22,size,ist nicht,TV,Fernsehen,furniture,huge,riesig,1.0,25,Deutsch,44,Male,3,,Chrome,Mac,900,1440,3.8796166666666667,23,Yes
+23,size,ist ,couch,Couch,furniture,long,lang,1.0,26,Deutsch,44,Male,3,,Chrome,Mac,900,1440,3.8796166666666667,23,Yes
+24,size,ist nicht,chair,Stuhl,furniture,tiny,winzig,1.0,27,Deutsch,44,Male,3,,Chrome,Mac,900,1440,3.8796166666666667,23,Yes
+25,age,ist ,fan,Ventilator,furniture,old,alt,1.0,28,Deutsch,44,Male,3,,Chrome,Mac,900,1440,3.8796166666666667,23,Yes
+0,nationality,ist nicht,carrot,Karotte,food,American,americanisch,0.0,3,Deutsch,32,Male,3,,Firefox,Windows,1080,1920,3.9019,24,Yes
+1,size,ist nicht,fan,Ventilator,furniture,short,kurz,1.0,4,Deutsch,32,Male,3,,Firefox,Windows,1080,1920,3.9019,24,Yes
+2,color,ist ,fan,Ventilator,furniture,yellow,gelb,0.0,5,Deutsch,32,Male,3,,Firefox,Windows,1080,1920,3.9019,24,Yes
+3,age,ist ,chair,Stuhl,furniture,old,alt,1.0,6,Deutsch,32,Male,3,,Firefox,Windows,1080,1920,3.9019,24,Yes
+4,texture,ist ,chair,Stuhl,furniture,soft,weich,1.0,7,Deutsch,32,Male,3,,Firefox,Windows,1080,1920,3.9019,24,Yes
+5,quality,ist ,desk,Schreibtisch,furniture,good,gut,1.0,8,Deutsch,32,Male,3,,Firefox,Windows,1080,1920,3.9019,24,Yes
+6,age,ist ,fan,Ventilator,furniture,fresh,frisch,1.0,9,Deutsch,32,Male,3,,Firefox,Windows,1080,1920,3.9019,24,Yes
+7,size,ist ,tomato,Tomate,food,tiny,winzig,1.0,10,Deutsch,32,Male,3,,Firefox,Windows,1080,1920,3.9019,24,Yes
+8,color,ist ,chair,Stuhl,furniture,red,rot,0.0,11,Deutsch,32,Male,3,,Firefox,Windows,1080,1920,3.9019,24,Yes
+9,age,ist ,TV,Fernsehen,furniture,new,neu,0.0,12,Deutsch,32,Male,3,,Firefox,Windows,1080,1920,3.9019,24,Yes
+10,texture,ist ,carrot,Karotte,food,smooth,glatt,0.29,13,Deutsch,32,Male,3,,Firefox,Windows,1080,1920,3.9019,24,Yes
+11,shape,ist nicht,apple,Apfel,food,round,rund,0.0,14,Deutsch,32,Male,3,,Firefox,Windows,1080,1920,3.9019,24,Yes
+12,color,ist nicht,desk,Schreibtisch,furniture,blue,blau,0.0,15,Deutsch,32,Male,3,,Firefox,Windows,1080,1920,3.9019,24,Yes
+13,nationality,ist nicht,chair,Stuhl,furniture,German,deutsch,0.0,16,Deutsch,32,Male,3,,Firefox,Windows,1080,1920,3.9019,24,Yes
+14,color,ist nicht,desk,Schreibtisch,furniture,green,gr&uuml;n,0.0,17,Deutsch,32,Male,3,,Firefox,Windows,1080,1920,3.9019,24,Yes
+15,size,ist ,cheese,K&auml;se,food,big,gro&szlig;,1.0,18,Deutsch,32,Male,3,,Firefox,Windows,1080,1920,3.9019,24,Yes
+16,age,ist ,banana,Banane,food,rotten,faul,0.28,19,Deutsch,32,Male,3,,Firefox,Windows,1080,1920,3.9019,24,Yes
+17,color,ist ,chair,Stuhl,furniture,purple,purpur,0.0,20,Deutsch,32,Male,3,,Firefox,Windows,1080,1920,3.9019,24,Yes
+18,shape,ist nicht,carrot,Karotte,food,square,quadratisch,0.0,21,Deutsch,32,Male,3,,Firefox,Windows,1080,1920,3.9019,24,Yes
+19,quality,ist nicht,carrot,Karotte,food,bad,schlecht,0.88,22,Deutsch,32,Male,3,,Firefox,Windows,1080,1920,3.9019,24,Yes
+20,color,ist ,carrot,Karotte,food,brown,braun,0.0,23,Deutsch,32,Male,3,,Firefox,Windows,1080,1920,3.9019,24,Yes
+21,size,ist ,chair,Stuhl,furniture,small,klein,1.0,24,Deutsch,32,Male,3,,Firefox,Windows,1080,1920,3.9019,24,Yes
+22,size,ist ,apple,Apfel,food,huge,riesig,1.0,25,Deutsch,32,Male,3,,Firefox,Windows,1080,1920,3.9019,24,Yes
+23,nationality,ist nicht,chair,Stuhl,furniture,French,franz&ouml;sisch,0.0,26,Deutsch,32,Male,3,,Firefox,Windows,1080,1920,3.9019,24,Yes
+24,size,ist ,apple,Apfel,food,long,lang,1.0,27,Deutsch,32,Male,3,,Firefox,Windows,1080,1920,3.9019,24,Yes
+25,texture,ist ,apple,Apfel,food,hard,hart,1.0,28,Deutsch,32,Male,3,,Firefox,Windows,1080,1920,3.9019,24,Yes
+0,color,ist nicht,desk,Schreibtisch,furniture,green,gr&uuml;n,0.94,3,Deutsch,43,Female,2,,Chrome,Linux,962,601,4.13645,25,Yes
+1,size,ist ,desk,Schreibtisch,furniture,short,kurz,0.81,4,Deutsch,43,Female,2,,Chrome,Linux,962,601,4.13645,25,Yes
+2,nationality,ist nicht,banana,Banane,food,American,americanisch,0.22,5,Deutsch,43,Female,2,,Chrome,Linux,962,601,4.13645,25,Yes
+3,shape,ist nicht,TV,Fernsehen,furniture,round,rund,0.52,6,Deutsch,43,Female,2,,Chrome,Linux,962,601,4.13645,25,Yes
+4,color,ist ,TV,Fernsehen,furniture,brown,braun,0.91,7,Deutsch,43,Female,2,,Chrome,Linux,962,601,4.13645,25,Yes
+5,size,ist nicht,apple,Apfel,food,long,lang,0.27,8,Deutsch,43,Female,2,,Chrome,Linux,962,601,4.13645,25,Yes
+6,texture,ist ,TV,Fernsehen,furniture,hard,hart,0.11,9,Deutsch,43,Female,2,,Chrome,Linux,962,601,4.13645,25,Yes
+7,color,ist ,carrot,Karotte,food,purple,purpur,0.71,10,Deutsch,43,Female,2,,Chrome,Linux,962,601,4.13645,25,Yes
+8,quality,ist ,desk,Schreibtisch,furniture,bad,schlecht,0.81,11,Deutsch,43,Female,2,,Chrome,Linux,962,601,4.13645,25,Yes
+9,texture,ist nicht,TV,Fernsehen,furniture,smooth,glatt,0.47,12,Deutsch,43,Female,2,,Chrome,Linux,962,601,4.13645,25,Yes
+10,size,ist nicht,cheese,K&auml;se,food,tiny,winzig,0.93,13,Deutsch,43,Female,2,,Chrome,Linux,962,601,4.13645,25,Yes
+11,color,ist ,TV,Fernsehen,furniture,yellow,gelb,0.8,14,Deutsch,43,Female,2,,Chrome,Linux,962,601,4.13645,25,Yes
+12,age,ist nicht,banana,Banane,food,new,neu,0.21,15,Deutsch,43,Female,2,,Chrome,Linux,962,601,4.13645,25,Yes
+13,size,ist nicht,fan,Ventilator,furniture,small,klein,0.9,16,Deutsch,43,Female,2,,Chrome,Linux,962,601,4.13645,25,Yes
+14,texture,ist nicht,tomato,Tomate,food,soft,weich,0.48,17,Deutsch,43,Female,2,,Chrome,Linux,962,601,4.13645,25,Yes
+15,nationality,ist ,banana,Banane,food,German,deutsch,0.26,18,Deutsch,43,Female,2,,Chrome,Linux,962,601,4.13645,25,Yes
+16,quality,ist nicht,fan,Ventilator,furniture,good,gut,0.68,19,Deutsch,43,Female,2,,Chrome,Linux,962,601,4.13645,25,Yes
+17,age,ist nicht,tomato,Tomate,food,fresh,frisch,0.6,20,Deutsch,43,Female,2,,Chrome,Linux,962,601,4.13645,25,Yes
+18,size,ist nicht,banana,Banane,food,huge,riesig,0.73,21,Deutsch,43,Female,2,,Chrome,Linux,962,601,4.13645,25,Yes
+19,size,ist ,chair,Stuhl,furniture,big,gro&szlig;,0.85,22,Deutsch,43,Female,2,,Chrome,Linux,962,601,4.13645,25,Yes
+20,color,ist ,apple,Apfel,food,red,rot,0.69,23,Deutsch,43,Female,2,,Chrome,Linux,962,601,4.13645,25,Yes
+21,color,ist ,couch,Couch,furniture,blue,blau,0.88,24,Deutsch,43,Female,2,,Chrome,Linux,962,601,4.13645,25,Yes
+22,shape,ist nicht,desk,Schreibtisch,furniture,square,quadratisch,0.01,25,Deutsch,43,Female,2,,Chrome,Linux,962,601,4.13645,25,Yes
+23,nationality,ist nicht,desk,Schreibtisch,furniture,French,franz&ouml;sisch,0.19,26,Deutsch,43,Female,2,,Chrome,Linux,962,601,4.13645,25,Yes
+24,age,ist ,desk,Schreibtisch,furniture,old,alt,0.69,27,Deutsch,43,Female,2,,Chrome,Linux,962,601,4.13645,25,Yes
+25,age,ist nicht,cheese,K&auml;se,food,rotten,faul,0.83,28,Deutsch,43,Female,2,,Chrome,Linux,962,601,4.13645,25,Yes
+0,shape,ist ,desk,Schreibtisch,furniture,square,quadratisch,0.01,3,deutsch,56,Female,3,Es waren ein paar SEHR seltsame Kombinationen in den Aufgaben. ,Chrome,Mac,900,1440,7.442366666666667,26,Yes
+1,age,ist nicht,couch,Couch,furniture,rotten,faul,0.98,4,deutsch,56,Female,3,Es waren ein paar SEHR seltsame Kombinationen in den Aufgaben. ,Chrome,Mac,900,1440,7.442366666666667,26,Yes
+2,color,ist ,carrot,Karotte,food,yellow,gelb,0.71,5,deutsch,56,Female,3,Es waren ein paar SEHR seltsame Kombinationen in den Aufgaben. ,Chrome,Mac,900,1440,7.442366666666667,26,Yes
+3,nationality,ist nicht,desk,Schreibtisch,furniture,French,franz&ouml;sisch,0.01,6,deutsch,56,Female,3,Es waren ein paar SEHR seltsame Kombinationen in den Aufgaben. ,Chrome,Mac,900,1440,7.442366666666667,26,Yes
+4,color,ist nicht,couch,Couch,furniture,purple,purpur,0.71,7,deutsch,56,Female,3,Es waren ein paar SEHR seltsame Kombinationen in den Aufgaben. ,Chrome,Mac,900,1440,7.442366666666667,26,Yes
+5,shape,ist nicht,chair,Stuhl,furniture,round,rund,0.0,8,deutsch,56,Female,3,Es waren ein paar SEHR seltsame Kombinationen in den Aufgaben. ,Chrome,Mac,900,1440,7.442366666666667,26,Yes
+6,size,ist nicht,cheese,K&auml;se,food,small,klein,0.98,9,deutsch,56,Female,3,Es waren ein paar SEHR seltsame Kombinationen in den Aufgaben. ,Chrome,Mac,900,1440,7.442366666666667,26,Yes
+7,quality,ist nicht,TV,Fernsehen,furniture,bad,schlecht,0.98,10,deutsch,56,Female,3,Es waren ein paar SEHR seltsame Kombinationen in den Aufgaben. ,Chrome,Mac,900,1440,7.442366666666667,26,Yes
+8,texture,ist nicht,chair,Stuhl,furniture,hard,hart,0.69,11,deutsch,56,Female,3,Es waren ein paar SEHR seltsame Kombinationen in den Aufgaben. ,Chrome,Mac,900,1440,7.442366666666667,26,Yes
+9,color,ist ,desk,Schreibtisch,furniture,brown,braun,0.01,12,deutsch,56,Female,3,Es waren ein paar SEHR seltsame Kombinationen in den Aufgaben. ,Chrome,Mac,900,1440,7.442366666666667,26,Yes
+10,texture,ist nicht,desk,Schreibtisch,furniture,smooth,glatt,0.34,13,deutsch,56,Female,3,Es waren ein paar SEHR seltsame Kombinationen in den Aufgaben. ,Chrome,Mac,900,1440,7.442366666666667,26,Yes
+11,size,ist ,banana,Banane,food,long,lang,0.62,14,deutsch,56,Female,3,Es waren ein paar SEHR seltsame Kombinationen in den Aufgaben. ,Chrome,Mac,900,1440,7.442366666666667,26,Yes
+12,nationality,ist nicht,tomato,Tomate,food,American,americanisch,0.0,15,deutsch,56,Female,3,Es waren ein paar SEHR seltsame Kombinationen in den Aufgaben. ,Chrome,Mac,900,1440,7.442366666666667,26,Yes
+13,age,ist ,couch,Couch,furniture,old,alt,0.97,16,deutsch,56,Female,3,Es waren ein paar SEHR seltsame Kombinationen in den Aufgaben. ,Chrome,Mac,900,1440,7.442366666666667,26,Yes
+14,age,ist ,desk,Schreibtisch,furniture,new,neu,0.01,17,deutsch,56,Female,3,Es waren ein paar SEHR seltsame Kombinationen in den Aufgaben. ,Chrome,Mac,900,1440,7.442366666666667,26,Yes
+15,size,ist ,tomato,Tomate,food,big,gro&szlig;,0.84,18,deutsch,56,Female,3,Es waren ein paar SEHR seltsame Kombinationen in den Aufgaben. ,Chrome,Mac,900,1440,7.442366666666667,26,Yes
+16,texture,ist nicht,TV,Fernsehen,furniture,soft,weich,0.84,19,deutsch,56,Female,3,Es waren ein paar SEHR seltsame Kombinationen in den Aufgaben. ,Chrome,Mac,900,1440,7.442366666666667,26,Yes
+17,nationality,ist nicht,cheese,K&auml;se,food,German,deutsch,0.01,20,deutsch,56,Female,3,Es waren ein paar SEHR seltsame Kombinationen in den Aufgaben. ,Chrome,Mac,900,1440,7.442366666666667,26,Yes
+18,quality,ist ,cheese,K&auml;se,food,good,gut,0.98,21,deutsch,56,Female,3,Es waren ein paar SEHR seltsame Kombinationen in den Aufgaben. ,Chrome,Mac,900,1440,7.442366666666667,26,Yes
+19,color,ist nicht,tomato,Tomate,food,red,rot,0.29,22,deutsch,56,Female,3,Es waren ein paar SEHR seltsame Kombinationen in den Aufgaben. ,Chrome,Mac,900,1440,7.442366666666667,26,Yes
+20,size,ist ,cheese,K&auml;se,food,short,kurz,0.78,23,deutsch,56,Female,3,Es waren ein paar SEHR seltsame Kombinationen in den Aufgaben. ,Chrome,Mac,900,1440,7.442366666666667,26,Yes
+21,color,ist nicht,cheese,K&auml;se,food,green,gr&uuml;n,0.01,24,deutsch,56,Female,3,Es waren ein paar SEHR seltsame Kombinationen in den Aufgaben. ,Chrome,Mac,900,1440,7.442366666666667,26,Yes
+22,size,ist nicht,apple,Apfel,food,tiny,winzig,0.67,25,deutsch,56,Female,3,Es waren ein paar SEHR seltsame Kombinationen in den Aufgaben. ,Chrome,Mac,900,1440,7.442366666666667,26,Yes
+23,color,ist nicht,tomato,Tomate,food,blue,blau,0.0,26,deutsch,56,Female,3,Es waren ein paar SEHR seltsame Kombinationen in den Aufgaben. ,Chrome,Mac,900,1440,7.442366666666667,26,Yes
+24,age,ist ,TV,Fernsehen,furniture,fresh,frisch,0.89,27,deutsch,56,Female,3,Es waren ein paar SEHR seltsame Kombinationen in den Aufgaben. ,Chrome,Mac,900,1440,7.442366666666667,26,Yes
+25,size,ist nicht,chair,Stuhl,furniture,huge,riesig,0.4,28,deutsch,56,Female,3,Es waren ein paar SEHR seltsame Kombinationen in den Aufgaben. ,Chrome,Mac,900,1440,7.442366666666667,26,Yes
+0,color,ist nicht,TV,Fernsehen,furniture,yellow,gelb,0.29,3,Deutsch,30,Male,1,,Firefox,Windows,1080,1920,5.934333333333333,27,Yes
+1,nationality,ist nicht,carrot,Karotte,food,German,deutsch,0.4,4,Deutsch,30,Male,1,,Firefox,Windows,1080,1920,5.934333333333333,27,Yes
+2,texture,ist ,carrot,Karotte,food,hard,hart,0.81,5,Deutsch,30,Male,1,,Firefox,Windows,1080,1920,5.934333333333333,27,Yes
+3,age,ist nicht,couch,Couch,furniture,new,neu,0.02,6,Deutsch,30,Male,1,,Firefox,Windows,1080,1920,5.934333333333333,27,Yes
+4,texture,ist nicht,chair,Stuhl,furniture,soft,weich,0.86,7,Deutsch,30,Male,1,,Firefox,Windows,1080,1920,5.934333333333333,27,Yes
+5,color,ist nicht,cheese,K&auml;se,food,red,rot,0.18,8,Deutsch,30,Male,1,,Firefox,Windows,1080,1920,5.934333333333333,27,Yes
+6,quality,ist ,desk,Schreibtisch,furniture,good,gut,0.89,9,Deutsch,30,Male,1,,Firefox,Windows,1080,1920,5.934333333333333,27,Yes
+7,color,ist ,carrot,Karotte,food,purple,purpur,0.27,10,Deutsch,30,Male,1,,Firefox,Windows,1080,1920,5.934333333333333,27,Yes
+8,size,ist nicht,chair,Stuhl,furniture,small,klein,0.75,11,Deutsch,30,Male,1,,Firefox,Windows,1080,1920,5.934333333333333,27,Yes
+9,nationality,ist nicht,carrot,Karotte,food,American,americanisch,0.3,12,Deutsch,30,Male,1,,Firefox,Windows,1080,1920,5.934333333333333,27,Yes
+10,color,ist nicht,banana,Banane,food,brown,braun,0.29,13,Deutsch,30,Male,1,,Firefox,Windows,1080,1920,5.934333333333333,27,Yes
+11,shape,ist ,desk,Schreibtisch,furniture,square,quadratisch,0.12,14,Deutsch,30,Male,1,,Firefox,Windows,1080,1920,5.934333333333333,27,Yes
+12,nationality,ist ,cheese,K&auml;se,food,French,franz&ouml;sisch,0.39,15,Deutsch,30,Male,1,,Firefox,Windows,1080,1920,5.934333333333333,27,Yes
+13,color,ist ,chair,Stuhl,furniture,blue,blau,0.16,16,Deutsch,30,Male,1,,Firefox,Windows,1080,1920,5.934333333333333,27,Yes
+14,color,ist nicht,TV,Fernsehen,furniture,green,gr&uuml;n,0.2,17,Deutsch,30,Male,1,,Firefox,Windows,1080,1920,5.934333333333333,27,Yes
+15,age,ist ,TV,Fernsehen,furniture,rotten,faul,0.5,18,Deutsch,30,Male,1,,Firefox,Windows,1080,1920,5.934333333333333,27,Yes
+16,quality,ist ,cheese,K&auml;se,food,bad,schlecht,0.19,19,Deutsch,30,Male,1,,Firefox,Windows,1080,1920,5.934333333333333,27,Yes
+17,size,ist ,cheese,K&auml;se,food,long,lang,0.22,20,Deutsch,30,Male,1,,Firefox,Windows,1080,1920,5.934333333333333,27,Yes
+18,size,ist nicht,desk,Schreibtisch,furniture,short,kurz,0.33,21,Deutsch,30,Male,1,,Firefox,Windows,1080,1920,5.934333333333333,27,Yes
+19,age,ist ,apple,Apfel,food,old,alt,0.61,22,Deutsch,30,Male,1,,Firefox,Windows,1080,1920,5.934333333333333,27,Yes
+20,size,ist nicht,chair,Stuhl,furniture,big,gro&szlig;,0.8,23,Deutsch,30,Male,1,,Firefox,Windows,1080,1920,5.934333333333333,27,Yes
+21,texture,ist nicht,apple,Apfel,food,smooth,glatt,0.45,24,Deutsch,30,Male,1,,Firefox,Windows,1080,1920,5.934333333333333,27,Yes
+22,size,ist nicht,couch,Couch,furniture,huge,riesig,0.78,25,Deutsch,30,Male,1,,Firefox,Windows,1080,1920,5.934333333333333,27,Yes
+23,age,ist nicht,apple,Apfel,food,fresh,frisch,0.4,26,Deutsch,30,Male,1,,Firefox,Windows,1080,1920,5.934333333333333,27,Yes
+24,size,ist ,TV,Fernsehen,furniture,tiny,winzig,0.75,27,Deutsch,30,Male,1,,Firefox,Windows,1080,1920,5.934333333333333,27,Yes
+25,shape,ist nicht,chair,Stuhl,furniture,round,rund,0.19,28,Deutsch,30,Male,1,,Firefox,Windows,1080,1920,5.934333333333333,27,Yes
+0,size,ist ,tomato,Tomate,food,tiny,winzig,0.96,3,Deutsch,38,Male,1,,Chrome,Mac,900,1440,3.7727,28,Yes
+1,color,ist ,TV,Fernsehen,furniture,purple,purpur,0.01,4,Deutsch,38,Male,1,,Chrome,Mac,900,1440,3.7727,28,Yes
+2,size,ist nicht,carrot,Karotte,food,huge,riesig,0.31,5,Deutsch,38,Male,1,,Chrome,Mac,900,1440,3.7727,28,Yes
+3,texture,ist nicht,banana,Banane,food,soft,weich,0.18,6,Deutsch,38,Male,1,,Chrome,Mac,900,1440,3.7727,28,Yes
+4,color,ist nicht,couch,Couch,furniture,yellow,gelb,0.02,7,Deutsch,38,Male,1,,Chrome,Mac,900,1440,3.7727,28,Yes
+5,quality,ist nicht,desk,Schreibtisch,furniture,bad,schlecht,0.82,8,Deutsch,38,Male,1,,Chrome,Mac,900,1440,3.7727,28,Yes
+6,nationality,ist nicht,chair,Stuhl,furniture,American,americanisch,0.21,9,Deutsch,38,Male,1,,Chrome,Mac,900,1440,3.7727,28,Yes
+7,age,ist ,banana,Banane,food,old,alt,0.02,10,Deutsch,38,Male,1,,Chrome,Mac,900,1440,3.7727,28,Yes
+8,color,ist nicht,fan,Ventilator,furniture,red,rot,0.03,11,Deutsch,38,Male,1,,Chrome,Mac,900,1440,3.7727,28,Yes
+9,color,ist ,fan,Ventilator,furniture,blue,blau,0.01,12,Deutsch,38,Male,1,,Chrome,Mac,900,1440,3.7727,28,Yes
+10,nationality,ist ,cheese,K&auml;se,food,French,franz&ouml;sisch,0.5,13,Deutsch,38,Male,1,,Chrome,Mac,900,1440,3.7727,28,Yes
+11,size,ist ,TV,Fernsehen,furniture,big,gro&szlig;,0.43,14,Deutsch,38,Male,1,,Chrome,Mac,900,1440,3.7727,28,Yes
+12,nationality,ist nicht,tomato,Tomate,food,German,deutsch,0.0,15,Deutsch,38,Male,1,,Chrome,Mac,900,1440,3.7727,28,Yes
+13,age,ist ,tomato,Tomate,food,rotten,faul,0.01,16,Deutsch,38,Male,1,,Chrome,Mac,900,1440,3.7727,28,Yes
+14,texture,ist ,carrot,Karotte,food,smooth,glatt,0.08,17,Deutsch,38,Male,1,,Chrome,Mac,900,1440,3.7727,28,Yes
+15,size,ist ,tomato,Tomate,food,short,kurz,0.5,18,Deutsch,38,Male,1,,Chrome,Mac,900,1440,3.7727,28,Yes
+16,age,ist ,apple,Apfel,food,new,neu,0.68,19,Deutsch,38,Male,1,,Chrome,Mac,900,1440,3.7727,28,Yes
+17,texture,ist ,fan,Ventilator,furniture,hard,hart,0.37,20,Deutsch,38,Male,1,,Chrome,Mac,900,1440,3.7727,28,Yes
+18,shape,ist ,TV,Fernsehen,furniture,round,rund,0.1,21,Deutsch,38,Male,1,,Chrome,Mac,900,1440,3.7727,28,Yes
+19,color,ist ,TV,Fernsehen,furniture,green,gr&uuml;n,0.01,22,Deutsch,38,Male,1,,Chrome,Mac,900,1440,3.7727,28,Yes
+20,shape,ist nicht,desk,Schreibtisch,furniture,square,quadratisch,0.05,23,Deutsch,38,Male,1,,Chrome,Mac,900,1440,3.7727,28,Yes
+21,size,ist nicht,TV,Fernsehen,furniture,long,lang,0.59,24,Deutsch,38,Male,1,,Chrome,Mac,900,1440,3.7727,28,Yes
+22,size,ist nicht,couch,Couch,furniture,small,klein,0.75,25,Deutsch,38,Male,1,,Chrome,Mac,900,1440,3.7727,28,Yes
+23,quality,ist ,banana,Banane,food,good,gut,0.78,26,Deutsch,38,Male,1,,Chrome,Mac,900,1440,3.7727,28,Yes
+24,age,ist nicht,couch,Couch,furniture,fresh,frisch,0.75,27,Deutsch,38,Male,1,,Chrome,Mac,900,1440,3.7727,28,Yes
+25,color,ist nicht,chair,Stuhl,furniture,brown,braun,0.11,28,Deutsch,38,Male,1,,Chrome,Mac,900,1440,3.7727,28,Yes
+0,age,ist nicht,desk,Schreibtisch,furniture,rotten,faul,0.07,3,Deutsch,31,Male,3,,Chrome,Windows,864,1536,4.175483333333333,29,Yes
+1,color,ist ,carrot,Karotte,food,blue,blau,0.0,4,Deutsch,31,Male,3,,Chrome,Windows,864,1536,4.175483333333333,29,Yes
+2,nationality,ist nicht,chair,Stuhl,furniture,American,americanisch,1.0,5,Deutsch,31,Male,3,,Chrome,Windows,864,1536,4.175483333333333,29,Yes
+3,size,ist ,apple,Apfel,food,short,kurz,0.0,6,Deutsch,31,Male,3,,Chrome,Windows,864,1536,4.175483333333333,29,Yes
+4,nationality,ist ,cheese,K&auml;se,food,German,deutsch,1.0,7,Deutsch,31,Male,3,,Chrome,Windows,864,1536,4.175483333333333,29,Yes
+5,size,ist ,cheese,K&auml;se,food,small,klein,0.48,8,Deutsch,31,Male,3,,Chrome,Windows,864,1536,4.175483333333333,29,Yes
+6,age,ist ,carrot,Karotte,food,old,alt,1.0,9,Deutsch,31,Male,3,,Chrome,Windows,864,1536,4.175483333333333,29,Yes
+7,size,ist nicht,fan,Ventilator,furniture,tiny,winzig,1.0,10,Deutsch,31,Male,3,,Chrome,Windows,864,1536,4.175483333333333,29,Yes
+8,size,ist ,desk,Schreibtisch,furniture,big,gro&szlig;,1.0,11,Deutsch,31,Male,3,,Chrome,Windows,864,1536,4.175483333333333,29,Yes
+9,texture,ist nicht,chair,Stuhl,furniture,smooth,glatt,0.5,12,Deutsch,31,Male,3,,Chrome,Windows,864,1536,4.175483333333333,29,Yes
+10,nationality,ist nicht,desk,Schreibtisch,furniture,French,franz&ouml;sisch,1.0,13,Deutsch,31,Male,3,,Chrome,Windows,864,1536,4.175483333333333,29,Yes
+11,quality,ist ,banana,Banane,food,good,gut,1.0,14,Deutsch,31,Male,3,,Chrome,Windows,864,1536,4.175483333333333,29,Yes
+12,color,ist nicht,couch,Couch,furniture,brown,braun,1.0,15,Deutsch,31,Male,3,,Chrome,Windows,864,1536,4.175483333333333,29,Yes
+13,age,ist nicht,fan,Ventilator,furniture,fresh,frisch,0.0,16,Deutsch,31,Male,3,,Chrome,Windows,864,1536,4.175483333333333,29,Yes
+14,texture,ist nicht,banana,Banane,food,soft,weich,1.0,17,Deutsch,31,Male,3,,Chrome,Windows,864,1536,4.175483333333333,29,Yes
+15,shape,ist ,fan,Ventilator,furniture,round,rund,1.0,18,Deutsch,31,Male,3,,Chrome,Windows,864,1536,4.175483333333333,29,Yes
+16,age,ist ,carrot,Karotte,food,new,neu,0.0,19,Deutsch,31,Male,3,,Chrome,Windows,864,1536,4.175483333333333,29,Yes
+17,shape,ist ,cheese,K&auml;se,food,square,quadratisch,1.0,20,Deutsch,31,Male,3,,Chrome,Windows,864,1536,4.175483333333333,29,Yes
+18,size,ist nicht,TV,Fernsehen,furniture,huge,riesig,0.0,21,Deutsch,31,Male,3,,Chrome,Windows,864,1536,4.175483333333333,29,Yes
+19,size,ist ,carrot,Karotte,food,long,lang,1.0,22,Deutsch,31,Male,3,,Chrome,Windows,864,1536,4.175483333333333,29,Yes
+20,color,ist ,desk,Schreibtisch,furniture,purple,purpur,1.0,23,Deutsch,31,Male,3,,Chrome,Windows,864,1536,4.175483333333333,29,Yes
+21,color,ist nicht,cheese,K&auml;se,food,yellow,gelb,1.0,24,Deutsch,31,Male,3,,Chrome,Windows,864,1536,4.175483333333333,29,Yes
+22,quality,ist nicht,fan,Ventilator,furniture,bad,schlecht,1.0,25,Deutsch,31,Male,3,,Chrome,Windows,864,1536,4.175483333333333,29,Yes
+23,color,ist nicht,fan,Ventilator,furniture,green,gr&uuml;n,1.0,26,Deutsch,31,Male,3,,Chrome,Windows,864,1536,4.175483333333333,29,Yes
+24,color,ist ,tomato,Tomate,food,red,rot,1.0,27,Deutsch,31,Male,3,,Chrome,Windows,864,1536,4.175483333333333,29,Yes
+25,texture,ist nicht,carrot,Karotte,food,hard,hart,1.0,28,Deutsch,31,Male,3,,Chrome,Windows,864,1536,4.175483333333333,29,Yes
+0,shape,ist nicht,apple,Apfel,food,square,quadratisch,0.06,3,deutsch,30,Male,1,,Firefox,Linux,768,1366,5.412466666666667,30,Yes
+1,nationality,ist ,desk,Schreibtisch,furniture,French,franz&ouml;sisch,0.07,4,deutsch,30,Male,1,,Firefox,Linux,768,1366,5.412466666666667,30,Yes
+2,color,ist ,TV,Fernsehen,furniture,red,rot,0.25,5,deutsch,30,Male,1,,Firefox,Linux,768,1366,5.412466666666667,30,Yes
+3,age,ist nicht,fan,Ventilator,furniture,fresh,frisch,0.32,6,deutsch,30,Male,1,,Firefox,Linux,768,1366,5.412466666666667,30,Yes
+4,size,ist ,cheese,K&auml;se,food,short,kurz,0.58,7,deutsch,30,Male,1,,Firefox,Linux,768,1366,5.412466666666667,30,Yes
+5,age,ist ,carrot,Karotte,food,old,alt,0.8,8,deutsch,30,Male,1,,Firefox,Linux,768,1366,5.412466666666667,30,Yes
+6,size,ist ,tomato,Tomate,food,huge,riesig,0.92,9,deutsch,30,Male,1,,Firefox,Linux,768,1366,5.412466666666667,30,Yes
+7,texture,ist nicht,couch,Couch,furniture,hard,hart,0.96,10,deutsch,30,Male,1,,Firefox,Linux,768,1366,5.412466666666667,30,Yes
+8,texture,ist nicht,desk,Schreibtisch,furniture,soft,weich,0.16,11,deutsch,30,Male,1,,Firefox,Linux,768,1366,5.412466666666667,30,Yes
+9,color,ist nicht,fan,Ventilator,furniture,purple,purpur,0.03,12,deutsch,30,Male,1,,Firefox,Linux,768,1366,5.412466666666667,30,Yes
+10,color,ist ,cheese,K&auml;se,food,brown,braun,0.06,13,deutsch,30,Male,1,,Firefox,Linux,768,1366,5.412466666666667,30,Yes
+11,color,ist nicht,carrot,Karotte,food,yellow,gelb,0.02,14,deutsch,30,Male,1,,Firefox,Linux,768,1366,5.412466666666667,30,Yes
+12,color,ist ,desk,Schreibtisch,furniture,blue,blau,0.02,15,deutsch,30,Male,1,,Firefox,Linux,768,1366,5.412466666666667,30,Yes
+13,size,ist nicht,fan,Ventilator,furniture,long,lang,0.04,16,deutsch,30,Male,1,,Firefox,Linux,768,1366,5.412466666666667,30,Yes
+14,quality,ist ,chair,Stuhl,furniture,good,gut,0.96,17,deutsch,30,Male,1,,Firefox,Linux,768,1366,5.412466666666667,30,Yes
+15,color,ist ,chair,Stuhl,furniture,green,gr&uuml;n,0.1,18,deutsch,30,Male,1,,Firefox,Linux,768,1366,5.412466666666667,30,Yes
+16,nationality,ist ,TV,Fernsehen,furniture,American,americanisch,0.46,19,deutsch,30,Male,1,,Firefox,Linux,768,1366,5.412466666666667,30,Yes
+17,texture,ist nicht,carrot,Karotte,food,smooth,glatt,0.89,20,deutsch,30,Male,1,,Firefox,Linux,768,1366,5.412466666666667,30,Yes
+18,nationality,ist nicht,apple,Apfel,food,German,deutsch,0.08,21,deutsch,30,Male,1,,Firefox,Linux,768,1366,5.412466666666667,30,Yes
+19,age,ist nicht,TV,Fernsehen,furniture,new,neu,0.79,22,deutsch,30,Male,1,,Firefox,Linux,768,1366,5.412466666666667,30,Yes
+20,quality,ist ,chair,Stuhl,furniture,bad,schlecht,1.0,23,deutsch,30,Male,1,,Firefox,Linux,768,1366,5.412466666666667,30,Yes
+21,shape,ist nicht,cheese,K&auml;se,food,round,rund,0.02,24,deutsch,30,Male,1,,Firefox,Linux,768,1366,5.412466666666667,30,Yes
+22,size,ist ,tomato,Tomate,food,small,klein,0.83,25,deutsch,30,Male,1,,Firefox,Linux,768,1366,5.412466666666667,30,Yes
+23,age,ist nicht,cheese,K&auml;se,food,rotten,faul,0.48,26,deutsch,30,Male,1,,Firefox,Linux,768,1366,5.412466666666667,30,Yes
+24,size,ist ,desk,Schreibtisch,furniture,big,gro&szlig;,0.97,27,deutsch,30,Male,1,,Firefox,Linux,768,1366,5.412466666666667,30,Yes
+25,size,ist ,desk,Schreibtisch,furniture,tiny,winzig,0.98,28,deutsch,30,Male,1,,Firefox,Linux,768,1366,5.412466666666667,30,Yes
+0,age,ist ,chair,Stuhl,furniture,fresh,frisch,0.82,3,Deutsch,32,Male,3,,Safari,Mac,800,1280,4.962516666666667,31,Yes
+1,size,ist ,desk,Schreibtisch,furniture,huge,riesig,0.22,4,Deutsch,32,Male,3,,Safari,Mac,800,1280,4.962516666666667,31,Yes
+2,nationality,ist ,chair,Stuhl,furniture,American,americanisch,0.9,5,Deutsch,32,Male,3,,Safari,Mac,800,1280,4.962516666666667,31,Yes
+3,nationality,ist ,tomato,Tomate,food,French,franz&ouml;sisch,0.82,6,Deutsch,32,Male,3,,Safari,Mac,800,1280,4.962516666666667,31,Yes
+4,texture,ist ,fan,Ventilator,furniture,smooth,glatt,0.46,7,Deutsch,32,Male,3,,Safari,Mac,800,1280,4.962516666666667,31,Yes
+5,nationality,ist ,apple,Apfel,food,German,deutsch,0.88,8,Deutsch,32,Male,3,,Safari,Mac,800,1280,4.962516666666667,31,Yes
+6,size,ist ,apple,Apfel,food,big,gro&szlig;,0.14,9,Deutsch,32,Male,3,,Safari,Mac,800,1280,4.962516666666667,31,Yes
+7,texture,ist ,cheese,K&auml;se,food,soft,weich,0.34,10,Deutsch,32,Male,3,,Safari,Mac,800,1280,4.962516666666667,31,Yes
+8,shape,ist ,cheese,K&auml;se,food,round,rund,0.12,11,Deutsch,32,Male,3,,Safari,Mac,800,1280,4.962516666666667,31,Yes
+9,size,ist nicht,desk,Schreibtisch,furniture,tiny,winzig,0.11,12,Deutsch,32,Male,3,,Safari,Mac,800,1280,4.962516666666667,31,Yes
+10,color,ist ,chair,Stuhl,furniture,brown,braun,0.11,13,Deutsch,32,Male,3,,Safari,Mac,800,1280,4.962516666666667,31,Yes
+11,age,ist nicht,TV,Fernsehen,furniture,new,neu,0.33,14,Deutsch,32,Male,3,,Safari,Mac,800,1280,4.962516666666667,31,Yes
+12,texture,ist ,couch,Couch,furniture,hard,hart,0.71,15,Deutsch,32,Male,3,,Safari,Mac,800,1280,4.962516666666667,31,Yes
+13,size,ist ,carrot,Karotte,food,long,lang,0.67,16,Deutsch,32,Male,3,,Safari,Mac,800,1280,4.962516666666667,31,Yes
+14,color,ist nicht,tomato,Tomate,food,blue,blau,0.07,17,Deutsch,32,Male,3,,Safari,Mac,800,1280,4.962516666666667,31,Yes
+15,size,ist ,apple,Apfel,food,short,kurz,0.86,18,Deutsch,32,Male,3,,Safari,Mac,800,1280,4.962516666666667,31,Yes
+16,shape,ist ,tomato,Tomate,food,square,quadratisch,0.1,19,Deutsch,32,Male,3,,Safari,Mac,800,1280,4.962516666666667,31,Yes
+17,color,ist nicht,fan,Ventilator,furniture,green,gr&uuml;n,0.05,20,Deutsch,32,Male,3,,Safari,Mac,800,1280,4.962516666666667,31,Yes
+18,quality,ist ,fan,Ventilator,furniture,bad,schlecht,0.87,21,Deutsch,32,Male,3,,Safari,Mac,800,1280,4.962516666666667,31,Yes
+19,size,ist nicht,chair,Stuhl,furniture,small,klein,0.23,22,Deutsch,32,Male,3,,Safari,Mac,800,1280,4.962516666666667,31,Yes
+20,color,ist nicht,apple,Apfel,food,purple,purpur,0.61,23,Deutsch,32,Male,3,,Safari,Mac,800,1280,4.962516666666667,31,Yes
+21,age,ist ,banana,Banane,food,rotten,faul,0.16,24,Deutsch,32,Male,3,,Safari,Mac,800,1280,4.962516666666667,31,Yes
+22,age,ist ,apple,Apfel,food,old,alt,0.85,25,Deutsch,32,Male,3,,Safari,Mac,800,1280,4.962516666666667,31,Yes
+23,color,ist nicht,tomato,Tomate,food,red,rot,0.07,26,Deutsch,32,Male,3,,Safari,Mac,800,1280,4.962516666666667,31,Yes
+24,quality,ist ,couch,Couch,furniture,good,gut,0.9,27,Deutsch,32,Male,3,,Safari,Mac,800,1280,4.962516666666667,31,Yes
+25,color,ist nicht,fan,Ventilator,furniture,yellow,gelb,0.09,28,Deutsch,32,Male,3,,Safari,Mac,800,1280,4.962516666666667,31,Yes
+0,size,ist ,cheese,K&auml;se,food,huge,riesig,0.81,3,Deutsch,32,Female,2,,Chrome,Windows,768,1366,4.537583333333333,32,Yes
+1,color,ist nicht,banana,Banane,food,green,gr&uuml;n,0.14,4,Deutsch,32,Female,2,,Chrome,Windows,768,1366,4.537583333333333,32,Yes
+2,texture,ist nicht,apple,Apfel,food,smooth,glatt,0.21,5,Deutsch,32,Female,2,,Chrome,Windows,768,1366,4.537583333333333,32,Yes
+3,nationality,ist nicht,couch,Couch,furniture,German,deutsch,0.03,6,Deutsch,32,Female,2,,Chrome,Windows,768,1366,4.537583333333333,32,Yes
+4,size,ist nicht,fan,Ventilator,furniture,long,lang,0.84,7,Deutsch,32,Female,2,,Chrome,Windows,768,1366,4.537583333333333,32,Yes
+5,age,ist ,carrot,Karotte,food,old,alt,0.77,8,Deutsch,32,Female,2,,Chrome,Windows,768,1366,4.537583333333333,32,Yes
+6,color,ist ,chair,Stuhl,furniture,purple,purpur,0.05,9,Deutsch,32,Female,2,,Chrome,Windows,768,1366,4.537583333333333,32,Yes
+7,texture,ist ,apple,Apfel,food,hard,hart,0.91,10,Deutsch,32,Female,2,,Chrome,Windows,768,1366,4.537583333333333,32,Yes
+8,shape,ist nicht,TV,Fernsehen,furniture,square,quadratisch,0.0,11,Deutsch,32,Female,2,,Chrome,Windows,768,1366,4.537583333333333,32,Yes
+9,age,ist nicht,couch,Couch,furniture,rotten,faul,0.89,12,Deutsch,32,Female,2,,Chrome,Windows,768,1366,4.537583333333333,32,Yes
+10,texture,ist nicht,couch,Couch,furniture,soft,weich,0.87,13,Deutsch,32,Female,2,,Chrome,Windows,768,1366,4.537583333333333,32,Yes
+11,size,ist ,tomato,Tomate,food,small,klein,0.84,14,Deutsch,32,Female,2,,Chrome,Windows,768,1366,4.537583333333333,32,Yes
+12,age,ist nicht,cheese,K&auml;se,food,fresh,frisch,0.81,15,Deutsch,32,Female,2,,Chrome,Windows,768,1366,4.537583333333333,32,Yes
+13,color,ist ,fan,Ventilator,furniture,brown,braun,0.03,16,Deutsch,32,Female,2,,Chrome,Windows,768,1366,4.537583333333333,32,Yes
+14,age,ist nicht,apple,Apfel,food,new,neu,0.89,17,Deutsch,32,Female,2,,Chrome,Windows,768,1366,4.537583333333333,32,Yes
+15,size,ist nicht,apple,Apfel,food,short,kurz,0.81,18,Deutsch,32,Female,2,,Chrome,Windows,768,1366,4.537583333333333,32,Yes
+16,color,ist nicht,cheese,K&auml;se,food,yellow,gelb,0.0,19,Deutsch,32,Female,2,,Chrome,Windows,768,1366,4.537583333333333,32,Yes
+17,nationality,ist ,TV,Fernsehen,furniture,French,franz&ouml;sisch,0.05,20,Deutsch,32,Female,2,,Chrome,Windows,768,1366,4.537583333333333,32,Yes
+18,size,ist ,desk,Schreibtisch,furniture,big,gro&szlig;,0.9,21,Deutsch,32,Female,2,,Chrome,Windows,768,1366,4.537583333333333,32,Yes
+19,color,ist ,apple,Apfel,food,red,rot,0.01,22,Deutsch,32,Female,2,,Chrome,Windows,768,1366,4.537583333333333,32,Yes
+20,size,ist ,TV,Fernsehen,furniture,tiny,winzig,0.84,23,Deutsch,32,Female,2,,Chrome,Windows,768,1366,4.537583333333333,32,Yes
+21,color,ist ,couch,Couch,furniture,blue,blau,0.04,24,Deutsch,32,Female,2,,Chrome,Windows,768,1366,4.537583333333333,32,Yes
+22,shape,ist ,banana,Banane,food,round,rund,0.02,25,Deutsch,32,Female,2,,Chrome,Windows,768,1366,4.537583333333333,32,Yes
+23,nationality,ist nicht,banana,Banane,food,American,americanisch,0.03,26,Deutsch,32,Female,2,,Chrome,Windows,768,1366,4.537583333333333,32,Yes
+24,quality,ist ,desk,Schreibtisch,furniture,bad,schlecht,0.97,27,Deutsch,32,Female,2,,Chrome,Windows,768,1366,4.537583333333333,32,Yes
+25,quality,ist ,couch,Couch,furniture,good,gut,0.97,28,Deutsch,32,Female,2,,Chrome,Windows,768,1366,4.537583333333333,32,Yes
+0,nationality,ist nicht,chair,Stuhl,furniture,American,americanisch,0.82,3,deutsch,24,Male,1,,Chrome,Windows,1080,1920,4.057133333333334,33,Yes
+1,size,ist nicht,desk,Schreibtisch,furniture,small,klein,0.68,4,deutsch,24,Male,1,,Chrome,Windows,1080,1920,4.057133333333334,33,Yes
+2,size,ist nicht,banana,Banane,food,long,lang,0.31,5,deutsch,24,Male,1,,Chrome,Windows,1080,1920,4.057133333333334,33,Yes
+3,nationality,ist nicht,TV,Fernsehen,furniture,French,franz&ouml;sisch,0.11,6,deutsch,24,Male,1,,Chrome,Windows,1080,1920,4.057133333333334,33,Yes
+4,color,ist ,cheese,K&auml;se,food,purple,purpur,0.23,7,deutsch,24,Male,1,,Chrome,Windows,1080,1920,4.057133333333334,33,Yes
+5,age,ist ,banana,Banane,food,fresh,frisch,0.12,8,deutsch,24,Male,1,,Chrome,Windows,1080,1920,4.057133333333334,33,Yes
+6,texture,ist nicht,fan,Ventilator,furniture,soft,weich,0.29,9,deutsch,24,Male,1,,Chrome,Windows,1080,1920,4.057133333333334,33,Yes
+7,color,ist ,carrot,Karotte,food,brown,braun,0.24,10,deutsch,24,Male,1,,Chrome,Windows,1080,1920,4.057133333333334,33,Yes
+8,age,ist ,couch,Couch,furniture,rotten,faul,0.61,11,deutsch,24,Male,1,,Chrome,Windows,1080,1920,4.057133333333334,33,Yes
+9,quality,ist nicht,tomato,Tomate,food,bad,schlecht,0.23,12,deutsch,24,Male,1,,Chrome,Windows,1080,1920,4.057133333333334,33,Yes
+10,size,ist nicht,fan,Ventilator,furniture,short,kurz,0.29,13,deutsch,24,Male,1,,Chrome,Windows,1080,1920,4.057133333333334,33,Yes
+11,color,ist nicht,banana,Banane,food,yellow,gelb,0.16,14,deutsch,24,Male,1,,Chrome,Windows,1080,1920,4.057133333333334,33,Yes
+12,shape,ist nicht,apple,Apfel,food,round,rund,0.43,15,deutsch,24,Male,1,,Chrome,Windows,1080,1920,4.057133333333334,33,Yes
+13,color,ist ,cheese,K&auml;se,food,red,rot,0.25,16,deutsch,24,Male,1,,Chrome,Windows,1080,1920,4.057133333333334,33,Yes
+14,size,ist nicht,banana,Banane,food,big,gro&szlig;,0.62,17,deutsch,24,Male,1,,Chrome,Windows,1080,1920,4.057133333333334,33,Yes
+15,texture,ist nicht,TV,Fernsehen,furniture,hard,hart,0.17,18,deutsch,24,Male,1,,Chrome,Windows,1080,1920,4.057133333333334,33,Yes
+16,age,ist nicht,TV,Fernsehen,furniture,old,alt,0.36,19,deutsch,24,Male,1,,Chrome,Windows,1080,1920,4.057133333333334,33,Yes
+17,texture,ist ,chair,Stuhl,furniture,smooth,glatt,0.33,20,deutsch,24,Male,1,,Chrome,Windows,1080,1920,4.057133333333334,33,Yes
+18,quality,ist nicht,desk,Schreibtisch,furniture,good,gut,0.52,21,deutsch,24,Male,1,,Chrome,Windows,1080,1920,4.057133333333334,33,Yes
+19,shape,ist nicht,tomato,Tomate,food,square,quadratisch,0.17,22,deutsch,24,Male,1,,Chrome,Windows,1080,1920,4.057133333333334,33,Yes
+20,color,ist nicht,cheese,K&auml;se,food,green,gr&uuml;n,0.13,23,deutsch,24,Male,1,,Chrome,Windows,1080,1920,4.057133333333334,33,Yes
+21,nationality,ist ,cheese,K&auml;se,food,German,deutsch,0.82,24,deutsch,24,Male,1,,Chrome,Windows,1080,1920,4.057133333333334,33,Yes
+22,color,ist ,couch,Couch,furniture,blue,blau,0.13,25,deutsch,24,Male,1,,Chrome,Windows,1080,1920,4.057133333333334,33,Yes
+23,size,ist nicht,apple,Apfel,food,huge,riesig,0.68,26,deutsch,24,Male,1,,Chrome,Windows,1080,1920,4.057133333333334,33,Yes
+24,size,ist ,fan,Ventilator,furniture,tiny,winzig,0.42,27,deutsch,24,Male,1,,Chrome,Windows,1080,1920,4.057133333333334,33,Yes
+25,age,ist ,desk,Schreibtisch,furniture,new,neu,0.25,28,deutsch,24,Male,1,,Chrome,Windows,1080,1920,4.057133333333334,33,Yes
+0,color,ist ,chair,Stuhl,furniture,yellow,gelb,1.0,3,Deutsch,30,Male,3,,Chrome,Windows,1440,2560,5.7112,34,Yes
+1,nationality,ist nicht,chair,Stuhl,furniture,French,franz&ouml;sisch,0.0,4,Deutsch,30,Male,3,,Chrome,Windows,1440,2560,5.7112,34,Yes
+2,size,ist nicht,carrot,Karotte,food,huge,riesig,0.29,5,Deutsch,30,Male,3,,Chrome,Windows,1440,2560,5.7112,34,Yes
+3,shape,ist nicht,cheese,K&auml;se,food,round,rund,0.63,6,Deutsch,30,Male,3,,Chrome,Windows,1440,2560,5.7112,34,Yes
+4,quality,ist ,TV,Fernsehen,furniture,bad,schlecht,0.78,7,Deutsch,30,Male,3,,Chrome,Windows,1440,2560,5.7112,34,Yes
+5,color,ist nicht,apple,Apfel,food,purple,purpur,0.21,8,Deutsch,30,Male,3,,Chrome,Windows,1440,2560,5.7112,34,Yes
+6,color,ist nicht,carrot,Karotte,food,red,rot,0.19,9,Deutsch,30,Male,3,,Chrome,Windows,1440,2560,5.7112,34,Yes
+7,nationality,ist nicht,cheese,K&auml;se,food,German,deutsch,0.24,10,Deutsch,30,Male,3,,Chrome,Windows,1440,2560,5.7112,34,Yes
+8,texture,ist ,chair,Stuhl,furniture,smooth,glatt,0.78,11,Deutsch,30,Male,3,,Chrome,Windows,1440,2560,5.7112,34,Yes
+9,size,ist ,TV,Fernsehen,furniture,long,lang,0.16,12,Deutsch,30,Male,3,,Chrome,Windows,1440,2560,5.7112,34,Yes
+10,size,ist ,apple,Apfel,food,tiny,winzig,0.3,13,Deutsch,30,Male,3,,Chrome,Windows,1440,2560,5.7112,34,Yes
+11,age,ist nicht,tomato,Tomate,food,new,neu,0.84,14,Deutsch,30,Male,3,,Chrome,Windows,1440,2560,5.7112,34,Yes
+12,color,ist ,fan,Ventilator,furniture,blue,blau,0.21,15,Deutsch,30,Male,3,,Chrome,Windows,1440,2560,5.7112,34,Yes
+13,nationality,ist ,apple,Apfel,food,American,americanisch,0.5,16,Deutsch,30,Male,3,,Chrome,Windows,1440,2560,5.7112,34,Yes
+14,size,ist nicht,chair,Stuhl,furniture,big,gro&szlig;,0.24,17,Deutsch,30,Male,3,,Chrome,Windows,1440,2560,5.7112,34,Yes
+15,shape,ist ,TV,Fernsehen,furniture,square,quadratisch,0.0,18,Deutsch,30,Male,3,,Chrome,Windows,1440,2560,5.7112,34,Yes
+16,texture,ist ,TV,Fernsehen,furniture,hard,hart,0.79,19,Deutsch,30,Male,3,,Chrome,Windows,1440,2560,5.7112,34,Yes
+17,age,ist ,tomato,Tomate,food,rotten,faul,0.1,20,Deutsch,30,Male,3,,Chrome,Windows,1440,2560,5.7112,34,Yes
+18,age,ist nicht,fan,Ventilator,furniture,old,alt,0.08,21,Deutsch,30,Male,3,,Chrome,Windows,1440,2560,5.7112,34,Yes
+19,color,ist ,apple,Apfel,food,green,gr&uuml;n,0.15,22,Deutsch,30,Male,3,,Chrome,Windows,1440,2560,5.7112,34,Yes
+20,texture,ist ,banana,Banane,food,soft,weich,0.21,23,Deutsch,30,Male,3,,Chrome,Windows,1440,2560,5.7112,34,Yes
+21,size,ist nicht,couch,Couch,furniture,small,klein,0.79,24,Deutsch,30,Male,3,,Chrome,Windows,1440,2560,5.7112,34,Yes
+22,quality,ist nicht,couch,Couch,furniture,good,gut,1.0,25,Deutsch,30,Male,3,,Chrome,Windows,1440,2560,5.7112,34,Yes
+23,size,ist ,cheese,K&auml;se,food,short,kurz,0.3,26,Deutsch,30,Male,3,,Chrome,Windows,1440,2560,5.7112,34,Yes
+24,color,ist ,tomato,Tomate,food,brown,braun,0.24,27,Deutsch,30,Male,3,,Chrome,Windows,1440,2560,5.7112,34,Yes
+25,age,ist ,desk,Schreibtisch,furniture,fresh,frisch,0.7,28,Deutsch,30,Male,3,,Chrome,Windows,1440,2560,5.7112,34,Yes
+0,color,ist ,chair,Stuhl,furniture,purple,purpur,0.04,3,deutsch,29,Male,2,,Chrome,Windows,1080,1920,2.8396166666666667,35,Yes
+1,nationality,ist nicht,cheese,K&auml;se,food,German,deutsch,0.02,4,deutsch,29,Male,2,,Chrome,Windows,1080,1920,2.8396166666666667,35,Yes
+2,size,ist nicht,desk,Schreibtisch,furniture,tiny,winzig,0.99,5,deutsch,29,Male,2,,Chrome,Windows,1080,1920,2.8396166666666667,35,Yes
+3,quality,ist ,desk,Schreibtisch,furniture,bad,schlecht,1.0,6,deutsch,29,Male,2,,Chrome,Windows,1080,1920,2.8396166666666667,35,Yes
+4,color,ist nicht,couch,Couch,furniture,brown,braun,0.0,7,deutsch,29,Male,2,,Chrome,Windows,1080,1920,2.8396166666666667,35,Yes
+5,size,ist ,tomato,Tomate,food,small,klein,1.0,8,deutsch,29,Male,2,,Chrome,Windows,1080,1920,2.8396166666666667,35,Yes
+6,size,ist ,couch,Couch,furniture,huge,riesig,0.99,9,deutsch,29,Male,2,,Chrome,Windows,1080,1920,2.8396166666666667,35,Yes
+7,color,ist ,banana,Banane,food,red,rot,0.0,10,deutsch,29,Male,2,,Chrome,Windows,1080,1920,2.8396166666666667,35,Yes
+8,quality,ist nicht,tomato,Tomate,food,good,gut,0.97,11,deutsch,29,Male,2,,Chrome,Windows,1080,1920,2.8396166666666667,35,Yes
+9,shape,ist ,fan,Ventilator,furniture,round,rund,0.03,12,deutsch,29,Male,2,,Chrome,Windows,1080,1920,2.8396166666666667,35,Yes
+10,size,ist nicht,apple,Apfel,food,long,lang,0.97,13,deutsch,29,Male,2,,Chrome,Windows,1080,1920,2.8396166666666667,35,Yes
+11,size,ist ,desk,Schreibtisch,furniture,big,gro&szlig;,0.95,14,deutsch,29,Male,2,,Chrome,Windows,1080,1920,2.8396166666666667,35,Yes
+12,age,ist nicht,fan,Ventilator,furniture,rotten,faul,0.02,15,deutsch,29,Male,2,,Chrome,Windows,1080,1920,2.8396166666666667,35,Yes
+13,texture,ist ,banana,Banane,food,soft,weich,0.98,16,deutsch,29,Male,2,,Chrome,Windows,1080,1920,2.8396166666666667,35,Yes
+14,nationality,ist nicht,tomato,Tomate,food,French,franz&ouml;sisch,0.01,17,deutsch,29,Male,2,,Chrome,Windows,1080,1920,2.8396166666666667,35,Yes
+15,age,ist ,cheese,K&auml;se,food,fresh,frisch,0.99,18,deutsch,29,Male,2,,Chrome,Windows,1080,1920,2.8396166666666667,35,Yes
+16,age,ist ,desk,Schreibtisch,furniture,new,neu,0.01,19,deutsch,29,Male,2,,Chrome,Windows,1080,1920,2.8396166666666667,35,Yes
+17,color,ist nicht,carrot,Karotte,food,yellow,gelb,0.01,20,deutsch,29,Male,2,,Chrome,Windows,1080,1920,2.8396166666666667,35,Yes
+18,texture,ist ,cheese,K&auml;se,food,hard,hart,0.66,21,deutsch,29,Male,2,,Chrome,Windows,1080,1920,2.8396166666666667,35,Yes
+19,color,ist ,fan,Ventilator,furniture,green,gr&uuml;n,0.03,22,deutsch,29,Male,2,,Chrome,Windows,1080,1920,2.8396166666666667,35,Yes
+20,nationality,ist ,carrot,Karotte,food,American,americanisch,0.02,23,deutsch,29,Male,2,,Chrome,Windows,1080,1920,2.8396166666666667,35,Yes
+21,shape,ist nicht,banana,Banane,food,square,quadratisch,0.02,24,deutsch,29,Male,2,,Chrome,Windows,1080,1920,2.8396166666666667,35,Yes
+22,texture,ist ,banana,Banane,food,smooth,glatt,0.03,25,deutsch,29,Male,2,,Chrome,Windows,1080,1920,2.8396166666666667,35,Yes
+23,size,ist ,chair,Stuhl,furniture,short,kurz,0.97,26,deutsch,29,Male,2,,Chrome,Windows,1080,1920,2.8396166666666667,35,Yes
+24,color,ist ,carrot,Karotte,food,blue,blau,0.01,27,deutsch,29,Male,2,,Chrome,Windows,1080,1920,2.8396166666666667,35,Yes
+25,age,ist nicht,cheese,K&auml;se,food,old,alt,0.94,28,deutsch,29,Male,2,,Chrome,Windows,1080,1920,2.8396166666666667,35,Yes
+0,size,ist nicht,chair,Stuhl,furniture,long,lang,0.31,3,Deutsch,22,Male,2,,Chrome,Linux,740,360,4.344283333333333,36,Yes
+1,age,ist ,couch,Couch,furniture,fresh,frisch,0.4,4,Deutsch,22,Male,2,,Chrome,Linux,740,360,4.344283333333333,36,Yes
+2,nationality,ist ,couch,Couch,furniture,German,deutsch,0.28,5,Deutsch,22,Male,2,,Chrome,Linux,740,360,4.344283333333333,36,Yes
+3,color,ist nicht,apple,Apfel,food,red,rot,0.03,6,Deutsch,22,Male,2,,Chrome,Linux,740,360,4.344283333333333,36,Yes
+4,age,ist ,tomato,Tomate,food,old,alt,0.17,7,Deutsch,22,Male,2,,Chrome,Linux,740,360,4.344283333333333,36,Yes
+5,age,ist ,cheese,K&auml;se,food,new,neu,0.6,8,Deutsch,22,Male,2,,Chrome,Linux,740,360,4.344283333333333,36,Yes
+6,quality,ist ,couch,Couch,furniture,bad,schlecht,0.91,9,Deutsch,22,Male,2,,Chrome,Linux,740,360,4.344283333333333,36,Yes
+7,quality,ist nicht,cheese,K&auml;se,food,good,gut,0.91,10,Deutsch,22,Male,2,,Chrome,Linux,740,360,4.344283333333333,36,Yes
+8,color,ist nicht,banana,Banane,food,yellow,gelb,0.19,11,Deutsch,22,Male,2,,Chrome,Linux,740,360,4.344283333333333,36,Yes
+9,texture,ist nicht,couch,Couch,furniture,smooth,glatt,0.21,12,Deutsch,22,Male,2,,Chrome,Linux,740,360,4.344283333333333,36,Yes
+10,nationality,ist nicht,apple,Apfel,food,American,americanisch,0.19,13,Deutsch,22,Male,2,,Chrome,Linux,740,360,4.344283333333333,36,Yes
+11,nationality,ist nicht,couch,Couch,furniture,French,franz&ouml;sisch,0.1,14,Deutsch,22,Male,2,,Chrome,Linux,740,360,4.344283333333333,36,Yes
+12,shape,ist ,cheese,K&auml;se,food,square,quadratisch,0.21,15,Deutsch,22,Male,2,,Chrome,Linux,740,360,4.344283333333333,36,Yes
+13,size,ist ,cheese,K&auml;se,food,tiny,winzig,0.17,16,Deutsch,22,Male,2,,Chrome,Linux,740,360,4.344283333333333,36,Yes
+14,color,ist nicht,couch,Couch,furniture,purple,purpur,0.51,17,Deutsch,22,Male,2,,Chrome,Linux,740,360,4.344283333333333,36,Yes
+15,size,ist nicht,couch,Couch,furniture,small,klein,0.73,18,Deutsch,22,Male,2,,Chrome,Linux,740,360,4.344283333333333,36,Yes
+16,age,ist nicht,chair,Stuhl,furniture,rotten,faul,0.58,19,Deutsch,22,Male,2,,Chrome,Linux,740,360,4.344283333333333,36,Yes
+17,size,ist nicht,TV,Fernsehen,furniture,big,gro&szlig;,0.6,20,Deutsch,22,Male,2,,Chrome,Linux,740,360,4.344283333333333,36,Yes
+18,color,ist ,couch,Couch,furniture,blue,blau,0.17,21,Deutsch,22,Male,2,,Chrome,Linux,740,360,4.344283333333333,36,Yes
+19,size,ist nicht,desk,Schreibtisch,furniture,huge,riesig,0.73,22,Deutsch,22,Male,2,,Chrome,Linux,740,360,4.344283333333333,36,Yes
+20,size,ist nicht,fan,Ventilator,furniture,short,kurz,0.58,23,Deutsch,22,Male,2,,Chrome,Linux,740,360,4.344283333333333,36,Yes
+21,color,ist ,fan,Ventilator,furniture,brown,braun,0.08,24,Deutsch,22,Male,2,,Chrome,Linux,740,360,4.344283333333333,36,Yes
+22,color,ist nicht,banana,Banane,food,green,gr&uuml;n,0.47,25,Deutsch,22,Male,2,,Chrome,Linux,740,360,4.344283333333333,36,Yes
+23,texture,ist nicht,cheese,K&auml;se,food,soft,weich,0.5,26,Deutsch,22,Male,2,,Chrome,Linux,740,360,4.344283333333333,36,Yes
+24,texture,ist nicht,couch,Couch,furniture,hard,hart,0.69,27,Deutsch,22,Male,2,,Chrome,Linux,740,360,4.344283333333333,36,Yes
+25,shape,ist ,desk,Schreibtisch,furniture,round,rund,0.29,28,Deutsch,22,Male,2,,Chrome,Linux,740,360,4.344283333333333,36,Yes
+0,texture,ist ,chair,Stuhl,furniture,hard,hart,1.0,3,Deutsch,29,Female,2,"Wenn ich in der Umfrage nicht eindeutig rechts oder links ans Ende der Skala gegangen bin, fand ich andere Gründe, außer ""Ansichtssache"", die eine eindeutige Entscheidung einer Person ausschlossen. Bei Farben beispielsweise Farbenblindheit. Ich hoffe, dass dies eine der Absichten der Umfrage war.",Chrome,Windows,1080,1920,9.262716666666666,37,Yes
+1,color,ist ,chair,Stuhl,furniture,brown,braun,0.23,4,Deutsch,29,Female,2,"Wenn ich in der Umfrage nicht eindeutig rechts oder links ans Ende der Skala gegangen bin, fand ich andere Gründe, außer ""Ansichtssache"", die eine eindeutige Entscheidung einer Person ausschlossen. Bei Farben beispielsweise Farbenblindheit. Ich hoffe, dass dies eine der Absichten der Umfrage war.",Chrome,Windows,1080,1920,9.262716666666666,37,Yes
+2,texture,ist ,desk,Schreibtisch,furniture,smooth,glatt,0.0,5,Deutsch,29,Female,2,"Wenn ich in der Umfrage nicht eindeutig rechts oder links ans Ende der Skala gegangen bin, fand ich andere Gründe, außer ""Ansichtssache"", die eine eindeutige Entscheidung einer Person ausschlossen. Bei Farben beispielsweise Farbenblindheit. Ich hoffe, dass dies eine der Absichten der Umfrage war.",Chrome,Windows,1080,1920,9.262716666666666,37,Yes
+3,texture,ist ,cheese,K&auml;se,food,soft,weich,0.0,6,Deutsch,29,Female,2,"Wenn ich in der Umfrage nicht eindeutig rechts oder links ans Ende der Skala gegangen bin, fand ich andere Gründe, außer ""Ansichtssache"", die eine eindeutige Entscheidung einer Person ausschlossen. Bei Farben beispielsweise Farbenblindheit. Ich hoffe, dass dies eine der Absichten der Umfrage war.",Chrome,Windows,1080,1920,9.262716666666666,37,Yes
+4,age,ist nicht,cheese,K&auml;se,food,new,neu,0.54,7,Deutsch,29,Female,2,"Wenn ich in der Umfrage nicht eindeutig rechts oder links ans Ende der Skala gegangen bin, fand ich andere Gründe, außer ""Ansichtssache"", die eine eindeutige Entscheidung einer Person ausschlossen. Bei Farben beispielsweise Farbenblindheit. Ich hoffe, dass dies eine der Absichten der Umfrage war.",Chrome,Windows,1080,1920,9.262716666666666,37,Yes
+5,color,ist ,apple,Apfel,food,green,gr&uuml;n,0.22,8,Deutsch,29,Female,2,"Wenn ich in der Umfrage nicht eindeutig rechts oder links ans Ende der Skala gegangen bin, fand ich andere Gründe, außer ""Ansichtssache"", die eine eindeutige Entscheidung einer Person ausschlossen. Bei Farben beispielsweise Farbenblindheit. Ich hoffe, dass dies eine der Absichten der Umfrage war.",Chrome,Windows,1080,1920,9.262716666666666,37,Yes
+6,nationality,ist nicht,tomato,Tomate,food,French,franz&ouml;sisch,0.0,9,Deutsch,29,Female,2,"Wenn ich in der Umfrage nicht eindeutig rechts oder links ans Ende der Skala gegangen bin, fand ich andere Gründe, außer ""Ansichtssache"", die eine eindeutige Entscheidung einer Person ausschlossen. Bei Farben beispielsweise Farbenblindheit. Ich hoffe, dass dies eine der Absichten der Umfrage war.",Chrome,Windows,1080,1920,9.262716666666666,37,Yes
+7,color,ist nicht,tomato,Tomate,food,yellow,gelb,0.2,10,Deutsch,29,Female,2,"Wenn ich in der Umfrage nicht eindeutig rechts oder links ans Ende der Skala gegangen bin, fand ich andere Gründe, außer ""Ansichtssache"", die eine eindeutige Entscheidung einer Person ausschlossen. Bei Farben beispielsweise Farbenblindheit. Ich hoffe, dass dies eine der Absichten der Umfrage war.",Chrome,Windows,1080,1920,9.262716666666666,37,Yes
+8,nationality,ist nicht,cheese,K&auml;se,food,German,deutsch,0.0,11,Deutsch,29,Female,2,"Wenn ich in der Umfrage nicht eindeutig rechts oder links ans Ende der Skala gegangen bin, fand ich andere Gründe, außer ""Ansichtssache"", die eine eindeutige Entscheidung einer Person ausschlossen. Bei Farben beispielsweise Farbenblindheit. Ich hoffe, dass dies eine der Absichten der Umfrage war.",Chrome,Windows,1080,1920,9.262716666666666,37,Yes
+9,quality,ist ,apple,Apfel,food,good,gut,1.0,12,Deutsch,29,Female,2,"Wenn ich in der Umfrage nicht eindeutig rechts oder links ans Ende der Skala gegangen bin, fand ich andere Gründe, außer ""Ansichtssache"", die eine eindeutige Entscheidung einer Person ausschlossen. Bei Farben beispielsweise Farbenblindheit. Ich hoffe, dass dies eine der Absichten der Umfrage war.",Chrome,Windows,1080,1920,9.262716666666666,37,Yes
+10,quality,ist nicht,apple,Apfel,food,bad,schlecht,1.0,13,Deutsch,29,Female,2,"Wenn ich in der Umfrage nicht eindeutig rechts oder links ans Ende der Skala gegangen bin, fand ich andere Gründe, außer ""Ansichtssache"", die eine eindeutige Entscheidung einer Person ausschlossen. Bei Farben beispielsweise Farbenblindheit. Ich hoffe, dass dies eine der Absichten der Umfrage war.",Chrome,Windows,1080,1920,9.262716666666666,37,Yes
+11,age,ist ,fan,Ventilator,furniture,old,alt,0.5,14,Deutsch,29,Female,2,"Wenn ich in der Umfrage nicht eindeutig rechts oder links ans Ende der Skala gegangen bin, fand ich andere Gründe, außer ""Ansichtssache"", die eine eindeutige Entscheidung einer Person ausschlossen. Bei Farben beispielsweise Farbenblindheit. Ich hoffe, dass dies eine der Absichten der Umfrage war.",Chrome,Windows,1080,1920,9.262716666666666,37,Yes
+12,shape,ist ,desk,Schreibtisch,furniture,square,quadratisch,0.0,15,Deutsch,29,Female,2,"Wenn ich in der Umfrage nicht eindeutig rechts oder links ans Ende der Skala gegangen bin, fand ich andere Gründe, außer ""Ansichtssache"", die eine eindeutige Entscheidung einer Person ausschlossen. Bei Farben beispielsweise Farbenblindheit. Ich hoffe, dass dies eine der Absichten der Umfrage war.",Chrome,Windows,1080,1920,9.262716666666666,37,Yes
+13,nationality,ist nicht,chair,Stuhl,furniture,American,americanisch,0.0,16,Deutsch,29,Female,2,"Wenn ich in der Umfrage nicht eindeutig rechts oder links ans Ende der Skala gegangen bin, fand ich andere Gründe, außer ""Ansichtssache"", die eine eindeutige Entscheidung einer Person ausschlossen. Bei Farben beispielsweise Farbenblindheit. Ich hoffe, dass dies eine der Absichten der Umfrage war.",Chrome,Windows,1080,1920,9.262716666666666,37,Yes
+14,shape,ist ,banana,Banane,food,round,rund,0.0,17,Deutsch,29,Female,2,"Wenn ich in der Umfrage nicht eindeutig rechts oder links ans Ende der Skala gegangen bin, fand ich andere Gründe, außer ""Ansichtssache"", die eine eindeutige Entscheidung einer Person ausschlossen. Bei Farben beispielsweise Farbenblindheit. Ich hoffe, dass dies eine der Absichten der Umfrage war.",Chrome,Windows,1080,1920,9.262716666666666,37,Yes
+15,size,ist ,desk,Schreibtisch,furniture,tiny,winzig,1.0,18,Deutsch,29,Female,2,"Wenn ich in der Umfrage nicht eindeutig rechts oder links ans Ende der Skala gegangen bin, fand ich andere Gründe, außer ""Ansichtssache"", die eine eindeutige Entscheidung einer Person ausschlossen. Bei Farben beispielsweise Farbenblindheit. Ich hoffe, dass dies eine der Absichten der Umfrage war.",Chrome,Windows,1080,1920,9.262716666666666,37,Yes
+16,color,ist ,cheese,K&auml;se,food,purple,purpur,0.27,19,Deutsch,29,Female,2,"Wenn ich in der Umfrage nicht eindeutig rechts oder links ans Ende der Skala gegangen bin, fand ich andere Gründe, außer ""Ansichtssache"", die eine eindeutige Entscheidung einer Person ausschlossen. Bei Farben beispielsweise Farbenblindheit. Ich hoffe, dass dies eine der Absichten der Umfrage war.",Chrome,Windows,1080,1920,9.262716666666666,37,Yes
+17,color,ist nicht,apple,Apfel,food,red,rot,0.25,20,Deutsch,29,Female,2,"Wenn ich in der Umfrage nicht eindeutig rechts oder links ans Ende der Skala gegangen bin, fand ich andere Gründe, außer ""Ansichtssache"", die eine eindeutige Entscheidung einer Person ausschlossen. Bei Farben beispielsweise Farbenblindheit. Ich hoffe, dass dies eine der Absichten der Umfrage war.",Chrome,Windows,1080,1920,9.262716666666666,37,Yes
+18,age,ist ,carrot,Karotte,food,fresh,frisch,0.0,21,Deutsch,29,Female,2,"Wenn ich in der Umfrage nicht eindeutig rechts oder links ans Ende der Skala gegangen bin, fand ich andere Gründe, außer ""Ansichtssache"", die eine eindeutige Entscheidung einer Person ausschlossen. Bei Farben beispielsweise Farbenblindheit. Ich hoffe, dass dies eine der Absichten der Umfrage war.",Chrome,Windows,1080,1920,9.262716666666666,37,Yes
+19,color,ist ,desk,Schreibtisch,furniture,blue,blau,0.25,22,Deutsch,29,Female,2,"Wenn ich in der Umfrage nicht eindeutig rechts oder links ans Ende der Skala gegangen bin, fand ich andere Gründe, außer ""Ansichtssache"", die eine eindeutige Entscheidung einer Person ausschlossen. Bei Farben beispielsweise Farbenblindheit. Ich hoffe, dass dies eine der Absichten der Umfrage war.",Chrome,Windows,1080,1920,9.262716666666666,37,Yes
+20,size,ist nicht,couch,Couch,furniture,huge,riesig,1.0,23,Deutsch,29,Female,2,"Wenn ich in der Umfrage nicht eindeutig rechts oder links ans Ende der Skala gegangen bin, fand ich andere Gründe, außer ""Ansichtssache"", die eine eindeutige Entscheidung einer Person ausschlossen. Bei Farben beispielsweise Farbenblindheit. Ich hoffe, dass dies eine der Absichten der Umfrage war.",Chrome,Windows,1080,1920,9.262716666666666,37,Yes
+21,size,ist ,cheese,K&auml;se,food,small,klein,1.0,24,Deutsch,29,Female,2,"Wenn ich in der Umfrage nicht eindeutig rechts oder links ans Ende der Skala gegangen bin, fand ich andere Gründe, außer ""Ansichtssache"", die eine eindeutige Entscheidung einer Person ausschlossen. Bei Farben beispielsweise Farbenblindheit. Ich hoffe, dass dies eine der Absichten der Umfrage war.",Chrome,Windows,1080,1920,9.262716666666666,37,Yes
+22,age,ist ,desk,Schreibtisch,furniture,rotten,faul,0.52,25,Deutsch,29,Female,2,"Wenn ich in der Umfrage nicht eindeutig rechts oder links ans Ende der Skala gegangen bin, fand ich andere Gründe, außer ""Ansichtssache"", die eine eindeutige Entscheidung einer Person ausschlossen. Bei Farben beispielsweise Farbenblindheit. Ich hoffe, dass dies eine der Absichten der Umfrage war.",Chrome,Windows,1080,1920,9.262716666666666,37,Yes
+23,size,ist ,banana,Banane,food,long,lang,1.0,26,Deutsch,29,Female,2,"Wenn ich in der Umfrage nicht eindeutig rechts oder links ans Ende der Skala gegangen bin, fand ich andere Gründe, außer ""Ansichtssache"", die eine eindeutige Entscheidung einer Person ausschlossen. Bei Farben beispielsweise Farbenblindheit. Ich hoffe, dass dies eine der Absichten der Umfrage war.",Chrome,Windows,1080,1920,9.262716666666666,37,Yes
+24,size,ist nicht,carrot,Karotte,food,short,kurz,1.0,27,Deutsch,29,Female,2,"Wenn ich in der Umfrage nicht eindeutig rechts oder links ans Ende der Skala gegangen bin, fand ich andere Gründe, außer ""Ansichtssache"", die eine eindeutige Entscheidung einer Person ausschlossen. Bei Farben beispielsweise Farbenblindheit. Ich hoffe, dass dies eine der Absichten der Umfrage war.",Chrome,Windows,1080,1920,9.262716666666666,37,Yes
+25,size,ist nicht,carrot,Karotte,food,big,gro&szlig;,1.0,28,Deutsch,29,Female,2,"Wenn ich in der Umfrage nicht eindeutig rechts oder links ans Ende der Skala gegangen bin, fand ich andere Gründe, außer ""Ansichtssache"", die eine eindeutige Entscheidung einer Person ausschlossen. Bei Farben beispielsweise Farbenblindheit. Ich hoffe, dass dies eine der Absichten der Umfrage war.",Chrome,Windows,1080,1920,9.262716666666666,37,Yes
+0,size,ist nicht,desk,Schreibtisch,furniture,tiny,winzig,1.0,3,Deutsch,18,Male,2,,Chrome,Mac,900,1440,6.088066666666666,38,Yes
+1,nationality,ist nicht,desk,Schreibtisch,furniture,German,deutsch,0.1,4,Deutsch,18,Male,2,,Chrome,Mac,900,1440,6.088066666666666,38,Yes
+2,quality,ist ,apple,Apfel,food,good,gut,1.0,5,Deutsch,18,Male,2,,Chrome,Mac,900,1440,6.088066666666666,38,Yes
+3,size,ist ,apple,Apfel,food,huge,riesig,1.0,6,Deutsch,18,Male,2,,Chrome,Mac,900,1440,6.088066666666666,38,Yes
+4,quality,ist nicht,carrot,Karotte,food,bad,schlecht,1.0,7,Deutsch,18,Male,2,,Chrome,Mac,900,1440,6.088066666666666,38,Yes
+5,age,ist nicht,chair,Stuhl,furniture,rotten,faul,0.0,8,Deutsch,18,Male,2,,Chrome,Mac,900,1440,6.088066666666666,38,Yes
+6,nationality,ist ,TV,Fernsehen,furniture,American,americanisch,1.0,9,Deutsch,18,Male,2,,Chrome,Mac,900,1440,6.088066666666666,38,Yes
+7,age,ist ,apple,Apfel,food,new,neu,0.21,10,Deutsch,18,Male,2,,Chrome,Mac,900,1440,6.088066666666666,38,Yes
+8,color,ist nicht,tomato,Tomate,food,blue,blau,1.0,11,Deutsch,18,Male,2,,Chrome,Mac,900,1440,6.088066666666666,38,Yes
+9,color,ist nicht,cheese,K&auml;se,food,green,gr&uuml;n,1.0,12,Deutsch,18,Male,2,,Chrome,Mac,900,1440,6.088066666666666,38,Yes
+10,nationality,ist ,banana,Banane,food,French,franz&ouml;sisch,0.0,13,Deutsch,18,Male,2,,Chrome,Mac,900,1440,6.088066666666666,38,Yes
+11,color,ist ,TV,Fernsehen,furniture,purple,purpur,0.0,14,Deutsch,18,Male,2,,Chrome,Mac,900,1440,6.088066666666666,38,Yes
+12,shape,ist nicht,TV,Fernsehen,furniture,square,quadratisch,0.0,15,Deutsch,18,Male,2,,Chrome,Mac,900,1440,6.088066666666666,38,Yes
+13,size,ist ,TV,Fernsehen,furniture,big,gro&szlig;,0.0,16,Deutsch,18,Male,2,,Chrome,Mac,900,1440,6.088066666666666,38,Yes
+14,color,ist nicht,cheese,K&auml;se,food,yellow,gelb,1.0,17,Deutsch,18,Male,2,,Chrome,Mac,900,1440,6.088066666666666,38,Yes
+15,age,ist ,apple,Apfel,food,old,alt,1.0,18,Deutsch,18,Male,2,,Chrome,Mac,900,1440,6.088066666666666,38,Yes
+16,age,ist ,cheese,K&auml;se,food,fresh,frisch,1.0,19,Deutsch,18,Male,2,,Chrome,Mac,900,1440,6.088066666666666,38,Yes
+17,texture,ist ,fan,Ventilator,furniture,soft,weich,0.0,20,Deutsch,18,Male,2,,Chrome,Mac,900,1440,6.088066666666666,38,Yes
+18,size,ist ,banana,Banane,food,short,kurz,1.0,21,Deutsch,18,Male,2,,Chrome,Mac,900,1440,6.088066666666666,38,Yes
+19,texture,ist nicht,apple,Apfel,food,hard,hart,1.0,22,Deutsch,18,Male,2,,Chrome,Mac,900,1440,6.088066666666666,38,Yes
+20,size,ist ,TV,Fernsehen,furniture,long,lang,0.0,23,Deutsch,18,Male,2,,Chrome,Mac,900,1440,6.088066666666666,38,Yes
+21,texture,ist ,tomato,Tomate,food,smooth,glatt,1.0,24,Deutsch,18,Male,2,,Chrome,Mac,900,1440,6.088066666666666,38,Yes
+22,color,ist nicht,cheese,K&auml;se,food,brown,braun,1.0,25,Deutsch,18,Male,2,,Chrome,Mac,900,1440,6.088066666666666,38,Yes
+23,shape,ist ,chair,Stuhl,furniture,round,rund,0.0,26,Deutsch,18,Male,2,,Chrome,Mac,900,1440,6.088066666666666,38,Yes
+24,size,ist ,tomato,Tomate,food,small,klein,1.0,27,Deutsch,18,Male,2,,Chrome,Mac,900,1440,6.088066666666666,38,Yes
+25,color,ist nicht,banana,Banane,food,red,rot,0.6,28,Deutsch,18,Male,2,,Chrome,Mac,900,1440,6.088066666666666,38,Yes
+0,nationality,ist ,carrot,Karotte,food,American,americanisch,0.01,3,Deutsch,32,Male,3,,Chrome,Windows,1080,1920,11.778116666666667,39,Yes
+1,size,ist ,tomato,Tomate,food,big,gro&szlig;,0.85,4,Deutsch,32,Male,3,,Chrome,Windows,1080,1920,11.778116666666667,39,Yes
+2,nationality,ist nicht,tomato,Tomate,food,German,deutsch,0.02,5,Deutsch,32,Male,3,,Chrome,Windows,1080,1920,11.778116666666667,39,Yes
+3,color,ist nicht,cheese,K&auml;se,food,green,gr&uuml;n,0.12,6,Deutsch,32,Male,3,,Chrome,Windows,1080,1920,11.778116666666667,39,Yes
+4,quality,ist ,carrot,Karotte,food,good,gut,0.87,7,Deutsch,32,Male,3,,Chrome,Windows,1080,1920,11.778116666666667,39,Yes
+5,size,ist nicht,carrot,Karotte,food,long,lang,0.48,8,Deutsch,32,Male,3,,Chrome,Windows,1080,1920,11.778116666666667,39,Yes
+6,shape,ist nicht,cheese,K&auml;se,food,square,quadratisch,0.0,9,Deutsch,32,Male,3,,Chrome,Windows,1080,1920,11.778116666666667,39,Yes
+7,size,ist nicht,banana,Banane,food,huge,riesig,0.49,10,Deutsch,32,Male,3,,Chrome,Windows,1080,1920,11.778116666666667,39,Yes
+8,color,ist nicht,carrot,Karotte,food,blue,blau,0.02,11,Deutsch,32,Male,3,,Chrome,Windows,1080,1920,11.778116666666667,39,Yes
+9,size,ist ,chair,Stuhl,furniture,short,kurz,0.49,12,Deutsch,32,Male,3,,Chrome,Windows,1080,1920,11.778116666666667,39,Yes
+10,color,ist nicht,carrot,Karotte,food,red,rot,0.02,13,Deutsch,32,Male,3,,Chrome,Windows,1080,1920,11.778116666666667,39,Yes
+11,nationality,ist ,couch,Couch,furniture,French,franz&ouml;sisch,0.03,14,Deutsch,32,Male,3,,Chrome,Windows,1080,1920,11.778116666666667,39,Yes
+12,texture,ist nicht,carrot,Karotte,food,hard,hart,0.05,15,Deutsch,32,Male,3,,Chrome,Windows,1080,1920,11.778116666666667,39,Yes
+13,color,ist nicht,cheese,K&auml;se,food,purple,purpur,0.01,16,Deutsch,32,Male,3,,Chrome,Windows,1080,1920,11.778116666666667,39,Yes
+14,size,ist ,cheese,K&auml;se,food,small,klein,0.49,17,Deutsch,32,Male,3,,Chrome,Windows,1080,1920,11.778116666666667,39,Yes
+15,color,ist nicht,TV,Fernsehen,furniture,yellow,gelb,0.0,18,Deutsch,32,Male,3,,Chrome,Windows,1080,1920,11.778116666666667,39,Yes
+16,shape,ist ,couch,Couch,furniture,round,rund,0.02,19,Deutsch,32,Male,3,,Chrome,Windows,1080,1920,11.778116666666667,39,Yes
+17,age,ist nicht,desk,Schreibtisch,furniture,new,neu,0.75,20,Deutsch,32,Male,3,,Chrome,Windows,1080,1920,11.778116666666667,39,Yes
+18,size,ist ,cheese,K&auml;se,food,tiny,winzig,0.52,21,Deutsch,32,Male,3,,Chrome,Windows,1080,1920,11.778116666666667,39,Yes
+19,age,ist nicht,couch,Couch,furniture,rotten,faul,0.31,22,Deutsch,32,Male,3,,Chrome,Windows,1080,1920,11.778116666666667,39,Yes
+20,color,ist nicht,tomato,Tomate,food,brown,braun,0.02,23,Deutsch,32,Male,3,,Chrome,Windows,1080,1920,11.778116666666667,39,Yes
+21,quality,ist ,carrot,Karotte,food,bad,schlecht,0.62,24,Deutsch,32,Male,3,,Chrome,Windows,1080,1920,11.778116666666667,39,Yes
+22,texture,ist nicht,apple,Apfel,food,soft,weich,0.77,25,Deutsch,32,Male,3,,Chrome,Windows,1080,1920,11.778116666666667,39,Yes
+23,age,ist nicht,banana,Banane,food,fresh,frisch,0.33,26,Deutsch,32,Male,3,,Chrome,Windows,1080,1920,11.778116666666667,39,Yes
+24,age,ist nicht,fan,Ventilator,furniture,old,alt,0.7,27,Deutsch,32,Male,3,,Chrome,Windows,1080,1920,11.778116666666667,39,Yes
+25,texture,ist ,carrot,Karotte,food,smooth,glatt,0.5,28,Deutsch,32,Male,3,,Chrome,Windows,1080,1920,11.778116666666667,39,Yes
+0,nationality,ist ,tomato,Tomate,food,German,deutsch,0.23,3,Deutsch,19,Male,2,Bitte belegen Sie einen Kurs in der Deutschen Rechtschreibung oder lassen Sie sich beim nächsten mal von einem Muttersprachler helfen ;),Firefox,Windows,864,1536,6.9471,40,Yes
+1,age,ist nicht,carrot,Karotte,food,fresh,frisch,0.2,4,Deutsch,19,Male,2,Bitte belegen Sie einen Kurs in der Deutschen Rechtschreibung oder lassen Sie sich beim nächsten mal von einem Muttersprachler helfen ;),Firefox,Windows,864,1536,6.9471,40,Yes
+2,size,ist nicht,banana,Banane,food,long,lang,0.23,5,Deutsch,19,Male,2,Bitte belegen Sie einen Kurs in der Deutschen Rechtschreibung oder lassen Sie sich beim nächsten mal von einem Muttersprachler helfen ;),Firefox,Windows,864,1536,6.9471,40,Yes
+3,quality,ist nicht,couch,Couch,furniture,bad,schlecht,0.22,6,Deutsch,19,Male,2,Bitte belegen Sie einen Kurs in der Deutschen Rechtschreibung oder lassen Sie sich beim nächsten mal von einem Muttersprachler helfen ;),Firefox,Windows,864,1536,6.9471,40,Yes
+4,texture,ist nicht,tomato,Tomate,food,hard,hart,0.24,7,Deutsch,19,Male,2,Bitte belegen Sie einen Kurs in der Deutschen Rechtschreibung oder lassen Sie sich beim nächsten mal von einem Muttersprachler helfen ;),Firefox,Windows,864,1536,6.9471,40,Yes
+5,size,ist ,fan,Ventilator,furniture,small,klein,0.21,8,Deutsch,19,Male,2,Bitte belegen Sie einen Kurs in der Deutschen Rechtschreibung oder lassen Sie sich beim nächsten mal von einem Muttersprachler helfen ;),Firefox,Windows,864,1536,6.9471,40,Yes
+6,shape,ist nicht,couch,Couch,furniture,square,quadratisch,0.21,9,Deutsch,19,Male,2,Bitte belegen Sie einen Kurs in der Deutschen Rechtschreibung oder lassen Sie sich beim nächsten mal von einem Muttersprachler helfen ;),Firefox,Windows,864,1536,6.9471,40,Yes
+7,texture,ist ,tomato,Tomate,food,smooth,glatt,0.05,10,Deutsch,19,Male,2,Bitte belegen Sie einen Kurs in der Deutschen Rechtschreibung oder lassen Sie sich beim nächsten mal von einem Muttersprachler helfen ;),Firefox,Windows,864,1536,6.9471,40,Yes
+8,size,ist ,TV,Fernsehen,furniture,tiny,winzig,0.34,11,Deutsch,19,Male,2,Bitte belegen Sie einen Kurs in der Deutschen Rechtschreibung oder lassen Sie sich beim nächsten mal von einem Muttersprachler helfen ;),Firefox,Windows,864,1536,6.9471,40,Yes
+9,size,ist ,chair,Stuhl,furniture,huge,riesig,0.32,12,Deutsch,19,Male,2,Bitte belegen Sie einen Kurs in der Deutschen Rechtschreibung oder lassen Sie sich beim nächsten mal von einem Muttersprachler helfen ;),Firefox,Windows,864,1536,6.9471,40,Yes
+10,color,ist ,cheese,K&auml;se,food,green,gr&uuml;n,0.65,13,Deutsch,19,Male,2,Bitte belegen Sie einen Kurs in der Deutschen Rechtschreibung oder lassen Sie sich beim nächsten mal von einem Muttersprachler helfen ;),Firefox,Windows,864,1536,6.9471,40,Yes
+11,age,ist ,carrot,Karotte,food,new,neu,0.55,14,Deutsch,19,Male,2,Bitte belegen Sie einen Kurs in der Deutschen Rechtschreibung oder lassen Sie sich beim nächsten mal von einem Muttersprachler helfen ;),Firefox,Windows,864,1536,6.9471,40,Yes
+12,color,ist nicht,banana,Banane,food,brown,braun,0.28,15,Deutsch,19,Male,2,Bitte belegen Sie einen Kurs in der Deutschen Rechtschreibung oder lassen Sie sich beim nächsten mal von einem Muttersprachler helfen ;),Firefox,Windows,864,1536,6.9471,40,Yes
+13,nationality,ist nicht,TV,Fernsehen,furniture,American,americanisch,0.89,16,Deutsch,19,Male,2,Bitte belegen Sie einen Kurs in der Deutschen Rechtschreibung oder lassen Sie sich beim nächsten mal von einem Muttersprachler helfen ;),Firefox,Windows,864,1536,6.9471,40,Yes
+14,age,ist ,banana,Banane,food,rotten,faul,0.9,17,Deutsch,19,Male,2,Bitte belegen Sie einen Kurs in der Deutschen Rechtschreibung oder lassen Sie sich beim nächsten mal von einem Muttersprachler helfen ;),Firefox,Windows,864,1536,6.9471,40,Yes
+15,color,ist ,tomato,Tomate,food,yellow,gelb,0.72,18,Deutsch,19,Male,2,Bitte belegen Sie einen Kurs in der Deutschen Rechtschreibung oder lassen Sie sich beim nächsten mal von einem Muttersprachler helfen ;),Firefox,Windows,864,1536,6.9471,40,Yes
+16,texture,ist ,carrot,Karotte,food,soft,weich,0.49,19,Deutsch,19,Male,2,Bitte belegen Sie einen Kurs in der Deutschen Rechtschreibung oder lassen Sie sich beim nächsten mal von einem Muttersprachler helfen ;),Firefox,Windows,864,1536,6.9471,40,Yes
+17,nationality,ist nicht,carrot,Karotte,food,French,franz&ouml;sisch,0.19,20,Deutsch,19,Male,2,Bitte belegen Sie einen Kurs in der Deutschen Rechtschreibung oder lassen Sie sich beim nächsten mal von einem Muttersprachler helfen ;),Firefox,Windows,864,1536,6.9471,40,Yes
+18,shape,ist ,fan,Ventilator,furniture,round,rund,0.17,21,Deutsch,19,Male,2,Bitte belegen Sie einen Kurs in der Deutschen Rechtschreibung oder lassen Sie sich beim nächsten mal von einem Muttersprachler helfen ;),Firefox,Windows,864,1536,6.9471,40,Yes
+19,quality,ist nicht,TV,Fernsehen,furniture,good,gut,0.2,22,Deutsch,19,Male,2,Bitte belegen Sie einen Kurs in der Deutschen Rechtschreibung oder lassen Sie sich beim nächsten mal von einem Muttersprachler helfen ;),Firefox,Windows,864,1536,6.9471,40,Yes
+20,color,ist ,fan,Ventilator,furniture,red,rot,0.19,23,Deutsch,19,Male,2,Bitte belegen Sie einen Kurs in der Deutschen Rechtschreibung oder lassen Sie sich beim nächsten mal von einem Muttersprachler helfen ;),Firefox,Windows,864,1536,6.9471,40,Yes
+21,size,ist nicht,tomato,Tomate,food,big,gro&szlig;,0.24,24,Deutsch,19,Male,2,Bitte belegen Sie einen Kurs in der Deutschen Rechtschreibung oder lassen Sie sich beim nächsten mal von einem Muttersprachler helfen ;),Firefox,Windows,864,1536,6.9471,40,Yes
+22,age,ist nicht,couch,Couch,furniture,old,alt,0.56,25,Deutsch,19,Male,2,Bitte belegen Sie einen Kurs in der Deutschen Rechtschreibung oder lassen Sie sich beim nächsten mal von einem Muttersprachler helfen ;),Firefox,Windows,864,1536,6.9471,40,Yes
+23,color,ist nicht,apple,Apfel,food,blue,blau,0.47,26,Deutsch,19,Male,2,Bitte belegen Sie einen Kurs in der Deutschen Rechtschreibung oder lassen Sie sich beim nächsten mal von einem Muttersprachler helfen ;),Firefox,Windows,864,1536,6.9471,40,Yes
+24,color,ist ,couch,Couch,furniture,purple,purpur,0.64,27,Deutsch,19,Male,2,Bitte belegen Sie einen Kurs in der Deutschen Rechtschreibung oder lassen Sie sich beim nächsten mal von einem Muttersprachler helfen ;),Firefox,Windows,864,1536,6.9471,40,Yes
+25,size,ist nicht,couch,Couch,furniture,short,kurz,0.79,28,Deutsch,19,Male,2,Bitte belegen Sie einen Kurs in der Deutschen Rechtschreibung oder lassen Sie sich beim nächsten mal von einem Muttersprachler helfen ;),Firefox,Windows,864,1536,6.9471,40,Yes
+0,shape,ist nicht,desk,Schreibtisch,furniture,round,rund,0.12,3,Deutsch,33,Male,3,,Chrome,Linux,786,393,3.6593333333333335,41,Yes
+1,color,ist nicht,TV,Fernsehen,furniture,brown,braun,0.21,4,Deutsch,33,Male,3,,Chrome,Linux,786,393,3.6593333333333335,41,Yes
+2,nationality,ist ,chair,Stuhl,furniture,German,deutsch,0.64,5,Deutsch,33,Male,3,,Chrome,Linux,786,393,3.6593333333333335,41,Yes
+3,size,ist nicht,TV,Fernsehen,furniture,short,kurz,0.71,6,Deutsch,33,Male,3,,Chrome,Linux,786,393,3.6593333333333335,41,Yes
+4,color,ist ,tomato,Tomate,food,red,rot,0.53,7,Deutsch,33,Male,3,,Chrome,Linux,786,393,3.6593333333333335,41,Yes
+5,size,ist nicht,carrot,Karotte,food,small,klein,0.73,8,Deutsch,33,Male,3,,Chrome,Linux,786,393,3.6593333333333335,41,Yes
+6,age,ist nicht,chair,Stuhl,furniture,old,alt,0.88,9,Deutsch,33,Male,3,,Chrome,Linux,786,393,3.6593333333333335,41,Yes
+7,age,ist nicht,cheese,K&auml;se,food,rotten,faul,0.71,10,Deutsch,33,Male,3,,Chrome,Linux,786,393,3.6593333333333335,41,Yes
+8,age,ist nicht,fan,Ventilator,furniture,fresh,frisch,0.73,11,Deutsch,33,Male,3,,Chrome,Linux,786,393,3.6593333333333335,41,Yes
+9,quality,ist nicht,apple,Apfel,food,good,gut,0.91,12,Deutsch,33,Male,3,,Chrome,Linux,786,393,3.6593333333333335,41,Yes
+10,nationality,ist nicht,desk,Schreibtisch,furniture,French,franz&ouml;sisch,0.42,13,Deutsch,33,Male,3,,Chrome,Linux,786,393,3.6593333333333335,41,Yes
+11,size,ist ,couch,Couch,furniture,long,lang,0.72,14,Deutsch,33,Male,3,,Chrome,Linux,786,393,3.6593333333333335,41,Yes
+12,texture,ist nicht,tomato,Tomate,food,soft,weich,0.43,15,Deutsch,33,Male,3,,Chrome,Linux,786,393,3.6593333333333335,41,Yes
+13,color,ist nicht,fan,Ventilator,furniture,blue,blau,0.38,16,Deutsch,33,Male,3,,Chrome,Linux,786,393,3.6593333333333335,41,Yes
+14,size,ist nicht,tomato,Tomate,food,tiny,winzig,0.38,17,Deutsch,33,Male,3,,Chrome,Linux,786,393,3.6593333333333335,41,Yes
+15,size,ist nicht,tomato,Tomate,food,huge,riesig,0.16,18,Deutsch,33,Male,3,,Chrome,Linux,786,393,3.6593333333333335,41,Yes
+16,texture,ist ,cheese,K&auml;se,food,hard,hart,0.4,19,Deutsch,33,Male,3,,Chrome,Linux,786,393,3.6593333333333335,41,Yes
+17,color,ist nicht,couch,Couch,furniture,purple,purpur,0.48,20,Deutsch,33,Male,3,,Chrome,Linux,786,393,3.6593333333333335,41,Yes
+18,age,ist nicht,tomato,Tomate,food,new,neu,0.62,21,Deutsch,33,Male,3,,Chrome,Linux,786,393,3.6593333333333335,41,Yes
+19,texture,ist ,desk,Schreibtisch,furniture,smooth,glatt,0.42,22,Deutsch,33,Male,3,,Chrome,Linux,786,393,3.6593333333333335,41,Yes
+20,color,ist ,chair,Stuhl,furniture,yellow,gelb,0.49,23,Deutsch,33,Male,3,,Chrome,Linux,786,393,3.6593333333333335,41,Yes
+21,shape,ist nicht,desk,Schreibtisch,furniture,square,quadratisch,0.12,24,Deutsch,33,Male,3,,Chrome,Linux,786,393,3.6593333333333335,41,Yes
+22,size,ist ,couch,Couch,furniture,big,gro&szlig;,0.61,25,Deutsch,33,Male,3,,Chrome,Linux,786,393,3.6593333333333335,41,Yes
+23,nationality,ist nicht,desk,Schreibtisch,furniture,American,americanisch,0.76,26,Deutsch,33,Male,3,,Chrome,Linux,786,393,3.6593333333333335,41,Yes
+24,color,ist ,desk,Schreibtisch,furniture,green,gr&uuml;n,0.3,27,Deutsch,33,Male,3,,Chrome,Linux,786,393,3.6593333333333335,41,Yes
+25,quality,ist ,banana,Banane,food,bad,schlecht,0.63,28,Deutsch,33,Male,3,,Chrome,Linux,786,393,3.6593333333333335,41,Yes
+0,size,ist ,TV,Fernsehen,furniture,long,lang,0.77,3,Deutsch,35,Male,1,"Die Aufgabenstellungen wurden nicht komplett richtig übersetzt, was bei einigen Studienteilnehmern zu missverständnissen führen könnte. ",Chrome,Windows,864,1536,11.064016666666667,42,Yes
+1,texture,ist nicht,banana,Banane,food,soft,weich,0.76,4,Deutsch,35,Male,1,"Die Aufgabenstellungen wurden nicht komplett richtig übersetzt, was bei einigen Studienteilnehmern zu missverständnissen führen könnte. ",Chrome,Windows,864,1536,11.064016666666667,42,Yes
+2,size,ist ,apple,Apfel,food,small,klein,0.78,5,Deutsch,35,Male,1,"Die Aufgabenstellungen wurden nicht komplett richtig übersetzt, was bei einigen Studienteilnehmern zu missverständnissen führen könnte. ",Chrome,Windows,864,1536,11.064016666666667,42,Yes
+3,size,ist ,couch,Couch,furniture,tiny,winzig,0.78,6,Deutsch,35,Male,1,"Die Aufgabenstellungen wurden nicht komplett richtig übersetzt, was bei einigen Studienteilnehmern zu missverständnissen führen könnte. ",Chrome,Windows,864,1536,11.064016666666667,42,Yes
+4,size,ist nicht,cheese,K&auml;se,food,huge,riesig,0.79,7,Deutsch,35,Male,1,"Die Aufgabenstellungen wurden nicht komplett richtig übersetzt, was bei einigen Studienteilnehmern zu missverständnissen führen könnte. ",Chrome,Windows,864,1536,11.064016666666667,42,Yes
+5,color,ist ,couch,Couch,furniture,red,rot,0.14,8,Deutsch,35,Male,1,"Die Aufgabenstellungen wurden nicht komplett richtig übersetzt, was bei einigen Studienteilnehmern zu missverständnissen führen könnte. ",Chrome,Windows,864,1536,11.064016666666667,42,Yes
+6,color,ist nicht,couch,Couch,furniture,purple,purpur,0.16,9,Deutsch,35,Male,1,"Die Aufgabenstellungen wurden nicht komplett richtig übersetzt, was bei einigen Studienteilnehmern zu missverständnissen führen könnte. ",Chrome,Windows,864,1536,11.064016666666667,42,Yes
+7,age,ist ,desk,Schreibtisch,furniture,rotten,faul,0.51,10,Deutsch,35,Male,1,"Die Aufgabenstellungen wurden nicht komplett richtig übersetzt, was bei einigen Studienteilnehmern zu missverständnissen führen könnte. ",Chrome,Windows,864,1536,11.064016666666667,42,Yes
+8,quality,ist ,desk,Schreibtisch,furniture,good,gut,0.77,11,Deutsch,35,Male,1,"Die Aufgabenstellungen wurden nicht komplett richtig übersetzt, was bei einigen Studienteilnehmern zu missverständnissen führen könnte. ",Chrome,Windows,864,1536,11.064016666666667,42,Yes
+9,size,ist ,couch,Couch,furniture,big,gro&szlig;,0.81,12,Deutsch,35,Male,1,"Die Aufgabenstellungen wurden nicht komplett richtig übersetzt, was bei einigen Studienteilnehmern zu missverständnissen führen könnte. ",Chrome,Windows,864,1536,11.064016666666667,42,Yes
+10,nationality,ist ,banana,Banane,food,German,deutsch,0.15,13,Deutsch,35,Male,1,"Die Aufgabenstellungen wurden nicht komplett richtig übersetzt, was bei einigen Studienteilnehmern zu missverständnissen führen könnte. ",Chrome,Windows,864,1536,11.064016666666667,42,Yes
+11,quality,ist nicht,couch,Couch,furniture,bad,schlecht,0.79,14,Deutsch,35,Male,1,"Die Aufgabenstellungen wurden nicht komplett richtig übersetzt, was bei einigen Studienteilnehmern zu missverständnissen führen könnte. ",Chrome,Windows,864,1536,11.064016666666667,42,Yes
+12,size,ist nicht,cheese,K&auml;se,food,short,kurz,0.74,15,Deutsch,35,Male,1,"Die Aufgabenstellungen wurden nicht komplett richtig übersetzt, was bei einigen Studienteilnehmern zu missverständnissen führen könnte. ",Chrome,Windows,864,1536,11.064016666666667,42,Yes
+13,age,ist ,apple,Apfel,food,new,neu,0.08,16,Deutsch,35,Male,1,"Die Aufgabenstellungen wurden nicht komplett richtig übersetzt, was bei einigen Studienteilnehmern zu missverständnissen führen könnte. ",Chrome,Windows,864,1536,11.064016666666667,42,Yes
+14,age,ist ,desk,Schreibtisch,furniture,old,alt,0.11,17,Deutsch,35,Male,1,"Die Aufgabenstellungen wurden nicht komplett richtig übersetzt, was bei einigen Studienteilnehmern zu missverständnissen führen könnte. ",Chrome,Windows,864,1536,11.064016666666667,42,Yes
+15,color,ist ,apple,Apfel,food,blue,blau,0.07,18,Deutsch,35,Male,1,"Die Aufgabenstellungen wurden nicht komplett richtig übersetzt, was bei einigen Studienteilnehmern zu missverständnissen führen könnte. ",Chrome,Windows,864,1536,11.064016666666667,42,Yes
+16,color,ist ,TV,Fernsehen,furniture,yellow,gelb,0.07,19,Deutsch,35,Male,1,"Die Aufgabenstellungen wurden nicht komplett richtig übersetzt, was bei einigen Studienteilnehmern zu missverständnissen führen könnte. ",Chrome,Windows,864,1536,11.064016666666667,42,Yes
+17,color,ist nicht,carrot,Karotte,food,brown,braun,0.08,20,Deutsch,35,Male,1,"Die Aufgabenstellungen wurden nicht komplett richtig übersetzt, was bei einigen Studienteilnehmern zu missverständnissen führen könnte. ",Chrome,Windows,864,1536,11.064016666666667,42,Yes
+18,nationality,ist ,carrot,Karotte,food,French,franz&ouml;sisch,0.1,21,Deutsch,35,Male,1,"Die Aufgabenstellungen wurden nicht komplett richtig übersetzt, was bei einigen Studienteilnehmern zu missverständnissen führen könnte. ",Chrome,Windows,864,1536,11.064016666666667,42,Yes
+19,texture,ist ,fan,Ventilator,furniture,smooth,glatt,0.49,22,Deutsch,35,Male,1,"Die Aufgabenstellungen wurden nicht komplett richtig übersetzt, was bei einigen Studienteilnehmern zu missverständnissen führen könnte. ",Chrome,Windows,864,1536,11.064016666666667,42,Yes
+20,texture,ist nicht,chair,Stuhl,furniture,hard,hart,0.28,23,Deutsch,35,Male,1,"Die Aufgabenstellungen wurden nicht komplett richtig übersetzt, was bei einigen Studienteilnehmern zu missverständnissen führen könnte. ",Chrome,Windows,864,1536,11.064016666666667,42,Yes
+21,shape,ist nicht,carrot,Karotte,food,round,rund,0.64,24,Deutsch,35,Male,1,"Die Aufgabenstellungen wurden nicht komplett richtig übersetzt, was bei einigen Studienteilnehmern zu missverständnissen führen könnte. ",Chrome,Windows,864,1536,11.064016666666667,42,Yes
+22,nationality,ist nicht,TV,Fernsehen,furniture,American,americanisch,0.08,25,Deutsch,35,Male,1,"Die Aufgabenstellungen wurden nicht komplett richtig übersetzt, was bei einigen Studienteilnehmern zu missverständnissen führen könnte. ",Chrome,Windows,864,1536,11.064016666666667,42,Yes
+23,age,ist nicht,apple,Apfel,food,fresh,frisch,0.18,26,Deutsch,35,Male,1,"Die Aufgabenstellungen wurden nicht komplett richtig übersetzt, was bei einigen Studienteilnehmern zu missverständnissen führen könnte. ",Chrome,Windows,864,1536,11.064016666666667,42,Yes
+24,shape,ist ,desk,Schreibtisch,furniture,square,quadratisch,0.02,27,Deutsch,35,Male,1,"Die Aufgabenstellungen wurden nicht komplett richtig übersetzt, was bei einigen Studienteilnehmern zu missverständnissen führen könnte. ",Chrome,Windows,864,1536,11.064016666666667,42,Yes
+25,color,ist nicht,TV,Fernsehen,furniture,green,gr&uuml;n,0.12,28,Deutsch,35,Male,1,"Die Aufgabenstellungen wurden nicht komplett richtig übersetzt, was bei einigen Studienteilnehmern zu missverständnissen führen könnte. ",Chrome,Windows,864,1536,11.064016666666667,42,Yes
