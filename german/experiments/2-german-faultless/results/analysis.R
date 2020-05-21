@@ -17,6 +17,7 @@ length(unique(d$participant_id)) # n=40
 
 aggregate(response~class,data=d,mean)
 d_agr = aggregate(response~predicateGerman,FUN=mean,data=d)
+#write.csv(d_agr,"subjectivity-aggregate-german.csv")
 
 #d$class <- factor(d$class,levels=c("quality","size","age","texture","color","shape","nationality"))
 
