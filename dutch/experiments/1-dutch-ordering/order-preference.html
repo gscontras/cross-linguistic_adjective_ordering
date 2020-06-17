@@ -46,17 +46,17 @@
 
   <div class="slide" id="i0" >
     <img src="../_shared/images/meaningLab.png" alt="UCI meaning lab" id="meaningLabLogo"></img>
-    <p id="instruct-text">Diese Aufgabe beinhaltet das Interpretieren von deutschen S&#228;tzen. Die Aufgabe sollte ungef&#228;hr sechs Minuten dauern. Bitte passen Sie auf. Vielen Dank!</p>
-    <button id="start_button" type="button">Experiment beginnen</button>
-    <p id="legal">Rechtliche Hinweise: Durch die Beantwortung der folgenden Fragen nehmen Sie an einer Studie teil, die von Wissenschaftlern des Department of Language Science an der Universit&#228;t von Kalifornien, Irvine, durchgef&uuml;hrt wird. Wenn Sie Fragen zu dieser Forschung haben, wenden Sie sich bitte an Greg Scontras <a href="mailto://g.scontras@uci.edu">g.scontras@uci.edu</a>. Sie m&uuml;ssen mindestens 18 Jahre alt sein, um teilnehmen zu k&#246;nnen. Ihre Teilnahme an dieser Forschung ist freiwillig. Sie k&#246;nnen es ablehnen, einige oder alle der folgenden Fragen zu beantworten. Sie k&#246;nnen die weitere Teilnahme jederzeit ohne nachteilige Folgen ablehnen. Ihre Anonymit&#228;t ist gew&#228;hrleistet; die Forscher, die Ihre Teilnahme beantragt haben, erhalten keine pers&#246;nlichen Informationen &uuml;ber Sie.</p>
+    <p id="instruct-text">In deze opdracht moeten Nederlandse zinnen geïnterpreteerd worden. De opdracht duurt ongeveer zes minuten. Let goed op! Bedankt! </p>
+    <button id="start_button" type="button">Begin het experiment</button>
+    <p id="legal">Juridische informatie: door de volgende vragen te beantwoorden, neemt u deel aan een onderzoek dat wordt uitgevoerd door wetenschappers van het Department of Language Science aan de University of California, Irvine. Als u vragen heeft over dit onderzoek, neem dan contact op met Greg Scontras <a href="mailto://g.scontras@uci.edu">g.scontras@uci.edu</a>. U moet minimaal 18 jaar zijn om deel te nemen. Uw deelname aan dit onderzoek is vrijwillig. U kunt weigeren een of meer van de volgende vragen te beantwoorden. U kunt op elk moment verdere deelname weigeren zonder nadelige gevolgen. Uw anonimiteit is verzekerd; de onderzoekers die om uw deelname hebben verzocht, zullen geen persoonlijke informatie over u ontvangen.</p>
   </div>
 
   <div class="slide" id="instructions1">
-    <h3>Anweisungen</h3>
-    <p> Sie werde 26 Paare kurze Objektbeschreibungen sehen.<br>
-    Welche Beschreibung ist besser? Entscheiden Sie, indem Sie den.</p>
+    <h3>Instructies</h3>
+    <p> U zal een 26-tal korte beschrijvingen zien van objecten.<br>
+    Uw taak is om te beslissen welke beschrijving het beste klinkt. </p>
     <!-- <p class="instruction_condition">{{}}</p> -->
-    <button onclick="_s.button()">Fortfahren</button>
+    <button onclick="_s.button()">Ga verder</button>
   </div>
 
   <div class="slide" id="multi_slider">
@@ -82,7 +82,7 @@
     <br>
 
     <!-- <p>Which description of the <span class="noun">{{}}</span> sounds more natural?</p> -->
-    <p>Welche Beschreibung <span class="noun">{{}}</span> klingt nat&uuml;rlicher?</p>
+    <p>Welke beschrijving van <span class="noun">{{}}</span> klinkt natuurlijker?</p>
 
     <table id="multi_slider_table" class="slider_table">
 <!--      <tr><td class="left">No, somebody must be wrong.</td><td class="right">Yes, it's a matter of opinion.</td></tr> -->
@@ -95,106 +95,107 @@
 
     <br>
 
-    <button onclick="_s.button()">Fortfahren</button>
-    <div class="err">Bitte passen den Schiebereguler an bevor Sie fortfahren.</div>
+    <button onclick="_s.button()">Ga verder</button>
+    <div class="err">Beweeg de schuifbalk alvorens verder te gaan. .</div>
   </div>
 
   <div class="slide"  id="subj_info">
     <div class="long_form">
-      <div class="subj_info_title">Zusatzinformation</div>
-      <p class="info">Das Beantworten dieser Fragen ist freiwillig, aber Ihre Antworten helfen uns, Ihre Antworten zu verstehen.</p>
-      <p>Haben Sie die Anweisung gelesen und glauben Sie, dass Sie den Anweisungen gefolgt haben? </p>
-      <label><input type="radio"  name="assess" value="No"/>Nein</label>
+      <div class="subj_info_title">Bijkomende informatie</div>
+      <p class="info">Het beantwoorden van volgende vragen is optioneel, maar het zou ons helpen bij het verstaan van de door u gekozen antwoorden. </p>
+      <p>Heeft u de instructies gelezen en denkt u dat u het experiment correct heeft uitgevoerd?? </p>
+      <label><input type="radio"  name="assess" value="No"/>Nee</label>
       <label><input type="radio"  name="assess" value="Yes"/>Ja</label>
-      <label><input type="radio"  name="assess" value="Confused"/>Ich war verwirrt</label>
+      <label><input type="radio"  name="assess" value="Confused"/>Ik was verward</label>
 
-      <p>Geschlecht:
+      <p>Gender:
         <select id="gender">
           <label><option value=""/></label>
-          <label><option value="Male"/>M&#228;nnlich</label>
-          <label><option value="Female"/>Weiblich</label>
+          <label><option value="Male"/>Mannelijk</label>
+          <label><option value="Female"/>Vrouwelijk</label>
           <label><option value="Other"/>Andere</label>
         </select>
       </p>
 
-      <p>Alter: <input type="text" id="age"/></p>
+      <p>Leeftijd: <input type="text" id="age"/></p>
 
-      <p>Bildungsabschluss:
+      <p>Scholingsgraad:
         <select id="education">
           <label><option value="-1"/></label>
-          <label><option value="0"/>Hauptschulabschluss</label>
-          <label><option value="1"/>Realschulabschluss oder Mittlere Reife</label>
-          <label><option value="2"/>Abitur</label>
-          <label><option value="3"/>Universit&#228;tsabschluss</label>
+          <label><option value="0"/>Middelbare school, doch niet afgemaakt</label>
+          <label><option value="1"/>Afgestudeerd van middelbare school</label>
+          <label><option value="2"/>Hogeschool, doch niet afgemaakt</label>
+          <label><option value="3"/>Afgestudeerd van hogeschool</label>
+            <label><option value="4"/>Universitair diploma</label>
         </select>
       </p>
 
-      <p>Muttersprache: <input type="text" id="language"/></p>
-      <label>(Die Sprache(n), die zu Hause gesprochen wurde(n), als Sie ein Kind waren.)</label>    
+      <p>Moedertaal: <input type="text" id="language"/></p>
+      <label>(De taal of talen die u thuis sprak wanneer u een kind was.)</label>    
         
        <p>
-        Was beschreibt Sie am besten?<br>
+        Welke optie beschrijft u het best?<br>
         <select id="describe">
           <label><option value=""/></label>
-          <label><option value="GerEng"/>  Ich habe Deutsch als meine Muttersprache gelernt, aber jetzt ist Englisch meine Hauptsprache.</label>
-          <label><option value="GerGer"/> Ich habe Deutsch als meine Muttersprache gelernt, und Deutsch ist immer noch meine Hauptsprache.</label>
-          <label><option value="L2"/> Ich habe Englisch als meine erste Sprache gelernt und ich habe Deutsch sp&#228;ter gelernt.</label>
-          <label><option value="otherL2"/> Ich habe eine andere Sprache als Deutsch oder Englisch als meine erste Sprache gelernt und sp&#228;ter Deutsch gelernt.</label>
+          <label><option value="GerEng"/> Nederlands was de eerste taal die ik leerde, maar nu is Engels mijn eerste taal.</label>
+          <label><option value="GerGer"/> Nederlands was de eerste taal die ik leerde en nu is Nederlands nog steeds mijn eerste taal.</label>
+          <label><option value="L2"/> Ik leerde eerst Engels en daarna pas Nederlands.</label>
+          <label><option value="otherL2"/> Ik leerde eerst een andere taal dan Nederlands of Engels en leerde het Nederlands pas later.</label>
       </select>
       </p>
 
       <p>
-       Wie viele Jahre hatten Sie Deutschunterricht in der Schule<br>
+       Indien u Nederlands leerde op school, hoeveel jaren bedroeg dit dan? <br>
         <select id="school">
           <label><option value=""/></label>
-          <label><option value="none"/> Kein Deutschunterricht </label>
-          <label><option value="small"/> 1-2 Jahre </label>
-          <label><option value="mid"/> 3-4 Jahre </label>
-          <label><option value="most"/> 4+ Jahre </label>
+          <label><option value="none"/> Ik heb nooit Nederlands geleerd op school </label>
+          <label><option value="small"/> 1 tot 2 jaar </label>
+          <label><option value="mid"/> 3 tot 4 jaar </label>
+          <label><option value="most"/> Meer dan 4 jaar </label>
        </select>
       </p>
 
       <p>
-        Wenn Sie an der Universit&auml;t Deutschkurse besucht haben, wie viele Semester haben Sie besucht?<br>
+        Indien u Nederlands vakken op de hogeschool koos, hoeveel semesters bedroeg dit dan?<br>
         <select id="college">
           <label><option value=""/></label>
-          <label><option value="nocollege"/> N/A </label>
+          <label><option value="nocollege"/> Niet van toepassing </label>
           <label><option value="onesem"/>  1 Semester</label>
-          <label><option value="midsem"/>  2-4 Semester</label>
-          <label><option value="mostsem"/> 4+ Semester</label>
+          <label><option value="midsem"/>  2 tot 3 semesters </label>
+          <label><option value="mostsem"/> Meer dan 4 semesters </label>
         </select>
       </p>
 
       <p>
-        Haben Sie in einem deutschsprachigen Land gelebt?<br>
+        Heeft u ooit gewoond in een Nederlandstalig land??<br>
         <select id="lived">
           <label><option value=""/></label>
-          <label><option value="neverlived"/> Nein. </label>
-          <label><option value="under8"/>  Ja, als ich j&uuml;nger als 10 Jahre alt war. </label>
-          <label><option value="over8"/> Ja, als ich &uuml;ber 10 Jahre alt war. </label>
-          <label><option value="both8"/> Ja, sowohl als ich j&uuml;nger und &auml;lter als 10 Jahre alt war.</label>
+          <label><option value="neverlived"/> Nee, ik heb nooit gewoond in een Nederlandstalige land. </label>
+          <label><option value="under8"/>  Ja, wanneer ik jonger dan 8 jaar was. </label>
+          <label><option value="over8"/> Ja, wanneer ik ouder dan 8 jaar was. </label>
+          <label><option value="both8"/> Ja, wanneer ik jonger dan 8 jaar en ouder dan 8 jaar was.</label>
         </select>
       </p>
 
       <p>
-       Wie viele Jahre lebten Sie in einem deutschsprachigenn Land?<br>
+       Hoeveel jaren heeft u gewoond in een Nederlandstalig land?<br>
         <select id="years">
           <label><option value=""/></label>
-          <label><option value="neverlived"/> Nie </label>
-          <label><option value="shortlive"/>Weniger als 1 Jahr </label>
-          <label><option value="midlive"/> 1-5 Jahre </label>
-          <label><option value="mostlive"/> 5+ Jahre </label>
+          <label><option value="neverlived"/> Ik heb nooit gewoond in een Nederlandstalig laand. </label>
+          <label><option value="shortlive"/> Minder dan 1 jaar. </label>
+          <label><option value="midlive"/> 1 tot 5 jaren. </label>
+          <label><option value="mostlive"/> Meer dan 5 jaren. </label>
         </select>
       </p>
 
       <p>
-        Welche Sprachen sprachen Sie mit Ihrer Familie?<br>
+        Welke taal spreekt u met uw familie?<br>
         <select id="family">
           <label><option value=""/></label>
-          <label><option value="eng"/> Englisch</label>
-          <label><option value="Ger"/> Deutsch</label>
-          <label><option value="Gereng"/> Deutsch und Englisch</label>
-          <label><option value="other"/> Andere Sprache</label>
+          <label><option value="eng"/> Engels </label>
+          <label><option value="NL"/> Nederlands </label>
+          <label><option value="NLeng"/> Nederlands en Engels </label>
+          <label><option value="other"/> Andere taal </label>
         </select>
       </p>
 
@@ -213,33 +214,33 @@
       </p> -->
   
         
-      <p>Hat Ihrnen das Experiment gefallen?</p>
+      <p>Beviel het experiment u?</p>
       <select id="enjoyment">
         <label><option value="-1"></option></label>
-        <label><option value="0">Das Experiment ist schlechter als der Durchschnitt.</option></label>
-        <label><option value="1" >Das Experiment ist durchschnittlich.</option></label>
-        <label><option value="2">Das Experiment ist besser als der Durchschnitt.</option></label>
+        <label><option value="0">Slechter dan het gemiddelde experiment.</option></label>
+        <label><option value="1" >Een gemiddeld experiment.</option></label>
+        <label><option value="2">Beter dan het gemiddelde experiment.</option></label>
       </select>
 
-      <p>Wir sind an jeglichen Kommentaren zum Experiment interessiert. Bitte geben Sie hier Ihre Kommentare ein:</p>
+      <p>We zijn geïnteresseerd in uw mening omtrent het experiment. Gelieve deze hier te typen:</p>
       <textarea id="comments" rows="3" cols="50"></textarea>
       <br/>
       <p>Prolific code:<br>
         <b>7C647224</b>
       </p><br/>
-      <button onclick="_s.submit()">Absenden</button>
+      <button onclick="_s.submit()">Indienen</button>
     </div>
   </div>
 
   <div id="thanks" class="slide js" >
-    <p  class="big">Vielen Dank f&uuml;r Ihre Aufmerksamkeit!</p>
+    <p  class="big">Bedankt voor uw tijd!</p>
 
     <p><a href="https://app.prolific.co/submissions/complete?cc=XXX">https://app.prolific.co/submissions/complete?cc=7C647224</a></p>
     
   </div>
 
   <div class="progress">
-    <span>Fortschritt:</span>
+    <span>Voortgangsbalk:</span>
     <div class="bar-wrapper">
       <div class="bar" width="0%">
       </div>
