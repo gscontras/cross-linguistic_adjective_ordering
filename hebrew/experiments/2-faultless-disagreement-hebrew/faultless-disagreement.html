@@ -1,0 +1,247 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Hebrew faultless disagreement</title>
+
+    <!--JS-->
+
+    <!-- external general utilities -->
+    <script src="../_shared/js/jquery-1.11.1.min.js "></script>
+    <script src="../_shared/full-projects/jquery-ui/jquery-ui.min.js"></script>
+    <script src="../_shared/js/underscore-min.js"></script>
+    <!-- if you want to draw stuff: -->
+    <script src="../_shared/js/raphael-min.js"></script>
+
+    <!-- cocolab experiment logic -->
+    <script src="../_shared/js/exp-V2.js"></script>
+    <script src="../_shared/js/stream-V2.js"></script>
+
+    <!-- cocolab general utilities -->
+    <script src="js/mmturkey.js "></script>
+    <script src="../_shared/js/browserCheck.js"></script>
+    <script src="../_shared/js/utils.js"></script>
+    <!-- if you want to draw cute creatures (depends on raphael): -->
+    <!-- <script src="../_shared/js/ecosystem.js"></script> -->
+
+    <!-- experiment specific helper functions -->
+    <!-- <script src="js/local-utils.js"></script> -->
+
+    <!--CSS-->
+    <link href="../_shared/full-projects/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../_shared/css/meaninglab-style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/local-style.css" rel="stylesheet" type="text/css"/>
+
+    <!-- experiment file -->
+    <script src="js/faultless-disagreement.js"></script>
+    <script src="expt-files/corpus.js"></script>
+    <script src="expt-files/names.js"></script>
+
+    <!-- check unique turkers -->
+    <script src="../_shared/js/uniqueturker.js"></script>
+    
+</head>
+
+<body onload="init();" dir="rtl">
+  <noscript>This task requires JavaScript.</noscript>
+
+  <div class="slide" id="i0" >
+    <img src="../_shared/images/meaningLab.png" alt="UCI meaning lab" id="meaningLabLogo"></img>
+    <p id="instruct-text">המטלה הבאה כוללת בחירה בין משפטים בעברית. המטלה אמורה לארוך כ-6 דקות. אנא הקדישו את תשומת לבכם המלאה למטלה. תודה!</p>
+    <button id="start_button" type="button">התחילו בניסוי</button>
+  </div>
+
+  <div class="slide" id="instructions1">
+    <h3>הוראות</h3>
+    <p>על המסך יוצגו 26 דיאלוגים קצרים. בכל אחד מהדיאלוגים, שני אנשים דוברי עברית מתווכחים על אובייקט מסוים. המטלה שלך היא להחליט אם בהכרח אחד מהדוברים טועה, או ששניהם יכולים להיות צודקים בו זמנית.</p>
+    <!-- <p class="instruction_condition">{{}}</p> -->
+    <button onclick="_s.button()">המשך</button>
+  </div>
+
+  <div class="slide" id="multi_slider">
+
+    <p class="name_said"></p>
+
+    <p>חשוב/חשבי על הסיטואציה הבאה:</p>
+
+    <p><span class="name1">{{}}</span>  ו<span class="name2">{{}}</span> <span class="see"></span> <span class="same">{{}}</span> <span class="noun">{{}}</span>.</p>
+
+    <p><span class="name1">{{}}</span> <span class="says"></span>: <b><span class="utterance1">{{}}</span></b></p>
+
+    <p><span class="name2">{{}}</span> עונה: <b><span class="utterance2">{{}}</span></b></p>
+
+    <p>האם גם <span class="name1">{{}}</span> וגם <span class="name2">{{}}</span> <span class="right"></span>?</p>
+
+    <table id="multi_slider_table" class="slider_table">
+      <tr><td>לא, אחת מהדמויות בהכרח טועה.</td><td><div id="slider0" class="slider"></div></td><td>כן, זה עניין של השקפה.</td></tr>
+    </table>
+
+    <button onclick="_s.button()" >המשך</button>
+    <div class="err">אנא ודא/י שמיקמת את הריבוע על גבי הסקאלה לפני שתמשיך/י.</div>
+
+  </div>
+
+  <div class="slide" id="pattern">
+
+    <p class="name_said"></p>
+
+    <p>חשוב/חשבי על הסיטואציה הבאה:</p>
+
+    <p><span class="name1">{{}}</span>  ו<span class="name2">{{}}</span> <span class="see"></span> <span class="same">{{}}</span> <span class="noun">{{}}</span>.</p>
+
+    <p><span class="name1">{{}}</span> <span class="says"></span>: <b><span class="utterance1">{{}}</span></b></p>
+
+    <p><span class="name2">{{}}</span> עונה: <b><span class="utterance2">{{}}</span></b></p>
+
+    <p>האם גם <span class="name1">{{}}</span> וגם <span class="name2">{{}}</span> <span class="right"></span>?</p>
+
+    <table id="pattern_slider_table" class="slider_table">
+      <tr><td>לא, אחת מהדמויות בהכרח טועה.</td><td><div id="pattern_slider0" class="slider"></div></td><td>כן, זה עניין של השקפה.</td></tr>
+    </table>
+
+    <button onclick="_s.button()" >המשך</button>
+    <div class="err">אנא ודא/י שמיקמת את הריבוע על גבי הסקאלה לפני שתמשיך/י.</div>
+    
+  </div>
+
+  <div class="slide"  id="subj_info">
+    <div class="long_form">
+      <div class="subj_info_title">מידע נוסף</div>
+      <!-- <p class="info">Answering these questions is optional, but will help us understand your answers.</p> -->
+
+      <p>האם קראת את ההוראות וביצעת את המטלה כראוי?</p>
+      <label><input type="radio"  name="assess" value="No"/>לא</label>
+      <label><input type="radio"  name="assess" value="Yes"/>כן</label>
+      <label><input type="radio"  name="assess" value="Confused"/>הייתי מבולבל/ת</label>
+
+      <p>מגדר:
+        <select id="gender">
+          <label><option value=""/></label>
+          <label><option value="Male"/>גבר</label>
+          <label><option value="Female"/>אישה</label>
+          <label><option value="Other"/>אחר</label>
+        </select>
+      </p>
+
+      <p>גיל: <input type="text" id="age"/></p>
+
+      <!-- <p>Level Of Education:
+        <select id="education">
+          <label><option value="-1"/></label>
+          <label><option value="0"/>Some High School</label>
+          <label><option value="1"/>Graduated High School</label>
+          <label><option value="2"/>Some College</label>
+          <label><option value="3"/>Graduated College</label>
+          <label><option value="4"/>Hold a higher degree</label>
+        </select>
+      </p> -->
+
+      <p>שפת אם: <input type="text" id="language"/></p>
+      <label>(השפה שבה דיברת בתור ילד/ה)</label>
+
+      <!-- <p>Did you enjoy the hit?</p>
+      <select id="enjoyment">
+        <label><option value="-1"></option></label>
+        <label><option value="0">Worse than the Average HIT</option></label>
+        <label><option value="1" >An Average HIT</option></label>
+        <label><option value="2">Better than average HIT</option></label>
+      </select>
+
+      <p>We would be interested in any comments you have about this experiment. Please type them here:</p>
+      <textarea id="comments" rows="3" cols="50"></textarea> -->
+      <br/>
+      <button onclick="_s.button2()">שלח/י</button>
+      <!-- <button id="subj_button" type="button">שלח/י</button> -->
+
+      
+    </div>
+  </div>
+
+  <div id="thanks" class="slide js" >
+    <p  class="big">תודה על שהשקעת מזמנך!</p>
+
+    <p>כאן יש להכניס את הקוד שניתן לך בעת הרישום:</p>
+    <form id="javascript_form">
+        <input type="text" name="text"/>
+        <!-- <br/> -->
+        <!-- <input type="submit" id="js_send" value="Submit">שלח/י</button> -->
+    </form>
+
+    <button onclick="_s.submitFinal()" id="js_send">שלח/י קוד</button>
+
+    <script>
+
+          //update this with your js_form selector
+          var form_id_js = "javascript_form";
+
+          var data_js = {
+              "access_token": "t6iyrdaxxpdt1nkf8isfpq9y" // sent after you sign up
+          };
+
+          function js_onSuccess() {
+              // remove this to avoid redirect
+              window.location = window.location.pathname + "?message=Email+Successfully+Sent%21&isError=0";
+          }
+
+          function js_onError(error) {
+              // remove this to avoid redirect
+              window.location = window.location.pathname + "?message=Email+could+not+be+sent.&isError=1";
+          }
+
+          var sendButton = document.getElementById("js_send");
+
+          function js_send() {
+              sendButton.value='Sending…';
+              sendButton.disabled=true;
+              var request = new XMLHttpRequest();
+              request.onreadystatechange = function() {
+                  if (request.readyState == 4 && request.status == 200) {
+                      js_onSuccess();
+                  } else
+                  if(request.readyState == 4) {
+                      js_onError(request.response);
+                  }
+              };
+
+              var subject = "HEBREW FAULTLESS DISAGREEMENT CODE"
+              var message = document.querySelector("#" + form_id_js + " [name='text']").value;
+              data_js['subject'] = subject;
+              data_js['text'] = message;
+              var params = toParams(data_js);
+
+              request.open("POST", "https://postmail.invotes.com/send", true);
+              request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+              request.send(params);
+
+              return false;
+          }
+
+          // sendButton.onclick = js_send;
+
+          function toParams(data_js) {
+              var form_data = [];
+              for ( var key in data_js ) {
+                  form_data.push(encodeURIComponent(key) + "=" + encodeURIComponent(data_js[key]));
+              }
+
+              return form_data.join("&");
+          }
+
+          // var js_form = document.getElementById(form_id_js);
+          // js_form.addEventListener("submit", function (e) {
+          //     e.preventDefault();
+          // });
+      </script>
+  </div>
+
+  <div class="progress">
+    <span>התקדמות:</span>
+    <div class="bar-wrapper">
+      <div class="bar" width="0%">
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

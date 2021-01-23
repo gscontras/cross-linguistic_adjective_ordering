@@ -1,0 +1,22 @@
+  var names = _.shuffle([
+    {name: "אורית", gender: "F"},
+    {name: "נעמה", gender: "F"},
+    {name: "אביגיל", gender: "F"},
+    {name: "ענת", gender: "F"},
+    {name: "אפרת", gender: "F"},
+    {name: "נועה", gender: "F"},
+    {name: "מירי", gender: "F"},
+    {name: "יפעת", gender: "F"},
+    {name: "רותי", gender: "F"},
+    {name: "דקלה", gender: "F"},
+    {name: "יואב", gender: "M"},
+    {name: "אלון", gender: "M"},
+    {name: "נדב", gender: "M"},
+    {name: "חיים", gender: "M"},
+    {name: "איציק", gender: "M"},
+    {name: "עוז", gender: "M"},
+    {name: "רונן", gender: "M"},
+    {name: "יוסי", gender: "M"},
+    {name: "קובי", gender: "M"},
+    {name: "איתמר", gender: "M"}
+  ]);
