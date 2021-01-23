@@ -28,7 +28,7 @@
 
     <!--CSS-->
     <link href="../_shared/full-projects/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
-    <link href="../_shared/css/cocolab-style.css" rel="stylesheet" type="text/css"/>
+    <link href="../_shared/css/meaninglab-style.css" rel="stylesheet" type="text/css"/>
     <link href="css/local-style.css" rel="stylesheet" type="text/css"/>
 
     <!-- experiment file -->
@@ -52,105 +52,170 @@
   <noscript>This task requires JavaScript.</noscript>
 
   <div class="slide" id="i0" >
-    <img src="../_shared/images/cocologo.png" alt="Stanford CoCoLab" id="cocologo"></img>
-    <p id="cocolab">Stanford CoCoLab</p>
-    <p id="instruct-text">This HIT involves interpreting sentences of English. The task should take about six minutes. Please pay attention. Thanks!</p>
-    <button id="start_button" type="button">Start Experiment</button>
-    <p id="legal">Legal information: By answering the following questions, you are participating in a study being performed by cognitive scientists in the Stanford Department of Psychology. If you have questions about this research, please contact Greg Scontras at <a href="mailto://scontras@stanford.edu">scontras@stanford.edu</a> or Noah Goodman, at ngoodman@stanford.edu. You must be  at least 18 years old to participate. Your participation in this research is voluntary. You may decline to answer any or all of the following questions. You may decline further participation, at any time, without adverse consequences. Your anonymity is assured; the researchers who have requested your participation will not receive any personal information about you.</p>
+    <img src="../_shared/images/meaningLab.png" alt="UCI meaning lab" id="meaningLabLogo"></img>
+    <p id="instruct-text">In deze opdracht moeten Nederlandse zinnen geïnterpreteerd worden. De opdracht duurt ongeveer zes minuten. Let goed op! Bedankt! </p>
+    <button id="start_button" type="button">Begin het experiment</button>
+    <p id="instruct-text">Juridische informatie: door de volgende vragen te beantwoorden, neemt u deel aan een onderzoek dat wordt uitgevoerd door wetenschappers van het Department of Language Science aan de University of California, Irvine. Als u vragen heeft over dit onderzoek, neem dan contact op met Greg Scontras <a href="mailto://g.scontras@uci.edu">g.scontras@uci.edu</a>. U moet minimaal 18 jaar zijn om deel te nemen. Uw deelname aan dit onderzoek is vrijwillig. U kunt weigeren een of meer van de volgende vragen te beantwoorden. U kunt op elk moment verdere deelname weigeren zonder nadelige gevolgen. Uw anonimiteit is verzekerd; de onderzoekers die om uw deelname hebben verzocht, zullen geen persoonlijke informatie over u ontvangen.</p>
   </div>
 
   <div class="slide" id="instructions1">
-    <h3>Instructions</h3>
-    <p> You will see 26 short dialogues. In each dialogue, speakers disagree about an object. Your task is to determine whether one speaker must be wrong, or whether both speakers can be right.</p>
+    <h3>Instructies</h3>
+    <p> U zal een 26-tal korte beschrijvingen zien van objectens. In each dialogue, speakers disagree about an object. Your task is to determine whether one speaker must be wrong, or whether both speakers can be right.</p>
     <!-- <p class="instruction_condition">{{}}</p> -->
-    <button onclick="_s.button()">Continue</button>
+    <button onclick="_s.button()">Ga verder</button>
   </div>
 
   <div class="slide" id="multi_slider">
 
   <p class="name_said"></p>
 
-    <p>Consider the following situation:</p>
+    <p>Neem de volgende situatie in beschouwing:</p>
 
 <!--    <p><span class = "woman">{{}}</span> sold a <span class="noun">{{}}</span> in her store.</p>
 
     <p><span class="man1">{{}}</span> entered <span class = "woman">{{}}</span>'s store, noticed the <span class="noun">{{}}</span>, and said:</p>
     -->
-    <p><span class="man1">{{}}</span> and <span class="man2">{{}}</span> see the same <span class="noun">{{}}</span>.</p> 
-    <p><span class="man1">{{}}</span> says: <b><span class="utterance1">{{}}</span></b></p>
+    <p><span class="man1">{{}}</span> en <span class="man2">{{}}</span> zien hetzelfde <span class="noun">{{}}</span>.</p> 
+    <p><span class="man1">{{}}</span> zegt: <b><span class="utterance1">{{}}</span></b></p>
 
-    <p><span class="man2">{{}}</span> responds: <b><span class="utterance2">{{}}</span></b></p>
+    <p><span class="man2">{{}}</span> zegt: <b><span class="utterance2">{{}}</span></b></p>
 
 <!--     <p>Do the statements make sense?</p>
     <label><input type="radio"  name="sense" value="Yes"/>Yes</label>
     <label><input type="radio"  name="sense" value="No"/>No</label>
     </br></br>
  -->
-    <p>Can both <span class="man1">{{}}</span> and <span class="man2">{{}}</span> be right?</p>
+    <p>Kunnen <span class="man1">{{}}</span> en <span class="man2">{{}}</span> beiden gelijk hebben?</p>
     <table id="multi_slider_table" class="slider_table">
 <!--      <tr><td class="left">No, somebody must be wrong.</td><td class="right">Yes, it's a matter of opinion.</td></tr> -->
-      <tr><td>No, somebody must be wrong.</td><td><div id="slider0" class="slider"></div></td><td>Yes, it's a matter of opinion.</td></tr>
+      <tr><td>Nee, één iemand moet ongelijk hebben.</td><td><div id="slider0" class="slider"></div></td><td>Ja, het is namelijk een kwestie van mening.</td></tr>
     </table>
 
-    <button onclick="_s.button()">Continue</button>
-    <div class="err">Please adjust all the sliders before continuing.</div>
+    <button onclick="_s.button()">Ga verder</button>
+    <div class="err">Beweeg de schuifbalk alvorens verder te gaan.</div>
   </div>
 
   <div class="slide"  id="subj_info">
     <div class="long_form">
-      <div class="subj_info_title">Additional information</div>
-      <p class="info">Answering these questions is optional, but will help us understand your answers.</p>
-      <p>Did you read the instructions and do you think you did the HIT correctly?</p>
-      <label><input type="radio"  name="assess" value="No"/>No</label>
-      <label><input type="radio"  name="assess" value="Yes"/>Yes</label>
-      <label><input type="radio"  name="assess" value="Confused"/>I was confused</label>
+<div class="subj_info_title">Bijkomende informatie</div>
+      <p class="info">Het beantwoorden van volgende vragen is optioneel, maar het zou ons helpen bij het verstaan van de door u gekozen antwoorden. </p>
+      <p>Heeft u de instructies gelezen en denkt u dat u het experiment correct heeft uitgevoerd?? </p>
+      <label><input type="radio"  name="assess" value="No"/>Nee</label>
+      <label><input type="radio"  name="assess" value="Yes"/>Ja</label>
+      <label><input type="radio"  name="assess" value="Confused"/>Ik was verward</label>
 
       <p>Gender:
         <select id="gender">
           <label><option value=""/></label>
-          <label><option value="Male"/>Male</label>
-          <label><option value="Female"/>Female</label>
-          <label><option value="Other"/>Other</label>
+          <label><option value="Male"/>Mannelijk</label>
+          <label><option value="Female"/>Vrouwelijk</label>
+          <label><option value="Other"/>Andere</label>
         </select>
       </p>
 
-      <p>Age: <input type="text" id="age"/></p>
+      <p>Leeftijd: <input type="text" id="age"/></p>
 
-      <p>Level Of Education:
+      <p>Scholingsgraad:
         <select id="education">
           <label><option value="-1"/></label>
-          <label><option value="0"/>Some High School</label>
-          <label><option value="1"/>Graduated High School</label>
-          <label><option value="2"/>Some College</label>
-          <label><option value="3"/>Graduated College</label>
-          <label><option value="4"/>Hold a higher degree</label>
+          <label><option value="0"/>Middelbare school, doch niet afgemaakt</label>
+          <label><option value="1"/>Afgestudeerd van middelbare school</label>
+          <label><option value="2"/>Hogeschool, doch niet afgemaakt</label>
+          <label><option value="3"/>Afgestudeerd van hogeschool</label>
+            <label><option value="4"/>Universitair diploma</label>
         </select>
       </p>
 
-      <p>Native Language: <input type="text" id="language"/></p>
-      <label>(the language(s) spoken at home when you were a child)</label>
+      <p>Moedertaal: <input type="text" id="language"/></p>
+      <label>(De taal of talen die u thuis sprak wanneer u een kind was.)</label>  
+        
+      <p>
+        Welke optie beschrijft u het best?<br>
+        <select id="describe">
+          <label><option value=""/></label>
+          <label><option value="GerEng"/> Nederlands was de eerste taal die ik leerde, maar nu is Engels mijn eerste taal.</label>
+          <label><option value="GerGer"/> Nederlands was de eerste taal die ik leerde en nu is Nederlands nog steeds mijn eerste taal.</label>
+          <label><option value="L2"/> Ik leerde eerst Engels en daarna pas Nederlands.</label>
+          <label><option value="otherL2"/> Ik leerde eerst een andere taal dan Nederlands of Engels en leerde het Nederlands pas later.</label>
+      </select>
+      </p>
 
-      <p>Did you enjoy the hit?</p>
+      <p>
+       Indien u Nederlands leerde op school, hoeveel jaren bedroeg dit dan? <br>
+        <select id="school">
+          <label><option value=""/></label>
+          <label><option value="none"/> Ik heb nooit Nederlands geleerd op school </label>
+          <label><option value="small"/> 1 tot 2 jaar </label>
+          <label><option value="mid"/> 3 tot 4 jaar </label>
+          <label><option value="most"/> Meer dan 4 jaar </label>
+       </select>
+      </p>
+
+      <p>
+        Indien u Nederlands vakken op de hogeschool koos, hoeveel semesters bedroeg dit dan?<br>
+        <select id="college">
+          <label><option value=""/></label>
+          <label><option value="nocollege"/> Niet van toepassing </label>
+          <label><option value="onesem"/>  1 Semester</label>
+          <label><option value="midsem"/>  2 tot 3 semesters </label>
+          <label><option value="mostsem"/> Meer dan 4 semesters </label>
+        </select>
+      </p>
+
+      <p>
+        Heeft u ooit gewoond in een Nederlandstalig land??<br>
+        <select id="lived">
+          <label><option value=""/></label>
+          <label><option value="neverlived"/> Nee, ik heb nooit gewoond in een Nederlandstalige land. </label>
+          <label><option value="under8"/>  Ja, wanneer ik jonger dan 8 jaar was. </label>
+          <label><option value="over8"/> Ja, wanneer ik ouder dan 8 jaar was. </label>
+          <label><option value="both8"/> Ja, wanneer ik jonger dan 8 jaar en ouder dan 8 jaar was.</label>
+        </select>
+      </p>
+
+      <p>
+       Hoeveel jaren heeft u gewoond in een Nederlandstalig land?<br>
+        <select id="years">
+          <label><option value=""/></label>
+          <label><option value="neverlived"/> Ik heb nooit gewoond in een Nederlandstalig laand. </label>
+          <label><option value="shortlive"/> Minder dan 1 jaar. </label>
+          <label><option value="midlive"/> 1 tot 5 jaren. </label>
+          <label><option value="mostlive"/> Meer dan 5 jaren. </label>
+        </select>
+      </p>
+
+      <p>
+        Welke taal spreekt u met uw familie?<br>
+        <select id="family">
+          <label><option value=""/></label>
+          <label><option value="eng"/> Engels </label>
+          <label><option value="NL"/> Nederlands </label>
+          <label><option value="NLeng"/> Nederlands en Engels </label>
+          <label><option value="other"/> Andere taal </label>
+        </select>
+      </p>  
+
+       <p>Beviel het experiment u?</p>
       <select id="enjoyment">
         <label><option value="-1"></option></label>
-        <label><option value="0">Worse than the Average HIT</option></label>
-        <label><option value="1" >An Average HIT</option></label>
-        <label><option value="2">Better than average HIT</option></label>
+        <label><option value="0">Slechter dan het gemiddelde experiment.</option></label>
+        <label><option value="1" >Een gemiddeld experiment.</option></label>
+        <label><option value="2">Beter dan het gemiddelde experiment.</option></label>
       </select>
 
-      <p>We would be interested in any comments you have about this experiment. Please type them here:</p>
+      <p>We zijn geïnteresseerd in uw mening omtrent het experiment. Gelieve deze hier te typen:</p>
       <textarea id="comments" rows="3" cols="50"></textarea>
       <br/>
-      <button onclick="_s.submit()">Submit</button>
+      <button onclick="_s.submit()">Indienen</button>
     </div>
   </div>
 
   <div id="thanks" class="slide js" >
-    <p  class="big">Thanks for your time!</p>
+    <p  class="big">Bedankt voor uw tijd!</p>
   </div>
 
   <div class="progress">
-    <span>Progress:</span>
+    <span>Voortgangsbalk:</span>
     <div class="bar-wrapper">
       <div class="bar" width="0%">
       </div>
