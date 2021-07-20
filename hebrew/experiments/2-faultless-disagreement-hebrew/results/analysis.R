@@ -3,7 +3,7 @@ library(lme4)
 library(hydroGOF)
 library(dplyr)
 library(lmerTest)
-setwd("~/git/hebrew_adjectives/experiments/2-faultless-disagreement-hebrew/results/")
+setwd("~/git/cross-linguistic_adjective_ordering/hebrew/experiments/2-faultless-disagreement-hebrew/results/")
 source("helpers.R")
 
 d = read.csv("results.csv",header=T)
@@ -94,6 +94,19 @@ ggplot(o_agr, aes(x=subjectivity,y=correctresponse)) +
   ylab("preferred distance from noun\n")+
   xlab("\nsubjectivity score")+
   ylim(0,1)+
-  xlim(0,1)+
+  #xlim(0,1)+
   theme_bw()
 #ggsave("../results/hebrew-scatter.pdf",height=2.75,width=3.15)
+
+
+
+
+#### analysis of extrapolated ratings
+
+e = read.csv("~/git/multilingual-subjectivity/interpolated_ratings/best_net_50_predictions.csv",header=T)
+o_agr$extrapolated = e$prediction[match(o_agr$predicate,e$predicate)]
+gof(o_agr$correctresponse,o_agr$extrapolated)
+# r = 0.84, r2 = 0.70
+results <- boot(data=o_agr, statistic=rsq, R=10000, formula=correctresponse~extrapolated)
+boot.ci(results, type="bca") 
+# 95%   ( 0.4854,  0.8296 )  
