@@ -110,3 +110,17 @@ gof(o_agr$correctresponse,o_agr$extrapolated)
 results <- boot(data=o_agr, statistic=rsq, R=10000, formula=correctresponse~extrapolated)
 boot.ci(results, type="bca") 
 # 95%   ( 0.4854,  0.8296 )  
+
+
+
+#### analysis of english-only extrapolated ratings
+
+eo = read.csv("~/git/multilingual-subjectivity/interpolated_ratings/english_only_interpolated_scores.csv",header=T)
+o_agr$extrapolated_eo = eo$interpolated.score[match(o_agr$predicate,eo$predicate)]
+gof(o_agr$correctresponse,o_agr$extrapolated_eo)
+# r = 0.66, r2 = 0.44
+results <- boot(data=o_agr, statistic=rsq, R=10000, formula=correctresponse~extrapolated_eo)
+boot.ci(results, type="bca") 
+# 95%   ( 0.2333,  0.6350 )
+
+
