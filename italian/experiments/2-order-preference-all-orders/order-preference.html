@@ -1,0 +1,164 @@
+<html>
+
+<head>
+    <title>Italian adjectives</title>
+
+    <!--JS-->
+
+    <!-- external general utilities -->
+    <script src="../_shared/js/jquery-1.11.1.min.js "></script>
+    <script src="../_shared/full-projects/jquery-ui/jquery-ui.min.js"></script>
+    <script src="../_shared/js/underscore-min.js"></script>
+    <!-- if you want to draw stuff: -->
+    <script src="../_shared/js/raphael-min.js"></script>
+
+    <!-- cocolab experiment logic -->
+    <script src="../_shared/js/exp-V2.js"></script>
+    <script src="../_shared/js/stream-V2.js"></script>
+
+    <!-- cocolab general utilities -->
+    <script src="../_shared/js/mmturkey.js "></script>
+    <script src="../_shared/js/browserCheck.js"></script>
+    <script src="../_shared/js/utils.js"></script>
+    <!-- if you want to draw cute creatures (depends on raphael): -->
+    <!-- <script src="../_shared/js/ecosystem.js"></script> -->
+
+    <!-- experiment specific helper functions -->
+    <!-- <script src="js/local-utils.js"></script> -->
+
+    <!--CSS-->
+    <link href="../_shared/full-projects/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../_shared/css/meaninglab-style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/local-style.css" rel="stylesheet" type="text/css"/>
+
+    <!-- experiment file -->
+    <script src="js/order-preference.js"></script>
+    <script src="expt-files/corpus.js"></script>
+    <script src="expt-files/names.js"></script>
+
+    <!-- check unique turkers -->
+    <script src="../_shared/js/uniqueturker.js"></script>
+
+    
+</head>
+
+<body onload="init();">
+  <noscript>This task requires Javascript.</noscript>
+
+  <div class="slide" id="i0" >
+    <img src="../_shared/images/meaningLab.png" alt="UCI meaning lab" id="meaningLabLogo"></img>
+    <p id="instruct-text">Questo compito prevede l'interpretazione di frasi in italiano. Il compito ha una durata di sei minuti circa. Si prega di prestare attenzione. Grazie!</p>
+    <button id="start_button" type="button">Inizia l'esperimento</button>
+    <p id="legal">Informazioni legali: Rispondendo alle seguenti domande, si partecipa a uno studio condotto da ricercatori del Dipartimento di Scienze del Linguaggio dell'Universit&agrave; della California, Irvine e del Dipartimento di Lettere e Filosofia dell'Universit&agrave; di Firenze. In caso di domande su questa ricerca, si prega di contattare la Dott.ssa Greta Mazzaggio (greta.mazzaggio@unifi.it). Per partecipare &egrave; necessario avere almeno 18 anni. La sua partecipazione a questa ricerca &egrave; volontaria. Pu&ograve; rifiutare di rispondere a una o a tutte le domande seguenti. Pu&ograve; rifiutare di partecipare in qualsiasi momento, senza conseguenze negative. Il suo anonimato &egrave; garantito; i ricercatori che hanno richiesto la sua partecipazione non riceveranno alcuna informazione personale su di lei.</p>
+  </div>
+
+  <div class="slide" id="instructions1">
+    <h3>Istruzioni</h3>
+    <p>Verranno visualizzate 26 coppie di brevi descrizioni di oggetti. Il vostro compito &egrave; quello di decidere quale descrizione suona meglio.</p>
+    <!-- <p class="instruction_condition">{{}}</p> -->
+    <button onclick="_s.button()">Continua</button>
+  </div>
+
+  <div class="slide" id="multi_slider">
+
+  <p class="name_said"></p>
+
+    <!-- <p>Consider the following situation:</p> -->
+
+<!--    <p><span class = "woman">{{}}</span> sold a <span class="noun">{{}}</span> in her store.</p>
+
+    <p><span class="man1">{{}}</span> entered <span class = "woman">{{}}</span>'s store, noticed the <span class="noun">{{}}</span>, and said:</p>
+    -->
+    <!-- <p><span class="man1">{{}}</span> and <span class="man2">{{}}</span> see the same <span class="noun">{{}}</span>.</p> 
+    <p><span class="man1">{{}}</span> says: <b><span class="utterance1">{{}}</span></b></p>
+
+    <p><span class="man2">{{}}</span> responds: <b><span class="utterance2">{{}}</span></b></p> -->
+
+<!--     <p>Do the statements make sense?</p>
+    <label><input type="radio"  name="sense" value="Yes"/>Yes</label>
+    <label><input type="radio"  name="sense" value="No"/>No</label>
+    </br></br>
+ -->
+    <br>
+
+    <p>Quale descrizione <span class="noun">{{}}</span> suona pi&ugrave; naturale?</p>
+
+    <table id="multi_slider_table" class="slider_table">
+<!--      <tr><td class="left">No, somebody must be wrong.</td><td class="right">Yes, it's a matter of opinion.</td></tr> -->
+      <tr><td><span class="low">{{}}</span></td><td>
+      <div id="slider0" class="slider"></div>
+      </td><td><span class="high">{{}}</span></td></tr>
+    </table>
+
+    <p>Regolare il cursore per indicare la propria preferenza.</p><br>
+
+    <button onclick="_s.button()">Continua</button>
+    <div class="err">Perfavore, prima di proseguire, regolare il cursore.</div>
+  </div>
+
+  <div class="slide"  id="subj_info">
+    <div class="long_form">
+      <div class="subj_info_title">Informazioni aggiuntive</div>
+      <p class="info">Rispondere a queste domande &egrave; facoltativo, ma ci aiuter&agrave; a capire le vostre risposte.</p>
+      <p>Avete letto le istruzioni e pensate di aver eseguito correttamente il compito?</p>
+      <label><input type="radio"  name="assess" value="No"/>No</label>
+      <label><input type="radio"  name="assess" value="Yes"/>S&igrave;</label>
+      <label><input type="radio"  name="assess" value="Confused"/>Ero in dubbio</label>
+
+      <p>Genere:
+        <select id="gender">
+          <label><option value=""/></label>
+          <label><option value="Male"/>Maschio</label>
+          <label><option value="Female"/>Femmina</label>
+          <label><option value="Other"/>Altro</label>
+        </select>
+      </p>
+
+      <p>Et&agrave;: <input type="text" id="age"/></p>
+
+      <p>Livello di istruzione:
+        <select id="education">
+          <label><option value="-1"/></label>
+          <label><option value="0"/>Licenza media</label>
+          <label><option value="1"/>Diploma di scuola superiore</label>
+          <label><option value="2"/>Universit&agrave; (in frequenza)</label>
+          <label><option value="3"/>Laurea triennale o magistrale</label>
+          <label><option value="4"/>Dottorato di ricerca</label>
+        </select>
+      </p>
+
+      <p>Lingua madre: <input type="text" id="language"/></p>
+      <label>(La lingua (o le lingue) parlate a casa quando si era bambini)</label>
+
+      <p>Regione di provenienza: <input type="text" id="region"/></p>
+      <label>(es., Veneto, Lombardia)</label>
+
+    <p>Ti &egrave; piaciuto il compito?</p>
+      <select id="enjoyment">
+        <label><option value="-1"></option></label>
+        <label><option value="0">Peggiore di un compito medio</option></label>
+        <label><option value="1" >Un compito medio</option></label>
+        <label><option value="2">Migliore di un compito medio</option></label>
+      </select>
+
+      <p>Saremo lieti di ricevere i vostri commenti su questo esperimento. Per favore, scriveteli qui:</p>
+      <textarea id="comments" rows="3" cols="50"></textarea>
+      <br/>
+      <button onclick="_s.submit()">Invio</button>
+    </div>
+  </div>
+
+  <div id="thanks" class="slide js" >
+    <p  class="big">Grazie per il vostro tempo!</p>
+  </div>
+
+  <div class="progress">
+    <span>Svolgimento:</span>
+    <div class="bar-wrapper">
+      <div class="bar" width="0%">
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
