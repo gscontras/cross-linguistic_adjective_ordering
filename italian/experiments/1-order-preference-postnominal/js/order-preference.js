@@ -140,21 +140,14 @@ function make_slides(f) {
     submit : function(e){
       //if (e.preventDefault) e.preventDefault(); // I don't know what this means.
       exp.subj_data = {
-        language : $("#language").val(),
-        enjoyment : $("#enjoyment").val(),
         assess : $('input[name="assess"]:checked').val(),
-        age : $("#age").val(),
         gender : $("#gender").val(),
+        age : $("#age").val(),
         education : $("#education").val(),
-        comments : $("#comments").val(),
-        describe : $("#describe").val(),
-        school : $("#school").val(),
-        classes : $("#classes").val(),
-        college : $("#college").val(),
-        lived : $("#lived").val(),
-        years : $("#years").val(),
-        family : $("#family").val(),
-        level : $("#level").val()
+        language : $("#language").val(),
+        region : $("#region").val(),
+        enjoyment : $("#enjoyment").val(),
+        comments : $("#comments").val()
       };
       exp.go(); //use exp.go() if and only if there is no "present" data.
     }
