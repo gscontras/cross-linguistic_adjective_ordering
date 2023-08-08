@@ -29,7 +29,7 @@ var adjectives = _.shuffle([
 		{"Predicate":"marcio", "Class":"age","FemPredicate":"marcia", "English": "rotten"},
 		{"Predicate":"fresco", "Class":"age","FemPredicate":"fresca", "English": "fresh"},
 		{"Predicate":"fantastico", "Class":"quality","FemPredicate":"fantastica", "English": "wonderful"},
-		{"Predicate":"cattivo", "Class":"quality","FemPredicate":"cattivo", "English": "bad"},
+		{"Predicate":"cattivo", "Class":"quality","FemPredicate":"cattiva", "English": "bad"},
 		{"Predicate":"rotondo", "Class":"shape","FemPredicate":"rotonda", "English": "round"},						
 		{"Predicate":"quadrato", "Class":"shape","FemPredicate":"quadrata", "English": "square"}
 ]);
