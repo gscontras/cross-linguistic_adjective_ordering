@@ -18,7 +18,7 @@ var adjectives = _.shuffle([
 		{"Predicate":"minuscolo", "Class":"size","FemPredicate":"minuscola", "English": "tiny"},					
 		{"Predicate":"corto", "Class":"size","FemPredicate":"corta", "English": "short"},					
 		{"Predicate":"lungo", "Class":"size","FemPredicate":"lunga", "English": "long"},							
-		{"Predicate":"spagnolo", "Class":"nationality","FemPredicate":"spagnola", "English": "Spanish"},
+		{"Predicate":"polacco", "Class":"nationality","FemPredicate":"polacca", "English": "Polish"},
 		{"Predicate":"francese", "Class":"nationality","FemPredicate":"francese", "English": "French"},
 		{"Predicate":"tedesco", "Class":"nationality","FemPredicate":"tedesca", "English": "German"},
 		{"Predicate":"liscio", "Class":"texture","FemPredicate":"liscia", "English": "smooth"},

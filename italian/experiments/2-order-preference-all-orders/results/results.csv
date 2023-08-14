@@ -1,0 +1,10 @@
+,response,noun,gender,nounclass,predicate1,predicate1English,predicate2,predicate2English,class1,class2,slide_number,condition,assess,age,education,language,region,dialect,enjoyment,comments,Browser,OS,screenH,screenW,time_in_minutes,participant_id
+0,0.61,ventilatore,Male,furniture,duro,hard,francese,French,texture,nationality,3,ANA,Confused,123,0,GREG,region,dialect,1,GREG 0,Safari,Mac,1440,2560,0.4013833333333333,1
+1,0.32,banana,Male,food,verde,green,francese,French,color,nationality,4,ANA,Confused,123,0,GREG,region,dialect,1,GREG 0,Safari,Mac,1440,2560,0.4013833333333333,1
+2,0.67,televisore,Male,furniture,lungo,long,cattivo,bad,size,quality,5,ANA,Confused,123,0,GREG,region,dialect,1,GREG 0,Safari,Mac,1440,2560,0.4013833333333333,1
+3,0.39,formaggio,Male,food,marcio,rotten,corto,short,age,size,6,NAA,Confused,123,0,GREG,region,dialect,1,GREG 0,Safari,Mac,1440,2560,0.4013833333333333,1
+0,0.72,televisore,,furniture,tedesco,German,rosso,red,nationality,color,3,NAA,,,-1,GREG,,,-1,GREG 1,Safari,Mac,1440,2560,0.2869833333333333,2
+1,0.12,sedia,,furniture,marcio,rotten,rotondo,round,age,shape,4,ANA,,,-1,GREG,,,-1,GREG 1,Safari,Mac,1440,2560,0.2869833333333333,2
+2,0.89,televisore,,furniture,gigantesco,huge,quadrato,square,size,shape,5,AAN,,,-1,GREG,,,-1,GREG 1,Safari,Mac,1440,2560,0.2869833333333333,2
+3,0.34,divano,,furniture,tedesco,German,morbido,soft,nationality,texture,6,ANA,,,-1,GREG,,,-1,GREG 1,Safari,Mac,1440,2560,0.2869833333333333,2
+4,0.57,scrivania,,furniture,lungo,long,viola,purple,size,color,7,NAA,,,-1,GREG,,,-1,GREG 1,Safari,Mac,1440,2560,0.2869833333333333,2

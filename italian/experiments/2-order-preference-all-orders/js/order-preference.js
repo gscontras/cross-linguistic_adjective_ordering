@@ -179,6 +179,7 @@ function make_slides(f) {
         education : $("#education").val(),
         language : $("#language").val(),
         region : $("#region").val(),
+        dialect : $("#dialect").val(),
         enjoyment : $("#enjoyment").val(),
         comments : $("#comments").val()
       };
