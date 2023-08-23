@@ -4,32 +4,23 @@ library(hydroGOF)
 library(dplyr)
 #library(tidyr)
 
-setwd("~/Documents/git/spanish_adjectives/experiments/1-order-preference/Submiterator-master")
-setwd("~/git/spanish_adjectives/experiments/1-order-preference/Submiterator-master")
+setwd("~/git/cross-linguistic_adjective_ordering/italian/experiments/2-order-preference-all-orders/results/")
 
-num_round_dirs = 4
-df = do.call(rbind, lapply(1:num_round_dirs, function(i) {
-  return (read.csv(paste(
-    'round', i, '/spanish-order.csv', sep=''),stringsAsFactors=FALSE) %>% 
-      mutate(workerid = (workerid + (i-1)*9)))}))
+df = read.csv("results.csv",header=T)
+head(df)
 
-d = subset(df, select=c("workerid","noun","gender","nounclass","slide_number", "predicate1", "predicate2", "class1","class2","response","language","school","age","assess","education","lived","level","family","years","describe","classes"))
+d <- df
 
-# re-factorize
-d[] <- lapply( d, factor) 
+d$workerid = d$participant_id
 
+unique(d$language)
 
-# only look at "español" as the native language
-t = d[d$language=="Espanol"|d$language=="espanol"|d$language=="espanol ",]
+all <- d
+# only native Vietnamese speakers (n=1)
+d = d[d$language!="GREG"
+      &d$language !="Spagnolo Italiano",]
 
-# only look at "both8" for lived
-t = t[t$lived=="both8",]
-
-t$response = as.numeric(as.character(t$response))
-
-summary(t) # 11 indicated "spanish" as native language
-
-#write.csv(t,"~/Documents/git/spanish_adjectives/experiments/1-order-preference/results/order-preference-spanish-only.csv")
+length(unique(d$workerid)) # n=110 (120)
 
 #####
 ## duplicate observations by first predicate
@@ -37,12 +28,12 @@ summary(t) # 11 indicated "spanish" as native language
 
 library(tidyr)
 
-o <- t
+o <- d
 o$rightpredicate1 = o$predicate2
 o$rightpredicate2 = o$predicate1
 o$rightresponse = 1-o$response
 agr = o %>% 
-        select(predicate1,rightpredicate1,response,rightresponse,workerid,noun,nounclass,class1,class2) %>%
+        select(predicate1,rightpredicate1,response,rightresponse,workerid,noun,nounclass,class1,class2,condition) %>%
         gather(predicateposition,predicate,predicate1:rightpredicate1,-workerid,-noun,-nounclass,-class1,-class2)
 agr$correctresponse = agr$response
 agr[agr$predicateposition == "rightpredicate1",]$correctresponse = agr[agr$predicateposition == "rightpredicate1",]$rightresponse
@@ -53,24 +44,25 @@ agr$response = NULL
 agr$rightresponse = NULL
 agr$class1 = NULL
 agr$class2 = NULL
-nrow(agr) #416
-#write.csv(agr,"~/Documents/git/spanish_adjectives/experiments/1-order-preference/results/naturalness-duplicated.csv")
+nrow(agr) #5720
+#write.csv(agr,"~/git/cross-linguistic_adjective_ordering/italian/experiments/2-order-preference-all-orders/results/naturalness-duplicated.csv")
 
-adj_agr = aggregate(correctresponse~predicate*correctclass,FUN=mean,data=agr)
+adj_agr = aggregate(correctresponse~predicate*correctclass*condition,FUN=mean,data=agr)
 adj_agr
 
-class_agr = aggregate(correctresponse~correctclass,FUN=mean,data=agr)
+class_agr = aggregate(correctresponse~correctclass*condition,FUN=mean,data=agr)
 
 ggplot(data=class_agr,aes(x=reorder(correctclass,-correctresponse,mean),y=correctresponse))+
   geom_bar(stat="identity")+
   #geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(class1,-correctresponse,mean), width=0.1),alpha=0.5)+
   xlab("\nadjective class")+
-  ylab("distance from noun\n")+
+  ylab("preference for first position\n")+
   ylim(0,1)+
+  facet_grid(.~condition)+
   #labs("order\npreference")+
   theme_bw()#+
   #theme(axis.text.x=element_text(angle=90,vjust=0.35,hjust=1))
-#ggsave("../results/class_distance.pdf",height=3)
+#ggsave("class_distance.pdf",height=3)
 
 
 
