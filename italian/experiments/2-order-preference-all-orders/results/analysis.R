@@ -49,24 +49,70 @@ nrow(agr) #5720
 #write.csv(agr,"~/git/cross-linguistic_adjective_ordering/italian/experiments/2-order-preference-all-orders/results/naturalness-duplicated.csv")
 
 adj_agr = aggregate(correctresponse~predicate*correctclass*condition,FUN=mean,data=agr)
-adj_agr
+adj_agr$length = NA
+adj_agr$length = (nchar(adj_agr$predicate)-3)/7
+
+agr$length = (nchar(agr$predicate)-3)/7
 
 #class_agr = aggregate(correctresponse~correctclass*condition,FUN=mean,data=agr)
 source("helpers.R")
 class_agr = bootsSummary(data=agr, measurevar="correctresponse", groupvars=c("correctclass","condition"))
+class_agr$predictor = "rating"
+colnames(class_agr)[4] <- "response"
+
+length_agr = bootsSummary(data=agr, measurevar="length", groupvars=c("correctclass","condition"))
+length_agr$predictor = "length"
+colnames(length_agr)[4] <- "response"
+
+# load PMI
+pmi = read.csv("filtered_output_with_pmi.csv",header=T)
+class_info <- data.frame(
+  adjs = c("blu", "cattivo", "corto", "duro", "fantastica", "fantastico", "francese",
+           "fresco", "giallo", "gigantesco", "grande", "liscio", "lungo", "marcia",
+           "marcio", "marrone", "minuscolo", "morbida", "morbido", "nuovo", "piccola",
+           "piccolo", "polacco", "quadrato", "rossa", "rosso", "rotondo", "tedesco",
+           "vecchio", "verde", "viola"),
+  Class = c("color", "quality", "size", "texture", "quality", "quality", "nationality",
+            "age", "color", "size", "size", "texture", "size", "age", "age", "color",
+            "size", "texture", "texture", "age", "size", "size", "nationality", "shape",
+            "color", "color", "shape", "nationality", "age", "color", "color")
+)
+pmi_class <- merge(pmi, class_info, by = "adjs", all.x = TRUE)
+pmi_class$PMI <- (pmi_class$PMI - min(pmi_class$PMI)) / (max(pmi_class$PMI) - min(pmi_class$PMI))
+pmi_agr = bootsSummary(data=pmi_class, measurevar="PMI", groupvars=c("Class"))
+colnames(pmi_agr)[1] <- "correctclass"
+colnames(pmi_agr)[3] <- "response"
+pmi_agr$predictor = "PMI"
+# Duplicate the rows and add "AAN", "ANA", and "NAA" to the 'condition' column
+expanded_pmi_agr <- pmi_agr
+# Repeat the data frame to match the length of the expanded 'condition' column
+expanded_pmi_agr <- expanded_pmi_agr[rep(1:nrow(expanded_pmi_agr), each = 3),]
+expanded_pmi_agr$condition <- c("AAN", "ANA", "NAA","AAN", "ANA", "NAA","AAN", "ANA", "NAA","AAN", "ANA", "NAA","AAN", "ANA", "NAA","AAN", "ANA", "NAA","AAN", "ANA", "NAA")
+# Reset the row names (optional)
+rownames(expanded_pmi_agr) <- NULL
+#convert response to value between 0 and 1
 
 
-ggplot(data=class_agr,aes(x=reorder(correctclass,-correctresponse,mean),y=correctresponse))+
-  geom_bar(stat="identity",fill="lightgray",color="black")+
+# combine ratings, length, and PMI
+all_agr = rbind(class_agr,length_agr,expanded_pmi_agr)
+all_agr$predictor = factor(all_agr$predictor,levels=c('rating','length','PMI'))
+
+level_order = c('size','quality','age','texture','shape','color','nationality')
+
+
+#plot
+ggplot(data=all_agr,aes(x=factor(correctclass,level=level_order),y=response,fill=predictor))+
+  geom_bar(stat="identity",position=position_dodge(.9),color="black")+
   geom_hline(yintercept=0.5,linetype="dashed") + 
-  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(correctclass,-correctresponse,mean), width=0.25),alpha=1)+
+  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=factor(correctclass,level=level_order), width=0.25),alpha=1,position=position_dodge(.9))+
   xlab("adjective class")+
   ylab("preference\nfor first position\n")+
   ylim(0,1)+
   facet_grid(.~condition)+
   #labs("order\npreference")+
   theme_bw()+
-  theme(axis.text.x=element_text(angle=45,vjust=1,hjust=1))
+  theme(axis.text.x=element_text(angle=45,vjust=1,hjust=1))+
+  scale_fill_manual(values=c("gray25","gray50","gray75"))
 #theme(axis.text.x=element_text(angle=90,vjust=0.35,hjust=1))
 #ggsave("class_distance.png",height=2,width=7)
 
