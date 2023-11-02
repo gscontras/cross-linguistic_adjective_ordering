@@ -45,7 +45,7 @@ agr$response = NULL
 agr$rightresponse = NULL
 agr$class1 = NULL
 agr$class2 = NULL
-nrow(agr) #5720
+nrow(agr) #5616
 #write.csv(agr,"~/git/cross-linguistic_adjective_ordering/italian/experiments/2-order-preference-all-orders/results/naturalness-duplicated.csv")
 
 adj_agr = aggregate(correctresponse~predicate*correctclass*condition,FUN=mean,data=agr)
@@ -54,43 +54,27 @@ adj_agr$length = (nchar(adj_agr$predicate)-3)/7
 
 agr$length = (nchar(agr$predicate)-3)/7
 
+pmi = read.csv("filtered_output_with_pmi.csv",header=T)
+
+merged_df <- merge(agr, pmi, by.x = c("noun", "predicate"), by.y = c("noun", "adjs"), all.x = TRUE)
+
+
 #class_agr = aggregate(correctresponse~correctclass*condition,FUN=mean,data=agr)
 source("helpers.R")
-class_agr = bootsSummary(data=agr, measurevar="correctresponse", groupvars=c("correctclass","condition"))
+class_agr = bootsSummary(data=merged_df , measurevar="correctresponse", groupvars=c("correctclass","condition"))
 class_agr$predictor = "rating"
 colnames(class_agr)[4] <- "response"
 
-length_agr = bootsSummary(data=agr, measurevar="length", groupvars=c("correctclass","condition"))
+length_agr = bootsSummary(data=merged_df , measurevar="length", groupvars=c("correctclass","condition"))
 length_agr$predictor = "length"
 colnames(length_agr)[4] <- "response"
 
-# load PMI
-pmi = read.csv("filtered_output_with_pmi.csv",header=T)
-class_info <- data.frame(
-  adjs = c("blu", "cattivo", "corto", "duro", "fantastica", "fantastico", "francese",
-           "fresco", "giallo", "gigantesco", "grande", "liscio", "lungo", "marcia",
-           "marcio", "marrone", "minuscolo", "morbida", "morbido", "nuovo", "piccola",
-           "piccolo", "polacco", "quadrato", "rossa", "rosso", "rotondo", "tedesco",
-           "vecchio", "verde", "viola"),
-  Class = c("color", "quality", "size", "texture", "quality", "quality", "nationality",
-            "age", "color", "size", "size", "texture", "size", "age", "age", "color",
-            "size", "texture", "texture", "age", "size", "size", "nationality", "shape",
-            "color", "color", "shape", "nationality", "age", "color", "color")
-)
-pmi_class <- merge(pmi, class_info, by = "adjs", all.x = TRUE)
-pmi_class$PMI <- (pmi_class$PMI - min(pmi_class$PMI)) / (max(pmi_class$PMI) - min(pmi_class$PMI))
-pmi_agr = bootsSummary(data=pmi_class, measurevar="PMI", groupvars=c("Class"))
+### remove NAs from PMI average calculation
+merged_df_pmi <- merged_df[complete.cases(merged_df), ]
+pmi_agr = bootsSummary(data=merged_df_pmi , measurevar="PMI", groupvars=c("correctclass","condition"))
 colnames(pmi_agr)[1] <- "correctclass"
 colnames(pmi_agr)[3] <- "response"
 pmi_agr$predictor = "PMI"
-# Duplicate the rows and add "AAN", "ANA", and "NAA" to the 'condition' column
-expanded_pmi_agr <- pmi_agr
-# Repeat the data frame to match the length of the expanded 'condition' column
-expanded_pmi_agr <- expanded_pmi_agr[rep(1:nrow(expanded_pmi_agr), each = 3),]
-expanded_pmi_agr$condition <- c("AAN", "ANA", "NAA","AAN", "ANA", "NAA","AAN", "ANA", "NAA","AAN", "ANA", "NAA","AAN", "ANA", "NAA","AAN", "ANA", "NAA","AAN", "ANA", "NAA")
-# Reset the row names (optional)
-rownames(expanded_pmi_agr) <- NULL
-#convert response to value between 0 and 1
 
 
 # combine ratings, length, and PMI
@@ -120,3 +104,91 @@ ggplot(data=all_agr,aes(x=factor(correctclass,level=level_order),y=response,fill
 
 
 
+
+
+
+#### difference analysis
+
+diff <- d
+diff$length1 = nchar(as.character(diff$predicate1))
+diff$length2 = nchar(as.character(diff$predicate2))
+diff$length_diff = diff$length1 - diff$length2
+
+result_df <- diff %>%
+  left_join(pmi, by = c("noun" = "noun", "predicate1" = "adjs"))
+result_df2 <- result_df %>%
+  left_join(pmi, by = c("noun" = "noun", "predicate2" = "adjs"))
+result_df2$pmi_diff = result_df2$PMI.x - result_df2$PMI.y
+
+s = read.csv("adjective-subjectivity.csv",header=T)
+result_df3 <- merge(result_df2, s, by.x = "predicate1English", by.y = "predicate", all.x = TRUE)
+result_df4 <- merge(result_df3, s, by.x = "predicate2English", by.y = "predicate", all.x = TRUE)
+result_df4$subj_diff = result_df4$response.y - result_df4$response
+
+m <- lmer(response~(length_diff+pmi_diff+subj_diff)*condition+ (1|workerid) , data =result_df4)
+summary(m)
+
+ggplot(data=result_df4,aes(x=length_diff,y=response.x))+
+  geom_point()+
+  geom_smooth(method="lm")+
+  ylim(0,1)+
+  facet_grid(.~condition)+
+  ylab("rating")+
+  xlab("\nlength difference (A1-A2)") +
+  #labs("order\npreference")+
+  theme_bw()
+#ggsave("length-diff.pdf",width=6,height=2.5)
+
+ggplot(data=result_df4,aes(x=pmi_diff,y=response.x))+
+  geom_point()+
+  geom_smooth(method="lm")+
+  ylim(0,1)+
+  ylab("rating")+
+  xlab("\nPMI difference (A1-A2)") +
+  facet_grid(.~condition)+
+  #labs("order\npreference")+
+  theme_bw()
+#ggsave("pmi-diff.pdf",width=6,height=2.5)
+
+ggplot(data=result_df4,aes(x=subj_diff,y=response.x))+
+  geom_point()+
+  geom_smooth(method="lm")+
+  ylim(0,1)+
+  ylab("rating")+
+  xlab("\n(English) subjectivity difference (A1-A2)") +
+  facet_grid(.~condition)+
+  #labs("order\npreference")+
+  theme_bw()
+#ggsave("subj-diff.pdf",width=6,height=2.5)
+
+
+
+#### old PMI analysis
+
+# load PMI
+pmi = read.csv("filtered_output_with_pmi.csv",header=T)
+class_info <- data.frame(
+  adjs = c("blu", "cattivo", "corto", "duro", "fantastica", "fantastico", "francese",
+           "fresco", "giallo", "gigantesco", "grande", "liscio", "lungo", "marcia",
+           "marcio", "marrone", "minuscolo", "morbida", "morbido", "nuovo", "piccola",
+           "piccolo", "polacco", "quadrato", "rossa", "rosso", "rotondo", "tedesco",
+           "vecchio", "verde", "viola"),
+  Class = c("color", "quality", "size", "texture", "quality", "quality", "nationality",
+            "age", "color", "size", "size", "texture", "size", "age", "age", "color",
+            "size", "texture", "texture", "age", "size", "size", "nationality", "shape",
+            "color", "color", "shape", "nationality", "age", "color", "color")
+)
+pmi_class <- merge(pmi, class_info, by = "adjs", all.x = TRUE)
+pmi_class$PMI <- (pmi_class$PMI - min(pmi_class$PMI)) / (max(pmi_class$PMI) - min(pmi_class$PMI))
+pmi_agr = bootsSummary(data=pmi_class, measurevar="PMI", groupvars=c("Class"))
+colnames(pmi_agr)[1] <- "correctclass"
+colnames(pmi_agr)[3] <- "response"
+pmi_agr$predictor = "PMI"
+# Duplicate the rows and add "AAN", "ANA", and "NAA" to the 'condition' column
+expanded_pmi_agr <- pmi_agr
+# Repeat the data frame to match the length of the expanded 'condition' column
+expanded_pmi_agr <- expanded_pmi_agr[rep(1:nrow(expanded_pmi_agr), each = 3),]
+expanded_pmi_agr$condition <- c("AAN", "ANA", "NAA","AAN", "ANA", "NAA","AAN", "ANA", "NAA","AAN", "ANA", "NAA","AAN", "ANA", "NAA","AAN", "ANA", "NAA","AAN", "ANA", "NAA")
+# Reset the row names (optional)
+rownames(expanded_pmi_agr) <- NULL
+#convert response to value between 0 and 1
