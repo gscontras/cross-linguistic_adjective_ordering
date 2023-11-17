@@ -4,7 +4,7 @@ library(hydroGOF)
 library(dplyr)
 #library(tidyr)
 
-setwd("~/git/cross-linguistic_adjective_ordering/italian/experiments/2-order-preference-all-orders/results/")
+setwd("~/git/cross-linguistic_adjective_ordering/italian/experiments/3-order-preference-all-between/results/")
 
 df = read.csv("results.csv",header=T)
 head(df)
@@ -19,9 +19,10 @@ all <- d
 # only native Italian speakers
 d = d[d$language!="GREG"
       &d$language !="Spagnolo Italiano"
-      &d$language !="",]
+      &d$language !=""
+      &d$language !="Italiano ed inglese",]
 
-length(unique(d$workerid)) # n=108 (120)
+length(unique(d$workerid)) # n=110 (120)
 
 #####
 ## duplicate observations by first predicate
@@ -65,8 +66,6 @@ class_agr = bootsSummary(data=merged_df , measurevar="correctresponse", groupvar
 class_agr$predictor = "rating"
 colnames(class_agr)[4] <- "response"
 
-#write.csv(class_agr,"within.csv")
-
 length_agr = bootsSummary(data=merged_df , measurevar="length", groupvars=c("correctclass","condition"))
 length_agr$predictor = "length"
 colnames(length_agr)[4] <- "response"
@@ -75,12 +74,12 @@ colnames(length_agr)[4] <- "response"
 merged_df_pmi <- merged_df[complete.cases(merged_df), ]
 pmi_agr = bootsSummary(data=merged_df_pmi , measurevar="PMI", groupvars=c("correctclass","condition"))
 colnames(pmi_agr)[1] <- "correctclass"
-colnames(pmi_agr)[3] <- "response"
+colnames(pmi_agr)[4] <- "response"
 pmi_agr$predictor = "PMI"
 
 
 # combine ratings, length, and PMI
-all_agr = rbind(class_agr,length_agr,expanded_pmi_agr)
+all_agr = rbind(class_agr,length_agr,pmi_agr)
 all_agr$predictor = factor(all_agr$predictor,levels=c('rating','length','PMI'))
 
 level_order = c('size','quality','age','texture','shape','color','nationality')
@@ -101,10 +100,6 @@ ggplot(data=all_agr,aes(x=factor(correctclass,level=level_order),y=response,fill
   scale_fill_manual(values=c("gray25","gray50","gray75"))
 #theme(axis.text.x=element_text(angle=90,vjust=0.35,hjust=1))
 #ggsave("class_distance.png",height=2,width=7)
-
-
-
-
 
 
 
@@ -162,6 +157,45 @@ ggplot(data=result_df4,aes(x=subj_diff,y=response.x))+
   #labs("order\npreference")+
   theme_bw()
 #ggsave("subj-diff.pdf",width=6,height=2.5)
+
+
+
+
+
+
+#### comparing between- vs. within-subject results
+
+
+
+
+
+
+between <- class_agr
+between$expt = "between"
+within = read.csv("../../2-order-preference-all-orders/results/within.csv",header=T)
+within = subset(within, select = -c(X) )
+within$expt = "within"
+combined = rbind(between,within)
+
+ggplot(data=combined,aes(x=factor(correctclass,level=level_order),y=response, fill=expt))+
+  geom_bar(stat="identity",position=position_dodge(.9),color="black")+
+  geom_hline(yintercept=0.5,linetype="dashed") + 
+  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=factor(correctclass,level=level_order), width=0.25),alpha=1,position=position_dodge(.9))+
+  xlab("adjective class")+
+  ylab("preference\nfor first position\n")+
+  ylim(0,1)+
+  facet_grid(.~condition)+
+  #labs("order\npreference")+
+  theme_bw()+
+  theme(axis.text.x=element_text(angle=45,vjust=1,hjust=1))+
+  scale_fill_manual(values=c("gray25","gray75"))
+#ggsave("class_distance_combined.png",height=2.5,width=7)
+
+
+
+
+
+
 
 
 
