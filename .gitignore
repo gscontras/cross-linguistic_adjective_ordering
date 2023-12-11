@@ -16,3 +16,9 @@ italian/experiments/3-order-preference-all-between/results/.Rhistory
 italian/experiments/2-order-preference-all-orders/results/.Rhistory
 italian/experiments/2-order-preference-all-orders/results/.Rhistory
 italian/experiments/3-order-preference-all-between/.Rhistory
+*.ps
+*.out
+*.log
+*.dvi
+*.blg
+*.aux

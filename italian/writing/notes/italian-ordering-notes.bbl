@@ -1,0 +1,95 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Cinque}{Cinque}{1994}]{cinque1994}
+Cinque, G. (1994).
+\newblock On the evidence for partial {N}-movement in the {R}omance {DP}.
+\newblock In R.~S. Kayne, G.~Cinque, J.~Koster, J.-Y. Pollock, L.~Rizzi, and
+  R.~Zanuttini (Eds.), {\em Paths Towards Universal Grammar. Studies in Honor
+  of Richard S. Kayne}, pp.\  85--110. Washington DC: Georgetown University
+  Press.
+
+\bibitem[\protect\citeauthoryear{Cinque}{Cinque}{2010}]{cinque2010}
+Cinque, G. (2010).
+\newblock {\em The Syntax of Adjectives}.
+\newblock Cambridge, MA: {MIT} Press.
+
+\bibitem[\protect\citeauthoryear{Dyer, Torres, Scontras, and Futrell}{Dyer
+  et~al.}{2023}]{dyeretal2023}
+Dyer, W., C.~Torres, G.~Scontras, and R.~Futrell (2023).
+\newblock Evaluating a century of progress on the cognitive science of
+  adjective ordering.
+\newblock {\em Transactions of the Association for Computational
+  Linguistics\/}~{\em 11}, 1185--1200.
+
+\bibitem[\protect\citeauthoryear{Futrell, Dyer, and Scontras}{Futrell
+  et~al.}{2020}]{futrelletal2020}
+Futrell, R., W.~Dyer, and G.~Scontras (2020).
+\newblock What determines the order of adjectives in {E}nglish? {C}omparing
+  efficiency-based theories using dependency treebanks.
+\newblock In {\em Proceedings of the 58th Annual Meeting of the {Association
+  for Computational Linguistics}}, pp.\  2003--2012.
+
+\bibitem[\protect\citeauthoryear{Giorgi and Longobardi}{Giorgi and
+  Longobardi}{1991}]{giorgilongobardi1991}
+Giorgi, A. and G.~Longobardi (1991).
+\newblock {\em The syntax of noun phrases: Configuration, parameters and empty
+  categories}.
+\newblock Cambridge University Press.
+
+\bibitem[\protect\citeauthoryear{Scontras}{Scontras}{2023}]{scontras2023}
+Scontras, G. (2023).
+\newblock Adjective ordering across languages.
+\newblock {\em Annual Review of Linguistics\/}~{\em 9}, 357--376.
+
+\bibitem[\protect\citeauthoryear{Scontras, Degen, and Goodman}{Scontras
+  et~al.}{2017}]{scontrasetal2017adjectives}
+Scontras, G., J.~Degen, and N.~D. Goodman (2017).
+\newblock Subjectivity predicts adjective ordering preferences.
+\newblock {\em Open Mind: Discoveries in Cognitive Science\/}~{\em 1\/}(1),
+  53--65.
+
+\bibitem[\protect\citeauthoryear{Scontras, Degen, and Goodman}{Scontras
+  et~al.}{2019}]{scontrasetal2019adjectives}
+Scontras, G., J.~Degen, and N.~D. Goodman (2019).
+\newblock On the grammatical source of adjective ordering preferences.
+\newblock {\em Semantics and Pragmatics\/}~{\em 12\/}(7), 1--21.
+
+\bibitem[\protect\citeauthoryear{Sproat and Shih}{Sproat and
+  Shih}{1991}]{sproatshih1991}
+Sproat, R. and C.~Shih (1991).
+\newblock {The cross-linguistic distribution of adjective ordering
+  restrictions}.
+\newblock In C.~Georgopoulos and R.~Ishihara (Eds.), {\em Interdisciplinary
+  approaches to language: Essays in honor of S.-Y. Kuroda}, pp.\  565--593.
+  Dordrecht: Kluwer Academic Publishers.
+
+\bibitem[\protect\citeauthoryear{Zeman, Popel, Straka, Haji{\v{c}}, Nivre,
+  Ginter, Luotolahti, Pyysalo, Petrov, Potthast, Tyers, Badmaeva, Gokirmak,
+  Nedoluzhko, Cinkov{\'a}, Haji{\v{c}}~jr., Hlav{\'a}{\v{c}}ov{\'a},
+  Kettnerov{\'a}, Ure{\v{s}}ov{\'a}, Kanerva, Ojala, Missil{\"a}, Manning,
+  Schuster, Reddy, Taji, Habash, Leung, de~Marneffe, Sanguinetti, Simi,
+  Kanayama, de~Paiva, Droganova, Mart{\'\i}nez~Alonso, {\c{C}}{\"o}ltekin,
+  Sulubacak, Uszkoreit, Macketanz, Burchardt, Harris, Marheinecke, Rehm,
+  Kayadelen, Attia, Elkahky, Yu, Pitler, Lertpradit, Mandl, Kirchner, Alcalde,
+  Strnadov{\'a}, Banerjee, Manurung, Stella, Shimada, Kwak, Mendon{\c{c}}a,
+  Lando, Nitisaroj, and Li}{Zeman et~al.}{2017}]{zemanetal2017}
+Zeman, D., M.~Popel, M.~Straka, J.~Haji{\v{c}}, J.~Nivre, F.~Ginter,
+  J.~Luotolahti, S.~Pyysalo, S.~Petrov, M.~Potthast, F.~Tyers, E.~Badmaeva,
+  M.~Gokirmak, A.~Nedoluzhko, S.~Cinkov{\'a}, J.~Haji{\v{c}}~jr.,
+  J.~Hlav{\'a}{\v{c}}ov{\'a}, V.~Kettnerov{\'a}, Z.~Ure{\v{s}}ov{\'a},
+  J.~Kanerva, S.~Ojala, A.~Missil{\"a}, C.~D. Manning, S.~Schuster, S.~Reddy,
+  D.~Taji, N.~Habash, H.~Leung, M.-C. de~Marneffe, M.~Sanguinetti, M.~Simi,
+  H.~Kanayama, V.~de~Paiva, K.~Droganova, H.~Mart{\'\i}nez~Alonso,
+  {\c{C}}.~{\c{C}}{\"o}ltekin, U.~Sulubacak, H.~Uszkoreit, V.~Macketanz,
+  A.~Burchardt, K.~Harris, K.~Marheinecke, G.~Rehm, T.~Kayadelen, M.~Attia,
+  A.~Elkahky, Z.~Yu, E.~Pitler, S.~Lertpradit, M.~Mandl, J.~Kirchner, H.~F.
+  Alcalde, J.~Strnadov{\'a}, E.~Banerjee, R.~Manurung, A.~Stella, A.~Shimada,
+  S.~Kwak, G.~Mendon{\c{c}}a, T.~Lando, R.~Nitisaroj, and J.~Li (2017).
+\newblock {C}o{NLL} 2017 shared task: Multilingual parsing from raw text to
+  {U}niversal {D}ependencies.
+\newblock In J.~Haji{\v{c}} and D.~Zeman (Eds.), {\em Proceedings of the
+  {C}o{NLL} 2017 Shared Task: Multilingual Parsing from Raw Text to Universal
+  Dependencies}, Vancouver, Canada, pp.\  1--19. Association for Computational
+  Linguistics.
+
+\end{thebibliography}
