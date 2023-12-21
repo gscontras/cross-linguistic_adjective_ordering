@@ -75,12 +75,12 @@ colnames(length_agr)[4] <- "response"
 merged_df_pmi <- merged_df[complete.cases(merged_df), ]
 pmi_agr = bootsSummary(data=merged_df_pmi , measurevar="PMI", groupvars=c("correctclass","condition"))
 colnames(pmi_agr)[1] <- "correctclass"
-colnames(pmi_agr)[3] <- "response"
+colnames(pmi_agr)[4] <- "response"
 pmi_agr$predictor = "PMI"
 
 
 # combine ratings, length, and PMI
-all_agr = rbind(class_agr,length_agr,expanded_pmi_agr)
+all_agr = rbind(class_agr,length_agr,pmi_agr)
 all_agr$predictor = factor(all_agr$predictor,levels=c('rating','length','PMI'))
 
 level_order = c('size','quality','age','texture','shape','color','nationality')
@@ -132,36 +132,36 @@ summary(m)
 
 ggplot(data=result_df4,aes(x=length_diff,y=response.x))+
   geom_point()+
-  geom_smooth(method="lm")+
+  geom_smooth(method="lm",color="black")+
   ylim(0,1)+
   facet_grid(.~condition)+
   ylab("rating")+
   xlab("\nlength difference (A1-A2)") +
   #labs("order\npreference")+
   theme_bw()
-#ggsave("length-diff.pdf",width=6,height=2.5)
+#ggsave("length.png",width=6,height=2.5)
 
 ggplot(data=result_df4,aes(x=pmi_diff,y=response.x))+
   geom_point()+
-  geom_smooth(method="lm")+
+  geom_smooth(method="lm",color="black")+
   ylim(0,1)+
   ylab("rating")+
   xlab("\nPMI difference (A1-A2)") +
   facet_grid(.~condition)+
   #labs("order\npreference")+
   theme_bw()
-#ggsave("pmi-diff.pdf",width=6,height=2.5)
+#ggsave("PMI.png",width=6,height=2.5)
 
 ggplot(data=result_df4,aes(x=subj_diff,y=response.x))+
   geom_point()+
-  geom_smooth(method="lm")+
+  geom_smooth(method="lm",color="black")+
   ylim(0,1)+
   ylab("rating")+
   xlab("\n(English) subjectivity difference (A1-A2)") +
   facet_grid(.~condition)+
   #labs("order\npreference")+
   theme_bw()
-#ggsave("subj-diff.pdf",width=6,height=2.5)
+#ggsave("subjectivity.png",width=6,height=2.5)
 
 
 
