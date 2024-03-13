@@ -1,0 +1,606 @@
+,response,noun,predicate,nounclass,gender,class,firstutterance,slide_number,age,education,language,region,dialect,enjoyment,comments,Browser,OS,screenH,screenW,time_in_minutes,participant_id,assess
+0,0.7,mela,lungo,food,,size,non &egrave;,3,,-1,,,,-1,GREG,Safari,Mac,1440,2560,0.16653333333333334,1,
+1,0.38,divano,verde,furniture,,color,non &egrave;,4,,-1,,,,-1,GREG,Safari,Mac,1440,2560,0.16653333333333334,1,
+2,0.63,formaggio,marcio,food,,age,non &egrave;,5,,-1,,,,-1,GREG,Safari,Mac,1440,2560,0.16653333333333334,1,
+0,1.0,pomodoro,francese,food,,nationality,&egrave;,3,,-1,,,,-1,GREG1,Safari,Mac,1440,2560,1.2446333333333333,2,
+1,0.0,pomodoro,cattivo,food,,quality,&egrave;,4,,-1,,,,-1,GREG1,Safari,Mac,1440,2560,1.2446333333333333,2,
+2,0.76,scrivania,minuscolo,furniture,,size,&egrave;,5,,-1,,,,-1,GREG1,Safari,Mac,1440,2560,1.2446333333333333,2,
+3,0.6,banana,vecchio,food,,age,non &egrave;,6,,-1,,,,-1,GREG1,Safari,Mac,1440,2560,1.2446333333333333,2,
+0,0.0,ventilatore,duro,furniture,Female,texture,&egrave;,3,26,3,Italiano,Piemonte,Piemontese,2,,Chrome,Windows,864,1536,2.7345,3,Yes
+1,0.0,sedia,rosso,furniture,Female,color,non &egrave;,4,26,3,Italiano,Piemonte,Piemontese,2,,Chrome,Windows,864,1536,2.7345,3,Yes
+2,0.84,banana,lungo,food,Female,size,non &egrave;,5,26,3,Italiano,Piemonte,Piemontese,2,,Chrome,Windows,864,1536,2.7345,3,Yes
+3,0.13,pomodoro,marrone,food,Female,color,non &egrave;,6,26,3,Italiano,Piemonte,Piemontese,2,,Chrome,Windows,864,1536,2.7345,3,Yes
+4,0.85,ventilatore,minuscolo,furniture,Female,size,&egrave;,7,26,3,Italiano,Piemonte,Piemontese,2,,Chrome,Windows,864,1536,2.7345,3,Yes
+5,0.8,ventilatore,corto,furniture,Female,size,non &egrave;,8,26,3,Italiano,Piemonte,Piemontese,2,,Chrome,Windows,864,1536,2.7345,3,Yes
+6,0.0,divano,tedesco,furniture,Female,nationality,non &egrave;,9,26,3,Italiano,Piemonte,Piemontese,2,,Chrome,Windows,864,1536,2.7345,3,Yes
+7,0.74,pomodoro,vecchio,food,Female,age,non &egrave;,10,26,3,Italiano,Piemonte,Piemontese,2,,Chrome,Windows,864,1536,2.7345,3,Yes
+8,0.0,scrivania,francese,furniture,Female,nationality,&egrave;,11,26,3,Italiano,Piemonte,Piemontese,2,,Chrome,Windows,864,1536,2.7345,3,Yes
+9,0.62,banana,marcio,food,Female,age,&egrave;,12,26,3,Italiano,Piemonte,Piemontese,2,,Chrome,Windows,864,1536,2.7345,3,Yes
+10,0.77,ventilatore,grande,furniture,Female,size,&egrave;,13,26,3,Italiano,Piemonte,Piemontese,2,,Chrome,Windows,864,1536,2.7345,3,Yes
+11,0.24,mela,viola,food,Female,color,&egrave;,14,26,3,Italiano,Piemonte,Piemontese,2,,Chrome,Windows,864,1536,2.7345,3,Yes
+12,0.24,banana,giallo,food,Female,color,&egrave;,15,26,3,Italiano,Piemonte,Piemontese,2,,Chrome,Windows,864,1536,2.7345,3,Yes
+13,0.75,televisore,gigantesco,furniture,Female,size,non &egrave;,16,26,3,Italiano,Piemonte,Piemontese,2,,Chrome,Windows,864,1536,2.7345,3,Yes
+14,0.83,pomodoro,fresco,food,Female,age,non &egrave;,17,26,3,Italiano,Piemonte,Piemontese,2,,Chrome,Windows,864,1536,2.7345,3,Yes
+15,0.1,carota,rotondo,food,Female,shape,&egrave;,18,26,3,Italiano,Piemonte,Piemontese,2,,Chrome,Windows,864,1536,2.7345,3,Yes
+16,0.0,divano,quadrato,furniture,Female,shape,non &egrave;,19,26,3,Italiano,Piemonte,Piemontese,2,,Chrome,Windows,864,1536,2.7345,3,Yes
+17,0.8,scrivania,nuovo,furniture,Female,age,non &egrave;,20,26,3,Italiano,Piemonte,Piemontese,2,,Chrome,Windows,864,1536,2.7345,3,Yes
+18,0.69,divano,liscio,furniture,Female,texture,non &egrave;,21,26,3,Italiano,Piemonte,Piemontese,2,,Chrome,Windows,864,1536,2.7345,3,Yes
+19,1.0,formaggio,cattivo,food,Female,quality,non &egrave;,22,26,3,Italiano,Piemonte,Piemontese,2,,Chrome,Windows,864,1536,2.7345,3,Yes
+20,0.79,divano,fantastico,furniture,Female,quality,&egrave;,23,26,3,Italiano,Piemonte,Piemontese,2,,Chrome,Windows,864,1536,2.7345,3,Yes
+21,0.47,formaggio,morbido,food,Female,texture,non &egrave;,24,26,3,Italiano,Piemonte,Piemontese,2,,Chrome,Windows,864,1536,2.7345,3,Yes
+22,0.0,televisore,polacco,furniture,Female,nationality,&egrave;,25,26,3,Italiano,Piemonte,Piemontese,2,,Chrome,Windows,864,1536,2.7345,3,Yes
+23,0.23,divano,blu,furniture,Female,color,&egrave;,26,26,3,Italiano,Piemonte,Piemontese,2,,Chrome,Windows,864,1536,2.7345,3,Yes
+24,0.13,carota,verde,food,Female,color,&egrave;,27,26,3,Italiano,Piemonte,Piemontese,2,,Chrome,Windows,864,1536,2.7345,3,Yes
+25,0.77,televisore,piccolo,furniture,Female,size,non &egrave;,28,26,3,Italiano,Piemonte,Piemontese,2,,Chrome,Windows,864,1536,2.7345,3,Yes
+0,0.3,ventilatore,morbido,furniture,Female,texture,&egrave;,3,23,2,italiano,Lombardia,,1,,Chrome,Windows,864,1536,3.094133333333333,4,Yes
+1,0.64,mela,minuscolo,food,Female,size,non &egrave;,4,23,2,italiano,Lombardia,,1,,Chrome,Windows,864,1536,3.094133333333333,4,Yes
+2,0.53,formaggio,piccolo,food,Female,size,&egrave;,5,23,2,italiano,Lombardia,,1,,Chrome,Windows,864,1536,3.094133333333333,4,Yes
+3,0.35,televisore,gigantesco,furniture,Female,size,non &egrave;,6,23,2,italiano,Lombardia,,1,,Chrome,Windows,864,1536,3.094133333333333,4,Yes
+4,0.53,ventilatore,grande,furniture,Female,size,&egrave;,7,23,2,italiano,Lombardia,,1,,Chrome,Windows,864,1536,3.094133333333333,4,Yes
+5,0.29,pomodoro,lungo,food,Female,size,non &egrave;,8,23,2,italiano,Lombardia,,1,,Chrome,Windows,864,1536,3.094133333333333,4,Yes
+6,0.33,mela,rosso,food,Female,color,non &egrave;,9,23,2,italiano,Lombardia,,1,,Chrome,Windows,864,1536,3.094133333333333,4,Yes
+7,0.23,scrivania,marcio,furniture,Female,age,non &egrave;,10,23,2,italiano,Lombardia,,1,,Chrome,Windows,864,1536,3.094133333333333,4,Yes
+8,0.23,ventilatore,francese,furniture,Female,nationality,&egrave;,11,23,2,italiano,Lombardia,,1,,Chrome,Windows,864,1536,3.094133333333333,4,Yes
+9,0.33,scrivania,duro,furniture,Female,texture,non &egrave;,12,23,2,italiano,Lombardia,,1,,Chrome,Windows,864,1536,3.094133333333333,4,Yes
+10,0.8,mela,fantastico,food,Female,quality,non &egrave;,13,23,2,italiano,Lombardia,,1,,Chrome,Windows,864,1536,3.094133333333333,4,Yes
+11,0.21,sedia,viola,furniture,Female,color,non &egrave;,14,23,2,italiano,Lombardia,,1,,Chrome,Windows,864,1536,3.094133333333333,4,Yes
+12,0.16,scrivania,verde,furniture,Female,color,non &egrave;,15,23,2,italiano,Lombardia,,1,,Chrome,Windows,864,1536,3.094133333333333,4,Yes
+13,0.22,televisore,giallo,furniture,Female,color,&egrave;,16,23,2,italiano,Lombardia,,1,,Chrome,Windows,864,1536,3.094133333333333,4,Yes
+14,0.39,formaggio,liscio,food,Female,texture,&egrave;,17,23,2,italiano,Lombardia,,1,,Chrome,Windows,864,1536,3.094133333333333,4,Yes
+15,0.67,televisore,nuovo,furniture,Female,age,non &egrave;,18,23,2,italiano,Lombardia,,1,,Chrome,Windows,864,1536,3.094133333333333,4,Yes
+16,0.29,divano,tedesco,furniture,Female,nationality,non &egrave;,19,23,2,italiano,Lombardia,,1,,Chrome,Windows,864,1536,3.094133333333333,4,Yes
+17,0.32,scrivania,quadrato,furniture,Female,shape,&egrave;,20,23,2,italiano,Lombardia,,1,,Chrome,Windows,864,1536,3.094133333333333,4,Yes
+18,0.74,scrivania,corto,furniture,Female,size,&egrave;,21,23,2,italiano,Lombardia,,1,,Chrome,Windows,864,1536,3.094133333333333,4,Yes
+19,0.25,formaggio,fresco,food,Female,age,non &egrave;,22,23,2,italiano,Lombardia,,1,,Chrome,Windows,864,1536,3.094133333333333,4,Yes
+20,0.33,carota,rotondo,food,Female,shape,non &egrave;,23,23,2,italiano,Lombardia,,1,,Chrome,Windows,864,1536,3.094133333333333,4,Yes
+21,0.27,pomodoro,marrone,food,Female,color,non &egrave;,24,23,2,italiano,Lombardia,,1,,Chrome,Windows,864,1536,3.094133333333333,4,Yes
+22,0.59,banana,vecchio,food,Female,age,&egrave;,25,23,2,italiano,Lombardia,,1,,Chrome,Windows,864,1536,3.094133333333333,4,Yes
+23,0.21,mela,polacco,food,Female,nationality,&egrave;,26,23,2,italiano,Lombardia,,1,,Chrome,Windows,864,1536,3.094133333333333,4,Yes
+24,0.49,mela,cattivo,food,Female,quality,non &egrave;,27,23,2,italiano,Lombardia,,1,,Chrome,Windows,864,1536,3.094133333333333,4,Yes
+25,0.21,formaggio,blu,food,Female,color,&egrave;,28,23,2,italiano,Lombardia,,1,,Chrome,Windows,864,1536,3.094133333333333,4,Yes
+0,0.0,televisore,rosso,furniture,Female,color,&egrave;,3,23,3,italiano,Piemonte,piemontese/anzolese,2,,Chrome,Windows,768,1366,3.828116666666667,5,Yes
+1,0.76,sedia,lungo,furniture,Female,size,non &egrave;,4,23,3,italiano,Piemonte,piemontese/anzolese,2,,Chrome,Windows,768,1366,3.828116666666667,5,Yes
+2,0.0,banana,blu,food,Female,color,&egrave;,5,23,3,italiano,Piemonte,piemontese/anzolese,2,,Chrome,Windows,768,1366,3.828116666666667,5,Yes
+3,1.0,carota,piccolo,food,Female,size,&egrave;,6,23,3,italiano,Piemonte,piemontese/anzolese,2,,Chrome,Windows,768,1366,3.828116666666667,5,Yes
+4,0.04,televisore,rotondo,furniture,Female,shape,&egrave;,7,23,3,italiano,Piemonte,piemontese/anzolese,2,,Chrome,Windows,768,1366,3.828116666666667,5,Yes
+5,0.54,scrivania,vecchio,furniture,Female,age,non &egrave;,8,23,3,italiano,Piemonte,piemontese/anzolese,2,,Chrome,Windows,768,1366,3.828116666666667,5,Yes
+6,0.69,mela,morbido,food,Female,texture,&egrave;,9,23,3,italiano,Piemonte,piemontese/anzolese,2,,Chrome,Windows,768,1366,3.828116666666667,5,Yes
+7,0.99,sedia,cattivo,furniture,Female,quality,&egrave;,10,23,3,italiano,Piemonte,piemontese/anzolese,2,,Chrome,Windows,768,1366,3.828116666666667,5,Yes
+8,0.75,divano,grande,furniture,Female,size,&egrave;,11,23,3,italiano,Piemonte,piemontese/anzolese,2,,Chrome,Windows,768,1366,3.828116666666667,5,Yes
+9,0.74,televisore,minuscolo,furniture,Female,size,non &egrave;,12,23,3,italiano,Piemonte,piemontese/anzolese,2,,Chrome,Windows,768,1366,3.828116666666667,5,Yes
+10,0.21,pomodoro,giallo,food,Female,color,&egrave;,13,23,3,italiano,Piemonte,piemontese/anzolese,2,,Chrome,Windows,768,1366,3.828116666666667,5,Yes
+11,0.84,carota,corto,food,Female,size,non &egrave;,14,23,3,italiano,Piemonte,piemontese/anzolese,2,,Chrome,Windows,768,1366,3.828116666666667,5,Yes
+12,1.0,sedia,fantastico,furniture,Female,quality,&egrave;,15,23,3,italiano,Piemonte,piemontese/anzolese,2,,Chrome,Windows,768,1366,3.828116666666667,5,Yes
+13,0.03,televisore,polacco,furniture,Female,nationality,&egrave;,16,23,3,italiano,Piemonte,piemontese/anzolese,2,,Chrome,Windows,768,1366,3.828116666666667,5,Yes
+14,0.38,mela,verde,food,Female,color,non &egrave;,17,23,3,italiano,Piemonte,piemontese/anzolese,2,,Chrome,Windows,768,1366,3.828116666666667,5,Yes
+15,0.87,divano,gigantesco,furniture,Female,size,non &egrave;,18,23,3,italiano,Piemonte,piemontese/anzolese,2,,Chrome,Windows,768,1366,3.828116666666667,5,Yes
+16,0.28,mela,quadrato,food,Female,shape,non &egrave;,19,23,3,italiano,Piemonte,piemontese/anzolese,2,,Chrome,Windows,768,1366,3.828116666666667,5,Yes
+17,0.38,pomodoro,marrone,food,Female,color,&egrave;,20,23,3,italiano,Piemonte,piemontese/anzolese,2,,Chrome,Windows,768,1366,3.828116666666667,5,Yes
+18,0.67,scrivania,liscio,furniture,Female,texture,&egrave;,21,23,3,italiano,Piemonte,piemontese/anzolese,2,,Chrome,Windows,768,1366,3.828116666666667,5,Yes
+19,0.71,pomodoro,fresco,food,Female,age,non &egrave;,22,23,3,italiano,Piemonte,piemontese/anzolese,2,,Chrome,Windows,768,1366,3.828116666666667,5,Yes
+20,0.02,scrivania,francese,furniture,Female,nationality,non &egrave;,23,23,3,italiano,Piemonte,piemontese/anzolese,2,,Chrome,Windows,768,1366,3.828116666666667,5,Yes
+21,0.88,carota,duro,food,Female,texture,non &egrave;,24,23,3,italiano,Piemonte,piemontese/anzolese,2,,Chrome,Windows,768,1366,3.828116666666667,5,Yes
+22,0.7,carota,marcio,food,Female,age,&egrave;,25,23,3,italiano,Piemonte,piemontese/anzolese,2,,Chrome,Windows,768,1366,3.828116666666667,5,Yes
+23,0.01,mela,tedesco,food,Female,nationality,non &egrave;,26,23,3,italiano,Piemonte,piemontese/anzolese,2,,Chrome,Windows,768,1366,3.828116666666667,5,Yes
+24,0.17,scrivania,viola,furniture,Female,color,&egrave;,27,23,3,italiano,Piemonte,piemontese/anzolese,2,,Chrome,Windows,768,1366,3.828116666666667,5,Yes
+25,0.67,formaggio,nuovo,food,Female,age,non &egrave;,28,23,3,italiano,Piemonte,piemontese/anzolese,2,,Chrome,Windows,768,1366,3.828116666666667,5,Yes
+0,0.49,ventilatore,verde,furniture,Male,color,&egrave;,3,29,4,Italiano,Sicilia,Siciliano,1,,Chrome,Windows,1080,1920,3.03615,6,Yes
+1,0.96,mela,piccolo,food,Male,size,non &egrave;,4,29,4,Italiano,Sicilia,Siciliano,1,,Chrome,Windows,1080,1920,3.03615,6,Yes
+2,1.0,mela,marrone,food,Male,color,&egrave;,5,29,4,Italiano,Sicilia,Siciliano,1,,Chrome,Windows,1080,1920,3.03615,6,Yes
+3,0.95,banana,liscio,food,Male,texture,non &egrave;,6,29,4,Italiano,Sicilia,Siciliano,1,,Chrome,Windows,1080,1920,3.03615,6,Yes
+4,0.6,scrivania,blu,furniture,Male,color,non &egrave;,7,29,4,Italiano,Sicilia,Siciliano,1,,Chrome,Windows,1080,1920,3.03615,6,Yes
+5,0.61,ventilatore,rosso,furniture,Male,color,&egrave;,8,29,4,Italiano,Sicilia,Siciliano,1,,Chrome,Windows,1080,1920,3.03615,6,Yes
+6,1.0,ventilatore,lungo,furniture,Male,size,&egrave;,9,29,4,Italiano,Sicilia,Siciliano,1,,Chrome,Windows,1080,1920,3.03615,6,Yes
+7,0.01,televisore,marcio,furniture,Male,age,&egrave;,10,29,4,Italiano,Sicilia,Siciliano,1,,Chrome,Windows,1080,1920,3.03615,6,Yes
+8,1.0,pomodoro,tedesco,food,Male,nationality,non &egrave;,11,29,4,Italiano,Sicilia,Siciliano,1,,Chrome,Windows,1080,1920,3.03615,6,Yes
+9,1.0,carota,duro,food,Male,texture,non &egrave;,12,29,4,Italiano,Sicilia,Siciliano,1,,Chrome,Windows,1080,1920,3.03615,6,Yes
+10,0.05,ventilatore,cattivo,furniture,Male,quality,non &egrave;,13,29,4,Italiano,Sicilia,Siciliano,1,,Chrome,Windows,1080,1920,3.03615,6,Yes
+11,1.0,mela,minuscolo,food,Male,size,&egrave;,14,29,4,Italiano,Sicilia,Siciliano,1,,Chrome,Windows,1080,1920,3.03615,6,Yes
+12,0.0,pomodoro,quadrato,food,Male,shape,non &egrave;,15,29,4,Italiano,Sicilia,Siciliano,1,,Chrome,Windows,1080,1920,3.03615,6,Yes
+13,1.0,mela,rotondo,food,Male,shape,non &egrave;,16,29,4,Italiano,Sicilia,Siciliano,1,,Chrome,Windows,1080,1920,3.03615,6,Yes
+14,1.0,mela,polacco,food,Male,nationality,non &egrave;,17,29,4,Italiano,Sicilia,Siciliano,1,,Chrome,Windows,1080,1920,3.03615,6,Yes
+15,1.0,mela,fantastico,food,Male,quality,non &egrave;,18,29,4,Italiano,Sicilia,Siciliano,1,,Chrome,Windows,1080,1920,3.03615,6,Yes
+16,0.0,carota,viola,food,Male,color,&egrave;,19,29,4,Italiano,Sicilia,Siciliano,1,,Chrome,Windows,1080,1920,3.03615,6,Yes
+17,1.0,ventilatore,grande,furniture,Male,size,non &egrave;,20,29,4,Italiano,Sicilia,Siciliano,1,,Chrome,Windows,1080,1920,3.03615,6,Yes
+18,0.0,televisore,morbido,furniture,Male,texture,&egrave;,21,29,4,Italiano,Sicilia,Siciliano,1,,Chrome,Windows,1080,1920,3.03615,6,Yes
+19,0.0,sedia,corto,furniture,Male,size,non &egrave;,22,29,4,Italiano,Sicilia,Siciliano,1,,Chrome,Windows,1080,1920,3.03615,6,Yes
+20,1.0,sedia,vecchio,furniture,Male,age,non &egrave;,23,29,4,Italiano,Sicilia,Siciliano,1,,Chrome,Windows,1080,1920,3.03615,6,Yes
+21,1.0,ventilatore,giallo,furniture,Male,color,&egrave;,24,29,4,Italiano,Sicilia,Siciliano,1,,Chrome,Windows,1080,1920,3.03615,6,Yes
+22,0.99,ventilatore,gigantesco,furniture,Male,size,&egrave;,25,29,4,Italiano,Sicilia,Siciliano,1,,Chrome,Windows,1080,1920,3.03615,6,Yes
+23,1.0,carota,fresco,food,Male,age,&egrave;,26,29,4,Italiano,Sicilia,Siciliano,1,,Chrome,Windows,1080,1920,3.03615,6,Yes
+24,1.0,pomodoro,francese,food,Male,nationality,&egrave;,27,29,4,Italiano,Sicilia,Siciliano,1,,Chrome,Windows,1080,1920,3.03615,6,Yes
+25,1.0,scrivania,nuovo,furniture,Male,age,&egrave;,28,29,4,Italiano,Sicilia,Siciliano,1,,Chrome,Windows,1080,1920,3.03615,6,Yes
+0,0.06,carota,rosso,food,Female,color,&egrave;,3,25,2,Italiano,Lazio,Romano,1,,Chrome,Windows,864,1536,3.47675,7,Yes
+1,0.3,ventilatore,francese,furniture,Female,nationality,non &egrave;,4,25,2,Italiano,Lazio,Romano,1,,Chrome,Windows,864,1536,3.47675,7,Yes
+2,0.3,televisore,marcio,furniture,Female,age,non &egrave;,5,25,2,Italiano,Lazio,Romano,1,,Chrome,Windows,864,1536,3.47675,7,Yes
+3,0.76,pomodoro,fantastico,food,Female,quality,non &egrave;,6,25,2,Italiano,Lazio,Romano,1,,Chrome,Windows,864,1536,3.47675,7,Yes
+4,0.01,carota,morbido,food,Female,texture,&egrave;,7,25,2,Italiano,Lazio,Romano,1,,Chrome,Windows,864,1536,3.47675,7,Yes
+5,0.62,sedia,piccolo,furniture,Female,size,&egrave;,8,25,2,Italiano,Lazio,Romano,1,,Chrome,Windows,864,1536,3.47675,7,Yes
+6,0.69,carota,cattivo,food,Female,quality,&egrave;,9,25,2,Italiano,Lazio,Romano,1,,Chrome,Windows,864,1536,3.47675,7,Yes
+7,0.0,scrivania,quadrato,furniture,Female,shape,&egrave;,10,25,2,Italiano,Lazio,Romano,1,,Chrome,Windows,864,1536,3.47675,7,Yes
+8,0.34,divano,gigantesco,furniture,Female,size,non &egrave;,11,25,2,Italiano,Lazio,Romano,1,,Chrome,Windows,864,1536,3.47675,7,Yes
+9,0.21,formaggio,verde,food,Female,color,&egrave;,12,25,2,Italiano,Lazio,Romano,1,,Chrome,Windows,864,1536,3.47675,7,Yes
+10,0.26,formaggio,giallo,food,Female,color,&egrave;,13,25,2,Italiano,Lazio,Romano,1,,Chrome,Windows,864,1536,3.47675,7,Yes
+11,0.15,carota,blu,food,Female,color,&egrave;,14,25,2,Italiano,Lazio,Romano,1,,Chrome,Windows,864,1536,3.47675,7,Yes
+12,0.12,televisore,viola,furniture,Female,color,&egrave;,15,25,2,Italiano,Lazio,Romano,1,,Chrome,Windows,864,1536,3.47675,7,Yes
+13,0.43,sedia,duro,furniture,Female,texture,non &egrave;,16,25,2,Italiano,Lazio,Romano,1,,Chrome,Windows,864,1536,3.47675,7,Yes
+14,0.37,banana,minuscolo,food,Female,size,&egrave;,17,25,2,Italiano,Lazio,Romano,1,,Chrome,Windows,864,1536,3.47675,7,Yes
+15,0.59,banana,grande,food,Female,size,&egrave;,18,25,2,Italiano,Lazio,Romano,1,,Chrome,Windows,864,1536,3.47675,7,Yes
+16,0.83,banana,nuovo,food,Female,age,non &egrave;,19,25,2,Italiano,Lazio,Romano,1,,Chrome,Windows,864,1536,3.47675,7,Yes
+17,0.26,divano,marrone,furniture,Female,color,non &egrave;,20,25,2,Italiano,Lazio,Romano,1,,Chrome,Windows,864,1536,3.47675,7,Yes
+18,0.72,televisore,corto,furniture,Female,size,&egrave;,21,25,2,Italiano,Lazio,Romano,1,,Chrome,Windows,864,1536,3.47675,7,Yes
+19,0.55,pomodoro,vecchio,food,Female,age,non &egrave;,22,25,2,Italiano,Lazio,Romano,1,,Chrome,Windows,864,1536,3.47675,7,Yes
+20,0.57,televisore,liscio,furniture,Female,texture,non &egrave;,23,25,2,Italiano,Lazio,Romano,1,,Chrome,Windows,864,1536,3.47675,7,Yes
+21,0.0,scrivania,rotondo,furniture,Female,shape,&egrave;,24,25,2,Italiano,Lazio,Romano,1,,Chrome,Windows,864,1536,3.47675,7,Yes
+22,0.35,pomodoro,polacco,food,Female,nationality,non &egrave;,25,25,2,Italiano,Lazio,Romano,1,,Chrome,Windows,864,1536,3.47675,7,Yes
+23,0.59,banana,fresco,food,Female,age,non &egrave;,26,25,2,Italiano,Lazio,Romano,1,,Chrome,Windows,864,1536,3.47675,7,Yes
+24,0.27,formaggio,lungo,food,Female,size,non &egrave;,27,25,2,Italiano,Lazio,Romano,1,,Chrome,Windows,864,1536,3.47675,7,Yes
+25,0.41,ventilatore,tedesco,furniture,Female,nationality,&egrave;,28,25,2,Italiano,Lazio,Romano,1,,Chrome,Windows,864,1536,3.47675,7,Yes
+0,0.0,carota,fresco,food,Male,age,&egrave;,3,30,3,Italiano,Piemonte,,1,,Chrome,Windows,864,1536,3.258766666666667,8,No
+1,0.0,carota,marrone,food,Male,color,&egrave;,4,30,3,Italiano,Piemonte,,1,,Chrome,Windows,864,1536,3.258766666666667,8,No
+2,0.22,carota,tedesco,food,Male,nationality,non &egrave;,5,30,3,Italiano,Piemonte,,1,,Chrome,Windows,864,1536,3.258766666666667,8,No
+3,0.35,formaggio,liscio,food,Male,texture,non &egrave;,6,30,3,Italiano,Piemonte,,1,,Chrome,Windows,864,1536,3.258766666666667,8,No
+4,0.0,banana,viola,food,Male,color,&egrave;,7,30,3,Italiano,Piemonte,,1,,Chrome,Windows,864,1536,3.258766666666667,8,No
+5,1.0,ventilatore,cattivo,furniture,Male,quality,non &egrave;,8,30,3,Italiano,Piemonte,,1,,Chrome,Windows,864,1536,3.258766666666667,8,No
+6,0.0,pomodoro,rotondo,food,Male,shape,non &egrave;,9,30,3,Italiano,Piemonte,,1,,Chrome,Windows,864,1536,3.258766666666667,8,No
+7,0.0,televisore,quadrato,furniture,Male,shape,non &egrave;,10,30,3,Italiano,Piemonte,,1,,Chrome,Windows,864,1536,3.258766666666667,8,No
+8,1.0,divano,nuovo,furniture,Male,age,&egrave;,11,30,3,Italiano,Piemonte,,1,,Chrome,Windows,864,1536,3.258766666666667,8,No
+9,1.0,sedia,grande,furniture,Male,size,non &egrave;,12,30,3,Italiano,Piemonte,,1,,Chrome,Windows,864,1536,3.258766666666667,8,No
+10,0.0,televisore,giallo,furniture,Male,color,non &egrave;,13,30,3,Italiano,Piemonte,,1,,Chrome,Windows,864,1536,3.258766666666667,8,No
+11,1.0,televisore,duro,furniture,Male,texture,&egrave;,14,30,3,Italiano,Piemonte,,1,,Chrome,Windows,864,1536,3.258766666666667,8,No
+12,0.0,formaggio,francese,food,Male,nationality,non &egrave;,15,30,3,Italiano,Piemonte,,1,,Chrome,Windows,864,1536,3.258766666666667,8,No
+13,0.81,mela,gigantesco,food,Male,size,non &egrave;,16,30,3,Italiano,Piemonte,,1,,Chrome,Windows,864,1536,3.258766666666667,8,No
+14,1.0,ventilatore,minuscolo,furniture,Male,size,&egrave;,17,30,3,Italiano,Piemonte,,1,,Chrome,Windows,864,1536,3.258766666666667,8,No
+15,1.0,pomodoro,fantastico,food,Male,quality,non &egrave;,18,30,3,Italiano,Piemonte,,1,,Chrome,Windows,864,1536,3.258766666666667,8,No
+16,0.0,scrivania,blu,furniture,Male,color,&egrave;,19,30,3,Italiano,Piemonte,,1,,Chrome,Windows,864,1536,3.258766666666667,8,No
+17,0.02,scrivania,verde,furniture,Male,color,&egrave;,20,30,3,Italiano,Piemonte,,1,,Chrome,Windows,864,1536,3.258766666666667,8,No
+18,0.63,carota,vecchio,food,Male,age,non &egrave;,21,30,3,Italiano,Piemonte,,1,,Chrome,Windows,864,1536,3.258766666666667,8,No
+19,0.79,banana,morbido,food,Male,texture,non &egrave;,22,30,3,Italiano,Piemonte,,1,,Chrome,Windows,864,1536,3.258766666666667,8,No
+20,1.0,televisore,piccolo,furniture,Male,size,&egrave;,23,30,3,Italiano,Piemonte,,1,,Chrome,Windows,864,1536,3.258766666666667,8,No
+21,0.0,banana,marcio,food,Male,age,non &egrave;,24,30,3,Italiano,Piemonte,,1,,Chrome,Windows,864,1536,3.258766666666667,8,No
+22,0.84,sedia,corto,furniture,Male,size,non &egrave;,25,30,3,Italiano,Piemonte,,1,,Chrome,Windows,864,1536,3.258766666666667,8,No
+23,1.0,televisore,lungo,furniture,Male,size,non &egrave;,26,30,3,Italiano,Piemonte,,1,,Chrome,Windows,864,1536,3.258766666666667,8,No
+24,0.0,pomodoro,polacco,food,Male,nationality,&egrave;,27,30,3,Italiano,Piemonte,,1,,Chrome,Windows,864,1536,3.258766666666667,8,No
+25,0.0,banana,rosso,food,Male,color,non &egrave;,28,30,3,Italiano,Piemonte,,1,,Chrome,Windows,864,1536,3.258766666666667,8,No
+0,0.91,sedia,corto,furniture,Female,size,&egrave;,3,34,3,Italiano,Lombardia,parmigiano,1,,Chrome,Windows,720,1280,2.3999166666666665,9,Yes
+1,0.93,sedia,fresco,furniture,Female,age,&egrave;,4,34,3,Italiano,Lombardia,parmigiano,1,,Chrome,Windows,720,1280,2.3999166666666665,9,Yes
+2,0.7,mela,minuscolo,food,Female,size,&egrave;,5,34,3,Italiano,Lombardia,parmigiano,1,,Chrome,Windows,720,1280,2.3999166666666665,9,Yes
+3,0.54,sedia,vecchio,furniture,Female,age,&egrave;,6,34,3,Italiano,Lombardia,parmigiano,1,,Chrome,Windows,720,1280,2.3999166666666665,9,Yes
+4,0.56,mela,grande,food,Female,size,non &egrave;,7,34,3,Italiano,Lombardia,parmigiano,1,,Chrome,Windows,720,1280,2.3999166666666665,9,Yes
+5,0.75,formaggio,quadrato,food,Female,shape,non &egrave;,8,34,3,Italiano,Lombardia,parmigiano,1,,Chrome,Windows,720,1280,2.3999166666666665,9,Yes
+6,0.61,formaggio,polacco,food,Female,nationality,non &egrave;,9,34,3,Italiano,Lombardia,parmigiano,1,,Chrome,Windows,720,1280,2.3999166666666665,9,Yes
+7,0.34,televisore,blu,furniture,Female,color,&egrave;,10,34,3,Italiano,Lombardia,parmigiano,1,,Chrome,Windows,720,1280,2.3999166666666665,9,Yes
+8,0.82,formaggio,francese,food,Female,nationality,non &egrave;,11,34,3,Italiano,Lombardia,parmigiano,1,,Chrome,Windows,720,1280,2.3999166666666665,9,Yes
+9,0.62,ventilatore,tedesco,furniture,Female,nationality,non &egrave;,12,34,3,Italiano,Lombardia,parmigiano,1,,Chrome,Windows,720,1280,2.3999166666666665,9,Yes
+10,0.25,mela,viola,food,Female,color,non &egrave;,13,34,3,Italiano,Lombardia,parmigiano,1,,Chrome,Windows,720,1280,2.3999166666666665,9,Yes
+11,0.23,banana,duro,food,Female,texture,non &egrave;,14,34,3,Italiano,Lombardia,parmigiano,1,,Chrome,Windows,720,1280,2.3999166666666665,9,Yes
+12,0.23,carota,rotondo,food,Female,shape,non &egrave;,15,34,3,Italiano,Lombardia,parmigiano,1,,Chrome,Windows,720,1280,2.3999166666666665,9,Yes
+13,0.3,televisore,giallo,furniture,Female,color,non &egrave;,16,34,3,Italiano,Lombardia,parmigiano,1,,Chrome,Windows,720,1280,2.3999166666666665,9,Yes
+14,0.51,scrivania,liscio,furniture,Female,texture,non &egrave;,17,34,3,Italiano,Lombardia,parmigiano,1,,Chrome,Windows,720,1280,2.3999166666666665,9,Yes
+15,0.35,ventilatore,lungo,furniture,Female,size,&egrave;,18,34,3,Italiano,Lombardia,parmigiano,1,,Chrome,Windows,720,1280,2.3999166666666665,9,Yes
+16,0.2,mela,rosso,food,Female,color,non &egrave;,19,34,3,Italiano,Lombardia,parmigiano,1,,Chrome,Windows,720,1280,2.3999166666666665,9,Yes
+17,0.27,scrivania,marcio,furniture,Female,age,&egrave;,20,34,3,Italiano,Lombardia,parmigiano,1,,Chrome,Windows,720,1280,2.3999166666666665,9,Yes
+18,0.17,televisore,verde,furniture,Female,color,&egrave;,21,34,3,Italiano,Lombardia,parmigiano,1,,Chrome,Windows,720,1280,2.3999166666666665,9,Yes
+19,0.31,divano,nuovo,furniture,Female,age,non &egrave;,22,34,3,Italiano,Lombardia,parmigiano,1,,Chrome,Windows,720,1280,2.3999166666666665,9,Yes
+20,0.32,ventilatore,piccolo,furniture,Female,size,non &egrave;,23,34,3,Italiano,Lombardia,parmigiano,1,,Chrome,Windows,720,1280,2.3999166666666665,9,Yes
+21,0.23,carota,morbido,food,Female,texture,non &egrave;,24,34,3,Italiano,Lombardia,parmigiano,1,,Chrome,Windows,720,1280,2.3999166666666665,9,Yes
+22,0.58,televisore,gigantesco,furniture,Female,size,non &egrave;,25,34,3,Italiano,Lombardia,parmigiano,1,,Chrome,Windows,720,1280,2.3999166666666665,9,Yes
+23,0.6,formaggio,fantastico,food,Female,quality,non &egrave;,26,34,3,Italiano,Lombardia,parmigiano,1,,Chrome,Windows,720,1280,2.3999166666666665,9,Yes
+24,0.48,carota,cattivo,food,Female,quality,non &egrave;,27,34,3,Italiano,Lombardia,parmigiano,1,,Chrome,Windows,720,1280,2.3999166666666665,9,Yes
+25,0.6,divano,marrone,furniture,Female,color,non &egrave;,28,34,3,Italiano,Lombardia,parmigiano,1,,Chrome,Windows,720,1280,2.3999166666666665,9,Yes
+0,0.75,pomodoro,grande,food,Female,size,non &egrave;,3,27,3,italiano,campania,napoletano,2,,Chrome,Windows,864,1536,2.11045,10,No
+1,0.7,sedia,lungo,furniture,Female,size,&egrave;,4,27,3,italiano,campania,napoletano,2,,Chrome,Windows,864,1536,2.11045,10,No
+2,0.82,televisore,vecchio,furniture,Female,age,&egrave;,5,27,3,italiano,campania,napoletano,2,,Chrome,Windows,864,1536,2.11045,10,No
+3,0.0,formaggio,liscio,food,Female,texture,&egrave;,6,27,3,italiano,campania,napoletano,2,,Chrome,Windows,864,1536,2.11045,10,No
+4,0.03,banana,marrone,food,Female,color,&egrave;,7,27,3,italiano,campania,napoletano,2,,Chrome,Windows,864,1536,2.11045,10,No
+5,0.78,carota,marcio,food,Female,age,non &egrave;,8,27,3,italiano,campania,napoletano,2,,Chrome,Windows,864,1536,2.11045,10,No
+6,0.3,scrivania,giallo,furniture,Female,color,non &egrave;,9,27,3,italiano,campania,napoletano,2,,Chrome,Windows,864,1536,2.11045,10,No
+7,0.71,sedia,gigantesco,furniture,Female,size,non &egrave;,10,27,3,italiano,campania,napoletano,2,,Chrome,Windows,864,1536,2.11045,10,No
+8,0.62,divano,quadrato,furniture,Female,shape,non &egrave;,11,27,3,italiano,campania,napoletano,2,,Chrome,Windows,864,1536,2.11045,10,No
+9,0.95,sedia,morbido,furniture,Female,texture,&egrave;,12,27,3,italiano,campania,napoletano,2,,Chrome,Windows,864,1536,2.11045,10,No
+10,0.3,mela,nuovo,food,Female,age,&egrave;,13,27,3,italiano,campania,napoletano,2,,Chrome,Windows,864,1536,2.11045,10,No
+11,0.66,sedia,piccolo,furniture,Female,size,non &egrave;,14,27,3,italiano,campania,napoletano,2,,Chrome,Windows,864,1536,2.11045,10,No
+12,0.09,ventilatore,viola,furniture,Female,color,&egrave;,15,27,3,italiano,campania,napoletano,2,,Chrome,Windows,864,1536,2.11045,10,No
+13,0.44,banana,francese,food,Female,nationality,&egrave;,16,27,3,italiano,campania,napoletano,2,,Chrome,Windows,864,1536,2.11045,10,No
+14,0.97,scrivania,cattivo,furniture,Female,quality,non &egrave;,17,27,3,italiano,campania,napoletano,2,,Chrome,Windows,864,1536,2.11045,10,No
+15,0.16,pomodoro,rosso,food,Female,color,&egrave;,18,27,3,italiano,campania,napoletano,2,,Chrome,Windows,864,1536,2.11045,10,No
+16,0.18,mela,verde,food,Female,color,&egrave;,19,27,3,italiano,campania,napoletano,2,,Chrome,Windows,864,1536,2.11045,10,No
+17,0.74,scrivania,polacco,furniture,Female,nationality,non &egrave;,20,27,3,italiano,campania,napoletano,2,,Chrome,Windows,864,1536,2.11045,10,No
+18,0.78,televisore,corto,furniture,Female,size,&egrave;,21,27,3,italiano,campania,napoletano,2,,Chrome,Windows,864,1536,2.11045,10,No
+19,0.81,pomodoro,minuscolo,food,Female,size,&egrave;,22,27,3,italiano,campania,napoletano,2,,Chrome,Windows,864,1536,2.11045,10,No
+20,0.79,ventilatore,fantastico,furniture,Female,quality,&egrave;,23,27,3,italiano,campania,napoletano,2,,Chrome,Windows,864,1536,2.11045,10,No
+21,0.78,ventilatore,duro,furniture,Female,texture,non &egrave;,24,27,3,italiano,campania,napoletano,2,,Chrome,Windows,864,1536,2.11045,10,No
+22,0.15,mela,blu,food,Female,color,&egrave;,25,27,3,italiano,campania,napoletano,2,,Chrome,Windows,864,1536,2.11045,10,No
+23,0.98,banana,fresco,food,Female,age,non &egrave;,26,27,3,italiano,campania,napoletano,2,,Chrome,Windows,864,1536,2.11045,10,No
+24,0.67,mela,rotondo,food,Female,shape,non &egrave;,27,27,3,italiano,campania,napoletano,2,,Chrome,Windows,864,1536,2.11045,10,No
+25,0.73,scrivania,tedesco,furniture,Female,nationality,&egrave;,28,27,3,italiano,campania,napoletano,2,,Chrome,Windows,864,1536,2.11045,10,No
+0,0.21,divano,viola,furniture,Male,color,&egrave;,3,28,1,Italiano,Veneto,Veneto,1,,Firefox,Windows,864,1536,2.754383333333333,11,Yes
+1,0.36,ventilatore,verde,furniture,Male,color,&egrave;,4,28,1,Italiano,Veneto,Veneto,1,,Firefox,Windows,864,1536,2.754383333333333,11,Yes
+2,0.0,formaggio,tedesco,food,Male,nationality,&egrave;,5,28,1,Italiano,Veneto,Veneto,1,,Firefox,Windows,864,1536,2.754383333333333,11,Yes
+3,0.19,pomodoro,minuscolo,food,Male,size,non &egrave;,6,28,1,Italiano,Veneto,Veneto,1,,Firefox,Windows,864,1536,2.754383333333333,11,Yes
+4,0.62,televisore,duro,furniture,Male,texture,non &egrave;,7,28,1,Italiano,Veneto,Veneto,1,,Firefox,Windows,864,1536,2.754383333333333,11,Yes
+5,0.22,formaggio,marrone,food,Male,color,non &egrave;,8,28,1,Italiano,Veneto,Veneto,1,,Firefox,Windows,864,1536,2.754383333333333,11,Yes
+6,0.74,formaggio,liscio,food,Male,texture,non &egrave;,9,28,1,Italiano,Veneto,Veneto,1,,Firefox,Windows,864,1536,2.754383333333333,11,Yes
+7,0.0,sedia,gigantesco,furniture,Male,size,&egrave;,10,28,1,Italiano,Veneto,Veneto,1,,Firefox,Windows,864,1536,2.754383333333333,11,Yes
+8,1.0,pomodoro,fantastico,food,Male,quality,non &egrave;,11,28,1,Italiano,Veneto,Veneto,1,,Firefox,Windows,864,1536,2.754383333333333,11,Yes
+9,0.0,carota,rotondo,food,Male,shape,non &egrave;,12,28,1,Italiano,Veneto,Veneto,1,,Firefox,Windows,864,1536,2.754383333333333,11,Yes
+10,0.0,pomodoro,blu,food,Male,color,&egrave;,13,28,1,Italiano,Veneto,Veneto,1,,Firefox,Windows,864,1536,2.754383333333333,11,Yes
+11,0.76,banana,vecchio,food,Male,age,non &egrave;,14,28,1,Italiano,Veneto,Veneto,1,,Firefox,Windows,864,1536,2.754383333333333,11,Yes
+12,0.3,sedia,marcio,furniture,Male,age,non &egrave;,15,28,1,Italiano,Veneto,Veneto,1,,Firefox,Windows,864,1536,2.754383333333333,11,Yes
+13,0.73,banana,lungo,food,Male,size,non &egrave;,16,28,1,Italiano,Veneto,Veneto,1,,Firefox,Windows,864,1536,2.754383333333333,11,Yes
+14,0.33,carota,cattivo,food,Male,quality,non &egrave;,17,28,1,Italiano,Veneto,Veneto,1,,Firefox,Windows,864,1536,2.754383333333333,11,Yes
+15,0.29,formaggio,giallo,food,Male,color,non &egrave;,18,28,1,Italiano,Veneto,Veneto,1,,Firefox,Windows,864,1536,2.754383333333333,11,Yes
+16,0.61,mela,fresco,food,Male,age,&egrave;,19,28,1,Italiano,Veneto,Veneto,1,,Firefox,Windows,864,1536,2.754383333333333,11,Yes
+17,0.24,divano,quadrato,furniture,Male,shape,non &egrave;,20,28,1,Italiano,Veneto,Veneto,1,,Firefox,Windows,864,1536,2.754383333333333,11,Yes
+18,0.01,scrivania,nuovo,furniture,Male,age,non &egrave;,21,28,1,Italiano,Veneto,Veneto,1,,Firefox,Windows,864,1536,2.754383333333333,11,Yes
+19,0.34,mela,rosso,food,Male,color,non &egrave;,22,28,1,Italiano,Veneto,Veneto,1,,Firefox,Windows,864,1536,2.754383333333333,11,Yes
+20,0.0,carota,francese,food,Male,nationality,non &egrave;,23,28,1,Italiano,Veneto,Veneto,1,,Firefox,Windows,864,1536,2.754383333333333,11,Yes
+21,0.24,divano,grande,furniture,Male,size,&egrave;,24,28,1,Italiano,Veneto,Veneto,1,,Firefox,Windows,864,1536,2.754383333333333,11,Yes
+22,0.01,televisore,polacco,furniture,Male,nationality,non &egrave;,25,28,1,Italiano,Veneto,Veneto,1,,Firefox,Windows,864,1536,2.754383333333333,11,Yes
+23,0.66,mela,piccolo,food,Male,size,&egrave;,26,28,1,Italiano,Veneto,Veneto,1,,Firefox,Windows,864,1536,2.754383333333333,11,Yes
+24,0.62,mela,corto,food,Male,size,non &egrave;,27,28,1,Italiano,Veneto,Veneto,1,,Firefox,Windows,864,1536,2.754383333333333,11,Yes
+25,0.7,carota,morbido,food,Male,texture,&egrave;,28,28,1,Italiano,Veneto,Veneto,1,,Firefox,Windows,864,1536,2.754383333333333,11,Yes
+0,0.0,divano,tedesco,furniture,Male,nationality,non &egrave;,3,22,3,Italiano,Sicilia,,2,,Chrome,Windows,864,1536,5.099733333333333,12,Yes
+1,1.0,banana,fantastico,food,Male,quality,non &egrave;,4,22,3,Italiano,Sicilia,,2,,Chrome,Windows,864,1536,5.099733333333333,12,Yes
+2,0.73,televisore,marcio,furniture,Male,age,non &egrave;,5,22,3,Italiano,Sicilia,,2,,Chrome,Windows,864,1536,5.099733333333333,12,Yes
+3,0.64,divano,duro,furniture,Male,texture,non &egrave;,6,22,3,Italiano,Sicilia,,2,,Chrome,Windows,864,1536,5.099733333333333,12,Yes
+4,0.66,ventilatore,lungo,furniture,Male,size,&egrave;,7,22,3,Italiano,Sicilia,,2,,Chrome,Windows,864,1536,5.099733333333333,12,Yes
+5,0.31,formaggio,marrone,food,Male,color,&egrave;,8,22,3,Italiano,Sicilia,,2,,Chrome,Windows,864,1536,5.099733333333333,12,Yes
+6,0.71,scrivania,vecchio,furniture,Male,age,&egrave;,9,22,3,Italiano,Sicilia,,2,,Chrome,Windows,864,1536,5.099733333333333,12,Yes
+7,0.94,carota,corto,food,Male,size,non &egrave;,10,22,3,Italiano,Sicilia,,2,,Chrome,Windows,864,1536,5.099733333333333,12,Yes
+8,0.37,televisore,liscio,furniture,Male,texture,&egrave;,11,22,3,Italiano,Sicilia,,2,,Chrome,Windows,864,1536,5.099733333333333,12,Yes
+9,0.65,scrivania,morbido,furniture,Male,texture,non &egrave;,12,22,3,Italiano,Sicilia,,2,,Chrome,Windows,864,1536,5.099733333333333,12,Yes
+10,0.74,ventilatore,nuovo,furniture,Male,age,&egrave;,13,22,3,Italiano,Sicilia,,2,,Chrome,Windows,864,1536,5.099733333333333,12,Yes
+11,0.85,banana,grande,food,Male,size,&egrave;,14,22,3,Italiano,Sicilia,,2,,Chrome,Windows,864,1536,5.099733333333333,12,Yes
+12,0.42,mela,giallo,food,Male,color,&egrave;,15,22,3,Italiano,Sicilia,,2,,Chrome,Windows,864,1536,5.099733333333333,12,Yes
+13,0.27,televisore,verde,furniture,Male,color,non &egrave;,16,22,3,Italiano,Sicilia,,2,,Chrome,Windows,864,1536,5.099733333333333,12,Yes
+14,0.75,televisore,gigantesco,furniture,Male,size,&egrave;,17,22,3,Italiano,Sicilia,,2,,Chrome,Windows,864,1536,5.099733333333333,12,Yes
+15,0.42,carota,cattivo,food,Male,quality,non &egrave;,18,22,3,Italiano,Sicilia,,2,,Chrome,Windows,864,1536,5.099733333333333,12,Yes
+16,0.0,divano,polacco,furniture,Male,nationality,non &egrave;,19,22,3,Italiano,Sicilia,,2,,Chrome,Windows,864,1536,5.099733333333333,12,Yes
+17,0.0,ventilatore,rotondo,furniture,Male,shape,&egrave;,20,22,3,Italiano,Sicilia,,2,,Chrome,Windows,864,1536,5.099733333333333,12,Yes
+18,0.31,mela,fresco,food,Male,age,non &egrave;,21,22,3,Italiano,Sicilia,,2,,Chrome,Windows,864,1536,5.099733333333333,12,Yes
+19,0.0,ventilatore,francese,furniture,Male,nationality,&egrave;,22,22,3,Italiano,Sicilia,,2,,Chrome,Windows,864,1536,5.099733333333333,12,Yes
+20,0.71,ventilatore,minuscolo,furniture,Male,size,&egrave;,23,22,3,Italiano,Sicilia,,2,,Chrome,Windows,864,1536,5.099733333333333,12,Yes
+21,0.0,mela,quadrato,food,Male,shape,non &egrave;,24,22,3,Italiano,Sicilia,,2,,Chrome,Windows,864,1536,5.099733333333333,12,Yes
+22,0.36,televisore,rosso,furniture,Male,color,non &egrave;,25,22,3,Italiano,Sicilia,,2,,Chrome,Windows,864,1536,5.099733333333333,12,Yes
+23,0.19,televisore,blu,furniture,Male,color,&egrave;,26,22,3,Italiano,Sicilia,,2,,Chrome,Windows,864,1536,5.099733333333333,12,Yes
+24,0.23,banana,viola,food,Male,color,&egrave;,27,22,3,Italiano,Sicilia,,2,,Chrome,Windows,864,1536,5.099733333333333,12,Yes
+25,0.77,scrivania,piccolo,furniture,Male,size,non &egrave;,28,22,3,Italiano,Sicilia,,2,,Chrome,Windows,864,1536,5.099733333333333,12,Yes
+0,0.0,ventilatore,verde,furniture,Female,color,non &egrave;,3,55,1,italiano,lombardia,,1,,Firefox,Windows,768,1366,3.22275,13,Yes
+1,0.0,mela,giallo,food,Female,color,&egrave;,4,55,1,italiano,lombardia,,1,,Firefox,Windows,768,1366,3.22275,13,Yes
+2,0.99,divano,vecchio,furniture,Female,age,&egrave;,5,55,1,italiano,lombardia,,1,,Firefox,Windows,768,1366,3.22275,13,Yes
+3,0.0,carota,quadrato,food,Female,shape,&egrave;,6,55,1,italiano,lombardia,,1,,Firefox,Windows,768,1366,3.22275,13,Yes
+4,0.52,banana,minuscolo,food,Female,size,&egrave;,7,55,1,italiano,lombardia,,1,,Firefox,Windows,768,1366,3.22275,13,Yes
+5,0.4,formaggio,gigantesco,food,Female,size,&egrave;,8,55,1,italiano,lombardia,,1,,Firefox,Windows,768,1366,3.22275,13,Yes
+6,0.03,scrivania,rotondo,furniture,Female,shape,non &egrave;,9,55,1,italiano,lombardia,,1,,Firefox,Windows,768,1366,3.22275,13,Yes
+7,0.0,televisore,rosso,furniture,Female,color,non &egrave;,10,55,1,italiano,lombardia,,1,,Firefox,Windows,768,1366,3.22275,13,Yes
+8,0.76,divano,corto,furniture,Female,size,&egrave;,11,55,1,italiano,lombardia,,1,,Firefox,Windows,768,1366,3.22275,13,Yes
+9,0.9,scrivania,piccolo,furniture,Female,size,&egrave;,12,55,1,italiano,lombardia,,1,,Firefox,Windows,768,1366,3.22275,13,Yes
+10,0.0,divano,francese,furniture,Female,nationality,non &egrave;,13,55,1,italiano,lombardia,,1,,Firefox,Windows,768,1366,3.22275,13,Yes
+11,0.37,pomodoro,duro,food,Female,texture,non &egrave;,14,55,1,italiano,lombardia,,1,,Firefox,Windows,768,1366,3.22275,13,Yes
+12,0.0,pomodoro,tedesco,food,Female,nationality,non &egrave;,15,55,1,italiano,lombardia,,1,,Firefox,Windows,768,1366,3.22275,13,Yes
+13,0.03,scrivania,blu,furniture,Female,color,&egrave;,16,55,1,italiano,lombardia,,1,,Firefox,Windows,768,1366,3.22275,13,Yes
+14,0.62,carota,nuovo,food,Female,age,&egrave;,17,55,1,italiano,lombardia,,1,,Firefox,Windows,768,1366,3.22275,13,Yes
+15,0.81,pomodoro,fresco,food,Female,age,non &egrave;,18,55,1,italiano,lombardia,,1,,Firefox,Windows,768,1366,3.22275,13,Yes
+16,0.65,formaggio,grande,food,Female,size,non &egrave;,19,55,1,italiano,lombardia,,1,,Firefox,Windows,768,1366,3.22275,13,Yes
+17,0.03,scrivania,marrone,furniture,Female,color,&egrave;,20,55,1,italiano,lombardia,,1,,Firefox,Windows,768,1366,3.22275,13,Yes
+18,0.93,divano,morbido,furniture,Female,texture,non &egrave;,21,55,1,italiano,lombardia,,1,,Firefox,Windows,768,1366,3.22275,13,Yes
+19,0.03,scrivania,viola,furniture,Female,color,non &egrave;,22,55,1,italiano,lombardia,,1,,Firefox,Windows,768,1366,3.22275,13,Yes
+20,0.04,mela,polacco,food,Female,nationality,non &egrave;,23,55,1,italiano,lombardia,,1,,Firefox,Windows,768,1366,3.22275,13,Yes
+21,0.03,ventilatore,lungo,furniture,Female,size,non &egrave;,24,55,1,italiano,lombardia,,1,,Firefox,Windows,768,1366,3.22275,13,Yes
+22,0.26,divano,liscio,furniture,Female,texture,&egrave;,25,55,1,italiano,lombardia,,1,,Firefox,Windows,768,1366,3.22275,13,Yes
+23,0.58,pomodoro,fantastico,food,Female,quality,&egrave;,26,55,1,italiano,lombardia,,1,,Firefox,Windows,768,1366,3.22275,13,Yes
+24,0.04,divano,marcio,furniture,Female,age,&egrave;,27,55,1,italiano,lombardia,,1,,Firefox,Windows,768,1366,3.22275,13,Yes
+25,0.04,divano,cattivo,furniture,Female,quality,non &egrave;,28,55,1,italiano,lombardia,,1,,Firefox,Windows,768,1366,3.22275,13,Yes
+0,0.1,televisore,marcio,furniture,Male,age,non &egrave;,3,24,3,Italiano,Lombardia,,1,,Firefox,Windows,1200,1920,3.2525666666666666,14,Yes
+1,0.68,divano,duro,furniture,Male,texture,&egrave;,4,24,3,Italiano,Lombardia,,1,,Firefox,Windows,1200,1920,3.2525666666666666,14,Yes
+2,0.0,divano,rosso,furniture,Male,color,&egrave;,5,24,3,Italiano,Lombardia,,1,,Firefox,Windows,1200,1920,3.2525666666666666,14,Yes
+3,0.0,mela,polacco,food,Male,nationality,&egrave;,6,24,3,Italiano,Lombardia,,1,,Firefox,Windows,1200,1920,3.2525666666666666,14,Yes
+4,0.15,carota,verde,food,Male,color,non &egrave;,7,24,3,Italiano,Lombardia,,1,,Firefox,Windows,1200,1920,3.2525666666666666,14,Yes
+5,0.15,banana,quadrato,food,Male,shape,&egrave;,8,24,3,Italiano,Lombardia,,1,,Firefox,Windows,1200,1920,3.2525666666666666,14,Yes
+6,0.83,televisore,grande,furniture,Male,size,&egrave;,9,24,3,Italiano,Lombardia,,1,,Firefox,Windows,1200,1920,3.2525666666666666,14,Yes
+7,0.14,scrivania,marrone,furniture,Male,color,&egrave;,10,24,3,Italiano,Lombardia,,1,,Firefox,Windows,1200,1920,3.2525666666666666,14,Yes
+8,0.82,formaggio,corto,food,Male,size,non &egrave;,11,24,3,Italiano,Lombardia,,1,,Firefox,Windows,1200,1920,3.2525666666666666,14,Yes
+9,0.83,formaggio,cattivo,food,Male,quality,non &egrave;,12,24,3,Italiano,Lombardia,,1,,Firefox,Windows,1200,1920,3.2525666666666666,14,Yes
+10,0.13,pomodoro,rotondo,food,Male,shape,non &egrave;,13,24,3,Italiano,Lombardia,,1,,Firefox,Windows,1200,1920,3.2525666666666666,14,Yes
+11,0.51,mela,vecchio,food,Male,age,non &egrave;,14,24,3,Italiano,Lombardia,,1,,Firefox,Windows,1200,1920,3.2525666666666666,14,Yes
+12,0.49,banana,lungo,food,Male,size,&egrave;,15,24,3,Italiano,Lombardia,,1,,Firefox,Windows,1200,1920,3.2525666666666666,14,Yes
+13,0.03,scrivania,francese,furniture,Male,nationality,non &egrave;,16,24,3,Italiano,Lombardia,,1,,Firefox,Windows,1200,1920,3.2525666666666666,14,Yes
+14,0.53,sedia,fresco,furniture,Male,age,&egrave;,17,24,3,Italiano,Lombardia,,1,,Firefox,Windows,1200,1920,3.2525666666666666,14,Yes
+15,0.27,sedia,liscio,furniture,Male,texture,&egrave;,18,24,3,Italiano,Lombardia,,1,,Firefox,Windows,1200,1920,3.2525666666666666,14,Yes
+16,0.12,sedia,giallo,furniture,Male,color,non &egrave;,19,24,3,Italiano,Lombardia,,1,,Firefox,Windows,1200,1920,3.2525666666666666,14,Yes
+17,0.27,formaggio,viola,food,Male,color,&egrave;,20,24,3,Italiano,Lombardia,,1,,Firefox,Windows,1200,1920,3.2525666666666666,14,Yes
+18,0.89,banana,piccolo,food,Male,size,non &egrave;,21,24,3,Italiano,Lombardia,,1,,Firefox,Windows,1200,1920,3.2525666666666666,14,Yes
+19,0.85,scrivania,gigantesco,furniture,Male,size,&egrave;,22,24,3,Italiano,Lombardia,,1,,Firefox,Windows,1200,1920,3.2525666666666666,14,Yes
+20,0.11,divano,blu,furniture,Male,color,non &egrave;,23,24,3,Italiano,Lombardia,,1,,Firefox,Windows,1200,1920,3.2525666666666666,14,Yes
+21,0.87,divano,minuscolo,furniture,Male,size,non &egrave;,24,24,3,Italiano,Lombardia,,1,,Firefox,Windows,1200,1920,3.2525666666666666,14,Yes
+22,0.66,banana,morbido,food,Male,texture,&egrave;,25,24,3,Italiano,Lombardia,,1,,Firefox,Windows,1200,1920,3.2525666666666666,14,Yes
+23,0.05,carota,tedesco,food,Male,nationality,&egrave;,26,24,3,Italiano,Lombardia,,1,,Firefox,Windows,1200,1920,3.2525666666666666,14,Yes
+24,0.51,mela,nuovo,food,Male,age,&egrave;,27,24,3,Italiano,Lombardia,,1,,Firefox,Windows,1200,1920,3.2525666666666666,14,Yes
+25,1.0,sedia,fantastico,furniture,Male,quality,non &egrave;,28,24,3,Italiano,Lombardia,,1,,Firefox,Windows,1200,1920,3.2525666666666666,14,Yes
+0,0.0,divano,grande,furniture,Male,size,non &egrave;,3,29,3,Italiano,Campania,,2,,Chrome,Windows,1200,1920,3.0543833333333335,15,Yes
+1,0.0,ventilatore,giallo,furniture,Male,color,&egrave;,4,29,3,Italiano,Campania,,2,,Chrome,Windows,1200,1920,3.0543833333333335,15,Yes
+2,0.77,mela,fantastico,food,Male,quality,&egrave;,5,29,3,Italiano,Campania,,2,,Chrome,Windows,1200,1920,3.0543833333333335,15,Yes
+3,0.61,scrivania,vecchio,furniture,Male,age,non &egrave;,6,29,3,Italiano,Campania,,2,,Chrome,Windows,1200,1920,3.0543833333333335,15,Yes
+4,0.5,mela,duro,food,Male,texture,non &egrave;,7,29,3,Italiano,Campania,,2,,Chrome,Windows,1200,1920,3.0543833333333335,15,Yes
+5,0.22,banana,morbido,food,Male,texture,non &egrave;,8,29,3,Italiano,Campania,,2,,Chrome,Windows,1200,1920,3.0543833333333335,15,Yes
+6,0.1,divano,liscio,furniture,Male,texture,&egrave;,9,29,3,Italiano,Campania,,2,,Chrome,Windows,1200,1920,3.0543833333333335,15,Yes
+7,0.0,divano,piccolo,furniture,Male,size,non &egrave;,10,29,3,Italiano,Campania,,2,,Chrome,Windows,1200,1920,3.0543833333333335,15,Yes
+8,0.27,divano,gigantesco,furniture,Male,size,non &egrave;,11,29,3,Italiano,Campania,,2,,Chrome,Windows,1200,1920,3.0543833333333335,15,Yes
+9,0.0,sedia,quadrato,furniture,Male,shape,non &egrave;,12,29,3,Italiano,Campania,,2,,Chrome,Windows,1200,1920,3.0543833333333335,15,Yes
+10,0.74,sedia,fresco,furniture,Male,age,non &egrave;,13,29,3,Italiano,Campania,,2,,Chrome,Windows,1200,1920,3.0543833333333335,15,Yes
+11,0.0,televisore,verde,furniture,Male,color,&egrave;,14,29,3,Italiano,Campania,,2,,Chrome,Windows,1200,1920,3.0543833333333335,15,Yes
+12,0.47,mela,minuscolo,food,Male,size,non &egrave;,15,29,3,Italiano,Campania,,2,,Chrome,Windows,1200,1920,3.0543833333333335,15,Yes
+13,0.0,carota,viola,food,Male,color,&egrave;,16,29,3,Italiano,Campania,,2,,Chrome,Windows,1200,1920,3.0543833333333335,15,Yes
+14,0.98,pomodoro,cattivo,food,Male,quality,&egrave;,17,29,3,Italiano,Campania,,2,,Chrome,Windows,1200,1920,3.0543833333333335,15,Yes
+15,0.12,televisore,lungo,furniture,Male,size,non &egrave;,18,29,3,Italiano,Campania,,2,,Chrome,Windows,1200,1920,3.0543833333333335,15,Yes
+16,0.0,carota,marrone,food,Male,color,&egrave;,19,29,3,Italiano,Campania,,2,,Chrome,Windows,1200,1920,3.0543833333333335,15,Yes
+17,0.0,formaggio,marcio,food,Male,age,non &egrave;,20,29,3,Italiano,Campania,,2,,Chrome,Windows,1200,1920,3.0543833333333335,15,Yes
+18,0.0,scrivania,tedesco,furniture,Male,nationality,non &egrave;,21,29,3,Italiano,Campania,,2,,Chrome,Windows,1200,1920,3.0543833333333335,15,Yes
+19,0.0,divano,polacco,furniture,Male,nationality,non &egrave;,22,29,3,Italiano,Campania,,2,,Chrome,Windows,1200,1920,3.0543833333333335,15,Yes
+20,0.0,sedia,francese,furniture,Male,nationality,&egrave;,23,29,3,Italiano,Campania,,2,,Chrome,Windows,1200,1920,3.0543833333333335,15,Yes
+21,0.16,pomodoro,rotondo,food,Male,shape,non &egrave;,24,29,3,Italiano,Campania,,2,,Chrome,Windows,1200,1920,3.0543833333333335,15,Yes
+22,0.0,ventilatore,blu,furniture,Male,color,&egrave;,25,29,3,Italiano,Campania,,2,,Chrome,Windows,1200,1920,3.0543833333333335,15,Yes
+23,0.56,banana,corto,food,Male,size,non &egrave;,26,29,3,Italiano,Campania,,2,,Chrome,Windows,1200,1920,3.0543833333333335,15,Yes
+24,0.55,televisore,nuovo,furniture,Male,age,non &egrave;,27,29,3,Italiano,Campania,,2,,Chrome,Windows,1200,1920,3.0543833333333335,15,Yes
+25,0.0,carota,rosso,food,Male,color,non &egrave;,28,29,3,Italiano,Campania,,2,,Chrome,Windows,1200,1920,3.0543833333333335,15,Yes
+0,0.0,pomodoro,morbido,food,Female,texture,&egrave;,3,28,3,italiano,piemonte,,2,,Chrome,Windows,1080,1920,2.8291,16,Yes
+1,0.1,televisore,minuscolo,furniture,Female,size,non &egrave;,4,28,3,italiano,piemonte,,2,,Chrome,Windows,1080,1920,2.8291,16,Yes
+2,0.04,formaggio,marcio,food,Female,age,non &egrave;,5,28,3,italiano,piemonte,,2,,Chrome,Windows,1080,1920,2.8291,16,Yes
+3,0.01,formaggio,marrone,food,Female,color,&egrave;,6,28,3,italiano,piemonte,,2,,Chrome,Windows,1080,1920,2.8291,16,Yes
+4,0.03,sedia,rosso,furniture,Female,color,non &egrave;,7,28,3,italiano,piemonte,,2,,Chrome,Windows,1080,1920,2.8291,16,Yes
+5,0.02,sedia,giallo,furniture,Female,color,&egrave;,8,28,3,italiano,piemonte,,2,,Chrome,Windows,1080,1920,2.8291,16,Yes
+6,0.51,pomodoro,vecchio,food,Female,age,non &egrave;,9,28,3,italiano,piemonte,,2,,Chrome,Windows,1080,1920,2.8291,16,Yes
+7,0.2,ventilatore,piccolo,furniture,Female,size,non &egrave;,10,28,3,italiano,piemonte,,2,,Chrome,Windows,1080,1920,2.8291,16,Yes
+8,0.03,carota,nuovo,food,Female,age,non &egrave;,11,28,3,italiano,piemonte,,2,,Chrome,Windows,1080,1920,2.8291,16,Yes
+9,0.88,televisore,cattivo,furniture,Female,quality,&egrave;,12,28,3,italiano,piemonte,,2,,Chrome,Windows,1080,1920,2.8291,16,Yes
+10,0.84,ventilatore,corto,furniture,Female,size,&egrave;,13,28,3,italiano,piemonte,,2,,Chrome,Windows,1080,1920,2.8291,16,Yes
+11,1.0,formaggio,fantastico,food,Female,quality,&egrave;,14,28,3,italiano,piemonte,,2,,Chrome,Windows,1080,1920,2.8291,16,Yes
+12,0.12,banana,duro,food,Female,texture,non &egrave;,15,28,3,italiano,piemonte,,2,,Chrome,Windows,1080,1920,2.8291,16,Yes
+13,0.0,mela,francese,food,Female,nationality,&egrave;,16,28,3,italiano,piemonte,,2,,Chrome,Windows,1080,1920,2.8291,16,Yes
+14,0.0,mela,viola,food,Female,color,&egrave;,17,28,3,italiano,piemonte,,2,,Chrome,Windows,1080,1920,2.8291,16,Yes
+15,0.0,divano,quadrato,furniture,Female,shape,&egrave;,18,28,3,italiano,piemonte,,2,,Chrome,Windows,1080,1920,2.8291,16,Yes
+16,0.29,formaggio,gigantesco,food,Female,size,non &egrave;,19,28,3,italiano,piemonte,,2,,Chrome,Windows,1080,1920,2.8291,16,Yes
+17,0.0,divano,polacco,furniture,Female,nationality,non &egrave;,20,28,3,italiano,piemonte,,2,,Chrome,Windows,1080,1920,2.8291,16,Yes
+18,0.0,formaggio,rotondo,food,Female,shape,non &egrave;,21,28,3,italiano,piemonte,,2,,Chrome,Windows,1080,1920,2.8291,16,Yes
+19,0.0,mela,verde,food,Female,color,&egrave;,22,28,3,italiano,piemonte,,2,,Chrome,Windows,1080,1920,2.8291,16,Yes
+20,0.29,sedia,lungo,furniture,Female,size,&egrave;,23,28,3,italiano,piemonte,,2,,Chrome,Windows,1080,1920,2.8291,16,Yes
+21,0.24,pomodoro,fresco,food,Female,age,non &egrave;,24,28,3,italiano,piemonte,,2,,Chrome,Windows,1080,1920,2.8291,16,Yes
+22,0.14,divano,liscio,furniture,Female,texture,&egrave;,25,28,3,italiano,piemonte,,2,,Chrome,Windows,1080,1920,2.8291,16,Yes
+23,0.0,formaggio,blu,food,Female,color,&egrave;,26,28,3,italiano,piemonte,,2,,Chrome,Windows,1080,1920,2.8291,16,Yes
+24,0.59,sedia,grande,furniture,Female,size,&egrave;,27,28,3,italiano,piemonte,,2,,Chrome,Windows,1080,1920,2.8291,16,Yes
+25,0.0,pomodoro,tedesco,food,Female,nationality,&egrave;,28,28,3,italiano,piemonte,,2,,Chrome,Windows,1080,1920,2.8291,16,Yes
+0,0.02,televisore,rosso,furniture,Female,color,&egrave;,3,25,2,italiana,fvg,napoletano,2,,Chrome,Windows,720,1280,3.1002,17,Yes
+1,0.0,mela,blu,food,Female,color,&egrave;,4,25,2,italiana,fvg,napoletano,2,,Chrome,Windows,720,1280,3.1002,17,Yes
+2,0.85,formaggio,polacco,food,Female,nationality,non &egrave;,5,25,2,italiana,fvg,napoletano,2,,Chrome,Windows,720,1280,3.1002,17,Yes
+3,0.71,mela,lungo,food,Female,size,non &egrave;,6,25,2,italiana,fvg,napoletano,2,,Chrome,Windows,720,1280,3.1002,17,Yes
+4,1.0,banana,gigantesco,food,Female,size,non &egrave;,7,25,2,italiana,fvg,napoletano,2,,Chrome,Windows,720,1280,3.1002,17,Yes
+5,0.76,formaggio,vecchio,food,Female,age,&egrave;,8,25,2,italiana,fvg,napoletano,2,,Chrome,Windows,720,1280,3.1002,17,Yes
+6,0.69,sedia,grande,furniture,Female,size,&egrave;,9,25,2,italiana,fvg,napoletano,2,,Chrome,Windows,720,1280,3.1002,17,Yes
+7,0.19,carota,giallo,food,Female,color,non &egrave;,10,25,2,italiana,fvg,napoletano,2,,Chrome,Windows,720,1280,3.1002,17,Yes
+8,0.0,ventilatore,morbido,furniture,Female,texture,non &egrave;,11,25,2,italiana,fvg,napoletano,2,,Chrome,Windows,720,1280,3.1002,17,Yes
+9,0.04,mela,marrone,food,Female,color,&egrave;,12,25,2,italiana,fvg,napoletano,2,,Chrome,Windows,720,1280,3.1002,17,Yes
+10,0.59,televisore,minuscolo,furniture,Female,size,non &egrave;,13,25,2,italiana,fvg,napoletano,2,,Chrome,Windows,720,1280,3.1002,17,Yes
+11,0.03,sedia,viola,furniture,Female,color,non &egrave;,14,25,2,italiana,fvg,napoletano,2,,Chrome,Windows,720,1280,3.1002,17,Yes
+12,0.01,scrivania,verde,furniture,Female,color,&egrave;,15,25,2,italiana,fvg,napoletano,2,,Chrome,Windows,720,1280,3.1002,17,Yes
+13,0.89,divano,tedesco,furniture,Female,nationality,non &egrave;,16,25,2,italiana,fvg,napoletano,2,,Chrome,Windows,720,1280,3.1002,17,Yes
+14,0.0,sedia,quadrato,furniture,Female,shape,non &egrave;,17,25,2,italiana,fvg,napoletano,2,,Chrome,Windows,720,1280,3.1002,17,Yes
+15,0.9,sedia,fresco,furniture,Female,age,&egrave;,18,25,2,italiana,fvg,napoletano,2,,Chrome,Windows,720,1280,3.1002,17,Yes
+16,1.0,sedia,fantastico,furniture,Female,quality,non &egrave;,19,25,2,italiana,fvg,napoletano,2,,Chrome,Windows,720,1280,3.1002,17,Yes
+17,0.71,divano,cattivo,furniture,Female,quality,&egrave;,20,25,2,italiana,fvg,napoletano,2,,Chrome,Windows,720,1280,3.1002,17,Yes
+18,0.0,divano,rotondo,furniture,Female,shape,non &egrave;,21,25,2,italiana,fvg,napoletano,2,,Chrome,Windows,720,1280,3.1002,17,Yes
+19,0.33,scrivania,liscio,furniture,Female,texture,non &egrave;,22,25,2,italiana,fvg,napoletano,2,,Chrome,Windows,720,1280,3.1002,17,Yes
+20,0.68,televisore,piccolo,furniture,Female,size,non &egrave;,23,25,2,italiana,fvg,napoletano,2,,Chrome,Windows,720,1280,3.1002,17,Yes
+21,0.72,formaggio,nuovo,food,Female,age,&egrave;,24,25,2,italiana,fvg,napoletano,2,,Chrome,Windows,720,1280,3.1002,17,Yes
+22,0.81,divano,corto,furniture,Female,size,&egrave;,25,25,2,italiana,fvg,napoletano,2,,Chrome,Windows,720,1280,3.1002,17,Yes
+23,0.56,divano,marcio,furniture,Female,age,non &egrave;,26,25,2,italiana,fvg,napoletano,2,,Chrome,Windows,720,1280,3.1002,17,Yes
+24,0.9,sedia,duro,furniture,Female,texture,non &egrave;,27,25,2,italiana,fvg,napoletano,2,,Chrome,Windows,720,1280,3.1002,17,Yes
+25,0.93,mela,francese,food,Female,nationality,non &egrave;,28,25,2,italiana,fvg,napoletano,2,,Chrome,Windows,720,1280,3.1002,17,Yes
+0,0.83,ventilatore,vecchio,furniture,Female,age,&egrave;,3,53,1,italiano,Emilia Romagna,,1,benché alcune affermazioni fossero soggettive tutto può essere giudicato in base alle opinioni per cui ho espresso il mio pensiero ma non è detto che sia per forza così,Chrome,Windows,786,1397,4.104133333333333,18,Yes
+1,0.76,sedia,fresco,furniture,Female,age,non &egrave;,4,53,1,italiano,Emilia Romagna,,1,benché alcune affermazioni fossero soggettive tutto può essere giudicato in base alle opinioni per cui ho espresso il mio pensiero ma non è detto che sia per forza così,Chrome,Windows,786,1397,4.104133333333333,18,Yes
+2,0.72,formaggio,liscio,food,Female,texture,non &egrave;,5,53,1,italiano,Emilia Romagna,,1,benché alcune affermazioni fossero soggettive tutto può essere giudicato in base alle opinioni per cui ho espresso il mio pensiero ma non è detto che sia per forza così,Chrome,Windows,786,1397,4.104133333333333,18,Yes
+3,0.8,banana,nuovo,food,Female,age,non &egrave;,6,53,1,italiano,Emilia Romagna,,1,benché alcune affermazioni fossero soggettive tutto può essere giudicato in base alle opinioni per cui ho espresso il mio pensiero ma non è detto che sia per forza così,Chrome,Windows,786,1397,4.104133333333333,18,Yes
+4,0.82,ventilatore,marcio,furniture,Female,age,non &egrave;,7,53,1,italiano,Emilia Romagna,,1,benché alcune affermazioni fossero soggettive tutto può essere giudicato in base alle opinioni per cui ho espresso il mio pensiero ma non è detto che sia per forza così,Chrome,Windows,786,1397,4.104133333333333,18,Yes
+5,0.78,carota,rotondo,food,Female,shape,non &egrave;,8,53,1,italiano,Emilia Romagna,,1,benché alcune affermazioni fossero soggettive tutto può essere giudicato in base alle opinioni per cui ho espresso il mio pensiero ma non è detto che sia per forza così,Chrome,Windows,786,1397,4.104133333333333,18,Yes
+6,0.8,banana,cattivo,food,Female,quality,non &egrave;,9,53,1,italiano,Emilia Romagna,,1,benché alcune affermazioni fossero soggettive tutto può essere giudicato in base alle opinioni per cui ho espresso il mio pensiero ma non è detto che sia per forza così,Chrome,Windows,786,1397,4.104133333333333,18,Yes
+7,0.97,scrivania,fantastico,furniture,Female,quality,&egrave;,10,53,1,italiano,Emilia Romagna,,1,benché alcune affermazioni fossero soggettive tutto può essere giudicato in base alle opinioni per cui ho espresso il mio pensiero ma non è detto che sia per forza così,Chrome,Windows,786,1397,4.104133333333333,18,Yes
+8,0.96,pomodoro,morbido,food,Female,texture,non &egrave;,11,53,1,italiano,Emilia Romagna,,1,benché alcune affermazioni fossero soggettive tutto può essere giudicato in base alle opinioni per cui ho espresso il mio pensiero ma non è detto che sia per forza così,Chrome,Windows,786,1397,4.104133333333333,18,Yes
+9,0.76,divano,piccolo,furniture,Female,size,non &egrave;,12,53,1,italiano,Emilia Romagna,,1,benché alcune affermazioni fossero soggettive tutto può essere giudicato in base alle opinioni per cui ho espresso il mio pensiero ma non è detto che sia per forza così,Chrome,Windows,786,1397,4.104133333333333,18,Yes
+10,0.81,formaggio,corto,food,Female,size,&egrave;,13,53,1,italiano,Emilia Romagna,,1,benché alcune affermazioni fossero soggettive tutto può essere giudicato in base alle opinioni per cui ho espresso il mio pensiero ma non è detto che sia per forza così,Chrome,Windows,786,1397,4.104133333333333,18,Yes
+11,0.0,carota,tedesco,food,Female,nationality,non &egrave;,14,53,1,italiano,Emilia Romagna,,1,benché alcune affermazioni fossero soggettive tutto può essere giudicato in base alle opinioni per cui ho espresso il mio pensiero ma non è detto che sia per forza così,Chrome,Windows,786,1397,4.104133333333333,18,Yes
+12,0.5,ventilatore,giallo,furniture,Female,color,non &egrave;,15,53,1,italiano,Emilia Romagna,,1,benché alcune affermazioni fossero soggettive tutto può essere giudicato in base alle opinioni per cui ho espresso il mio pensiero ma non è detto che sia per forza così,Chrome,Windows,786,1397,4.104133333333333,18,Yes
+13,0.01,ventilatore,polacco,furniture,Female,nationality,&egrave;,16,53,1,italiano,Emilia Romagna,,1,benché alcune affermazioni fossero soggettive tutto può essere giudicato in base alle opinioni per cui ho espresso il mio pensiero ma non è detto che sia per forza così,Chrome,Windows,786,1397,4.104133333333333,18,Yes
+14,0.82,mela,lungo,food,Female,size,&egrave;,17,53,1,italiano,Emilia Romagna,,1,benché alcune affermazioni fossero soggettive tutto può essere giudicato in base alle opinioni per cui ho espresso il mio pensiero ma non è detto che sia per forza così,Chrome,Windows,786,1397,4.104133333333333,18,Yes
+15,0.86,divano,grande,furniture,Female,size,non &egrave;,18,53,1,italiano,Emilia Romagna,,1,benché alcune affermazioni fossero soggettive tutto può essere giudicato in base alle opinioni per cui ho espresso il mio pensiero ma non è detto che sia per forza così,Chrome,Windows,786,1397,4.104133333333333,18,Yes
+16,0.04,banana,marrone,food,Female,color,&egrave;,19,53,1,italiano,Emilia Romagna,,1,benché alcune affermazioni fossero soggettive tutto può essere giudicato in base alle opinioni per cui ho espresso il mio pensiero ma non è detto che sia per forza così,Chrome,Windows,786,1397,4.104133333333333,18,Yes
+17,0.03,banana,verde,food,Female,color,non &egrave;,20,53,1,italiano,Emilia Romagna,,1,benché alcune affermazioni fossero soggettive tutto può essere giudicato in base alle opinioni per cui ho espresso il mio pensiero ma non è detto che sia per forza così,Chrome,Windows,786,1397,4.104133333333333,18,Yes
+18,0.0,formaggio,blu,food,Female,color,non &egrave;,21,53,1,italiano,Emilia Romagna,,1,benché alcune affermazioni fossero soggettive tutto può essere giudicato in base alle opinioni per cui ho espresso il mio pensiero ma non è detto che sia per forza così,Chrome,Windows,786,1397,4.104133333333333,18,Yes
+19,0.53,pomodoro,minuscolo,food,Female,size,&egrave;,22,53,1,italiano,Emilia Romagna,,1,benché alcune affermazioni fossero soggettive tutto può essere giudicato in base alle opinioni per cui ho espresso il mio pensiero ma non è detto che sia per forza così,Chrome,Windows,786,1397,4.104133333333333,18,Yes
+20,1.0,mela,duro,food,Female,texture,&egrave;,23,53,1,italiano,Emilia Romagna,,1,benché alcune affermazioni fossero soggettive tutto può essere giudicato in base alle opinioni per cui ho espresso il mio pensiero ma non è detto che sia per forza così,Chrome,Windows,786,1397,4.104133333333333,18,Yes
+21,0.98,ventilatore,gigantesco,furniture,Female,size,&egrave;,24,53,1,italiano,Emilia Romagna,,1,benché alcune affermazioni fossero soggettive tutto può essere giudicato in base alle opinioni per cui ho espresso il mio pensiero ma non è detto che sia per forza così,Chrome,Windows,786,1397,4.104133333333333,18,Yes
+22,0.05,ventilatore,viola,furniture,Female,color,&egrave;,25,53,1,italiano,Emilia Romagna,,1,benché alcune affermazioni fossero soggettive tutto può essere giudicato in base alle opinioni per cui ho espresso il mio pensiero ma non è detto che sia per forza così,Chrome,Windows,786,1397,4.104133333333333,18,Yes
+23,0.04,scrivania,rosso,furniture,Female,color,non &egrave;,26,53,1,italiano,Emilia Romagna,,1,benché alcune affermazioni fossero soggettive tutto può essere giudicato in base alle opinioni per cui ho espresso il mio pensiero ma non è detto che sia per forza così,Chrome,Windows,786,1397,4.104133333333333,18,Yes
+24,0.03,pomodoro,quadrato,food,Female,shape,&egrave;,27,53,1,italiano,Emilia Romagna,,1,benché alcune affermazioni fossero soggettive tutto può essere giudicato in base alle opinioni per cui ho espresso il mio pensiero ma non è detto che sia per forza così,Chrome,Windows,786,1397,4.104133333333333,18,Yes
+25,0.02,televisore,francese,furniture,Female,nationality,&egrave;,28,53,1,italiano,Emilia Romagna,,1,benché alcune affermazioni fossero soggettive tutto può essere giudicato in base alle opinioni per cui ho espresso il mio pensiero ma non è detto che sia per forza così,Chrome,Windows,786,1397,4.104133333333333,18,Yes
+0,0.57,divano,marrone,furniture,Female,color,non &egrave;,3,28,3,italiano,Basilicata,,1,,Chrome,Windows,768,1366,4.071583333333334,19,Yes
+1,0.65,sedia,giallo,furniture,Female,color,&egrave;,4,28,3,italiano,Basilicata,,1,,Chrome,Windows,768,1366,4.071583333333334,19,Yes
+2,0.13,mela,polacco,food,Female,nationality,&egrave;,5,28,3,italiano,Basilicata,,1,,Chrome,Windows,768,1366,4.071583333333334,19,Yes
+3,0.82,scrivania,gigantesco,furniture,Female,size,non &egrave;,6,28,3,italiano,Basilicata,,1,,Chrome,Windows,768,1366,4.071583333333334,19,Yes
+4,0.64,mela,viola,food,Female,color,non &egrave;,7,28,3,italiano,Basilicata,,1,,Chrome,Windows,768,1366,4.071583333333334,19,Yes
+5,0.63,pomodoro,cattivo,food,Female,quality,non &egrave;,8,28,3,italiano,Basilicata,,1,,Chrome,Windows,768,1366,4.071583333333334,19,Yes
+6,0.61,televisore,piccolo,furniture,Female,size,non &egrave;,9,28,3,italiano,Basilicata,,1,,Chrome,Windows,768,1366,4.071583333333334,19,Yes
+7,0.37,mela,duro,food,Female,texture,non &egrave;,10,28,3,italiano,Basilicata,,1,,Chrome,Windows,768,1366,4.071583333333334,19,Yes
+8,0.37,pomodoro,rotondo,food,Female,shape,&egrave;,11,28,3,italiano,Basilicata,,1,,Chrome,Windows,768,1366,4.071583333333334,19,Yes
+9,0.34,carota,grande,food,Female,size,non &egrave;,12,28,3,italiano,Basilicata,,1,,Chrome,Windows,768,1366,4.071583333333334,19,Yes
+10,0.32,divano,nuovo,furniture,Female,age,non &egrave;,13,28,3,italiano,Basilicata,,1,,Chrome,Windows,768,1366,4.071583333333334,19,Yes
+11,0.16,pomodoro,vecchio,food,Female,age,&egrave;,14,28,3,italiano,Basilicata,,1,,Chrome,Windows,768,1366,4.071583333333334,19,Yes
+12,0.37,pomodoro,blu,food,Female,color,&egrave;,15,28,3,italiano,Basilicata,,1,,Chrome,Windows,768,1366,4.071583333333334,19,Yes
+13,0.57,scrivania,rosso,furniture,Female,color,&egrave;,16,28,3,italiano,Basilicata,,1,,Chrome,Windows,768,1366,4.071583333333334,19,Yes
+14,0.71,pomodoro,fantastico,food,Female,quality,&egrave;,17,28,3,italiano,Basilicata,,1,,Chrome,Windows,768,1366,4.071583333333334,19,Yes
+15,0.14,scrivania,tedesco,furniture,Female,nationality,&egrave;,18,28,3,italiano,Basilicata,,1,,Chrome,Windows,768,1366,4.071583333333334,19,Yes
+16,0.43,pomodoro,quadrato,food,Female,shape,non &egrave;,19,28,3,italiano,Basilicata,,1,,Chrome,Windows,768,1366,4.071583333333334,19,Yes
+17,0.38,mela,lungo,food,Female,size,non &egrave;,20,28,3,italiano,Basilicata,,1,,Chrome,Windows,768,1366,4.071583333333334,19,Yes
+18,0.64,scrivania,liscio,furniture,Female,texture,&egrave;,21,28,3,italiano,Basilicata,,1,,Chrome,Windows,768,1366,4.071583333333334,19,Yes
+19,0.15,ventilatore,francese,furniture,Female,nationality,&egrave;,22,28,3,italiano,Basilicata,,1,,Chrome,Windows,768,1366,4.071583333333334,19,Yes
+20,0.29,divano,marcio,furniture,Female,age,&egrave;,23,28,3,italiano,Basilicata,,1,,Chrome,Windows,768,1366,4.071583333333334,19,Yes
+21,0.68,divano,corto,furniture,Female,size,&egrave;,24,28,3,italiano,Basilicata,,1,,Chrome,Windows,768,1366,4.071583333333334,19,Yes
+22,0.72,formaggio,minuscolo,food,Female,size,&egrave;,25,28,3,italiano,Basilicata,,1,,Chrome,Windows,768,1366,4.071583333333334,19,Yes
+23,0.32,sedia,fresco,furniture,Female,age,&egrave;,26,28,3,italiano,Basilicata,,1,,Chrome,Windows,768,1366,4.071583333333334,19,Yes
+24,0.55,televisore,verde,furniture,Female,color,non &egrave;,27,28,3,italiano,Basilicata,,1,,Chrome,Windows,768,1366,4.071583333333334,19,Yes
+25,0.38,formaggio,morbido,food,Female,texture,&egrave;,28,28,3,italiano,Basilicata,,1,,Chrome,Windows,768,1366,4.071583333333334,19,Yes
+0,0.01,formaggio,liscio,food,Female,texture,non &egrave;,3,27,1,Italiano,Veneto,"Siciliano, palermitano",2,,Chrome,Windows,864,1536,3.026866666666667,20,Yes
+1,0.05,carota,rosso,food,Female,color,&egrave;,4,27,1,Italiano,Veneto,"Siciliano, palermitano",2,,Chrome,Windows,864,1536,3.026866666666667,20,Yes
+2,0.54,banana,francese,food,Female,nationality,non &egrave;,5,27,1,Italiano,Veneto,"Siciliano, palermitano",2,,Chrome,Windows,864,1536,3.026866666666667,20,Yes
+3,0.03,televisore,blu,furniture,Female,color,non &egrave;,6,27,1,Italiano,Veneto,"Siciliano, palermitano",2,,Chrome,Windows,864,1536,3.026866666666667,20,Yes
+4,0.04,formaggio,verde,food,Female,color,&egrave;,7,27,1,Italiano,Veneto,"Siciliano, palermitano",2,,Chrome,Windows,864,1536,3.026866666666667,20,Yes
+5,0.56,pomodoro,tedesco,food,Female,nationality,&egrave;,8,27,1,Italiano,Veneto,"Siciliano, palermitano",2,,Chrome,Windows,864,1536,3.026866666666667,20,Yes
+6,0.55,scrivania,marcio,furniture,Female,age,&egrave;,9,27,1,Italiano,Veneto,"Siciliano, palermitano",2,,Chrome,Windows,864,1536,3.026866666666667,20,Yes
+7,0.78,divano,morbido,furniture,Female,texture,non &egrave;,10,27,1,Italiano,Veneto,"Siciliano, palermitano",2,,Chrome,Windows,864,1536,3.026866666666667,20,Yes
+8,1.0,scrivania,cattivo,furniture,Female,quality,non &egrave;,11,27,1,Italiano,Veneto,"Siciliano, palermitano",2,,Chrome,Windows,864,1536,3.026866666666667,20,Yes
+9,0.03,formaggio,duro,food,Female,texture,&egrave;,12,27,1,Italiano,Veneto,"Siciliano, palermitano",2,,Chrome,Windows,864,1536,3.026866666666667,20,Yes
+10,0.05,carota,giallo,food,Female,color,&egrave;,13,27,1,Italiano,Veneto,"Siciliano, palermitano",2,,Chrome,Windows,864,1536,3.026866666666667,20,Yes
+11,0.55,carota,piccolo,food,Female,size,non &egrave;,14,27,1,Italiano,Veneto,"Siciliano, palermitano",2,,Chrome,Windows,864,1536,3.026866666666667,20,Yes
+12,0.74,pomodoro,corto,food,Female,size,&egrave;,15,27,1,Italiano,Veneto,"Siciliano, palermitano",2,,Chrome,Windows,864,1536,3.026866666666667,20,Yes
+13,0.58,divano,polacco,furniture,Female,nationality,non &egrave;,16,27,1,Italiano,Veneto,"Siciliano, palermitano",2,,Chrome,Windows,864,1536,3.026866666666667,20,Yes
+14,0.05,ventilatore,viola,furniture,Female,color,&egrave;,17,27,1,Italiano,Veneto,"Siciliano, palermitano",2,,Chrome,Windows,864,1536,3.026866666666667,20,Yes
+15,0.96,televisore,fantastico,furniture,Female,quality,non &egrave;,18,27,1,Italiano,Veneto,"Siciliano, palermitano",2,,Chrome,Windows,864,1536,3.026866666666667,20,Yes
+16,0.02,mela,quadrato,food,Female,shape,&egrave;,19,27,1,Italiano,Veneto,"Siciliano, palermitano",2,,Chrome,Windows,864,1536,3.026866666666667,20,Yes
+17,0.02,carota,rotondo,food,Female,shape,non &egrave;,20,27,1,Italiano,Veneto,"Siciliano, palermitano",2,,Chrome,Windows,864,1536,3.026866666666667,20,Yes
+18,0.0,scrivania,marrone,furniture,Female,color,&egrave;,21,27,1,Italiano,Veneto,"Siciliano, palermitano",2,,Chrome,Windows,864,1536,3.026866666666667,20,Yes
+19,0.05,divano,gigantesco,furniture,Female,size,&egrave;,22,27,1,Italiano,Veneto,"Siciliano, palermitano",2,,Chrome,Windows,864,1536,3.026866666666667,20,Yes
+20,0.16,pomodoro,fresco,food,Female,age,&egrave;,23,27,1,Italiano,Veneto,"Siciliano, palermitano",2,,Chrome,Windows,864,1536,3.026866666666667,20,Yes
+21,0.06,banana,lungo,food,Female,size,&egrave;,24,27,1,Italiano,Veneto,"Siciliano, palermitano",2,,Chrome,Windows,864,1536,3.026866666666667,20,Yes
+22,0.25,scrivania,vecchio,furniture,Female,age,&egrave;,25,27,1,Italiano,Veneto,"Siciliano, palermitano",2,,Chrome,Windows,864,1536,3.026866666666667,20,Yes
+23,0.07,scrivania,minuscolo,furniture,Female,size,non &egrave;,26,27,1,Italiano,Veneto,"Siciliano, palermitano",2,,Chrome,Windows,864,1536,3.026866666666667,20,Yes
+24,0.11,carota,nuovo,food,Female,age,&egrave;,27,27,1,Italiano,Veneto,"Siciliano, palermitano",2,,Chrome,Windows,864,1536,3.026866666666667,20,Yes
+25,0.07,carota,grande,food,Female,size,&egrave;,28,27,1,Italiano,Veneto,"Siciliano, palermitano",2,,Chrome,Windows,864,1536,3.026866666666667,20,Yes
+0,0.02,sedia,piccolo,furniture,Female,size,&egrave;,3,27,3,Italiano,Lazio,,1,,Chrome,Windows,768,1366,4.555583333333334,21,Yes
+1,0.44,formaggio,fresco,food,Female,age,&egrave;,4,27,3,Italiano,Lazio,,1,,Chrome,Windows,768,1366,4.555583333333334,21,Yes
+2,0.04,sedia,gigantesco,furniture,Female,size,&egrave;,5,27,3,Italiano,Lazio,,1,,Chrome,Windows,768,1366,4.555583333333334,21,Yes
+3,0.06,ventilatore,liscio,furniture,Female,texture,non &egrave;,6,27,3,Italiano,Lazio,,1,,Chrome,Windows,768,1366,4.555583333333334,21,Yes
+4,0.53,scrivania,cattivo,furniture,Female,quality,non &egrave;,7,27,3,Italiano,Lazio,,1,,Chrome,Windows,768,1366,4.555583333333334,21,Yes
+5,0.06,pomodoro,corto,food,Female,size,non &egrave;,8,27,3,Italiano,Lazio,,1,,Chrome,Windows,768,1366,4.555583333333334,21,Yes
+6,0.49,mela,morbido,food,Female,texture,non &egrave;,9,27,3,Italiano,Lazio,,1,,Chrome,Windows,768,1366,4.555583333333334,21,Yes
+7,0.38,carota,duro,food,Female,texture,&egrave;,10,27,3,Italiano,Lazio,,1,,Chrome,Windows,768,1366,4.555583333333334,21,Yes
+8,0.01,divano,francese,furniture,Female,nationality,&egrave;,11,27,3,Italiano,Lazio,,1,,Chrome,Windows,768,1366,4.555583333333334,21,Yes
+9,0.07,sedia,blu,furniture,Female,color,non &egrave;,12,27,3,Italiano,Lazio,,1,,Chrome,Windows,768,1366,4.555583333333334,21,Yes
+10,0.31,carota,grande,food,Female,size,non &egrave;,13,27,3,Italiano,Lazio,,1,,Chrome,Windows,768,1366,4.555583333333334,21,Yes
+11,0.04,mela,rotondo,food,Female,shape,&egrave;,14,27,3,Italiano,Lazio,,1,,Chrome,Windows,768,1366,4.555583333333334,21,Yes
+12,0.1,banana,verde,food,Female,color,&egrave;,15,27,3,Italiano,Lazio,,1,,Chrome,Windows,768,1366,4.555583333333334,21,Yes
+13,0.02,mela,viola,food,Female,color,non &egrave;,16,27,3,Italiano,Lazio,,1,,Chrome,Windows,768,1366,4.555583333333334,21,Yes
+14,0.02,carota,rosso,food,Female,color,non &egrave;,17,27,3,Italiano,Lazio,,1,,Chrome,Windows,768,1366,4.555583333333334,21,Yes
+15,0.0,sedia,quadrato,furniture,Female,shape,non &egrave;,18,27,3,Italiano,Lazio,,1,,Chrome,Windows,768,1366,4.555583333333334,21,Yes
+16,0.97,televisore,fantastico,furniture,Female,quality,non &egrave;,19,27,3,Italiano,Lazio,,1,,Chrome,Windows,768,1366,4.555583333333334,21,Yes
+17,0.34,scrivania,lungo,furniture,Female,size,&egrave;,20,27,3,Italiano,Lazio,,1,,Chrome,Windows,768,1366,4.555583333333334,21,Yes
+18,0.04,banana,tedesco,food,Female,nationality,&egrave;,21,27,3,Italiano,Lazio,,1,,Chrome,Windows,768,1366,4.555583333333334,21,Yes
+19,0.18,scrivania,marrone,furniture,Female,color,&egrave;,22,27,3,Italiano,Lazio,,1,,Chrome,Windows,768,1366,4.555583333333334,21,Yes
+20,0.15,carota,giallo,food,Female,color,non &egrave;,23,27,3,Italiano,Lazio,,1,,Chrome,Windows,768,1366,4.555583333333334,21,Yes
+21,0.33,pomodoro,minuscolo,food,Female,size,non &egrave;,24,27,3,Italiano,Lazio,,1,,Chrome,Windows,768,1366,4.555583333333334,21,Yes
+22,0.05,carota,marcio,food,Female,age,non &egrave;,25,27,3,Italiano,Lazio,,1,,Chrome,Windows,768,1366,4.555583333333334,21,Yes
+23,0.56,divano,nuovo,furniture,Female,age,&egrave;,26,27,3,Italiano,Lazio,,1,,Chrome,Windows,768,1366,4.555583333333334,21,Yes
+24,0.26,banana,vecchio,food,Female,age,&egrave;,27,27,3,Italiano,Lazio,,1,,Chrome,Windows,768,1366,4.555583333333334,21,Yes
+25,0.03,ventilatore,polacco,furniture,Female,nationality,non &egrave;,28,27,3,Italiano,Lazio,,1,,Chrome,Windows,768,1366,4.555583333333334,21,Yes
+0,0.02,televisore,verde,furniture,Male,color,&egrave;,3,55,0,italiana,lombardia,,1,esperimento simpatico,Chrome,Windows,1080,1920,8.455033333333333,22,Yes
+1,0.03,mela,francese,food,Male,nationality,non &egrave;,4,55,0,italiana,lombardia,,1,esperimento simpatico,Chrome,Windows,1080,1920,8.455033333333333,22,Yes
+2,0.04,formaggio,marrone,food,Male,color,&egrave;,5,55,0,italiana,lombardia,,1,esperimento simpatico,Chrome,Windows,1080,1920,8.455033333333333,22,Yes
+3,0.02,formaggio,tedesco,food,Male,nationality,non &egrave;,6,55,0,italiana,lombardia,,1,esperimento simpatico,Chrome,Windows,1080,1920,8.455033333333333,22,Yes
+4,0.02,scrivania,morbido,furniture,Male,texture,non &egrave;,7,55,0,italiana,lombardia,,1,esperimento simpatico,Chrome,Windows,1080,1920,8.455033333333333,22,Yes
+5,0.05,mela,polacco,food,Male,nationality,non &egrave;,8,55,0,italiana,lombardia,,1,esperimento simpatico,Chrome,Windows,1080,1920,8.455033333333333,22,Yes
+6,0.0,pomodoro,rosso,food,Male,color,non &egrave;,9,55,0,italiana,lombardia,,1,esperimento simpatico,Chrome,Windows,1080,1920,8.455033333333333,22,Yes
+7,0.05,scrivania,grande,furniture,Male,size,&egrave;,10,55,0,italiana,lombardia,,1,esperimento simpatico,Chrome,Windows,1080,1920,8.455033333333333,22,Yes
+8,0.06,mela,giallo,food,Male,color,&egrave;,11,55,0,italiana,lombardia,,1,esperimento simpatico,Chrome,Windows,1080,1920,8.455033333333333,22,Yes
+9,0.06,sedia,viola,furniture,Male,color,&egrave;,12,55,0,italiana,lombardia,,1,esperimento simpatico,Chrome,Windows,1080,1920,8.455033333333333,22,Yes
+10,0.99,scrivania,fresco,furniture,Male,age,&egrave;,13,55,0,italiana,lombardia,,1,esperimento simpatico,Chrome,Windows,1080,1920,8.455033333333333,22,Yes
+11,0.07,scrivania,nuovo,furniture,Male,age,&egrave;,14,55,0,italiana,lombardia,,1,esperimento simpatico,Chrome,Windows,1080,1920,8.455033333333333,22,Yes
+12,0.06,carota,blu,food,Male,color,&egrave;,15,55,0,italiana,lombardia,,1,esperimento simpatico,Chrome,Windows,1080,1920,8.455033333333333,22,Yes
+13,0.05,televisore,rotondo,furniture,Male,shape,non &egrave;,16,55,0,italiana,lombardia,,1,esperimento simpatico,Chrome,Windows,1080,1920,8.455033333333333,22,Yes
+14,0.91,ventilatore,piccolo,furniture,Male,size,&egrave;,17,55,0,italiana,lombardia,,1,esperimento simpatico,Chrome,Windows,1080,1920,8.455033333333333,22,Yes
+15,0.97,scrivania,corto,furniture,Male,size,non &egrave;,18,55,0,italiana,lombardia,,1,esperimento simpatico,Chrome,Windows,1080,1920,8.455033333333333,22,Yes
+16,0.02,televisore,cattivo,furniture,Male,quality,&egrave;,19,55,0,italiana,lombardia,,1,esperimento simpatico,Chrome,Windows,1080,1920,8.455033333333333,22,Yes
+17,0.04,sedia,quadrato,furniture,Male,shape,non &egrave;,20,55,0,italiana,lombardia,,1,esperimento simpatico,Chrome,Windows,1080,1920,8.455033333333333,22,Yes
+18,0.95,mela,gigantesco,food,Male,size,non &egrave;,21,55,0,italiana,lombardia,,1,esperimento simpatico,Chrome,Windows,1080,1920,8.455033333333333,22,Yes
+19,0.97,mela,duro,food,Male,texture,&egrave;,22,55,0,italiana,lombardia,,1,esperimento simpatico,Chrome,Windows,1080,1920,8.455033333333333,22,Yes
+20,0.0,carota,marcio,food,Male,age,&egrave;,23,55,0,italiana,lombardia,,1,esperimento simpatico,Chrome,Windows,1080,1920,8.455033333333333,22,Yes
+21,0.99,scrivania,fantastico,furniture,Male,quality,non &egrave;,24,55,0,italiana,lombardia,,1,esperimento simpatico,Chrome,Windows,1080,1920,8.455033333333333,22,Yes
+22,0.02,pomodoro,lungo,food,Male,size,non &egrave;,25,55,0,italiana,lombardia,,1,esperimento simpatico,Chrome,Windows,1080,1920,8.455033333333333,22,Yes
+23,0.04,mela,vecchio,food,Male,age,non &egrave;,26,55,0,italiana,lombardia,,1,esperimento simpatico,Chrome,Windows,1080,1920,8.455033333333333,22,Yes
+24,0.01,sedia,liscio,furniture,Male,texture,non &egrave;,27,55,0,italiana,lombardia,,1,esperimento simpatico,Chrome,Windows,1080,1920,8.455033333333333,22,Yes
+25,0.67,divano,minuscolo,furniture,Male,size,&egrave;,28,55,0,italiana,lombardia,,1,esperimento simpatico,Chrome,Windows,1080,1920,8.455033333333333,22,Yes
+0,0.03,carota,blu,food,Female,color,non &egrave;,3,29,3,Italiano,Lazio,,1,,Firefox,Linux,1080,1920,3.13715,23,Yes
+1,0.79,carota,morbido,food,Female,texture,&egrave;,4,29,3,Italiano,Lazio,,1,,Firefox,Linux,1080,1920,3.13715,23,Yes
+2,0.04,divano,cattivo,furniture,Female,quality,non &egrave;,5,29,3,Italiano,Lazio,,1,,Firefox,Linux,1080,1920,3.13715,23,Yes
+3,1.0,sedia,marrone,furniture,Female,color,non &egrave;,6,29,3,Italiano,Lazio,,1,,Firefox,Linux,1080,1920,3.13715,23,Yes
+4,0.27,banana,quadrato,food,Female,shape,&egrave;,7,29,3,Italiano,Lazio,,1,,Firefox,Linux,1080,1920,3.13715,23,Yes
+5,0.81,divano,liscio,furniture,Female,texture,&egrave;,8,29,3,Italiano,Lazio,,1,,Firefox,Linux,1080,1920,3.13715,23,Yes
+6,0.0,mela,viola,food,Female,color,non &egrave;,9,29,3,Italiano,Lazio,,1,,Firefox,Linux,1080,1920,3.13715,23,Yes
+7,0.76,pomodoro,rosso,food,Female,color,&egrave;,10,29,3,Italiano,Lazio,,1,,Firefox,Linux,1080,1920,3.13715,23,Yes
+8,0.55,pomodoro,fantastico,food,Female,quality,&egrave;,11,29,3,Italiano,Lazio,,1,,Firefox,Linux,1080,1920,3.13715,23,Yes
+9,1.0,formaggio,lungo,food,Female,size,&egrave;,12,29,3,Italiano,Lazio,,1,,Firefox,Linux,1080,1920,3.13715,23,Yes
+10,0.33,mela,polacco,food,Female,nationality,non &egrave;,13,29,3,Italiano,Lazio,,1,,Firefox,Linux,1080,1920,3.13715,23,Yes
+11,1.0,ventilatore,grande,furniture,Female,size,non &egrave;,14,29,3,Italiano,Lazio,,1,,Firefox,Linux,1080,1920,3.13715,23,Yes
+12,0.84,formaggio,corto,food,Female,size,&egrave;,15,29,3,Italiano,Lazio,,1,,Firefox,Linux,1080,1920,3.13715,23,Yes
+13,1.0,televisore,vecchio,furniture,Female,age,&egrave;,16,29,3,Italiano,Lazio,,1,,Firefox,Linux,1080,1920,3.13715,23,Yes
+14,0.17,sedia,tedesco,furniture,Female,nationality,non &egrave;,17,29,3,Italiano,Lazio,,1,,Firefox,Linux,1080,1920,3.13715,23,Yes
+15,0.69,banana,marcio,food,Female,age,non &egrave;,18,29,3,Italiano,Lazio,,1,,Firefox,Linux,1080,1920,3.13715,23,Yes
+16,1.0,scrivania,giallo,furniture,Female,color,&egrave;,19,29,3,Italiano,Lazio,,1,,Firefox,Linux,1080,1920,3.13715,23,Yes
+17,1.0,televisore,piccolo,furniture,Female,size,non &egrave;,20,29,3,Italiano,Lazio,,1,,Firefox,Linux,1080,1920,3.13715,23,Yes
+18,1.0,divano,gigantesco,furniture,Female,size,&egrave;,21,29,3,Italiano,Lazio,,1,,Firefox,Linux,1080,1920,3.13715,23,Yes
+19,1.0,scrivania,nuovo,furniture,Female,age,&egrave;,22,29,3,Italiano,Lazio,,1,,Firefox,Linux,1080,1920,3.13715,23,Yes
+20,1.0,divano,minuscolo,furniture,Female,size,&egrave;,23,29,3,Italiano,Lazio,,1,,Firefox,Linux,1080,1920,3.13715,23,Yes
+21,0.2,scrivania,francese,furniture,Female,nationality,&egrave;,24,29,3,Italiano,Lazio,,1,,Firefox,Linux,1080,1920,3.13715,23,Yes
+22,1.0,scrivania,duro,furniture,Female,texture,&egrave;,25,29,3,Italiano,Lazio,,1,,Firefox,Linux,1080,1920,3.13715,23,Yes
+23,0.29,televisore,fresco,furniture,Female,age,non &egrave;,26,29,3,Italiano,Lazio,,1,,Firefox,Linux,1080,1920,3.13715,23,Yes
+24,0.46,televisore,verde,furniture,Female,color,non &egrave;,27,29,3,Italiano,Lazio,,1,,Firefox,Linux,1080,1920,3.13715,23,Yes
+25,0.43,formaggio,rotondo,food,Female,shape,non &egrave;,28,29,3,Italiano,Lazio,,1,,Firefox,Linux,1080,1920,3.13715,23,Yes
+0,0.0,pomodoro,verde,food,Male,color,&egrave;,3,33,3,Italiano,Toscana,"toscano, napoletano",2,,Chrome,Windows,1440,2560,5.189383333333334,24,Yes
+1,0.0,divano,morbido,furniture,Male,texture,non &egrave;,4,33,3,Italiano,Toscana,"toscano, napoletano",2,,Chrome,Windows,1440,2560,5.189383333333334,24,Yes
+2,0.0,scrivania,tedesco,furniture,Male,nationality,non &egrave;,5,33,3,Italiano,Toscana,"toscano, napoletano",2,,Chrome,Windows,1440,2560,5.189383333333334,24,Yes
+3,0.72,divano,corto,furniture,Male,size,non &egrave;,6,33,3,Italiano,Toscana,"toscano, napoletano",2,,Chrome,Windows,1440,2560,5.189383333333334,24,Yes
+4,0.0,scrivania,giallo,furniture,Male,color,non &egrave;,7,33,3,Italiano,Toscana,"toscano, napoletano",2,,Chrome,Windows,1440,2560,5.189383333333334,24,Yes
+5,0.0,sedia,viola,furniture,Male,color,&egrave;,8,33,3,Italiano,Toscana,"toscano, napoletano",2,,Chrome,Windows,1440,2560,5.189383333333334,24,Yes
+6,0.0,carota,blu,food,Male,color,&egrave;,9,33,3,Italiano,Toscana,"toscano, napoletano",2,,Chrome,Windows,1440,2560,5.189383333333334,24,Yes
+7,0.73,pomodoro,polacco,food,Male,nationality,&egrave;,10,33,3,Italiano,Toscana,"toscano, napoletano",2,,Chrome,Windows,1440,2560,5.189383333333334,24,Yes
+8,0.0,pomodoro,duro,food,Male,texture,non &egrave;,11,33,3,Italiano,Toscana,"toscano, napoletano",2,,Chrome,Windows,1440,2560,5.189383333333334,24,Yes
+9,0.0,scrivania,liscio,furniture,Male,texture,&egrave;,12,33,3,Italiano,Toscana,"toscano, napoletano",2,,Chrome,Windows,1440,2560,5.189383333333334,24,Yes
+10,0.0,scrivania,marcio,furniture,Male,age,&egrave;,13,33,3,Italiano,Toscana,"toscano, napoletano",2,,Chrome,Windows,1440,2560,5.189383333333334,24,Yes
+11,0.36,formaggio,quadrato,food,Male,shape,&egrave;,14,33,3,Italiano,Toscana,"toscano, napoletano",2,,Chrome,Windows,1440,2560,5.189383333333334,24,Yes
+12,0.0,formaggio,marrone,food,Male,color,&egrave;,15,33,3,Italiano,Toscana,"toscano, napoletano",2,,Chrome,Windows,1440,2560,5.189383333333334,24,Yes
+13,1.0,ventilatore,gigantesco,furniture,Male,size,&egrave;,16,33,3,Italiano,Toscana,"toscano, napoletano",2,,Chrome,Windows,1440,2560,5.189383333333334,24,Yes
+14,0.0,carota,rotondo,food,Male,shape,&egrave;,17,33,3,Italiano,Toscana,"toscano, napoletano",2,,Chrome,Windows,1440,2560,5.189383333333334,24,Yes
+15,0.73,formaggio,piccolo,food,Male,size,non &egrave;,18,33,3,Italiano,Toscana,"toscano, napoletano",2,,Chrome,Windows,1440,2560,5.189383333333334,24,Yes
+16,0.81,banana,minuscolo,food,Male,size,non &egrave;,19,33,3,Italiano,Toscana,"toscano, napoletano",2,,Chrome,Windows,1440,2560,5.189383333333334,24,Yes
+17,0.0,formaggio,rosso,food,Male,color,&egrave;,20,33,3,Italiano,Toscana,"toscano, napoletano",2,,Chrome,Windows,1440,2560,5.189383333333334,24,Yes
+18,0.0,televisore,nuovo,furniture,Male,age,&egrave;,21,33,3,Italiano,Toscana,"toscano, napoletano",2,,Chrome,Windows,1440,2560,5.189383333333334,24,Yes
+19,1.0,sedia,cattivo,furniture,Male,quality,&egrave;,22,33,3,Italiano,Toscana,"toscano, napoletano",2,,Chrome,Windows,1440,2560,5.189383333333334,24,Yes
+20,0.8,mela,grande,food,Male,size,non &egrave;,23,33,3,Italiano,Toscana,"toscano, napoletano",2,,Chrome,Windows,1440,2560,5.189383333333334,24,Yes
+21,0.0,mela,vecchio,food,Male,age,non &egrave;,24,33,3,Italiano,Toscana,"toscano, napoletano",2,,Chrome,Windows,1440,2560,5.189383333333334,24,Yes
+22,0.0,mela,fresco,food,Male,age,&egrave;,25,33,3,Italiano,Toscana,"toscano, napoletano",2,,Chrome,Windows,1440,2560,5.189383333333334,24,Yes
+23,0.0,pomodoro,lungo,food,Male,size,&egrave;,26,33,3,Italiano,Toscana,"toscano, napoletano",2,,Chrome,Windows,1440,2560,5.189383333333334,24,Yes
+24,1.0,formaggio,fantastico,food,Male,quality,non &egrave;,27,33,3,Italiano,Toscana,"toscano, napoletano",2,,Chrome,Windows,1440,2560,5.189383333333334,24,Yes
+25,0.0,sedia,francese,furniture,Male,nationality,&egrave;,28,33,3,Italiano,Toscana,"toscano, napoletano",2,,Chrome,Windows,1440,2560,5.189383333333334,24,Yes
+0,0.0,pomodoro,liscio,food,Male,texture,non &egrave;,3,24,2,italiana,Sicilia,siciliano,2,,Chrome,Windows,1080,1920,3.4301833333333334,25,Yes
+1,0.0,scrivania,verde,furniture,Male,color,&egrave;,4,24,2,italiana,Sicilia,siciliano,2,,Chrome,Windows,1080,1920,3.4301833333333334,25,Yes
+2,0.95,scrivania,vecchio,furniture,Male,age,non &egrave;,5,24,2,italiana,Sicilia,siciliano,2,,Chrome,Windows,1080,1920,3.4301833333333334,25,Yes
+3,0.68,divano,gigantesco,furniture,Male,size,&egrave;,6,24,2,italiana,Sicilia,siciliano,2,,Chrome,Windows,1080,1920,3.4301833333333334,25,Yes
+4,0.02,formaggio,francese,food,Male,nationality,non &egrave;,7,24,2,italiana,Sicilia,siciliano,2,,Chrome,Windows,1080,1920,3.4301833333333334,25,Yes
+5,0.91,pomodoro,cattivo,food,Male,quality,&egrave;,8,24,2,italiana,Sicilia,siciliano,2,,Chrome,Windows,1080,1920,3.4301833333333334,25,Yes
+6,0.65,carota,corto,food,Male,size,non &egrave;,9,24,2,italiana,Sicilia,siciliano,2,,Chrome,Windows,1080,1920,3.4301833333333334,25,Yes
+7,0.69,formaggio,marcio,food,Male,age,non &egrave;,10,24,2,italiana,Sicilia,siciliano,2,,Chrome,Windows,1080,1920,3.4301833333333334,25,Yes
+8,0.0,pomodoro,blu,food,Male,color,non &egrave;,11,24,2,italiana,Sicilia,siciliano,2,,Chrome,Windows,1080,1920,3.4301833333333334,25,Yes
+9,0.0,sedia,viola,furniture,Male,color,non &egrave;,12,24,2,italiana,Sicilia,siciliano,2,,Chrome,Windows,1080,1920,3.4301833333333334,25,Yes
+10,0.96,carota,fantastico,food,Male,quality,&egrave;,13,24,2,italiana,Sicilia,siciliano,2,,Chrome,Windows,1080,1920,3.4301833333333334,25,Yes
+11,0.89,mela,duro,food,Male,texture,non &egrave;,14,24,2,italiana,Sicilia,siciliano,2,,Chrome,Windows,1080,1920,3.4301833333333334,25,Yes
+12,0.0,mela,marrone,food,Male,color,&egrave;,15,24,2,italiana,Sicilia,siciliano,2,,Chrome,Windows,1080,1920,3.4301833333333334,25,Yes
+13,0.0,formaggio,tedesco,food,Male,nationality,&egrave;,16,24,2,italiana,Sicilia,siciliano,2,,Chrome,Windows,1080,1920,3.4301833333333334,25,Yes
+14,0.63,ventilatore,fresco,furniture,Male,age,&egrave;,17,24,2,italiana,Sicilia,siciliano,2,,Chrome,Windows,1080,1920,3.4301833333333334,25,Yes
+15,0.39,scrivania,lungo,furniture,Male,size,non &egrave;,18,24,2,italiana,Sicilia,siciliano,2,,Chrome,Windows,1080,1920,3.4301833333333334,25,Yes
+16,0.74,scrivania,minuscolo,furniture,Male,size,non &egrave;,19,24,2,italiana,Sicilia,siciliano,2,,Chrome,Windows,1080,1920,3.4301833333333334,25,Yes
+17,0.35,televisore,nuovo,furniture,Male,age,non &egrave;,20,24,2,italiana,Sicilia,siciliano,2,,Chrome,Windows,1080,1920,3.4301833333333334,25,Yes
+18,0.46,scrivania,piccolo,furniture,Male,size,non &egrave;,21,24,2,italiana,Sicilia,siciliano,2,,Chrome,Windows,1080,1920,3.4301833333333334,25,Yes
+19,0.18,formaggio,rotondo,food,Male,shape,non &egrave;,22,24,2,italiana,Sicilia,siciliano,2,,Chrome,Windows,1080,1920,3.4301833333333334,25,Yes
+20,0.26,televisore,quadrato,furniture,Male,shape,non &egrave;,23,24,2,italiana,Sicilia,siciliano,2,,Chrome,Windows,1080,1920,3.4301833333333334,25,Yes
+21,0.0,divano,rosso,furniture,Male,color,non &egrave;,24,24,2,italiana,Sicilia,siciliano,2,,Chrome,Windows,1080,1920,3.4301833333333334,25,Yes
+22,0.81,banana,grande,food,Male,size,&egrave;,25,24,2,italiana,Sicilia,siciliano,2,,Chrome,Windows,1080,1920,3.4301833333333334,25,Yes
+23,1.0,divano,morbido,furniture,Male,texture,non &egrave;,26,24,2,italiana,Sicilia,siciliano,2,,Chrome,Windows,1080,1920,3.4301833333333334,25,Yes
+24,0.06,sedia,polacco,furniture,Male,nationality,&egrave;,27,24,2,italiana,Sicilia,siciliano,2,,Chrome,Windows,1080,1920,3.4301833333333334,25,Yes
+25,0.0,televisore,giallo,furniture,Male,color,non &egrave;,28,24,2,italiana,Sicilia,siciliano,2,,Chrome,Windows,1080,1920,3.4301833333333334,25,Yes

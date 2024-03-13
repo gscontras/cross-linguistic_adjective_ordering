@@ -3,53 +3,63 @@ library(reshape2)
 library(lme4)
 library(dplyr)
 
-setwd("~/git/spanish_adjectives/experiments/4-faultless-disagreement/Submiterator-master/")
+setwd("~/git/cross-linguistic_adjective_ordering/italian/experiments/4-faultless-disagreement/results/")
 
-source("../results/helpers.r")
+source("helpers.r")
 
-num_round_dirs = 12
-df = do.call(rbind, lapply(1:num_round_dirs, function(i) {
-  return (read.csv(paste(
-    'round', i, '/faultless-disagreement.csv', sep=''),stringsAsFactors=FALSE) %>% 
-      mutate(workerid = (workerid + (i-1)*9)))}))
+df = read.csv("results.csv",header=T)
 
-d = subset(df, select=c("workerid","firstutterance","noun","nounclass","slide_number", "predicate",  "class","response","language","school","age","assess","education","lived","level","family","years","describe","classes","gender.1"))
+d = df[df$language!="",]
 
-# re-factorize
-d[] <- lapply( d, factor) 
+length(unique(d$participant_id)) # 23 participants
 
-t = d[d$describe=="SpanSpan",]
 
-# only look at "both8" for lived
-t = t[t$lived=="both8",]
+### add in English translations of adjectives
 
-# only look at "español" as the native language
-t = t[t$language!="English"&t$language!="english"&!is.na(t$language)&t$language!=""&t$language!="gbhj"&t$language!="Ingles"&t$language!="ingles"&t$language!="tamil"&t$language!="TAMIL"&t$language!="yes"&t$language!="N"&t$language!="YES"&t$language!="170"&t$language!="NO",]
+# Load the required library
+library(jsonlite)
 
-# no self-described L2 speakers
-t = t[t$describe!="L2",]
+# Your JSON data
+json_data <- '[{"Predicate":"rosso", "Class":"color","FemPredicate":"rossa", "English": "red"},
+{"Predicate":"giallo", "Class":"color","FemPredicate":"gialla", "English": "yellow"},
+{"Predicate":"verde", "Class":"color","FemPredicate":"verde", "English": "green"},
+{"Predicate":"blu", "Class":"color","FemPredicate":"blu", "English": "blue"},
+{"Predicate":"viola", "Class":"color","FemPredicate":"viola", "English": "purple"},
+{"Predicate":"marrone", "Class":"color","FemPredicate":"marrone", "English": "brown"}, 
+{"Predicate":"grande", "Class":"size","FemPredicate":"grande", "English": "big"},
+{"Predicate":"piccolo", "Class":"size","FemPredicate":"piccola", "English": "small"},
+{"Predicate":"gigantesco", "Class":"size","FemPredicate":"gigantesca", "English": "huge"},
+{"Predicate":"minuscolo", "Class":"size","FemPredicate":"minuscola", "English": "tiny"},
+{"Predicate":"corto", "Class":"size","FemPredicate":"corta", "English": "short"},
+{"Predicate":"lungo", "Class":"size","FemPredicate":"lunga", "English": "long"},
+{"Predicate":"polacco", "Class":"nationality","FemPredicate":"polacca", "English": "Polish"},
+{"Predicate":"francese", "Class":"nationality","FemPredicate":"francese", "English": "French"},
+{"Predicate":"tedesco", "Class":"nationality","FemPredicate":"tedesca", "English": "German"},
+{"Predicate":"liscio", "Class":"texture","FemPredicate":"liscia", "English": "smooth"},
+{"Predicate":"duro", "Class":"texture","FemPredicate":"dura", "English": "hard"},
+{"Predicate":"morbido", "Class":"texture","FemPredicate":"morbida", "English": "soft"},
+{"Predicate":"vecchio", "Class":"age","FemPredicate":"vecchia", "English": "old"},
+{"Predicate":"nuovo", "Class":"age","FemPredicate":"nuova", "English": "new"},
+{"Predicate":"marcio", "Class":"age","FemPredicate":"marcia", "English": "rotten"},
+{"Predicate":"fresco", "Class":"age","FemPredicate":"fresca", "English": "fresh"},
+{"Predicate":"fantastico", "Class":"quality","FemPredicate":"fantastica", "English": "wonderful"},
+{"Predicate":"cattivo", "Class":"quality","FemPredicate":"cattiva", "English": "bad"},
+{"Predicate":"rotondo", "Class":"shape","FemPredicate":"rotonda", "English": "round"},
+{"Predicate":"quadrato", "Class":"shape","FemPredicate":"quadrata", "English": "square"}]'
 
-# t = d[d$language=="Espanol"|d$language=="espanol"|d$language=="espanol "|
-#         d$language==" Español"|d$language=="Española"|d$language=="spanish"|d$language=="Castellano"|
-#         d$language=="Español, de España"|d$language=="SPANISH"|d$language=="castellano"|
-#         d$language=="Español, Catalan"|d$language=="espanol, vasco"|d$language=="Español e italiano"|
-#         d$language=="ESPAÑOL E ITALIANO",]
+# Parse the JSON data
+json_df <- fromJSON(json_data)
 
-t$response = as.numeric(as.character(t$response))
-t$age = as.numeric(as.character(t$age))
+# Assuming your dataset is called df and the column is called 'predicate'
+# Merge the datasets based on 'predicate' column
+merged_d <- merge(d, json_df[, c("Predicate", "English")], by.x = "predicate", by.y = "Predicate", all.x = TRUE)
 
-summary(t) 
-length(unique(t$workerid)) # 21 indicated "spanish" as native language
-#write.csv(t,"../results/spanish-faultless.csv")
+t <- merged_d
 
 t$class <- factor(t$class,levels=c("quality","size","age","texture","color","shape","nationality"))
 
-table(t$class,t$nounclass)
-
 ## class plot
 d_s = bootsSummary(data=t, measurevar="response", groupvars=c("class"))
-# save data for aggregate plot
-#write.csv(d_s,"~/Documents/git/cocolab/adjective_ordering/presentations/DGfS/plots/faultless.csv")
 
 class_plot <- ggplot(d_s, aes(x=reorder(class,-response,mean),y=response)) +
   geom_bar(stat="identity",position=position_dodge()) +
@@ -59,11 +69,11 @@ class_plot <- ggplot(d_s, aes(x=reorder(class,-response,mean),y=response)) +
   ylim(0,1) +
   theme_bw()
 class_plot
-#ggsave("../results/class_plot.pdf",height=3)
+#ggsave("faultless_class_plot.png",height=2.5,width=4.5)
 
 agr_pred = aggregate(response~predicate*class,data=t,mean)
 
-#write.csv(agr_pred,"../results/pred-subjectivity.csv")
+#write.csv(agr_pred,"pred-subjectivity.csv")
 
 
 
@@ -82,8 +92,8 @@ ggplot(data=class_s,aes(x=reorder(class,-response,mean),y=response))+
   #geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(correctclass,-correctresponse,mean), width=0.1),alpha=0.5)+
   #geom_hline(yintercept=0.5,linetype="dashed") +
   xlab("\nadjective class")+
-  ylab("perceived subjectivity\n")+
+  ylab("faultless disagreement\n")+
   ylim(0,1)+
   #labs("order\npreference")+
   theme_bw()#+
-#ggsave("../results/class_subjectivity_jitter.png",height=2.7)
+#ggsave("faultless_class_jitter.png",height=2.5,width=4.5)

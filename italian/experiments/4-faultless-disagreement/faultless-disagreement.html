@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Oraciones de espa&ntilde;ol</title>
+    <title>Italian adjectives</title>
 
     <!--JS-->
 
@@ -17,7 +17,7 @@
     <script src="../_shared/js/stream-V2.js"></script>
 
     <!-- cocolab general utilities -->
-    <script src="../_shared/js/mmturkey.js "></script>
+    <script src="js/mmturkey.js "></script>
     <script src="../_shared/js/browserCheck.js"></script>
     <script src="../_shared/js/utils.js"></script>
     <!-- if you want to draw cute creatures (depends on raphael): -->
@@ -47,14 +47,14 @@
 
   <div class="slide" id="i0" >
     <img src="../_shared/images/meaningLab.png" alt="UCI meaning lab" id="meaningLabLogo"></img>
-    <p id="instruct-text">Questo compito prevede l'interpretazione di frasi in italiano. Il compito ha una durata di sei minuti circa. Si prega di prestare attenzione. Grazie!</p>
+    <p id="instruct-text">Questo compito prevede l'interpretazione di frasi in italiano. Il compito ha una durata di cinque minuti circa. Si prega di prestare attenzione. Grazie!</p>
     <button id="start_button" type="button">Inizia l'esperimento.</button>
-    <p id="legal">Informazioni legali: Rispondendo alle seguenti domande, si partecipa a uno studio condotto da ricercatori del Dipartimento di Scienze del Linguaggio dell'Università della California, Irvine e del Dipartimento di Lettere e Filosofia dell'Università di Firenze. In caso di domande su questa ricerca, si prega di contattare la Dott.ssa Greta Mazzaggio (greta.mazzaggio@unifi.it). Per partecipare è necessario avere almeno 18 anni. La sua partecipazione a questa ricerca è volontaria. Può rifiutare di rispondere a una o a tutte le domande seguenti. Può rifiutare di partecipare in qualsiasi momento, senza conseguenze negative. Il suo anonimato è garantito; i ricercatori che hanno richiesto la sua partecipazione non riceveranno alcuna informazione personale su di lei.</p>
+    <p id="legal">Informazioni legali: Rispondendo alle seguenti domande, si partecipa a uno studio condotto da ricercatori del Dipartimento di Scienze del Linguaggio dell'Universit&agrave; della California, Irvine e del Dipartimento di Lettere e Filosofia dell'Universit&agrave; di Firenze. In caso di domande su questa ricerca, si prega di contattare la Dott.ssa Greta Mazzaggio (greta.mazzaggio@unifi.it). Per partecipare &egrave; necessario avere almeno 18 anni. La sua partecipazione a questa ricerca &egrave; volontaria. Pu&ograve; rifiutare di rispondere a una o a tutte le domande seguenti. Pu&ograve; rifiutare di partecipare in qualsiasi momento, senza conseguenze negative. Il suo anonimato &egrave; garantito; i ricercatori che hanno richiesto la sua partecipazione non riceveranno alcuna informazione personale su di lei.</p>
   </div>
 
   <div class="slide" id="instructions1">
     <h3>Istruzioni</h3>
-    <p> Leggerete 26 brevi dialoghi. In ogni dialogo, gli interlocutori non sono d'accordo sulla descrizione di un oggetto. Il vostro compito è quello di stabilire se uno dei due interlocutori deve necessariamente avere torto o se entrambi possono avere ragione.</p>
+    <p> Leggerete 26 brevi dialoghi. In ogni dialogo, gli interlocutori non sono d'accordo sulla descrizione di un oggetto. Il vostro compito &egrave; quello di stabilire se uno dei due interlocutori deve necessariamente avere torto o se entrambi possono avere ragione.</p>
     <!-- <p class="instruction_condition">{{}}</p> -->
     <button onclick="_s.button()">Continua</button>
   </div>
@@ -69,7 +69,7 @@
 
     <p><span class="man1">{{}}</span> entered <span class = "woman">{{}}</span>'s store, noticed the <span class="noun">{{}}</span>, and said:</p>
     -->
-    <p><span class="person1">{{}}</span> e <span class="person2">{{}}</span> vedono la stessa <span class="noun">{{}}</span>.</p> 
+    <p><span class="person1">{{}}</span> e <span class="person2">{{}}</span> vedono <span class="noun">{{}}</span>.</p> 
     <p><span class="person1">{{}}</span> dice: <b><span class="utterance1">{{}}</span></b></p>
 
     <p><span class="person2">{{}}</span> risponde: <b><span class="utterance2">{{}}</span></b></p>
@@ -79,10 +79,10 @@
     <label><input type="radio"  name="sense" value="No"/>No</label>
     </br></br>
  -->
-    <p>&#191;Possono avere ragione sia <span class="person1">{{}}</span> che <span class="person2">{{}}</span>?</p>
+    <p>Possono avere ragione sia <span class="person1">{{}}</span> che <span class="person2">{{}}</span>?</p>
     <table id="multi_slider_table" class="slider_table">
 <!--      <tr><td class="left">No, somebody must be wrong.</td><td class="right">Yes, it's a matter of opinion.</td></tr> -->
-      <tr><td>No, qualcuno si sbaglia.</td><td><div id="slider0" class="slider"></div></td><td>Sì, è una questione di opinioni.</td></tr>
+      <tr><td>No, qualcuno si sbaglia.</td><td><div id="slider0" class="slider"></div></td><td>S&igrave;, &egrave; una questione di opinioni.</td></tr>
     </table>
 
     <button onclick="_s.button()">Continua</button>
@@ -91,148 +91,66 @@
 
   <div class="slide"  id="subj_info">
     <div class="long_form">
-      <div class="subj_info_title">Informaci&oacute;n adicional</div>
-      <p class="info">Responder a estas preguntas es opcional, pero nos ayudar&aacute; a entender sus respuestas.</p>
-      <p>&#191;Ley&oacute; las instrucciones y cree que hizo el HIT correctamente?</p>
+      <div class="subj_info_title">Informazioni aggiuntive</div>
+      <p class="info">Rispondere a queste domande &egrave; facoltativo, ma ci aiuter&agrave; a capire le vostre risposte.</p>
+      <p>Avete letto le istruzioni e pensate di aver eseguito correttamente il compito?</p>
       <label><input type="radio"  name="assess" value="No"/>No</label>
-      <label><input type="radio"  name="assess" value="Yes"/>S&iacute;</label>
-      <label><input type="radio"  name="assess" value="Confused"/>Me confund&iacute;</label>
+      <label><input type="radio"  name="assess" value="Yes"/>S&igrave;</label>
+      <label><input type="radio"  name="assess" value="Confused"/>Ero in dubbio</label>
 
-      <p>Sexo:
+      <p>Genere:
         <select id="gender">
           <label><option value=""/></label>
-          <label><option value="Male"/>Hombre</label>
-          <label><option value="Female"/>Mujer</label>
-          <label><option value="Other"/>Otro(a)</label>
+          <label><option value="Male"/>Maschio</label>
+          <label><option value="Female"/>Femmina</label>
+          <label><option value="Other"/>Altro</label>
         </select>
       </p>
 
-      <p>Edad: <input type="text" id="age"/></p>
+      <p>Et&agrave;: <input type="text" id="age"/></p>
 
-      <p>Nivel de educaci&oacute;n:
+      <p>Livello di istruzione:
         <select id="education">
           <label><option value="-1"/></label>
-          <label><option value="0"/>Assisti&oacute; a la preparatoria</label>
-          <label><option value="1"/>Se gradu&oacute; de la preparatoria</label>
-          <label><option value="2"/>Assisti&oacute; al colegio</label>
-          <label><option value="3"/>Se gradu&oacute; del colegio</label>
-          <label><option value="4"/>Obtuvo t&iacute;tulo de posgrado</label>
+          <label><option value="0"/>Licenza media</label>
+          <label><option value="1"/>Diploma di scuola superiore</label>
+          <label><option value="2"/>Universit&agrave; (in frequenza)</label>
+          <label><option value="3"/>Laurea triennale o magistrale</label>
+          <label><option value="4"/>Dottorato di ricerca</label>
         </select>
       </p>
 
-      <p>Lengua materna: <input type="text" id="language"/></p>
-      <label>(los idiomas hablados en casa durante su ni&ntilde;ez)</label>
+      <p>Lingua madre: <input type="text" id="language"/></p>
+      <label>(La lingua (o le lingue) parlate a casa quando si era bambini)</label>
 
-      <p>
-        &#191;Cu&aacute;l de los siguientes mejor lo/la describe?<br>
-        <select id="describe">
-          <label><option value=""/></label>
-          <label><option value="SpanEng"/>  Crec&iacute; hablando espa&ntilde;ol pero ahora mi lengua primaria es ingl&eacute;s</label>
-          <label><option value="SpanSpan"/> Crec&iacute; hablando espa&ntilde;ol y todav&iacute;a mantengo el espa&ntilde;ol como mi lengua primaria</label>
-          <label><option value="L2"/> Crec&iacute; hablando ingl&eacute;s y aprend&iacute; espa&ntilde;ol m&aacute;s tarde</label>
-          <label><option value="otherL2"/>  Crec&iacute; hablando un idioma que no era espa&ntilde;ol ni ingl&eacute;s, y aprend&iacute; espa&ntilde;ol m&aacute;s tarde</label>
-      </select>
-      </p>
+      <p>Regione di provenienza: <input type="text" id="region"/></p>
+      <label>(es., Veneto, Lombardia)</label>
 
-      <p>
-        Si tom&oacute; clases de espa&ntilde;ol en la escuela, &#191;cu&aacute;ntos a&ntilde;os de espa&ntilde;ol tom&oacute;?<br>
-        <select id="school">
-          <label><option value=""/></label>
-          <label><option value="none"/> Nunca he tomado clases de espa&ntilde;ol en la escuela</label>
-          <label><option value="small"/>  1-2 a&ntilde;os</label>
-          <label><option value="mid"/>  3-4 a&ntilde;os</label>
-          <label><option value="most"/> mas de 4 a&ntilde;os</label>
-       </select>
-      </p>
+      <p>Se parli un qualche dialetto italiano, perfavore scrivi il nome del dialetto qui: <input type="text" id="dialect"/></p>
 
-      <p>
-        &#191;Tom&oacute; clases de espa&ntilde;ol durante la preparatoria?<br>
-        <select id="classes">
-          <label><option value=""/></label>
-          <label><option value="yes"/> s&iacute;</label>
-          <label><option value="no"/>  no</label>
-          <label><option value="noclasses"/> no se aplica </label>
-        </select>
-      </p>
-
-      <p>
-        Si tom&oacute; clases de espa&ntilde;ol en la universidad, &#191;cu&aacute;ntos semestres tom&oacute;?<br>
-        <select id="college">
-          <label><option value=""/></label>
-          <label><option value="nocollege"/> no se aplica</label>
-          <label><option value="onesem"/>  1 semestre</label>
-          <label><option value="midsem"/>  2-4 semestres</label>
-          <label><option value="mostsem"/> mas de 4 semestres</label>
-        </select>
-      </p>
-
-      <p>
-        &#191;Ha vivido en un pa&iacute;s hispanohablante?<br>
-        <select id="lived">
-          <label><option value=""/></label>
-          <label><option value="neverlived"/>  no, nunca he vivido en un pa&iacute;s hispanohablante</label>
-          <label><option value="under8"/>  s&iacute;, cuando ten&iacute;a MENOS de 8 a&ntilde;os</label>
-          <label><option value="over8"/> s&iacute;, cuando ten&iacute;a MAS de 8 a&ntilde;os</label>
-          <label><option value="both8"/> s&iacute;, cuando ten&iacute;a MENOS de 8 a&ntilde;os y cuando ten&iacute;a MAS de 8 a&ntilde;os</label>
-        </select>
-      </p>
-
-      <p>
-        &#191;Cu&aacute;ntos a&ntilde;os ha vivido en un pa&iacute;s hispanohablante?<br>
-        <select id="years">
-          <label><option value=""/></label>
-          <label><option value="neverlived"/>  nunca he vivido en un pa&iacute;s hispanohablante</label>
-          <label><option value="shortlive"/> menos de un a&ntilde;o</label>
-          <label><option value="midlive"/> 1-5 a&ntilde;os</label>
-          <label><option value="mostlive"/>  mas de 5 a&ntilde;os</label>
-        </select>
-      </p>
-
-      <p>
-        &#191;Qu&eacute; idioma habla con su familia?<br>
-        <select id="family">
-          <label><option value=""/></label>
-          <label><option value="eng"/>  ingl&eacute;s</label>
-          <label><option value="span"/> espa&ntilde;ol</label>
-          <label><option value="spaneng"/>  espa&ntilde;ol e ingl&eacute;s</label>
-          <label><option value="other"/>  otro idioma</label>
-        </select>
-      </p>
-
-      <p>
-        &#191;C&oacute;mo evaluar&iacute;a su nivel de proficiencia en espa&ntilde;ol?<br>
-        <select id="level">
-          <label><option value=""/></label>
-          <label><option value="basic"/> b&aacute;sico</label>
-          <label><option value="int"/> intermedio</label>
-          <label><option value="advanced"> avanzado</option>/label>
-          <label><option value="near native"/> casi nativo</label>
-          <label><option value="native"/> nativo</label>
-          <label><option value="none"/> prefiero no responder</label>
-        </select>
-      </p>
-
-      <p>&#191;Le gust&oacute; el HIT?</p>
+    <p>Ti &egrave; piaciuto il compito?</p>
       <select id="enjoyment">
         <label><option value="-1"></option></label>
-        <label><option value="0">Peor que el promedio</option></label>
-        <label><option value="1" >Promedio</option></label>
-        <label><option value="2">Mejor que el promedio</option></label>
+        <label><option value="0">Peggiore di un compito medio</option></label>
+        <label><option value="1" >Un compito medio</option></label>
+        <label><option value="2">Migliore di un compito medio</option></label>
       </select>
 
-      <p>Nos interesa los comentarios que tenga sobre este experimento. Por favor escr&iacute;balos aqu&iacute;:</p>
+      <p>Saremo lieti di ricevere i vostri commenti su questo esperimento. Per favore, scriveteli qui:</p>
       <textarea id="comments" rows="3" cols="50"></textarea>
       <br/>
-      <button onclick="_s.submit()">Enviar</button>
+      <button onclick="_s.submit()">Invio</button>
     </div>
   </div>
 
   <div id="thanks" class="slide js" >
-    <p  class="big">&#161;Gracias por su tiempo!</p>
+    <p  class="big">Grazie per il vostro tempo!</p>
+
+    <p><a href="https://app.prolific.co/submissions/complete?cc=C1LQPC83">https://app.prolific.co/submissions/complete?cc=C1LQPC83</a></p>
   </div>
 
   <div class="progress">
-    <span>Progreso:</span>
+    <span>Svolgimento:</span>
     <div class="bar-wrapper">
       <div class="bar" width="0%">
       </div>
