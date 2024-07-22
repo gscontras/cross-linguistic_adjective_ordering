@@ -24,6 +24,63 @@ d = d[d$language!="GREG"
 length(unique(d$workerid)) # n=108 (120)
 
 #####
+## histogram
+#####
+
+ggplot(d, aes(x = response)) +
+  geom_histogram(color = "black", fill="gray50", bins=33) +
+  #geom_density()+
+  theme_bw() +
+  facet_wrap(~condition)+
+  xlab("\nslider response")+
+  ylab("count\n")
+#ggsave("response-histogram-exp1.png",height=1.75,width=6.75)
+
+## bootstrap entropy
+library(entropy)
+
+# Function to perform bootstrapping and calculate entropy
+bootstrap_entropy <- function(data, indices) {
+  sample_data <- data[indices]
+  entropy.empirical(sample_data)
+}
+
+# Define the number of bootstrap replicates
+n_bootstrap <- 1000
+
+# Bootstrap for each group of cylinders
+bootstrap_results_AAN <- boot(d$response[d$condition == "AAN"], bootstrap_entropy, R = n_bootstrap)
+#6.612635 0.0001853996  0.01162752
+bootstrap_results_ANA <- boot(d$response[d$condition == "ANA"], bootstrap_entropy, R = n_bootstrap)
+#6.439414 0.000504087  0.01790537
+bootstrap_results_NAA <- boot(d$response[d$condition == "NAA"], bootstrap_entropy, R = n_bootstrap)
+#6.554883 0.0006364542  0.01501741
+
+# Calculate confidence intervals
+ci_AAN <- boot.ci(bootstrap_results_AAN, type = "perc")
+ci_ANA <- boot.ci(bootstrap_results_ANA, type = "perc")
+ci_NAA <- boot.ci(bootstrap_results_NAA, type = "perc")
+
+# Print confidence intervals
+print(ci_AAN)
+print(ci_ANA)
+print(ci_NAA)
+
+# Compare entropy values
+entropy_diff_AAN_ANA <- bootstrap_results_AAN$t - bootstrap_results_ANA$t
+entropy_diff_AAN_NAA <- bootstrap_results_AAN$t - bootstrap_results_NAA$t
+entropy_diff_ANA_NAA <- bootstrap_results_ANA$t - bootstrap_results_NAA$t
+
+# Calculate p-values
+p_value_AAN_ANA <- mean(entropy_diff_AAN_ANA >= 0)
+p_value_AAN_NAA <- mean(entropy_diff_AAN_NAA >= 0)
+p_value_ANA_NAA <- mean(entropy_diff_ANA_NAA >= 0)
+
+
+
+
+
+#####
 ## duplicate observations by first predicate
 #####
 
@@ -58,6 +115,20 @@ pmi = read.csv("filtered_output_with_pmi.csv",header=T)
 
 merged_df <- merge(agr, pmi, by.x = c("noun", "predicate"), by.y = c("noun", "adjs"), all.x = TRUE)
 
+# don't replace NAs
+merged_df_NA <- merged_df
+
+minPMI = min(merged_df$PMI,na.rm = TRUE)
+#-5.353278 # minimum PMI value
+
+# replace NAs with minium value
+merged_df$PMI[is.na(merged_df$PMI)] <- minPMI
+merged_df_no_NA <- merged_df
+
+
+#####
+## class analysis 
+#####
 
 #class_agr = aggregate(correctresponse~correctclass*condition,FUN=mean,data=agr)
 source("helpers.R")
@@ -104,6 +175,85 @@ ggplot(data=all_agr,aes(x=factor(correctclass,level=level_order),y=response,fill
 
 
 
+#####
+## individual adjective analysis
+#####
+
+head(adj_agr)
+
+# add PMI
+adj_agr_pmi = aggregate(PMI~predicate*correctclass*condition,FUN=mean,data=merged_df_NA) #include NA?
+adj_agr$PMI <- adj_agr_pmi$PMI
+
+# add subjectivity
+s = read.csv("../../4-faultless-disagreement/results/pred-subjectivity.csv",header=T)
+adj_agr_full <- merge(adj_agr, s, by.x = "predicate", by.y = "predicate", all.x = TRUE)
+colnames(adj_agr_full)[9] <- "subjectivity"
+
+# change length
+adj_agr_full$length = nchar(adj_agr_full$predicate)
+
+## correlation analysis
+AAN <- adj_agr_full[adj_agr_full$condition=="AAN",]
+ANA <- adj_agr_full[adj_agr_full$condition=="ANA",]
+NAA <- adj_agr_full[adj_agr_full$condition=="NAA",]
+
+###################################
+## ANA
+#subjectivity ANA
+gof(ANA$correctresponse,ANA$subjectivity)
+# r = 0.89, r2 = 0.79
+results <- boot(data=ANA, statistic=rsq, R=10000, formula=correctresponse~subjectivity)
+boot.ci(results, type="bca") 
+# 95%   ( 0.6321,  0.8711 )  
+
+#PMI ANA
+gof(ANA$correctresponse,ANA$PMI)
+# r = 0.20, r2 = 0.04
+results <- boot(data=ANA, statistic=rsq, R=10000, formula=correctresponse~PMI)
+boot.ci(results, type="bca") 
+# 95%   ( 0.0001,  0.2740 ) 
+
+#length ANA
+gof(ANA$correctresponse,ANA$length)
+# r = 0.32, r2 = 0.11
+results <- boot(data=ANA, statistic=rsq, R=10000, formula=correctresponse~length)
+boot.ci(results, type="bca") 
+# 95%   ( 0.0006,  0.4207 ) 
+
+###################################
+## NAA
+#subjectivity NAA
+gof(NAA$correctresponse,NAA$subjectivity)
+# r = -0.68, r2 = 0.47
+results <- boot(data=NAA, statistic=rsq, R=10000, formula=correctresponse~subjectivity)
+boot.ci(results, type="bca") 
+# 95%   ( 0.0615,  0.7406 )
+
+
+###################################
+## AAN
+#subjectivity AAN
+gof(AAN$correctresponse,AAN$subjectivity)
+# r = 0.77, r2 = 0.59
+results <- boot(data=AAN, statistic=rsq, R=10000, formula=correctresponse~subjectivity)
+boot.ci(results, type="bca") 
+# 95%   ( 0.3581,  0.7599 )  
+
+# plots
+
+ggplot(adj_agr_full, aes(x=subjectivity,y=correctresponse)) +
+  geom_point() +
+  #geom_smooth()+
+  stat_smooth(method="lm",color="black")+
+  #geom_text(aes(label=predicate),size=2.5,vjust=1.5)+
+  ylab("preference\nfor first position\n")+
+  xlab("\nsubjectivity score")+
+  ylim(0,1)+
+  #xlim(0,1)+
+  theme_bw() +
+  facet_wrap(~condition)
+#ggsave("exp1-subjectivity.png",height=2,width=6.75)
 
 
 

@@ -25,6 +25,59 @@ d = d[d$language!="GREG"
 length(unique(d$workerid)) # n=110 (120)
 
 #####
+## histogram
+#####
+
+ggplot(d, aes(x = response)) +
+  geom_histogram(color = "black", fill="gray50", bins=50) +
+  #geom_density()+
+  theme_bw() +
+  facet_wrap(~condition)+
+  xlab("\nslider response")+
+  ylab("count\n")
+#ggsave("response_histogram_exp2.png",height=2.75,width=6.75)
+
+## bootstrap entropy
+library(entropy)
+
+# Function to perform bootstrapping and calculate entropy
+bootstrap_entropy <- function(data, indices) {
+  sample_data <- data[indices]
+  entropy.empirical(sample_data)
+}
+
+# Define the number of bootstrap replicates
+n_bootstrap <- 1000
+
+# Bootstrap for each group of cylinders
+bootstrap_results_AAN <- boot(d$response[d$condition == "AAN"], bootstrap_entropy, R = n_bootstrap)
+bootstrap_results_ANA <- boot(d$response[d$condition == "ANA"], bootstrap_entropy, R = n_bootstrap)
+bootstrap_results_NAA <- boot(d$response[d$condition == "NAA"], bootstrap_entropy, R = n_bootstrap)
+
+# Calculate confidence intervals
+ci_AAN <- boot.ci(bootstrap_results_AAN, type = "perc")
+ci_ANA <- boot.ci(bootstrap_results_ANA, type = "perc")
+ci_NAA <- boot.ci(bootstrap_results_NAA, type = "perc")
+
+# Print confidence intervals
+print(ci_AAN)
+print(ci_ANA)
+print(ci_NAA)
+
+# Compare entropy values
+entropy_diff_AAN_ANA <- bootstrap_results_AAN$t - bootstrap_results_ANA$t
+entropy_diff_AAN_NAA <- bootstrap_results_AAN$t - bootstrap_results_NAA$t
+entropy_diff_ANA_NAA <- bootstrap_results_ANA$t - bootstrap_results_NAA$t
+
+# Calculate p-values
+p_value_AAN_ANA <- mean(entropy_diff_AAN_ANA >= 0)
+p_value_AAN_NAA <- mean(entropy_diff_AAN_NAA >= 0)
+p_value_ANA_NAA <- mean(entropy_diff_ANA_NAA >= 0)
+
+
+
+
+#####
 ## duplicate observations by first predicate
 #####
 
@@ -84,8 +137,25 @@ all_agr$predictor = factor(all_agr$predictor,levels=c('rating','length','PMI'))
 
 level_order = c('size','quality','age','texture','shape','color','nationality')
 
+## results plot
+ggplot(data=class_agr,aes(x=factor(correctclass,level=level_order),y=response))+
+  geom_bar(stat="identity",position=position_dodge(.9),color="black")+
+  geom_hline(yintercept=0.5,linetype="dashed") + 
+  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=factor(correctclass,level=level_order), width=0.25),alpha=1,position=position_dodge(.9))+
+  xlab("adjective class")+
+  ylab("preference\nfor first position\n")+
+  ylim(0,1)+
+  facet_grid(.~condition)+
+  #labs("order\npreference")+
+  theme_bw()+
+  theme(axis.text.x=element_text(angle=45,vjust=1,hjust=1))#+
+  #scale_fill_manual(values=c("gray25","gray50","gray75"))
+#theme(axis.text.x=element_text(angle=90,vjust=0.35,hjust=1))
+#ggsave("class_distance.png",height=2.75,width=7)
 
-#plot
+
+
+#multi-predictor plot
 ggplot(data=all_agr,aes(x=factor(correctclass,level=level_order),y=response,fill=predictor))+
   geom_bar(stat="identity",position=position_dodge(.9),color="black")+
   geom_hline(yintercept=0.5,linetype="dashed") + 
@@ -102,6 +172,82 @@ ggplot(data=all_agr,aes(x=factor(correctclass,level=level_order),y=response,fill
 #ggsave("class_distance.png",height=2,width=7)
 
 
+#### subjectivity analysis
+f = read.csv("../../4-faultless-disagreement/results/pred-subjectivity.csv",header=T)
+adj_agr$subjectivity = f$response[match(adj_agr$predicate,f$predicate)]
+
+ggplot(adj_agr, aes(x=subjectivity,y=correctresponse)) +
+  geom_point() +
+  #geom_smooth()+
+  stat_smooth(method="lm",color="black")+
+  #geom_text(aes(label=predicate),size=2.5,vjust=1.5)+
+  ylab("preference\nfor first position\n")+
+  xlab("\nsubjectivity score")+
+  ylim(0,1)+
+  #xlim(0,1)+
+  theme_bw() +
+  facet_grid(.~condition)
+#ggsave("../results/italian-scatter.pdf",height=2.75,width=7)
+
+#AAN
+aan = adj_agr[adj_agr$condition=="AAN",]
+gof(aan$correctresponse,aan$subjectivity)
+# r = 0.79, r2 = 0.63
+results <- boot(data=aan, statistic=rsq, R=10000, formula=correctresponse~subjectivity)
+boot.ci(results, type="bca") 
+# 95%   ( 0.3830,  0.7756 )  
+
+ggplot(aan, aes(x=subjectivity,y=correctresponse)) +
+  geom_point() +
+  #geom_smooth()+
+  stat_smooth(method="lm",color="black")+
+  #geom_text(aes(label=predicate),size=2.5,vjust=1.5)+
+  ylab("preference\nfor first position\n")+
+  xlab("\nsubjectivity score")+
+  ylim(0,1)+
+  #xlim(0,1)+
+  theme_bw() 
+#ggsave("../results/italian-AAN-between-scatter.pdf",height=2.75,width=3.15)
+
+#ANA
+ana = adj_agr[adj_agr$condition=="ANA",]
+gof(ana$correctresponse,ana$subjectivity)
+# r = 0.89, r2 = 0.79
+results <- boot(data=ana, statistic=rsq, R=10000, formula=correctresponse~subjectivity)
+boot.ci(results, type="bca") 
+# 95%   ( 0.6497,  0.8671 )  
+
+ggplot(ana, aes(x=subjectivity,y=correctresponse)) +
+  geom_point() +
+  #geom_smooth()+
+  stat_smooth(method="lm",color="black")+
+  #geom_text(aes(label=predicate),size=2.5,vjust=1.5)+
+  ylab("preference\nfor first position\n")+
+  xlab("\nsubjectivity score")+
+  ylim(0,1)+
+  #xlim(0,1)+
+  theme_bw() 
+#ggsave("../results/italian-ANA-between-scatter.pdf",height=2.75,width=3.15)
+
+#NAA
+naa = adj_agr[adj_agr$condition=="NAA",]
+gof(naa$correctresponse,naa$subjectivity)
+# r = -0.69, r2 = 0.48
+results <- boot(data=naa, statistic=rsq, R=10000, formula=correctresponse~subjectivity)
+boot.ci(results, type="bca") 
+# 95%   ( 0.1884,  0.7126 )  
+
+ggplot(naa, aes(x=subjectivity,y=correctresponse)) +
+  geom_point() +
+  #geom_smooth()+
+  stat_smooth(method="lm",color="black")+
+  #geom_text(aes(label=predicate),size=2.5,vjust=1.5)+
+  ylab("preference\nfor first position\n")+
+  xlab("\nsubjectivity score")+
+  ylim(0,1)+
+  #xlim(0,1)+
+  theme_bw() 
+#ggsave("../results/italian-NAA-between-scatter.pdf",height=2.75,width=3.15)
 
 
 #### difference analysis
@@ -117,9 +263,10 @@ result_df2 <- result_df %>%
   left_join(pmi, by = c("noun" = "noun", "predicate2" = "adjs"))
 result_df2$pmi_diff = result_df2$PMI.x - result_df2$PMI.y
 
-s = read.csv("adjective-subjectivity.csv",header=T)
-result_df3 <- merge(result_df2, s, by.x = "predicate1English", by.y = "predicate", all.x = TRUE)
-result_df4 <- merge(result_df3, s, by.x = "predicate2English", by.y = "predicate", all.x = TRUE)
+#s = read.csv("adjective-subjectivity.csv",header=T)
+f = read.csv("../../4-faultless-disagreement/results/pred-subjectivity.csv",header=T)
+result_df3 <- merge(result_df2, f, by.x = "predicate1", by.y = "predicate", all.x = TRUE)
+result_df4 <- merge(result_df3, f, by.x = "predicate2", by.y = "predicate", all.x = TRUE)
 result_df4$subj_diff = result_df4$response.y - result_df4$response
 
 m <- lmer(response~(length_diff+pmi_diff+subj_diff)*condition+ (1|workerid) , data =result_df4)
@@ -177,7 +324,7 @@ within = subset(within, select = -c(X) )
 within$expt = "within"
 combined = rbind(between,within)
 
-ggplot(data=combined,aes(x=factor(correctclass,level=level_order),y=response, fill=expt))+
+ggplot(data=combined,aes(x=factor(correctclass,level=level_order),y=response, fill=factor(expt, levels = c("within","between"))))+
   geom_bar(stat="identity",position=position_dodge(.9),color="black")+
   geom_hline(yintercept=0.5,linetype="dashed") + 
   geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=factor(correctclass,level=level_order), width=0.25),alpha=1,position=position_dodge(.9))+
@@ -188,8 +335,10 @@ ggplot(data=combined,aes(x=factor(correctclass,level=level_order),y=response, fi
   #labs("order\npreference")+
   theme_bw()+
   theme(axis.text.x=element_text(angle=45,vjust=1,hjust=1))+
-  scale_fill_manual(values=c("gray25","gray75"))
-#ggsave("class_distance_combined.png",height=2.5,width=7)
+  theme(legend.position = "bottom") +
+  labs(fill = "experiment: ") +
+  scale_fill_manual(values=c("gray60","gray85"),labels=c("1. within-subjects  ","2. between-subjects"))
+#ggsave("class_distance_combined.png",height=2.75,width=6.75)
 
 
 
